@@ -15,6 +15,7 @@
     "description_fr": "Jeu de données lexical de la darija marocaine (vocabulaire et expressions du quotidien) : graphie arabe, translittération latine de style français (arabizi), équivalent en arabe standard et traduction française, ainsi qu'un recueil de proverbes populaires.",
     "transliteration": {
       "3": "ع / ء",
+      "4": "غ",
       "7": "ح",
       "9": "ق",
       "kh": "خ",
@@ -23,10 +24,12 @@
       "ou": "و",
       "y": "ي"
     },
-    "notes_ar": "الكتابة اللاتينية استنساخ مبسّط للاستعمال الشائع (الرسائل والشبكات الاجتماعية) وليست نظاما معياريا. الأرقام 3 و7 و9 تقابل على التوالي ع وح وق.",
-    "notes_fr": "La translittération latine suit l'usage courant (SMS, réseaux sociaux) et n'est pas un système normalisé. Les chiffres 3, 7 et 9 notent respectivement ع, ح et ق.",
+    "notes_ar": "الكتابة اللاتينية استنساخ مبسّط للاستعمال الشائع (الرسائل والشبكات الاجتماعية) وليست نظاما معياريا. الأرقام 3 و4 و7 و9 تقابل على التوالي ع وغ وح وق، ويُستعمل gh أيضا للغين.",
+    "notes_fr": "La translittération latine suit l'usage courant (SMS, réseaux sociaux) et n'est pas un système normalisé. Les chiffres 3, 4, 7 et 9 notent respectivement ع, غ, ح et ق ; gh est aussi utilisé pour غ.",
     "source": "compilation manuelle — vocabulaire courant",
-    "license": "usage libre"
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "ArCode Standard — Moroccan Darija Lexicon"
   },
   "categories": [
     {
