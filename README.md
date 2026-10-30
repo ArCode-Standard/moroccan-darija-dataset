@@ -165,3 +165,11 @@ python -m unittest discover -s tests -v
 - `review`: حالة المراجعة البشرية.
 
 تُستخدم القيمة `unknown` أو حالة `pending` عندما لا تتوفر أدلة كافية. لا تُعدّ نتائج المدقق البنيوي تصديقاً لغوياً أو قانونياً. ملف [manifest template](data/manifest.template.yaml) قالب توثيقي، وليس إقراراً بأن الحقوق قد دُققت.
+
+## المساهمة والمراجعة / Contributions and review
+
+تُدار اقتراحات الكلمات والتصحيحات عبر نماذج GitHub:
+- [اقتراح مدخل جديد](https://github.com/ArCode-Standard/moroccan-darija-dataset/issues/new?template=new-entry.yml)
+- [الإبلاغ عن تصحيح](https://github.com/ArCode-Standard/moroccan-darija-dataset/issues/new?template=correction.yml)
+
+راجع [دليل المساهمة](CONTRIBUTING.md) و[سير عمل المراجعة](docs/REVIEW_WORKFLOW.md) قبل إرسال مساهمة. تُنفذ التغييرات المقبولة عبر Pull Request وفق [قائمة المراجعة](.github/PULL_REQUEST_TEMPLATE.md). لا تتحول حالة أي مدخل إلى `reviewed` إلا بعد مراجعة بشرية موثقة؛ الفحوص الآلية لا تثبت الصحة اللغوية أو القانونية.
