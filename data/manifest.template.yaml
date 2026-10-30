@@ -1,0 +1,27 @@
+# Copy to data/manifest.yaml for a release. Never assert permission without evidence.
+dataset:
+  name: "Moroccan Darija Lexicon"
+  language: "ary"
+  version: "1.2.0"
+  data_file: "data/moroccan-darija.json"
+  schema_file: "data/schema.json"
+rights:
+  declared_dataset_license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+  rights_audit_status: "pending"
+  redistribution_permission: "unknown"
+  training_permission: "unknown"
+  commercial_permission: "not_allowed"
+  notes: "Repository license declaration is not proof of rights for every third-party item."
+provenance:
+  record_level_tracking: "not_started"
+  required_fields: [source_type, source_name, source_url, accessed_at, rights_holder]
+  unknown_values_must_remain_explicit: true
+review:
+  human_review_status: "not_started"
+  review_guideline: null
+  reviewer_ids_are_pseudonymous: true
+release:
+  created_at: null
+  maintainer: "ArCode Standard"
+  notes: []
