@@ -8,9 +8,8 @@ A lexical dataset of Moroccan Arabic (Darija) intended for AI training and natur
 
 | العنصر | العدد |
 |---|---|
-| المدخلات المعجمية | 585 |
-| الفئات | 36 |
-| الأمثال الشعبية | 33 |
+| المدخلات المعجمية | 887 |
+| الفئات | 38 |
 | الملف | `data/moroccan-darija.json` |
 
 كل مدخل يحتوي على الكلمة بالخط العربي، ونسخة لاتينية بأسلوب فرنسي/عربيزي، ومقابلها بالفصحى، وترجمتها بالفرنسية.
@@ -29,15 +28,6 @@ A lexical dataset of Moroccan Arabic (Darija) intended for AI training and natur
       "darija_latin": "salam 3likoum",
       "fusha_ar": "السلام عليكم",
       "fr": "Bonjour / paix sur vous"
-    }
-  ],
-  "proverbs": [
-    {
-      "id": 1,
-      "darija_ar": "…",
-      "darija_latin": "…",
-      "fusha_ar": "…",
-      "fr": "…"
     }
   ]
 }
@@ -106,9 +96,9 @@ for entry in data["entries"]:
 
 ## الترخيص / License
 
-هذا المستودع مرخّص بموجب **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+هذا المستودع مرخّص بموجب **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-يمكنك النسخ والتوزيع والتعديل والاستخدام التجاري بشرط الإسناد:
+يمكنك النسخ والتوزيع والتعديل للاستخدام غير التجاري بشرط الإسناد:
 
 > ArCode Standard — Moroccan Darija Lexicon — https://github.com/ArCode-Standard/moroccan-darija-dataset
 

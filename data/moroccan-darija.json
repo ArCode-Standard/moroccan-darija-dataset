@@ -4,15 +4,14 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "created": "2026-10-29",
-    "entries_count": 585,
-    "categories_count": 36,
-    "proverbs_count": 33,
+    "entries_count": 887,
+    "categories_count": 38,
     "coverage_fr": "lexique étendu, non exhaustif",
     "coverage_ar": "معجم موسّع وغير شامل لكل مفردات الدارجة",
-    "description_ar": "مجموعة معطيات معجمية للدارجة المغربية (مفردات وعبارات يومية)، مع كتابة الكلمة بالخط العربي، ونسخة لاتينية بأسلوب فرنسي/عربيزي، ومقابلها بالفصحى وبالفرنسية، إضافة إلى مجموعة من الأمثال الشعبية المغربية.",
-    "description_fr": "Jeu de données lexical de la darija marocaine (vocabulaire et expressions du quotidien) : graphie arabe, translittération latine de style français (arabizi), équivalent en arabe standard et traduction française, ainsi qu'un recueil de proverbes populaires.",
+    "description_ar": "مجموعة معطيات معجمية للدارجة المغربية (مفردات وعبارات يومية)، مع كتابة الكلمة بالخط العربي، ونسخة لاتينية بأسلوب فرنسي/عربيزي، ومقابلها بالفصحى وبالفرنسية.",
+    "description_fr": "Jeu de données lexical de la darija marocaine (vocabulaire et expressions du quotidien) : graphie arabe, translittération latine de style français (arabizi), équivalent en arabe standard et traduction française.",
     "transliteration": {
       "3": "ع / ء",
       "4": "غ",
@@ -27,14 +26,14 @@
     "notes_ar": "الكتابة اللاتينية استنساخ مبسّط للاستعمال الشائع (الرسائل والشبكات الاجتماعية) وليست نظاما معياريا. الأرقام 3 و4 و7 و9 تقابل على التوالي ع وغ وح وق، ويُستعمل gh أيضا للغين.",
     "notes_fr": "La translittération latine suit l'usage courant (SMS, réseaux sociaux) et n'est pas un système normalisé. Les chiffres 3, 4, 7 et 9 notent respectivement ع, غ, ح et ق ; gh est aussi utilisé pour غ.",
     "source": "compilation manuelle — vocabulaire courant",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "attribution": "ArCode Standard — Moroccan Darija Lexicon"
   },
   "categories": [
     {
       "category": "تحيات",
-      "count": 17
+      "count": 18
     },
     {
       "category": "عبارات المجاملة",
@@ -42,7 +41,7 @@
     },
     {
       "category": "أدوات الاستفهام",
-      "count": 12
+      "count": 17
     },
     {
       "category": "الضمائر",
@@ -58,27 +57,27 @@
     },
     {
       "category": "الألوان",
-      "count": 8
+      "count": 13
     },
     {
       "category": "العائلة",
-      "count": 15
+      "count": 28
     },
     {
       "category": "المأكولات والمشروبات",
-      "count": 20
+      "count": 56
     },
     {
       "category": "الاتجاهات والأماكن",
-      "count": 12
+      "count": 29
     },
     {
       "category": "الوقت",
-      "count": 14
+      "count": 31
     },
     {
       "category": "الطقس",
-      "count": 8
+      "count": 17
     },
     {
       "category": "الصفات",
@@ -86,23 +85,23 @@
     },
     {
       "category": "التعبيرات الشائعة",
-      "count": 15
+      "count": 25
     },
     {
       "category": "المال والتسوق",
-      "count": 10
+      "count": 21
     },
     {
       "category": "النقل",
-      "count": 10
+      "count": 15
     },
     {
       "category": "الصحة",
-      "count": 8
+      "count": 28
     },
     {
       "category": "العمل والدراسة",
-      "count": 12
+      "count": 43
     },
     {
       "category": "التكنولوجيا",
@@ -110,31 +109,31 @@
     },
     {
       "category": "المشاعر",
-      "count": 8
+      "count": 16
     },
     {
       "category": "جسم الإنسان",
-      "count": 27
+      "count": 38
     },
     {
       "category": "الملابس",
-      "count": 18
+      "count": 30
     },
     {
       "category": "البيت والأدوات",
-      "count": 25
+      "count": 27
     },
     {
       "category": "الحيوانات",
-      "count": 20
+      "count": 51
     },
     {
       "category": "الطبيعة والنباتات",
-      "count": 18
+      "count": 30
     },
     {
       "category": "المهن",
-      "count": 18
+      "count": 32
     },
     {
       "category": "أفعال ماضية",
@@ -146,15 +145,15 @@
     },
     {
       "category": "السفر والفندق",
-      "count": 15
+      "count": 19
     },
     {
       "category": "المدينة والخدمات",
-      "count": 15
+      "count": 16
     },
     {
       "category": "الدين والتعبيرات الدينية",
-      "count": 15
+      "count": 23
     },
     {
       "category": "المصطلحات الشعبية",
@@ -175,6 +174,14 @@
     {
       "category": "الأشخاص",
       "count": 12
+    },
+    {
+      "category": "البلدان والجنسيات",
+      "count": 13
+    },
+    {
+      "category": "الثقافة والفنون",
+      "count": 6
     }
   ],
   "entries": [
@@ -316,6 +323,14 @@
     },
     {
       "id": 18,
+      "category": "تحيات",
+      "darija_ar": "متشرفين",
+      "darija_latin": "mtcharfin",
+      "fusha_ar": "تشرفت بمعرفتك",
+      "fr": "Enchanté"
+    },
+    {
+      "id": 19,
       "category": "عبارات المجاملة",
       "darija_ar": "عافاك",
       "darija_latin": "3afak",
@@ -323,7 +338,7 @@
       "fr": "S'il te plaît"
     },
     {
-      "id": 19,
+      "id": 20,
       "category": "عبارات المجاملة",
       "darija_ar": "شكرا",
       "darija_latin": "choukran",
@@ -331,7 +346,7 @@
       "fr": "Merci"
     },
     {
-      "id": 20,
+      "id": 21,
       "category": "عبارات المجاملة",
       "darija_ar": "بارك الله فيك",
       "darija_latin": "barak llah fik",
@@ -339,7 +354,7 @@
       "fr": "Merci (que Dieu te bénisse)"
     },
     {
-      "id": 21,
+      "id": 22,
       "category": "عبارات المجاملة",
       "darija_ar": "الله يخليك",
       "darija_latin": "llah ykhellik",
@@ -347,7 +362,7 @@
       "fr": "Merci (que Dieu te garde)"
     },
     {
-      "id": 22,
+      "id": 23,
       "category": "عبارات المجاملة",
       "darija_ar": "الله يعطيك الصحة",
       "darija_latin": "llah y3tik s7a",
@@ -355,7 +370,7 @@
       "fr": "Merci (santé à toi)"
     },
     {
-      "id": 23,
+      "id": 24,
       "category": "عبارات المجاملة",
       "darija_ar": "سمح ليا",
       "darija_latin": "sme7 liya",
@@ -363,7 +378,7 @@
       "fr": "Pardonne-moi"
     },
     {
-      "id": 24,
+      "id": 25,
       "category": "عبارات المجاملة",
       "darija_ar": "واخا",
       "darija_latin": "wakha",
@@ -371,7 +386,7 @@
       "fr": "D'accord"
     },
     {
-      "id": 25,
+      "id": 26,
       "category": "عبارات المجاملة",
       "darija_ar": "صافي",
       "darija_latin": "safi",
@@ -379,7 +394,7 @@
       "fr": "Ça suffit / c'est bon"
     },
     {
-      "id": 26,
+      "id": 27,
       "category": "عبارات المجاملة",
       "darija_ar": "ماشي مشكل",
       "darija_latin": "machi mochkil",
@@ -387,7 +402,7 @@
       "fr": "Pas de problème"
     },
     {
-      "id": 27,
+      "id": 28,
       "category": "عبارات المجاملة",
       "darija_ar": "إيه",
       "darija_latin": "iyeh",
@@ -395,7 +410,7 @@
       "fr": "Oui"
     },
     {
-      "id": 28,
+      "id": 29,
       "category": "عبارات المجاملة",
       "darija_ar": "واه",
       "darija_latin": "wah",
@@ -403,7 +418,7 @@
       "fr": "Ouais"
     },
     {
-      "id": 29,
+      "id": 30,
       "category": "عبارات المجاملة",
       "darija_ar": "لا",
       "darija_latin": "la",
@@ -411,7 +426,7 @@
       "fr": "Non"
     },
     {
-      "id": 30,
+      "id": 31,
       "category": "عبارات المجاملة",
       "darija_ar": "ياك؟",
       "darija_latin": "yak?",
@@ -419,7 +434,7 @@
       "fr": "N'est-ce pas ?"
     },
     {
-      "id": 31,
+      "id": 32,
       "category": "عبارات المجاملة",
       "darija_ar": "بصراحة",
       "darija_latin": "bessra7a",
@@ -427,7 +442,7 @@
       "fr": "Franchement"
     },
     {
-      "id": 32,
+      "id": 33,
       "category": "عبارات المجاملة",
       "darija_ar": "الله يسهل",
       "darija_latin": "llah ysehel",
@@ -435,7 +450,7 @@
       "fr": "Que Dieu facilite"
     },
     {
-      "id": 33,
+      "id": 34,
       "category": "أدوات الاستفهام",
       "darija_ar": "شنو؟",
       "darija_latin": "chnou?",
@@ -443,7 +458,7 @@
       "fr": "Quoi ?"
     },
     {
-      "id": 34,
+      "id": 35,
       "category": "أدوات الاستفهام",
       "darija_ar": "آش؟",
       "darija_latin": "ach?",
@@ -451,7 +466,7 @@
       "fr": "Quoi ? (Nord)"
     },
     {
-      "id": 35,
+      "id": 36,
       "category": "أدوات الاستفهام",
       "darija_ar": "شكون؟",
       "darija_latin": "chkoun?",
@@ -459,7 +474,7 @@
       "fr": "Qui ?"
     },
     {
-      "id": 36,
+      "id": 37,
       "category": "أدوات الاستفهام",
       "darija_ar": "فين؟",
       "darija_latin": "fin?",
@@ -467,7 +482,7 @@
       "fr": "Où ?"
     },
     {
-      "id": 37,
+      "id": 38,
       "category": "أدوات الاستفهام",
       "darija_ar": "فوقاش؟",
       "darija_latin": "fouqach?",
@@ -475,7 +490,7 @@
       "fr": "Quand ?"
     },
     {
-      "id": 38,
+      "id": 39,
       "category": "أدوات الاستفهام",
       "darija_ar": "علاش؟",
       "darija_latin": "3lach?",
@@ -483,7 +498,7 @@
       "fr": "Pourquoi ?"
     },
     {
-      "id": 39,
+      "id": 40,
       "category": "أدوات الاستفهام",
       "darija_ar": "كيفاش؟",
       "darija_latin": "kifach?",
@@ -491,7 +506,7 @@
       "fr": "Comment ?"
     },
     {
-      "id": 40,
+      "id": 41,
       "category": "أدوات الاستفهام",
       "darija_ar": "شحال؟",
       "darija_latin": "ch7al?",
@@ -499,7 +514,7 @@
       "fr": "Combien ?"
     },
     {
-      "id": 41,
+      "id": 42,
       "category": "أدوات الاستفهام",
       "darija_ar": "أشمن؟",
       "darija_latin": "achmen?",
@@ -507,7 +522,7 @@
       "fr": "Quel ?"
     },
     {
-      "id": 42,
+      "id": 43,
       "category": "أدوات الاستفهام",
       "darija_ar": "منين؟",
       "darija_latin": "mnin?",
@@ -515,7 +530,7 @@
       "fr": "D'où ?"
     },
     {
-      "id": 43,
+      "id": 44,
       "category": "أدوات الاستفهام",
       "darija_ar": "فين غادي؟",
       "darija_latin": "fin ghadi?",
@@ -523,7 +538,7 @@
       "fr": "Où vas-tu ?"
     },
     {
-      "id": 44,
+      "id": 45,
       "category": "أدوات الاستفهام",
       "darija_ar": "شحال الساعة؟",
       "darija_latin": "ch7al sa3a?",
@@ -531,7 +546,47 @@
       "fr": "Quelle heure est-il ?"
     },
     {
-      "id": 45,
+      "id": 46,
+      "category": "أدوات الاستفهام",
+      "darija_ar": "شنو سميتك؟",
+      "darija_latin": "chno smiytek?",
+      "fusha_ar": "ما اسمك؟",
+      "fr": "Comment tu t'appelles ?"
+    },
+    {
+      "id": 47,
+      "category": "أدوات الاستفهام",
+      "darija_ar": "شنو كاتعني؟",
+      "darija_latin": "chno kat3ni?",
+      "fusha_ar": "ماذا تعني؟",
+      "fr": "Qu'est-ce que ça veut dire ?"
+    },
+    {
+      "id": 48,
+      "category": "أدوات الاستفهام",
+      "darija_ar": "منين نتا؟",
+      "darija_latin": "mnin nta?",
+      "fusha_ar": "من أين أنت؟",
+      "fr": "D'où viens-tu ?"
+    },
+    {
+      "id": 49,
+      "category": "أدوات الاستفهام",
+      "darija_ar": "فين عايش؟",
+      "darija_latin": "fin 3aych?",
+      "fusha_ar": "أين تعيش؟",
+      "fr": "Où habites-tu ?"
+    },
+    {
+      "id": 50,
+      "category": "أدوات الاستفهام",
+      "darija_ar": "شنو كتخدم؟",
+      "darija_latin": "chno katkhdem?",
+      "fusha_ar": "ما عملك؟",
+      "fr": "Quel est ton métier ?"
+    },
+    {
+      "id": 51,
       "category": "الضمائر",
       "darija_ar": "أنا",
       "darija_latin": "ana",
@@ -539,7 +594,7 @@
       "fr": "Je"
     },
     {
-      "id": 46,
+      "id": 52,
       "category": "الضمائر",
       "darija_ar": "نتا",
       "darija_latin": "nta",
@@ -547,7 +602,7 @@
       "fr": "Tu (masculin)"
     },
     {
-      "id": 47,
+      "id": 53,
       "category": "الضمائر",
       "darija_ar": "نتي",
       "darija_latin": "nti",
@@ -555,7 +610,7 @@
       "fr": "Tu (féminin)"
     },
     {
-      "id": 48,
+      "id": 54,
       "category": "الضمائر",
       "darija_ar": "هو",
       "darija_latin": "houwa",
@@ -563,7 +618,7 @@
       "fr": "Il"
     },
     {
-      "id": 49,
+      "id": 55,
       "category": "الضمائر",
       "darija_ar": "هي",
       "darija_latin": "hiya",
@@ -571,7 +626,7 @@
       "fr": "Elle"
     },
     {
-      "id": 50,
+      "id": 56,
       "category": "الضمائر",
       "darija_ar": "حنا",
       "darija_latin": "7na",
@@ -579,7 +634,7 @@
       "fr": "Nous"
     },
     {
-      "id": 51,
+      "id": 57,
       "category": "الضمائر",
       "darija_ar": "نتوما",
       "darija_latin": "ntouma",
@@ -587,7 +642,7 @@
       "fr": "Vous"
     },
     {
-      "id": 52,
+      "id": 58,
       "category": "الضمائر",
       "darija_ar": "هوما",
       "darija_latin": "houma",
@@ -595,7 +650,7 @@
       "fr": "Ils / elles"
     },
     {
-      "id": 53,
+      "id": 59,
       "category": "الضمائر",
       "darija_ar": "هادا",
       "darija_latin": "hada",
@@ -603,7 +658,7 @@
       "fr": "Celui-ci"
     },
     {
-      "id": 54,
+      "id": 60,
       "category": "الضمائر",
       "darija_ar": "هادي",
       "darija_latin": "hadi",
@@ -611,7 +666,7 @@
       "fr": "Celle-ci"
     },
     {
-      "id": 55,
+      "id": 61,
       "category": "الضمائر",
       "darija_ar": "هادوك",
       "darija_latin": "hadouk",
@@ -619,7 +674,7 @@
       "fr": "Ceux-là"
     },
     {
-      "id": 56,
+      "id": 62,
       "category": "الضمائر",
       "darija_ar": "ديالي",
       "darija_latin": "dyali",
@@ -627,7 +682,7 @@
       "fr": "Le mien"
     },
     {
-      "id": 57,
+      "id": 63,
       "category": "الضمائر",
       "darija_ar": "ديالك",
       "darija_latin": "dyalek",
@@ -635,7 +690,7 @@
       "fr": "Le tien"
     },
     {
-      "id": 58,
+      "id": 64,
       "category": "الضمائر",
       "darija_ar": "ديالو",
       "darija_latin": "dyalo",
@@ -643,7 +698,7 @@
       "fr": "Le sien (à lui)"
     },
     {
-      "id": 59,
+      "id": 65,
       "category": "الضمائر",
       "darija_ar": "ديالها",
       "darija_latin": "dyalha",
@@ -651,7 +706,7 @@
       "fr": "Le sien (à elle)"
     },
     {
-      "id": 60,
+      "id": 66,
       "category": "الضمائر",
       "darija_ar": "ديالنا",
       "darija_latin": "dyalna",
@@ -659,7 +714,7 @@
       "fr": "Le nôtre"
     },
     {
-      "id": 61,
+      "id": 67,
       "category": "الضمائر",
       "darija_ar": "ديالكم",
       "darija_latin": "dyalkoum",
@@ -667,7 +722,7 @@
       "fr": "Le vôtre"
     },
     {
-      "id": 62,
+      "id": 68,
       "category": "الضمائر",
       "darija_ar": "ديالهم",
       "darija_latin": "dyalhoum",
@@ -675,7 +730,7 @@
       "fr": "Le leur"
     },
     {
-      "id": 63,
+      "id": 69,
       "category": "أفعال وعبارات",
       "darija_ar": "بغيت",
       "darija_latin": "bghit",
@@ -683,7 +738,7 @@
       "fr": "Je veux"
     },
     {
-      "id": 64,
+      "id": 70,
       "category": "أفعال وعبارات",
       "darija_ar": "بغيتي؟",
       "darija_latin": "bghiti?",
@@ -691,7 +746,7 @@
       "fr": "Tu veux ?"
     },
     {
-      "id": 65,
+      "id": 71,
       "category": "أفعال وعبارات",
       "darija_ar": "كنبغي",
       "darija_latin": "kanbghi",
@@ -699,7 +754,7 @@
       "fr": "J'aime"
     },
     {
-      "id": 66,
+      "id": 72,
       "category": "أفعال وعبارات",
       "darija_ar": "كنتكلم",
       "darija_latin": "kantkellem",
@@ -707,7 +762,7 @@
       "fr": "Je parle"
     },
     {
-      "id": 67,
+      "id": 73,
       "category": "أفعال وعبارات",
       "darija_ar": "كنمشي",
       "darija_latin": "kanmchi",
@@ -715,7 +770,7 @@
       "fr": "Je vais"
     },
     {
-      "id": 68,
+      "id": 74,
       "category": "أفعال وعبارات",
       "darija_ar": "غادي نمشي",
       "darija_latin": "ghadi nmchi",
@@ -723,7 +778,7 @@
       "fr": "Je vais aller"
     },
     {
-      "id": 69,
+      "id": 75,
       "category": "أفعال وعبارات",
       "darija_ar": "جيت",
       "darija_latin": "jit",
@@ -731,7 +786,7 @@
       "fr": "Je suis venu"
     },
     {
-      "id": 70,
+      "id": 76,
       "category": "أفعال وعبارات",
       "darija_ar": "كناكل",
       "darija_latin": "kankoul",
@@ -739,7 +794,7 @@
       "fr": "Je mange"
     },
     {
-      "id": 71,
+      "id": 77,
       "category": "أفعال وعبارات",
       "darija_ar": "كنشرب",
       "darija_latin": "kanchreb",
@@ -747,7 +802,7 @@
       "fr": "Je bois"
     },
     {
-      "id": 72,
+      "id": 78,
       "category": "أفعال وعبارات",
       "darija_ar": "كنخدم",
       "darija_latin": "kankhdem",
@@ -755,7 +810,7 @@
       "fr": "Je travaille"
     },
     {
-      "id": 73,
+      "id": 79,
       "category": "أفعال وعبارات",
       "darija_ar": "كنقرا",
       "darija_latin": "kanqra",
@@ -763,7 +818,7 @@
       "fr": "Je lis / j'étudie"
     },
     {
-      "id": 74,
+      "id": 80,
       "category": "أفعال وعبارات",
       "darija_ar": "كنكتب",
       "darija_latin": "kankteb",
@@ -771,7 +826,7 @@
       "fr": "J'écris"
     },
     {
-      "id": 75,
+      "id": 81,
       "category": "أفعال وعبارات",
       "darija_ar": "فهمت",
       "darija_latin": "fhemt",
@@ -779,7 +834,7 @@
       "fr": "J'ai compris"
     },
     {
-      "id": 76,
+      "id": 82,
       "category": "أفعال وعبارات",
       "darija_ar": "ما فهمتش",
       "darija_latin": "ma fhemtch",
@@ -787,7 +842,7 @@
       "fr": "Je n'ai pas compris"
     },
     {
-      "id": 77,
+      "id": 83,
       "category": "أفعال وعبارات",
       "darija_ar": "عرفت",
       "darija_latin": "3reft",
@@ -795,7 +850,7 @@
       "fr": "Je sais"
     },
     {
-      "id": 78,
+      "id": 84,
       "category": "أفعال وعبارات",
       "darija_ar": "ما عرفتش",
       "darija_latin": "ma 3reftch",
@@ -803,7 +858,7 @@
       "fr": "Je ne sais pas"
     },
     {
-      "id": 79,
+      "id": 85,
       "category": "أفعال وعبارات",
       "darija_ar": "كاين",
       "darija_latin": "kayn",
@@ -811,7 +866,7 @@
       "fr": "Il y a"
     },
     {
-      "id": 80,
+      "id": 86,
       "category": "أفعال وعبارات",
       "darija_ar": "ما كاينش",
       "darija_latin": "ma kaynch",
@@ -819,7 +874,7 @@
       "fr": "Il n'y a pas"
     },
     {
-      "id": 81,
+      "id": 87,
       "category": "أفعال وعبارات",
       "darija_ar": "خاصني",
       "darija_latin": "khassni",
@@ -827,7 +882,7 @@
       "fr": "J'ai besoin"
     },
     {
-      "id": 82,
+      "id": 88,
       "category": "أفعال وعبارات",
       "darija_ar": "خاصك",
       "darija_latin": "khassk",
@@ -835,7 +890,7 @@
       "fr": "Tu as besoin"
     },
     {
-      "id": 83,
+      "id": 89,
       "category": "أفعال وعبارات",
       "darija_ar": "يمكن",
       "darija_latin": "ymken",
@@ -843,7 +898,7 @@
       "fr": "Peut-être"
     },
     {
-      "id": 84,
+      "id": 90,
       "category": "أفعال وعبارات",
       "darija_ar": "تعال",
       "darija_latin": "ta3al",
@@ -851,7 +906,7 @@
       "fr": "Viens"
     },
     {
-      "id": 85,
+      "id": 91,
       "category": "أفعال وعبارات",
       "darija_ar": "سير",
       "darija_latin": "sir",
@@ -859,7 +914,7 @@
       "fr": "Va"
     },
     {
-      "id": 86,
+      "id": 92,
       "category": "أفعال وعبارات",
       "darija_ar": "دير",
       "darija_latin": "dir",
@@ -867,7 +922,7 @@
       "fr": "Fais"
     },
     {
-      "id": 87,
+      "id": 93,
       "category": "أفعال وعبارات",
       "darija_ar": "عطيني",
       "darija_latin": "3tini",
@@ -875,7 +930,7 @@
       "fr": "Donne-moi"
     },
     {
-      "id": 88,
+      "id": 94,
       "category": "أفعال وعبارات",
       "darija_ar": "شوف",
       "darija_latin": "chouf",
@@ -883,7 +938,7 @@
       "fr": "Regarde"
     },
     {
-      "id": 89,
+      "id": 95,
       "category": "أفعال وعبارات",
       "darija_ar": "سمع",
       "darija_latin": "sme3",
@@ -891,7 +946,7 @@
       "fr": "Écoute"
     },
     {
-      "id": 90,
+      "id": 96,
       "category": "أفعال وعبارات",
       "darija_ar": "گول",
       "darija_latin": "goul",
@@ -899,7 +954,7 @@
       "fr": "Dis"
     },
     {
-      "id": 91,
+      "id": 97,
       "category": "أفعال وعبارات",
       "darija_ar": "بغيت ناكل",
       "darija_latin": "bghit nakoul",
@@ -907,7 +962,7 @@
       "fr": "Je veux manger"
     },
     {
-      "id": 92,
+      "id": 98,
       "category": "أفعال وعبارات",
       "darija_ar": "كنمشي للخدمة",
       "darija_latin": "kanmchi lkhedma",
@@ -915,7 +970,7 @@
       "fr": "Je vais au travail"
     },
     {
-      "id": 93,
+      "id": 99,
       "category": "أفعال وعبارات",
       "darija_ar": "كنبغي نعس",
       "darija_latin": "kanbghi n3es",
@@ -923,7 +978,7 @@
       "fr": "Je veux dormir"
     },
     {
-      "id": 94,
+      "id": 100,
       "category": "أفعال وعبارات",
       "darija_ar": "عندي",
       "darija_latin": "3ndi",
@@ -931,7 +986,7 @@
       "fr": "J'ai"
     },
     {
-      "id": 95,
+      "id": 101,
       "category": "أفعال وعبارات",
       "darija_ar": "ما عنديش",
       "darija_latin": "ma 3ndich",
@@ -939,7 +994,7 @@
       "fr": "Je n'ai pas"
     },
     {
-      "id": 96,
+      "id": 102,
       "category": "الأرقام",
       "darija_ar": "واحد",
       "darija_latin": "wa7ed",
@@ -947,7 +1002,7 @@
       "fr": "Un"
     },
     {
-      "id": 97,
+      "id": 103,
       "category": "الأرقام",
       "darija_ar": "جوج",
       "darija_latin": "jouj",
@@ -955,7 +1010,7 @@
       "fr": "Deux"
     },
     {
-      "id": 98,
+      "id": 104,
       "category": "الأرقام",
       "darija_ar": "تلاتة",
       "darija_latin": "tlata",
@@ -963,7 +1018,7 @@
       "fr": "Trois"
     },
     {
-      "id": 99,
+      "id": 105,
       "category": "الأرقام",
       "darija_ar": "ربعة",
       "darija_latin": "rba3a",
@@ -971,7 +1026,7 @@
       "fr": "Quatre"
     },
     {
-      "id": 100,
+      "id": 106,
       "category": "الأرقام",
       "darija_ar": "خمسة",
       "darija_latin": "khamsa",
@@ -979,7 +1034,7 @@
       "fr": "Cinq"
     },
     {
-      "id": 101,
+      "id": 107,
       "category": "الأرقام",
       "darija_ar": "ستة",
       "darija_latin": "setta",
@@ -987,7 +1042,7 @@
       "fr": "Six"
     },
     {
-      "id": 102,
+      "id": 108,
       "category": "الأرقام",
       "darija_ar": "سبعة",
       "darija_latin": "seb3a",
@@ -995,7 +1050,7 @@
       "fr": "Sept"
     },
     {
-      "id": 103,
+      "id": 109,
       "category": "الأرقام",
       "darija_ar": "تمنية",
       "darija_latin": "tmnya",
@@ -1003,7 +1058,7 @@
       "fr": "Huit"
     },
     {
-      "id": 104,
+      "id": 110,
       "category": "الأرقام",
       "darija_ar": "تسعود",
       "darija_latin": "ts3oud",
@@ -1011,7 +1066,7 @@
       "fr": "Neuf"
     },
     {
-      "id": 105,
+      "id": 111,
       "category": "الأرقام",
       "darija_ar": "عشرة",
       "darija_latin": "3chra",
@@ -1019,7 +1074,7 @@
       "fr": "Dix"
     },
     {
-      "id": 106,
+      "id": 112,
       "category": "الأرقام",
       "darija_ar": "عشرين",
       "darija_latin": "3chrin",
@@ -1027,7 +1082,7 @@
       "fr": "Vingt"
     },
     {
-      "id": 107,
+      "id": 113,
       "category": "الأرقام",
       "darija_ar": "مية",
       "darija_latin": "mya",
@@ -1035,7 +1090,7 @@
       "fr": "Cent"
     },
     {
-      "id": 108,
+      "id": 114,
       "category": "الأرقام",
       "darija_ar": "ألف",
       "darija_latin": "alf",
@@ -1043,7 +1098,7 @@
       "fr": "Mille"
     },
     {
-      "id": 109,
+      "id": 115,
       "category": "الأرقام",
       "darija_ar": "الأول",
       "darija_latin": "lewwel",
@@ -1051,7 +1106,7 @@
       "fr": "Premier"
     },
     {
-      "id": 110,
+      "id": 116,
       "category": "الأرقام",
       "darija_ar": "الثاني",
       "darija_latin": "tani",
@@ -1059,7 +1114,7 @@
       "fr": "Deuxième"
     },
     {
-      "id": 111,
+      "id": 117,
       "category": "الأرقام",
       "darija_ar": "النص",
       "darija_latin": "nnes",
@@ -1067,7 +1122,7 @@
       "fr": "La moitié"
     },
     {
-      "id": 112,
+      "id": 118,
       "category": "الأرقام",
       "darija_ar": "زيرو",
       "darija_latin": "ziro",
@@ -1075,7 +1130,7 @@
       "fr": "Zéro"
     },
     {
-      "id": 113,
+      "id": 119,
       "category": "الألوان",
       "darija_ar": "بيض",
       "darija_latin": "byed",
@@ -1083,7 +1138,7 @@
       "fr": "Blanc"
     },
     {
-      "id": 114,
+      "id": 120,
       "category": "الألوان",
       "darija_ar": "كحل",
       "darija_latin": "k7el",
@@ -1091,7 +1146,7 @@
       "fr": "Noir"
     },
     {
-      "id": 115,
+      "id": 121,
       "category": "الألوان",
       "darija_ar": "حمر",
       "darija_latin": "7mer",
@@ -1099,7 +1154,7 @@
       "fr": "Rouge"
     },
     {
-      "id": 116,
+      "id": 122,
       "category": "الألوان",
       "darija_ar": "خضر",
       "darija_latin": "khder",
@@ -1107,7 +1162,7 @@
       "fr": "Vert"
     },
     {
-      "id": 117,
+      "id": 123,
       "category": "الألوان",
       "darija_ar": "زرق",
       "darija_latin": "zre9",
@@ -1115,7 +1170,7 @@
       "fr": "Bleu"
     },
     {
-      "id": 118,
+      "id": 124,
       "category": "الألوان",
       "darija_ar": "صفر",
       "darija_latin": "sfer",
@@ -1123,7 +1178,7 @@
       "fr": "Jaune"
     },
     {
-      "id": 119,
+      "id": 125,
       "category": "الألوان",
       "darija_ar": "بني",
       "darija_latin": "bni",
@@ -1131,7 +1186,7 @@
       "fr": "Marron"
     },
     {
-      "id": 120,
+      "id": 126,
       "category": "الألوان",
       "darija_ar": "رمادي",
       "darija_latin": "rmadi",
@@ -1139,7 +1194,47 @@
       "fr": "Gris"
     },
     {
-      "id": 121,
+      "id": 127,
+      "category": "الألوان",
+      "darija_ar": "لون",
+      "darija_latin": "loun",
+      "fusha_ar": "اللون",
+      "fr": "Couleur"
+    },
+    {
+      "id": 128,
+      "category": "الألوان",
+      "darija_ar": "وردي",
+      "darija_latin": "wardi",
+      "fusha_ar": "الوردي",
+      "fr": "Rose"
+    },
+    {
+      "id": 129,
+      "category": "الألوان",
+      "darija_ar": "بنفسجي",
+      "darija_latin": "banafsaji",
+      "fusha_ar": "البنفسجي",
+      "fr": "Violet"
+    },
+    {
+      "id": 130,
+      "category": "الألوان",
+      "darija_ar": "بيج",
+      "darija_latin": "beige",
+      "fusha_ar": "البيج",
+      "fr": "Beige"
+    },
+    {
+      "id": 131,
+      "category": "الألوان",
+      "darija_ar": "دهبي",
+      "darija_latin": "dehbi",
+      "fusha_ar": "الذهبي",
+      "fr": "Doré"
+    },
+    {
+      "id": 132,
       "category": "العائلة",
       "darija_ar": "بابا",
       "darija_latin": "baba",
@@ -1147,7 +1242,7 @@
       "fr": "Papa"
     },
     {
-      "id": 122,
+      "id": 133,
       "category": "العائلة",
       "darija_ar": "ماما",
       "darija_latin": "mama",
@@ -1155,7 +1250,7 @@
       "fr": "Maman"
     },
     {
-      "id": 123,
+      "id": 134,
       "category": "العائلة",
       "darija_ar": "خويا",
       "darija_latin": "khouya",
@@ -1163,7 +1258,7 @@
       "fr": "Mon frère"
     },
     {
-      "id": 124,
+      "id": 135,
       "category": "العائلة",
       "darija_ar": "ختي",
       "darija_latin": "khti",
@@ -1171,7 +1266,7 @@
       "fr": "Ma sœur"
     },
     {
-      "id": 125,
+      "id": 136,
       "category": "العائلة",
       "darija_ar": "ولدي",
       "darija_latin": "weldi",
@@ -1179,7 +1274,7 @@
       "fr": "Mon fils"
     },
     {
-      "id": 126,
+      "id": 137,
       "category": "العائلة",
       "darija_ar": "بنتي",
       "darija_latin": "bnti",
@@ -1187,7 +1282,7 @@
       "fr": "Ma fille"
     },
     {
-      "id": 127,
+      "id": 138,
       "category": "العائلة",
       "darija_ar": "جدي",
       "darija_latin": "jeddi",
@@ -1195,7 +1290,7 @@
       "fr": "Mon grand-père"
     },
     {
-      "id": 128,
+      "id": 139,
       "category": "العائلة",
       "darija_ar": "جدتي",
       "darija_latin": "jeddti",
@@ -1203,7 +1298,7 @@
       "fr": "Ma grand-mère"
     },
     {
-      "id": 129,
+      "id": 140,
       "category": "العائلة",
       "darija_ar": "عمي",
       "darija_latin": "3ammi",
@@ -1211,7 +1306,7 @@
       "fr": "Mon oncle (paternel)"
     },
     {
-      "id": 130,
+      "id": 141,
       "category": "العائلة",
       "darija_ar": "خالي",
       "darija_latin": "khali",
@@ -1219,7 +1314,7 @@
       "fr": "Mon oncle (maternel)"
     },
     {
-      "id": 131,
+      "id": 142,
       "category": "العائلة",
       "darija_ar": "زوجي",
       "darija_latin": "zouji",
@@ -1227,7 +1322,7 @@
       "fr": "Mon mari"
     },
     {
-      "id": 132,
+      "id": 143,
       "category": "العائلة",
       "darija_ar": "مراتي",
       "darija_latin": "mrati",
@@ -1235,7 +1330,7 @@
       "fr": "Ma femme"
     },
     {
-      "id": 133,
+      "id": 144,
       "category": "العائلة",
       "darija_ar": "الدراري",
       "darija_latin": "drari",
@@ -1243,7 +1338,7 @@
       "fr": "Les enfants"
     },
     {
-      "id": 134,
+      "id": 145,
       "category": "العائلة",
       "darija_ar": "صحابي",
       "darija_latin": "s7abi",
@@ -1251,7 +1346,7 @@
       "fr": "Mes amis"
     },
     {
-      "id": 135,
+      "id": 146,
       "category": "العائلة",
       "darija_ar": "جاري",
       "darija_latin": "jari",
@@ -1259,7 +1354,111 @@
       "fr": "Mon voisin"
     },
     {
-      "id": 136,
+      "id": 147,
+      "category": "العائلة",
+      "darija_ar": "واليد",
+      "darija_latin": "lwalid",
+      "fusha_ar": "الوالد",
+      "fr": "Père"
+    },
+    {
+      "id": 148,
+      "category": "العائلة",
+      "darija_ar": "واليدة",
+      "darija_latin": "lwalida",
+      "fusha_ar": "الوالدة",
+      "fr": "Mère"
+    },
+    {
+      "id": 149,
+      "category": "العائلة",
+      "darija_ar": "زوجة",
+      "darija_latin": "zawja",
+      "fusha_ar": "الزوجة",
+      "fr": "Épouse"
+    },
+    {
+      "id": 150,
+      "category": "العائلة",
+      "darija_ar": "زوج",
+      "darija_latin": "zawj",
+      "fusha_ar": "الزوج",
+      "fr": "Époux"
+    },
+    {
+      "id": 151,
+      "category": "العائلة",
+      "darija_ar": "حفيد",
+      "darija_latin": "7fid",
+      "fusha_ar": "الحفيد",
+      "fr": "Petit-fils"
+    },
+    {
+      "id": 152,
+      "category": "العائلة",
+      "darija_ar": "جدة",
+      "darija_latin": "jdda",
+      "fusha_ar": "الجدة",
+      "fr": "Grand-mère"
+    },
+    {
+      "id": 153,
+      "category": "العائلة",
+      "darija_ar": "خوت",
+      "darija_latin": "khout",
+      "fusha_ar": "الإخوة",
+      "fr": "Frères"
+    },
+    {
+      "id": 154,
+      "category": "العائلة",
+      "darija_ar": "خواتات",
+      "darija_latin": "khwatat",
+      "fusha_ar": "الأخوات",
+      "fr": "Sœurs"
+    },
+    {
+      "id": 155,
+      "category": "العائلة",
+      "darija_ar": "عمة",
+      "darija_latin": "3amma",
+      "fusha_ar": "العمة",
+      "fr": "Tante (paternelle)"
+    },
+    {
+      "id": 156,
+      "category": "العائلة",
+      "darija_ar": "ولد خويا",
+      "darija_latin": "wld khoya",
+      "fusha_ar": "ابن الأخ",
+      "fr": "Neveu"
+    },
+    {
+      "id": 157,
+      "category": "العائلة",
+      "darija_ar": "بنت خويا",
+      "darija_latin": "bnt khoya",
+      "fusha_ar": "ابنة الأخ",
+      "fr": "Nièce"
+    },
+    {
+      "id": 158,
+      "category": "العائلة",
+      "darija_ar": "ولد عمي",
+      "darija_latin": "wld 3ammi",
+      "fusha_ar": "ابن العم",
+      "fr": "Cousin (paternel)"
+    },
+    {
+      "id": 159,
+      "category": "العائلة",
+      "darija_ar": "بنت عمي",
+      "darija_latin": "bnt 3ammi",
+      "fusha_ar": "ابنة العم",
+      "fr": "Cousine (paternelle)"
+    },
+    {
+      "id": 160,
       "category": "المأكولات والمشروبات",
       "darija_ar": "ماكلة",
       "darija_latin": "makla",
@@ -1267,7 +1466,7 @@
       "fr": "Nourriture"
     },
     {
-      "id": 137,
+      "id": 161,
       "category": "المأكولات والمشروبات",
       "darija_ar": "خبز",
       "darija_latin": "khobz",
@@ -1275,7 +1474,7 @@
       "fr": "Pain"
     },
     {
-      "id": 138,
+      "id": 162,
       "category": "المأكولات والمشروبات",
       "darija_ar": "أتاي",
       "darija_latin": "atay",
@@ -1283,7 +1482,7 @@
       "fr": "Thé"
     },
     {
-      "id": 139,
+      "id": 163,
       "category": "المأكولات والمشروبات",
       "darija_ar": "أتاي بالنعناع",
       "darija_latin": "atay bna3na3",
@@ -1291,7 +1490,7 @@
       "fr": "Thé à la menthe"
     },
     {
-      "id": 140,
+      "id": 164,
       "category": "المأكولات والمشروبات",
       "darija_ar": "قهوة",
       "darija_latin": "qahwa",
@@ -1299,7 +1498,7 @@
       "fr": "Café"
     },
     {
-      "id": 141,
+      "id": 165,
       "category": "المأكولات والمشروبات",
       "darija_ar": "ما",
       "darija_latin": "ma",
@@ -1307,7 +1506,7 @@
       "fr": "Eau"
     },
     {
-      "id": 142,
+      "id": 166,
       "category": "المأكولات والمشروبات",
       "darija_ar": "حليب",
       "darija_latin": "7lib",
@@ -1315,7 +1514,7 @@
       "fr": "Lait"
     },
     {
-      "id": 143,
+      "id": 167,
       "category": "المأكولات والمشروبات",
       "darija_ar": "كسكس",
       "darija_latin": "kouskous",
@@ -1323,7 +1522,7 @@
       "fr": "Couscous"
     },
     {
-      "id": 144,
+      "id": 168,
       "category": "المأكولات والمشروبات",
       "darija_ar": "طاجين",
       "darija_latin": "tajine",
@@ -1331,7 +1530,7 @@
       "fr": "Tajine"
     },
     {
-      "id": 145,
+      "id": 169,
       "category": "المأكولات والمشروبات",
       "darija_ar": "حريرة",
       "darija_latin": "7rira",
@@ -1339,7 +1538,7 @@
       "fr": "Harira (soupe)"
     },
     {
-      "id": 146,
+      "id": 170,
       "category": "المأكولات والمشروبات",
       "darija_ar": "مسمن",
       "darija_latin": "msemen",
@@ -1347,7 +1546,7 @@
       "fr": "Msemen (crêpe)"
     },
     {
-      "id": 147,
+      "id": 171,
       "category": "المأكولات والمشروبات",
       "darija_ar": "بغرير",
       "darija_latin": "baghrir",
@@ -1355,7 +1554,7 @@
       "fr": "Baghrir (crêpe)"
     },
     {
-      "id": 148,
+      "id": 172,
       "category": "المأكولات والمشروبات",
       "darija_ar": "لحم",
       "darija_latin": "l7em",
@@ -1363,7 +1562,7 @@
       "fr": "Viande"
     },
     {
-      "id": 149,
+      "id": 173,
       "category": "المأكولات والمشروبات",
       "darija_ar": "دجاج",
       "darija_latin": "djaj",
@@ -1371,7 +1570,7 @@
       "fr": "Poulet"
     },
     {
-      "id": 150,
+      "id": 174,
       "category": "المأكولات والمشروبات",
       "darija_ar": "حوت",
       "darija_latin": "7out",
@@ -1379,7 +1578,7 @@
       "fr": "Poisson"
     },
     {
-      "id": 151,
+      "id": 175,
       "category": "المأكولات والمشروبات",
       "darija_ar": "فاكية",
       "darija_latin": "fakia",
@@ -1387,7 +1586,7 @@
       "fr": "Fruits"
     },
     {
-      "id": 152,
+      "id": 176,
       "category": "المأكولات والمشروبات",
       "darija_ar": "خضرة",
       "darija_latin": "khdra",
@@ -1395,7 +1594,7 @@
       "fr": "Légumes"
     },
     {
-      "id": 153,
+      "id": 177,
       "category": "المأكولات والمشروبات",
       "darija_ar": "ملح",
       "darija_latin": "ml7",
@@ -1403,7 +1602,7 @@
       "fr": "Sel"
     },
     {
-      "id": 154,
+      "id": 178,
       "category": "المأكولات والمشروبات",
       "darija_ar": "سكر",
       "darija_latin": "sokkar",
@@ -1411,7 +1610,7 @@
       "fr": "Sucre"
     },
     {
-      "id": 155,
+      "id": 179,
       "category": "المأكولات والمشروبات",
       "darija_ar": "زيت",
       "darija_latin": "zit",
@@ -1419,7 +1618,295 @@
       "fr": "Huile"
     },
     {
-      "id": 156,
+      "id": 180,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "مطيشة",
+      "darija_latin": "maticha",
+      "fusha_ar": "الطماطم",
+      "fr": "Tomate"
+    },
+    {
+      "id": 181,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "جلبانة",
+      "darija_latin": "jelbana",
+      "fusha_ar": "البازلاء",
+      "fr": "Petits pois"
+    },
+    {
+      "id": 182,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "دنجال",
+      "darija_latin": "dnjal",
+      "fusha_ar": "الباذنجان",
+      "fr": "Aubergine"
+    },
+    {
+      "id": 183,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "ڭرعة",
+      "darija_latin": "gar3a",
+      "fusha_ar": "القرع",
+      "fr": "Courge"
+    },
+    {
+      "id": 184,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خيار",
+      "darija_latin": "khyar",
+      "fusha_ar": "الخيار",
+      "fr": "Concombre"
+    },
+    {
+      "id": 185,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خيزو",
+      "darija_latin": "khizo",
+      "fusha_ar": "الجزر",
+      "fr": "Carotte"
+    },
+    {
+      "id": 186,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "فلفلة",
+      "darija_latin": "flfla",
+      "fusha_ar": "الفلفل",
+      "fr": "Poivron"
+    },
+    {
+      "id": 187,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "فجل",
+      "darija_latin": "fjel",
+      "fusha_ar": "الفجل",
+      "fr": "Radis"
+    },
+    {
+      "id": 188,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "لوبيا",
+      "darija_latin": "loubia",
+      "fusha_ar": "الفاصولياء",
+      "fr": "Haricots"
+    },
+    {
+      "id": 189,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خص",
+      "darija_latin": "khoss",
+      "fusha_ar": "الخس",
+      "fr": "Laitue"
+    },
+    {
+      "id": 190,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "لفت",
+      "darija_latin": "left",
+      "fusha_ar": "اللفت",
+      "fr": "Navet"
+    },
+    {
+      "id": 191,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "قزبور",
+      "darija_latin": "9zbour",
+      "fusha_ar": "الكزبرة",
+      "fr": "Coriandre"
+    },
+    {
+      "id": 192,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "معدنوس",
+      "darija_latin": "m3dnous",
+      "fusha_ar": "البقدونس",
+      "fr": "Persil"
+    },
+    {
+      "id": 193,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "تفاح",
+      "darija_latin": "tfa7",
+      "fusha_ar": "التفاح",
+      "fr": "Pomme"
+    },
+    {
+      "id": 194,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "فريز",
+      "darija_latin": "friz",
+      "fusha_ar": "الفراولة",
+      "fr": "Fraise"
+    },
+    {
+      "id": 195,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "كرموس",
+      "darija_latin": "krmous",
+      "fusha_ar": "التين",
+      "fr": "Figue"
+    },
+    {
+      "id": 196,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "ليمون",
+      "darija_latin": "limoun",
+      "fusha_ar": "البرتقال",
+      "fr": "Orange"
+    },
+    {
+      "id": 197,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "رمان",
+      "darija_latin": "rman",
+      "fusha_ar": "الرمان",
+      "fr": "Grenade"
+    },
+    {
+      "id": 198,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "دلاح",
+      "darija_latin": "dla7",
+      "fusha_ar": "البطيخ الأحمر",
+      "fr": "Pastèque"
+    },
+    {
+      "id": 199,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خوخ",
+      "darija_latin": "khoukh",
+      "fusha_ar": "الخوخ",
+      "fr": "Pêche"
+    },
+    {
+      "id": 200,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "بنان",
+      "darija_latin": "banan",
+      "fusha_ar": "الموز",
+      "fr": "Banane"
+    },
+    {
+      "id": 201,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "مشماش",
+      "darija_latin": "mchmach",
+      "fusha_ar": "المشمش",
+      "fr": "Abricot"
+    },
+    {
+      "id": 202,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "تمر",
+      "darija_latin": "tmr",
+      "fusha_ar": "التمر",
+      "fr": "Dattes"
+    },
+    {
+      "id": 203,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "اللوز",
+      "darija_latin": "llouz",
+      "fusha_ar": "اللوز",
+      "fr": "Amandes"
+    },
+    {
+      "id": 204,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "نعناع",
+      "darija_latin": "n3na3",
+      "fusha_ar": "النعناع",
+      "fr": "Menthe"
+    },
+    {
+      "id": 205,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "حمص",
+      "darija_latin": "7mmS",
+      "fusha_ar": "الحمص",
+      "fr": "Pois chiches"
+    },
+    {
+      "id": 206,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "قرفة",
+      "darija_latin": "9rfa",
+      "fusha_ar": "القرفة",
+      "fr": "Cannelle"
+    },
+    {
+      "id": 207,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "كمون",
+      "darija_latin": "kmmon",
+      "fusha_ar": "الكمون",
+      "fr": "Cumin"
+    },
+    {
+      "id": 208,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "زعفران",
+      "darija_latin": "z3fran",
+      "fusha_ar": "الزعفران",
+      "fr": "Safran"
+    },
+    {
+      "id": 209,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "فطور",
+      "darija_latin": "fTor",
+      "fusha_ar": "الفطور",
+      "fr": "Petit-déjeuner"
+    },
+    {
+      "id": 210,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "عشا",
+      "darija_latin": "3cha",
+      "fusha_ar": "العشاء",
+      "fr": "Dîner"
+    },
+    {
+      "id": 211,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "ديسير",
+      "darija_latin": "diser",
+      "fusha_ar": "تحلية",
+      "fr": "Dessert"
+    },
+    {
+      "id": 212,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "كاسكروط",
+      "darija_latin": "kaskrot",
+      "fusha_ar": "وجبة خفيفة",
+      "fr": "Goûter"
+    },
+    {
+      "id": 213,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خل",
+      "darija_latin": "khel",
+      "fusha_ar": "خل",
+      "fr": "Vinaigre"
+    },
+    {
+      "id": 214,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "خبزة",
+      "darija_latin": "khobza",
+      "fusha_ar": "رغيف",
+      "fr": "Miche de pain"
+    },
+    {
+      "id": 215,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "حامض",
+      "darija_latin": "7amed",
+      "fusha_ar": "حامض",
+      "fr": "Citron / acide"
+    },
+    {
+      "id": 216,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "هنا",
       "darija_latin": "hna",
@@ -1427,7 +1914,7 @@
       "fr": "Ici"
     },
     {
-      "id": 157,
+      "id": 217,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "تما",
       "darija_latin": "tmma",
@@ -1435,7 +1922,7 @@
       "fr": "Là-bas"
     },
     {
-      "id": 158,
+      "id": 218,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "قدام",
       "darija_latin": "qdam",
@@ -1443,7 +1930,7 @@
       "fr": "Devant"
     },
     {
-      "id": 159,
+      "id": 219,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "مورا",
       "darija_latin": "moura",
@@ -1451,7 +1938,7 @@
       "fr": "Derrière"
     },
     {
-      "id": 160,
+      "id": 220,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "فوق",
       "darija_latin": "fouq",
@@ -1459,7 +1946,7 @@
       "fr": "En haut / sur"
     },
     {
-      "id": 161,
+      "id": 221,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "تحت",
       "darija_latin": "te7t",
@@ -1467,7 +1954,7 @@
       "fr": "En bas"
     },
     {
-      "id": 162,
+      "id": 222,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "يمين",
       "darija_latin": "ymin",
@@ -1475,7 +1962,7 @@
       "fr": "Droite"
     },
     {
-      "id": 163,
+      "id": 223,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "يسار",
       "darija_latin": "ysar",
@@ -1483,7 +1970,7 @@
       "fr": "Gauche"
     },
     {
-      "id": 164,
+      "id": 224,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "قريب",
       "darija_latin": "qrib",
@@ -1491,7 +1978,7 @@
       "fr": "Près"
     },
     {
-      "id": 165,
+      "id": 225,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "بعيد",
       "darija_latin": "b3id",
@@ -1499,7 +1986,7 @@
       "fr": "Loin"
     },
     {
-      "id": 166,
+      "id": 226,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "السوق",
       "darija_latin": "souq",
@@ -1507,7 +1994,7 @@
       "fr": "Le marché"
     },
     {
-      "id": 167,
+      "id": 227,
       "category": "الاتجاهات والأماكن",
       "darija_ar": "الحانوت",
       "darija_latin": "l7anout",
@@ -1515,7 +2002,143 @@
       "fr": "La boutique"
     },
     {
-      "id": 168,
+      "id": 228,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "المغرب",
+      "darija_latin": "lmaghrib",
+      "fusha_ar": "المغرب",
+      "fr": "Maroc"
+    },
+    {
+      "id": 229,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "فرنسا",
+      "darija_latin": "fransa",
+      "fusha_ar": "فرنسا",
+      "fr": "France"
+    },
+    {
+      "id": 230,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "صبانيا",
+      "darija_latin": "Sbania",
+      "fusha_ar": "إسبانيا",
+      "fr": "Espagne"
+    },
+    {
+      "id": 231,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "الجزائر",
+      "darija_latin": "ddzair",
+      "fusha_ar": "الجزائر",
+      "fr": "Algérie"
+    },
+    {
+      "id": 232,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "تونس",
+      "darija_latin": "touns",
+      "fusha_ar": "تونس",
+      "fr": "Tunisie"
+    },
+    {
+      "id": 233,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "مصر",
+      "darija_latin": "misr",
+      "fusha_ar": "مصر",
+      "fr": "Égypte"
+    },
+    {
+      "id": 234,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "موريتانيا",
+      "darija_latin": "moritania",
+      "fusha_ar": "موريتانيا",
+      "fr": "Mauritanie"
+    },
+    {
+      "id": 235,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "ألمانيا",
+      "darija_latin": "almania",
+      "fusha_ar": "ألمانيا",
+      "fr": "Allemagne"
+    },
+    {
+      "id": 236,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "الصين",
+      "darija_latin": "SSin",
+      "fusha_ar": "الصين",
+      "fr": "Chine"
+    },
+    {
+      "id": 237,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "اليابان",
+      "darija_latin": "japoun",
+      "fusha_ar": "اليابان",
+      "fr": "Japon"
+    },
+    {
+      "id": 238,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "إفريقيا",
+      "darija_latin": "ifri9ia",
+      "fusha_ar": "إفريقيا",
+      "fr": "Afrique"
+    },
+    {
+      "id": 239,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "أوربا",
+      "darija_latin": "oroppa",
+      "fusha_ar": "أوروبا",
+      "fr": "Europe"
+    },
+    {
+      "id": 240,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "عاصمة",
+      "darija_latin": "3aSima",
+      "fusha_ar": "العاصمة",
+      "fr": "Capitale"
+    },
+    {
+      "id": 241,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "سفارة",
+      "darija_latin": "sifara",
+      "fusha_ar": "السفارة",
+      "fr": "Ambassade"
+    },
+    {
+      "id": 242,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "مكتبة",
+      "darija_latin": "mktaba",
+      "fusha_ar": "المكتبة",
+      "fr": "Bibliothèque"
+    },
+    {
+      "id": 243,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "مخبزة",
+      "darija_latin": "mkhbaza",
+      "fusha_ar": "المخبزة",
+      "fr": "Boulangerie"
+    },
+    {
+      "id": 244,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "عنوان",
+      "darija_latin": "3onwan",
+      "fusha_ar": "العنوان",
+      "fr": "Adresse"
+    },
+    {
+      "id": 245,
       "category": "الوقت",
       "darija_ar": "دابا",
       "darija_latin": "daba",
@@ -1523,7 +2146,7 @@
       "fr": "Maintenant"
     },
     {
-      "id": 169,
+      "id": 246,
       "category": "الوقت",
       "darija_ar": "من بعد",
       "darija_latin": "men b3d",
@@ -1531,7 +2154,7 @@
       "fr": "Après"
     },
     {
-      "id": 170,
+      "id": 247,
       "category": "الوقت",
       "darija_ar": "قبل",
       "darija_latin": "qbel",
@@ -1539,7 +2162,7 @@
       "fr": "Avant"
     },
     {
-      "id": 171,
+      "id": 248,
       "category": "الوقت",
       "darija_ar": "اليوم",
       "darija_latin": "lyoum",
@@ -1547,7 +2170,7 @@
       "fr": "Aujourd'hui"
     },
     {
-      "id": 172,
+      "id": 249,
       "category": "الوقت",
       "darija_ar": "غدا",
       "darija_latin": "ghedda",
@@ -1555,7 +2178,7 @@
       "fr": "Demain"
     },
     {
-      "id": 173,
+      "id": 250,
       "category": "الوقت",
       "darija_ar": "لبارح",
       "darija_latin": "lbar7",
@@ -1563,7 +2186,7 @@
       "fr": "Hier"
     },
     {
-      "id": 174,
+      "id": 251,
       "category": "الوقت",
       "darija_ar": "الصباح",
       "darija_latin": "sba7",
@@ -1571,7 +2194,7 @@
       "fr": "Le matin"
     },
     {
-      "id": 175,
+      "id": 252,
       "category": "الوقت",
       "darija_ar": "العشية",
       "darija_latin": "l3chiya",
@@ -1579,7 +2202,7 @@
       "fr": "L'après-midi"
     },
     {
-      "id": 176,
+      "id": 253,
       "category": "الوقت",
       "darija_ar": "الليل",
       "darija_latin": "lil",
@@ -1587,7 +2210,7 @@
       "fr": "La nuit"
     },
     {
-      "id": 177,
+      "id": 254,
       "category": "الوقت",
       "darija_ar": "ساعة",
       "darija_latin": "sa3a",
@@ -1595,7 +2218,7 @@
       "fr": "Heure"
     },
     {
-      "id": 178,
+      "id": 255,
       "category": "الوقت",
       "darija_ar": "نهار",
       "darija_latin": "nhar",
@@ -1603,7 +2226,7 @@
       "fr": "Jour"
     },
     {
-      "id": 179,
+      "id": 256,
       "category": "الوقت",
       "darija_ar": "سيمانة",
       "darija_latin": "simana",
@@ -1611,7 +2234,7 @@
       "fr": "Semaine"
     },
     {
-      "id": 180,
+      "id": 257,
       "category": "الوقت",
       "darija_ar": "شهر",
       "darija_latin": "chher",
@@ -1619,7 +2242,7 @@
       "fr": "Mois"
     },
     {
-      "id": 181,
+      "id": 258,
       "category": "الوقت",
       "darija_ar": "عام",
       "darija_latin": "3am",
@@ -1627,7 +2250,143 @@
       "fr": "Année"
     },
     {
-      "id": 182,
+      "id": 259,
+      "category": "الوقت",
+      "darija_ar": "تانية",
+      "darija_latin": "tania",
+      "fusha_ar": "الثانية",
+      "fr": "Seconde"
+    },
+    {
+      "id": 260,
+      "category": "الوقت",
+      "darija_ar": "دقيقة",
+      "darija_latin": "d9i9a",
+      "fusha_ar": "الدقيقة",
+      "fr": "Minute"
+    },
+    {
+      "id": 261,
+      "category": "الوقت",
+      "darija_ar": "قرن",
+      "darija_latin": "9arn",
+      "fusha_ar": "القرن",
+      "fr": "Siècle"
+    },
+    {
+      "id": 262,
+      "category": "الوقت",
+      "darija_ar": "وقت",
+      "darija_latin": "wa9t",
+      "fusha_ar": "الوقت",
+      "fr": "Temps"
+    },
+    {
+      "id": 263,
+      "category": "الوقت",
+      "darija_ar": "مستقبل",
+      "darija_latin": "most9bal",
+      "fusha_ar": "المستقبل",
+      "fr": "Avenir"
+    },
+    {
+      "id": 264,
+      "category": "الوقت",
+      "darija_ar": "ماضي",
+      "darija_latin": "maDi",
+      "fusha_ar": "الماضي",
+      "fr": "Passé"
+    },
+    {
+      "id": 265,
+      "category": "الوقت",
+      "darija_ar": "الاثنين",
+      "darija_latin": "tnin",
+      "fusha_ar": "الاثنين",
+      "fr": "Lundi"
+    },
+    {
+      "id": 266,
+      "category": "الوقت",
+      "darija_ar": "الثلاثاء",
+      "darija_latin": "tlat",
+      "fusha_ar": "الثلاثاء",
+      "fr": "Mardi"
+    },
+    {
+      "id": 267,
+      "category": "الوقت",
+      "darija_ar": "الأربعاء",
+      "darija_latin": "larb3",
+      "fusha_ar": "الأربعاء",
+      "fr": "Mercredi"
+    },
+    {
+      "id": 268,
+      "category": "الوقت",
+      "darija_ar": "الخميس",
+      "darija_latin": "lkhmis",
+      "fusha_ar": "الخميس",
+      "fr": "Jeudi"
+    },
+    {
+      "id": 269,
+      "category": "الوقت",
+      "darija_ar": "الجمعة",
+      "darija_latin": "jem3a",
+      "fusha_ar": "الجمعة",
+      "fr": "Vendredi"
+    },
+    {
+      "id": 270,
+      "category": "الوقت",
+      "darija_ar": "السبت",
+      "darija_latin": "sebt",
+      "fusha_ar": "السبت",
+      "fr": "Samedi"
+    },
+    {
+      "id": 271,
+      "category": "الوقت",
+      "darija_ar": "الأحد",
+      "darija_latin": "l7ed",
+      "fusha_ar": "الأحد",
+      "fr": "Dimanche"
+    },
+    {
+      "id": 272,
+      "category": "الوقت",
+      "darija_ar": "الربيع",
+      "darija_latin": "rbi3",
+      "fusha_ar": "الربيع",
+      "fr": "Printemps"
+    },
+    {
+      "id": 273,
+      "category": "الوقت",
+      "darija_ar": "الصيف",
+      "darija_latin": "sif",
+      "fusha_ar": "الصيف",
+      "fr": "Été"
+    },
+    {
+      "id": 274,
+      "category": "الوقت",
+      "darija_ar": "الخريف",
+      "darija_latin": "lkhrif",
+      "fusha_ar": "الخريف",
+      "fr": "Automne"
+    },
+    {
+      "id": 275,
+      "category": "الوقت",
+      "darija_ar": "فصل الشتاء",
+      "darija_latin": "fsl chta",
+      "fusha_ar": "فصل الشتاء",
+      "fr": "Saison d'hiver"
+    },
+    {
+      "id": 276,
       "category": "الطقس",
       "darija_ar": "الجو",
       "darija_latin": "jjou",
@@ -1635,7 +2394,7 @@
       "fr": "Le temps"
     },
     {
-      "id": 183,
+      "id": 277,
       "category": "الطقس",
       "darija_ar": "سخون",
       "darija_latin": "skhoun",
@@ -1643,7 +2402,7 @@
       "fr": "Chaud"
     },
     {
-      "id": 184,
+      "id": 278,
       "category": "الطقس",
       "darija_ar": "برد",
       "darija_latin": "berd",
@@ -1651,7 +2410,7 @@
       "fr": "Froid"
     },
     {
-      "id": 185,
+      "id": 279,
       "category": "الطقس",
       "darija_ar": "الشتا",
       "darija_latin": "chta",
@@ -1659,7 +2418,7 @@
       "fr": "La pluie"
     },
     {
-      "id": 186,
+      "id": 280,
       "category": "الطقس",
       "darija_ar": "الريح",
       "darija_latin": "ri7",
@@ -1667,7 +2426,7 @@
       "fr": "Le vent"
     },
     {
-      "id": 187,
+      "id": 281,
       "category": "الطقس",
       "darija_ar": "الشمس",
       "darija_latin": "chems",
@@ -1675,7 +2434,7 @@
       "fr": "Le soleil"
     },
     {
-      "id": 188,
+      "id": 282,
       "category": "الطقس",
       "darija_ar": "السحاب",
       "darija_latin": "ss7ab",
@@ -1683,7 +2442,7 @@
       "fr": "Les nuages"
     },
     {
-      "id": 189,
+      "id": 283,
       "category": "الطقس",
       "darija_ar": "التلج",
       "darija_latin": "telj",
@@ -1691,7 +2450,79 @@
       "fr": "La neige"
     },
     {
-      "id": 190,
+      "id": 284,
+      "category": "الطقس",
+      "darija_ar": "غائم",
+      "darija_latin": "mghayem",
+      "fusha_ar": "غائم",
+      "fr": "Nuageux"
+    },
+    {
+      "id": 285,
+      "category": "الطقس",
+      "darija_ar": "رطب",
+      "darija_latin": "rteb",
+      "fusha_ar": "رطب",
+      "fr": "Humide"
+    },
+    {
+      "id": 286,
+      "category": "الطقس",
+      "darija_ar": "ضبابي",
+      "darija_latin": "mdabeb",
+      "fusha_ar": "ضبابي",
+      "fr": "Brumeux"
+    },
+    {
+      "id": 287,
+      "category": "الطقس",
+      "darija_ar": "مشمس",
+      "darija_latin": "mchemche",
+      "fusha_ar": "مشمس",
+      "fr": "Ensoleillé"
+    },
+    {
+      "id": 288,
+      "category": "الطقس",
+      "darija_ar": "الشتا كاتطيح",
+      "darija_latin": "chta katTi7",
+      "fusha_ar": "تمطر",
+      "fr": "Il pleut"
+    },
+    {
+      "id": 289,
+      "category": "الطقس",
+      "darija_ar": "الشتا كاتطيح بزاف",
+      "darija_latin": "chta katTi7 bzzaf",
+      "fusha_ar": "تمطر بغزارة",
+      "fr": "Il pleut fort"
+    },
+    {
+      "id": 290,
+      "category": "الطقس",
+      "darija_ar": "التلج كاينزل",
+      "darija_latin": "telj kaynzel",
+      "fusha_ar": "ينزل الثلج",
+      "fr": "Il neige"
+    },
+    {
+      "id": 291,
+      "category": "الطقس",
+      "darija_ar": "الجو خايب",
+      "darija_latin": "ljwa khayeb",
+      "fusha_ar": "الطقس سيئ",
+      "fr": "Mauvais temps"
+    },
+    {
+      "id": 292,
+      "category": "الطقس",
+      "darija_ar": "الجو مزيان",
+      "darija_latin": "ljwa mzyan",
+      "fusha_ar": "الطقس جيد",
+      "fr": "Beau temps"
+    },
+    {
+      "id": 293,
       "category": "الصفات",
       "darija_ar": "مزيان",
       "darija_latin": "mzyan",
@@ -1699,7 +2530,7 @@
       "fr": "Bien / bon"
     },
     {
-      "id": 191,
+      "id": 294,
       "category": "الصفات",
       "darija_ar": "مزيانة",
       "darija_latin": "mzyana",
@@ -1707,7 +2538,7 @@
       "fr": "Bonne"
     },
     {
-      "id": 192,
+      "id": 295,
       "category": "الصفات",
       "darija_ar": "شوية",
       "darija_latin": "chwiya",
@@ -1715,7 +2546,7 @@
       "fr": "Un peu"
     },
     {
-      "id": 193,
+      "id": 296,
       "category": "الصفات",
       "darija_ar": "بزاف",
       "darija_latin": "bzaf",
@@ -1723,7 +2554,7 @@
       "fr": "Beaucoup"
     },
     {
-      "id": 194,
+      "id": 297,
       "category": "الصفات",
       "darija_ar": "كبير",
       "darija_latin": "kbir",
@@ -1731,7 +2562,7 @@
       "fr": "Grand"
     },
     {
-      "id": 195,
+      "id": 298,
       "category": "الصفات",
       "darija_ar": "صغير",
       "darija_latin": "sghir",
@@ -1739,7 +2570,7 @@
       "fr": "Petit"
     },
     {
-      "id": 196,
+      "id": 299,
       "category": "الصفات",
       "darija_ar": "زوين",
       "darija_latin": "zwin",
@@ -1747,7 +2578,7 @@
       "fr": "Beau"
     },
     {
-      "id": 197,
+      "id": 300,
       "category": "الصفات",
       "darija_ar": "زوينة",
       "darija_latin": "zwina",
@@ -1755,7 +2586,7 @@
       "fr": "Belle"
     },
     {
-      "id": 198,
+      "id": 301,
       "category": "الصفات",
       "darija_ar": "خايب",
       "darija_latin": "khayeb",
@@ -1763,7 +2594,7 @@
       "fr": "Mauvais"
     },
     {
-      "id": 199,
+      "id": 302,
       "category": "الصفات",
       "darija_ar": "ساهل",
       "darija_latin": "sahel",
@@ -1771,7 +2602,7 @@
       "fr": "Facile"
     },
     {
-      "id": 200,
+      "id": 303,
       "category": "الصفات",
       "darija_ar": "صعيب",
       "darija_latin": "s3ib",
@@ -1779,7 +2610,7 @@
       "fr": "Difficile"
     },
     {
-      "id": 201,
+      "id": 304,
       "category": "الصفات",
       "darija_ar": "غالي",
       "darija_latin": "ghali",
@@ -1787,7 +2618,7 @@
       "fr": "Cher"
     },
     {
-      "id": 202,
+      "id": 305,
       "category": "الصفات",
       "darija_ar": "رخيص",
       "darija_latin": "rkhis",
@@ -1795,7 +2626,7 @@
       "fr": "Bon marché"
     },
     {
-      "id": 203,
+      "id": 306,
       "category": "الصفات",
       "darija_ar": "جديد",
       "darija_latin": "jdid",
@@ -1803,7 +2634,7 @@
       "fr": "Nouveau"
     },
     {
-      "id": 204,
+      "id": 307,
       "category": "الصفات",
       "darija_ar": "قديم",
       "darija_latin": "qdim",
@@ -1811,7 +2642,7 @@
       "fr": "Vieux"
     },
     {
-      "id": 205,
+      "id": 308,
       "category": "الصفات",
       "darija_ar": "مليح",
       "darija_latin": "mli7",
@@ -1819,7 +2650,7 @@
       "fr": "Bien"
     },
     {
-      "id": 206,
+      "id": 309,
       "category": "التعبيرات الشائعة",
       "darija_ar": "إن شاء الله",
       "darija_latin": "incha llah",
@@ -1827,7 +2658,7 @@
       "fr": "Si Dieu le veut"
     },
     {
-      "id": 207,
+      "id": 310,
       "category": "التعبيرات الشائعة",
       "darija_ar": "الحمد لله",
       "darija_latin": "l7amdoullah",
@@ -1835,7 +2666,7 @@
       "fr": "Dieu merci"
     },
     {
-      "id": 208,
+      "id": 311,
       "category": "التعبيرات الشائعة",
       "darija_ar": "ما شاء الله",
       "darija_latin": "macha llah",
@@ -1843,7 +2674,7 @@
       "fr": "Masha'Allah"
     },
     {
-      "id": 209,
+      "id": 312,
       "category": "التعبيرات الشائعة",
       "darija_ar": "الله يبارك",
       "darija_latin": "llah ybarek",
@@ -1851,7 +2682,7 @@
       "fr": "Que Dieu bénisse"
     },
     {
-      "id": 210,
+      "id": 313,
       "category": "التعبيرات الشائعة",
       "darija_ar": "غير",
       "darija_latin": "ghir",
@@ -1859,7 +2690,7 @@
       "fr": "Seulement / que"
     },
     {
-      "id": 211,
+      "id": 314,
       "category": "التعبيرات الشائعة",
       "darija_ar": "حتى",
       "darija_latin": "7ta",
@@ -1867,7 +2698,7 @@
       "fr": "Jusqu'à / même"
     },
     {
-      "id": 212,
+      "id": 315,
       "category": "التعبيرات الشائعة",
       "darija_ar": "ولا",
       "darija_latin": "wla",
@@ -1875,7 +2706,7 @@
       "fr": "Ou"
     },
     {
-      "id": 213,
+      "id": 316,
       "category": "التعبيرات الشائعة",
       "darija_ar": "حيت",
       "darija_latin": "7it",
@@ -1883,7 +2714,7 @@
       "fr": "Parce que"
     },
     {
-      "id": 214,
+      "id": 317,
       "category": "التعبيرات الشائعة",
       "darija_ar": "باش",
       "darija_latin": "bach",
@@ -1891,7 +2722,7 @@
       "fr": "Pour / afin que"
     },
     {
-      "id": 215,
+      "id": 318,
       "category": "التعبيرات الشائعة",
       "darija_ar": "إيلا",
       "darija_latin": "ila",
@@ -1899,7 +2730,7 @@
       "fr": "Si"
     },
     {
-      "id": 216,
+      "id": 319,
       "category": "التعبيرات الشائعة",
       "darija_ar": "عاد",
       "darija_latin": "3ad",
@@ -1907,7 +2738,7 @@
       "fr": "Alors / seulement"
     },
     {
-      "id": 217,
+      "id": 320,
       "category": "التعبيرات الشائعة",
       "darija_ar": "دغيا",
       "darija_latin": "dghya",
@@ -1915,7 +2746,7 @@
       "fr": "Vite / bientôt"
     },
     {
-      "id": 218,
+      "id": 321,
       "category": "التعبيرات الشائعة",
       "darija_ar": "بصح",
       "darija_latin": "bssa7",
@@ -1923,7 +2754,7 @@
       "fr": "Mais / vraiment"
     },
     {
-      "id": 219,
+      "id": 322,
       "category": "التعبيرات الشائعة",
       "darija_ar": "وخا",
       "darija_latin": "wkha",
@@ -1931,7 +2762,7 @@
       "fr": "Même si"
     },
     {
-      "id": 220,
+      "id": 323,
       "category": "التعبيرات الشائعة",
       "darija_ar": "بحال",
       "darija_latin": "b7al",
@@ -1939,7 +2770,87 @@
       "fr": "Comme"
     },
     {
-      "id": 221,
+      "id": 324,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "سير نيشان",
+      "darija_latin": "sir nichan",
+      "fusha_ar": "امشِ مباشرة",
+      "fr": "Tout droit"
+    },
+    {
+      "id": 325,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "دور على اليسار",
+      "darija_latin": "dour 3la liser",
+      "fusha_ar": "انعطف يسارًا",
+      "fr": "À gauche"
+    },
+    {
+      "id": 326,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "دور على اليمين",
+      "darija_latin": "dour 3la limen",
+      "fusha_ar": "انعطف يمينًا",
+      "fr": "À droite"
+    },
+    {
+      "id": 327,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "عاوني",
+      "darija_latin": "3awni",
+      "fusha_ar": "النجدة",
+      "fr": "Au secours"
+    },
+    {
+      "id": 328,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "بغيت طبيب",
+      "darija_latin": "bghit tbib",
+      "fusha_ar": "أحتاج طبيبًا",
+      "fr": "Je veux un médecin"
+    },
+    {
+      "id": 329,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "أنا مريض",
+      "darija_latin": "ana mriD",
+      "fusha_ar": "أنا مريض",
+      "fr": "Je suis malade"
+    },
+    {
+      "id": 330,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "عيد ميلاد سعيد",
+      "darija_latin": "3id milad sa3id",
+      "fusha_ar": "عيد ميلاد سعيد",
+      "fr": "Joyeux anniversaire"
+    },
+    {
+      "id": 331,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "سنة سعيدة",
+      "darija_latin": "sana sa3ida",
+      "fusha_ar": "سنة سعيدة",
+      "fr": "Bonne année"
+    },
+    {
+      "id": 332,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "مبروك",
+      "darija_latin": "mabrouk",
+      "fusha_ar": "مبروك",
+      "fr": "Félicitations"
+    },
+    {
+      "id": 333,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "بون شونص",
+      "darija_latin": "bon chans",
+      "fusha_ar": "حظًا سعيدًا",
+      "fr": "Bonne chance"
+    },
+    {
+      "id": 334,
       "category": "المال والتسوق",
       "darija_ar": "فلوس",
       "darija_latin": "flous",
@@ -1947,7 +2858,7 @@
       "fr": "Argent"
     },
     {
-      "id": 222,
+      "id": 335,
       "category": "المال والتسوق",
       "darija_ar": "درهم",
       "darija_latin": "derham",
@@ -1955,7 +2866,7 @@
       "fr": "Dirham"
     },
     {
-      "id": 223,
+      "id": 336,
       "category": "المال والتسوق",
       "darija_ar": "شحال هادا؟",
       "darija_latin": "ch7al hada?",
@@ -1963,7 +2874,7 @@
       "fr": "Combien ça coûte ?"
     },
     {
-      "id": 224,
+      "id": 337,
       "category": "المال والتسوق",
       "darija_ar": "غالي بزاف",
       "darija_latin": "ghali bzaf",
@@ -1971,7 +2882,7 @@
       "fr": "Trop cher"
     },
     {
-      "id": 225,
+      "id": 338,
       "category": "المال والتسوق",
       "darija_ar": "نقص شوية",
       "darija_latin": "nqes chwiya",
@@ -1979,7 +2890,7 @@
       "fr": "Baisse un peu"
     },
     {
-      "id": 226,
+      "id": 339,
       "category": "المال والتسوق",
       "darija_ar": "الحساب",
       "darija_latin": "l7sab",
@@ -1987,7 +2898,7 @@
       "fr": "L'addition"
     },
     {
-      "id": 227,
+      "id": 340,
       "category": "المال والتسوق",
       "darija_ar": "صرف",
       "darija_latin": "sref",
@@ -1995,7 +2906,7 @@
       "fr": "Monnaie"
     },
     {
-      "id": 228,
+      "id": 341,
       "category": "المال والتسوق",
       "darija_ar": "بيع",
       "darija_latin": "bi3",
@@ -2003,7 +2914,7 @@
       "fr": "Vendre"
     },
     {
-      "id": 229,
+      "id": 342,
       "category": "المال والتسوق",
       "darija_ar": "شرا",
       "darija_latin": "chra",
@@ -2011,7 +2922,7 @@
       "fr": "Acheter"
     },
     {
-      "id": 230,
+      "id": 343,
       "category": "المال والتسوق",
       "darija_ar": "خلص",
       "darija_latin": "khles",
@@ -2019,7 +2930,95 @@
       "fr": "Paie"
     },
     {
-      "id": 231,
+      "id": 344,
+      "category": "المال والتسوق",
+      "darija_ar": "التمن",
+      "darija_latin": "ttaman",
+      "fusha_ar": "الثمن",
+      "fr": "Prix"
+    },
+    {
+      "id": 345,
+      "category": "المال والتسوق",
+      "darija_ar": "كرا",
+      "darija_latin": "kra",
+      "fusha_ar": "الكراء",
+      "fr": "Loyer"
+    },
+    {
+      "id": 346,
+      "category": "المال والتسوق",
+      "darija_ar": "سلف",
+      "darija_latin": "salaf",
+      "fusha_ar": "السلف",
+      "fr": "Prêt"
+    },
+    {
+      "id": 347,
+      "category": "المال والتسوق",
+      "darija_ar": "قرض",
+      "darija_latin": "9arD",
+      "fusha_ar": "القرض",
+      "fr": "Crédit"
+    },
+    {
+      "id": 348,
+      "category": "المال والتسوق",
+      "darija_ar": "الربح",
+      "darija_latin": "rrab7",
+      "fusha_ar": "الربح",
+      "fr": "Profit"
+    },
+    {
+      "id": 349,
+      "category": "المال والتسوق",
+      "darija_ar": "ضريبة",
+      "darija_latin": "Dariba",
+      "fusha_ar": "الضريبة",
+      "fr": "Impôt"
+    },
+    {
+      "id": 350,
+      "category": "المال والتسوق",
+      "darija_ar": "شهرية",
+      "darija_latin": "chahria",
+      "fusha_ar": "الراتب",
+      "fr": "Salaire"
+    },
+    {
+      "id": 351,
+      "category": "المال والتسوق",
+      "darija_ar": "ميزانية",
+      "darija_latin": "mizania",
+      "fusha_ar": "الميزانية",
+      "fr": "Budget"
+    },
+    {
+      "id": 352,
+      "category": "المال والتسوق",
+      "darija_ar": "فاكتورة",
+      "darija_latin": "faktoura",
+      "fusha_ar": "الفاتورة",
+      "fr": "Facture"
+    },
+    {
+      "id": 353,
+      "category": "المال والتسوق",
+      "darija_ar": "بورصة",
+      "darija_latin": "borSa",
+      "fusha_ar": "البورصة",
+      "fr": "Bourse"
+    },
+    {
+      "id": 354,
+      "category": "المال والتسوق",
+      "darija_ar": "سوبر ماركت",
+      "darija_latin": "supermarket",
+      "fusha_ar": "سوبر ماركت",
+      "fr": "Supermarché"
+    },
+    {
+      "id": 355,
       "category": "النقل",
       "darija_ar": "طوموبيل",
       "darija_latin": "tomobil",
@@ -2027,7 +3026,7 @@
       "fr": "Voiture"
     },
     {
-      "id": 232,
+      "id": 356,
       "category": "النقل",
       "darija_ar": "كرهبة",
       "darija_latin": "karhaba",
@@ -2035,7 +3034,7 @@
       "fr": "Voiture (familier)"
     },
     {
-      "id": 233,
+      "id": 357,
       "category": "النقل",
       "darija_ar": "طاكسي",
       "darija_latin": "taksi",
@@ -2043,7 +3042,7 @@
       "fr": "Taxi"
     },
     {
-      "id": 234,
+      "id": 358,
       "category": "النقل",
       "darija_ar": "طوبيس",
       "darija_latin": "tobis",
@@ -2051,7 +3050,7 @@
       "fr": "Bus"
     },
     {
-      "id": 235,
+      "id": 359,
       "category": "النقل",
       "darija_ar": "قطار",
       "darija_latin": "qtar",
@@ -2059,7 +3058,7 @@
       "fr": "Train"
     },
     {
-      "id": 236,
+      "id": 360,
       "category": "النقل",
       "darija_ar": "طيارة",
       "darija_latin": "tyara",
@@ -2067,7 +3066,7 @@
       "fr": "Avion"
     },
     {
-      "id": 237,
+      "id": 361,
       "category": "النقل",
       "darija_ar": "محطة",
       "darija_latin": "ma7atta",
@@ -2075,7 +3074,7 @@
       "fr": "Gare"
     },
     {
-      "id": 238,
+      "id": 362,
       "category": "النقل",
       "darija_ar": "طريق",
       "darija_latin": "triq",
@@ -2083,7 +3082,7 @@
       "fr": "Route"
     },
     {
-      "id": 239,
+      "id": 363,
       "category": "النقل",
       "darija_ar": "شارع",
       "darija_latin": "char3",
@@ -2091,7 +3090,7 @@
       "fr": "Rue"
     },
     {
-      "id": 240,
+      "id": 364,
       "category": "النقل",
       "darija_ar": "بلاصة",
       "darija_latin": "blassa",
@@ -2099,7 +3098,47 @@
       "fr": "Endroit"
     },
     {
-      "id": 241,
+      "id": 365,
+      "category": "النقل",
+      "darija_ar": "بالدراجة",
+      "darija_latin": "b bisklit",
+      "fusha_ar": "بالدراجة",
+      "fr": "À vélo"
+    },
+    {
+      "id": 366,
+      "category": "النقل",
+      "darija_ar": "بالحافلة",
+      "darija_latin": "b tubis",
+      "fusha_ar": "بالحافلة",
+      "fr": "En bus"
+    },
+    {
+      "id": 367,
+      "category": "النقل",
+      "darija_ar": "بالسيارة",
+      "darija_latin": "b tomobil",
+      "fusha_ar": "بالسيارة",
+      "fr": "En voiture"
+    },
+    {
+      "id": 368,
+      "category": "النقل",
+      "darija_ar": "بالقطار",
+      "darija_latin": "b train",
+      "fusha_ar": "بالقطار",
+      "fr": "En train"
+    },
+    {
+      "id": 369,
+      "category": "النقل",
+      "darija_ar": "على رجليا",
+      "darija_latin": "3la rjliya",
+      "fusha_ar": "سيرا على الأقدام",
+      "fr": "À pied"
+    },
+    {
+      "id": 370,
       "category": "الصحة",
       "darija_ar": "صحة",
       "darija_latin": "s7a",
@@ -2107,7 +3146,7 @@
       "fr": "Santé"
     },
     {
-      "id": 242,
+      "id": 371,
       "category": "الصحة",
       "darija_ar": "مريض",
       "darija_latin": "mrid",
@@ -2115,7 +3154,7 @@
       "fr": "Malade"
     },
     {
-      "id": 243,
+      "id": 372,
       "category": "الصحة",
       "darija_ar": "طبيب",
       "darija_latin": "tbib",
@@ -2123,7 +3162,7 @@
       "fr": "Médecin"
     },
     {
-      "id": 244,
+      "id": 373,
       "category": "الصحة",
       "darija_ar": "صيدلية",
       "darija_latin": "saydaliya",
@@ -2131,7 +3170,7 @@
       "fr": "Pharmacie"
     },
     {
-      "id": 245,
+      "id": 374,
       "category": "الصحة",
       "darija_ar": "سبيطار",
       "darija_latin": "sbitar",
@@ -2139,7 +3178,7 @@
       "fr": "Hôpital"
     },
     {
-      "id": 246,
+      "id": 375,
       "category": "الصحة",
       "darija_ar": "دواء",
       "darija_latin": "dwa",
@@ -2147,7 +3186,7 @@
       "fr": "Médicament"
     },
     {
-      "id": 247,
+      "id": 376,
       "category": "الصحة",
       "darija_ar": "وجع",
       "darija_latin": "wje3",
@@ -2155,7 +3194,7 @@
       "fr": "Douleur"
     },
     {
-      "id": 248,
+      "id": 377,
       "category": "الصحة",
       "darija_ar": "راسي كيوجعني",
       "darija_latin": "rasi kaywja3ni",
@@ -2163,7 +3202,167 @@
       "fr": "J'ai mal à la tête"
     },
     {
-      "id": 249,
+      "id": 378,
+      "category": "الصحة",
+      "darija_ar": "الرواح",
+      "darija_latin": "rrwa7",
+      "fusha_ar": "الإنفلونزا",
+      "fr": "Grippe"
+    },
+    {
+      "id": 379,
+      "category": "الصحة",
+      "darija_ar": "سكار",
+      "darija_latin": "skkar",
+      "fusha_ar": "داء السكري",
+      "fr": "Diabète"
+    },
+    {
+      "id": 380,
+      "category": "الصحة",
+      "darija_ar": "صداع",
+      "darija_latin": "Sda3",
+      "fusha_ar": "الصداع",
+      "fr": "Mal de tête"
+    },
+    {
+      "id": 381,
+      "category": "الصحة",
+      "darija_ar": "حساسية",
+      "darija_latin": "7asasia",
+      "fusha_ar": "الحساسية",
+      "fr": "Allergie"
+    },
+    {
+      "id": 382,
+      "category": "الصحة",
+      "darija_ar": "الضيقا",
+      "darija_latin": "DDi9a",
+      "fusha_ar": "الربو",
+      "fr": "Asthme"
+    },
+    {
+      "id": 383,
+      "category": "الصحة",
+      "darija_ar": "تنفس",
+      "darija_latin": "tanffos",
+      "fusha_ar": "التنفس",
+      "fr": "Respiration"
+    },
+    {
+      "id": 384,
+      "category": "الصحة",
+      "darija_ar": "طب",
+      "darija_latin": "Tibb",
+      "fusha_ar": "الطب",
+      "fr": "Médecine"
+    },
+    {
+      "id": 385,
+      "category": "الصحة",
+      "darija_ar": "مرض",
+      "darija_latin": "maraD",
+      "fusha_ar": "المرض",
+      "fr": "Maladie"
+    },
+    {
+      "id": 386,
+      "category": "الصحة",
+      "darija_ar": "كونصير",
+      "darija_latin": "konSir",
+      "fusha_ar": "السرطان",
+      "fr": "Cancer"
+    },
+    {
+      "id": 387,
+      "category": "الصحة",
+      "darija_ar": "أرق",
+      "darija_latin": "ara9",
+      "fusha_ar": "الأرق",
+      "fr": "Insomnie"
+    },
+    {
+      "id": 388,
+      "category": "الصحة",
+      "darija_ar": "السهال",
+      "darija_latin": "sshal",
+      "fusha_ar": "الإسهال",
+      "fr": "Diarrhée"
+    },
+    {
+      "id": 389,
+      "category": "الصحة",
+      "darija_ar": "جرحة",
+      "darija_latin": "jer7a",
+      "fusha_ar": "الجرح",
+      "fr": "Blessure"
+    },
+    {
+      "id": 390,
+      "category": "الصحة",
+      "darija_ar": "تقيا",
+      "darija_latin": "t9ya",
+      "fusha_ar": "التقيؤ",
+      "fr": "Vomissement"
+    },
+    {
+      "id": 391,
+      "category": "الصحة",
+      "darija_ar": "عكاز",
+      "darija_latin": "3kkaz",
+      "fusha_ar": "العكاز",
+      "fr": "Béquille"
+    },
+    {
+      "id": 392,
+      "category": "الصحة",
+      "darija_ar": "بنج",
+      "darija_latin": "benj",
+      "fusha_ar": "التخدير",
+      "fr": "Anesthésie"
+    },
+    {
+      "id": 393,
+      "category": "الصحة",
+      "darija_ar": "عطسة",
+      "darija_latin": "3aTsa",
+      "fusha_ar": "العطسة",
+      "fr": "Éternuement"
+    },
+    {
+      "id": 394,
+      "category": "الصحة",
+      "darija_ar": "كحبة",
+      "darija_latin": "k7ba",
+      "fusha_ar": "السعال",
+      "fr": "Toux"
+    },
+    {
+      "id": 395,
+      "category": "الصحة",
+      "darija_ar": "لامبولونس",
+      "darija_latin": "lambulons",
+      "fusha_ar": "سيارة الإسعاف",
+      "fr": "Ambulance"
+    },
+    {
+      "id": 396,
+      "category": "الصحة",
+      "darija_ar": "ألم المعدة",
+      "darija_latin": "wja3 lme3da",
+      "fusha_ar": "ألم المعدة",
+      "fr": "Mal d'estomac"
+    },
+    {
+      "id": 397,
+      "category": "الصحة",
+      "darija_ar": "طبيب الأسنان",
+      "darija_latin": "tbib snan",
+      "fusha_ar": "طبيب الأسنان",
+      "fr": "Dentiste"
+    },
+    {
+      "id": 398,
       "category": "العمل والدراسة",
       "darija_ar": "خدمة",
       "darija_latin": "khedma",
@@ -2171,7 +3370,7 @@
       "fr": "Travail"
     },
     {
-      "id": 250,
+      "id": 399,
       "category": "العمل والدراسة",
       "darija_ar": "معلم",
       "darija_latin": "m3allem",
@@ -2179,7 +3378,7 @@
       "fr": "Professeur"
     },
     {
-      "id": 251,
+      "id": 400,
       "category": "العمل والدراسة",
       "darija_ar": "مدرسة",
       "darija_latin": "medrasa",
@@ -2187,7 +3386,7 @@
       "fr": "École"
     },
     {
-      "id": 252,
+      "id": 401,
       "category": "العمل والدراسة",
       "darija_ar": "جامعة",
       "darija_latin": "jam3a",
@@ -2195,7 +3394,7 @@
       "fr": "Université"
     },
     {
-      "id": 253,
+      "id": 402,
       "category": "العمل والدراسة",
       "darija_ar": "كتاب",
       "darija_latin": "ktab",
@@ -2203,7 +3402,7 @@
       "fr": "Livre"
     },
     {
-      "id": 254,
+      "id": 403,
       "category": "العمل والدراسة",
       "darija_ar": "قلم",
       "darija_latin": "qlam",
@@ -2211,7 +3410,7 @@
       "fr": "Stylo"
     },
     {
-      "id": 255,
+      "id": 404,
       "category": "العمل والدراسة",
       "darija_ar": "امتحان",
       "darija_latin": "imti7an",
@@ -2219,7 +3418,7 @@
       "fr": "Examen"
     },
     {
-      "id": 256,
+      "id": 405,
       "category": "العمل والدراسة",
       "darija_ar": "أستاذ",
       "darija_latin": "ostad",
@@ -2227,7 +3426,7 @@
       "fr": "Professeur (université)"
     },
     {
-      "id": 257,
+      "id": 406,
       "category": "العمل والدراسة",
       "darija_ar": "طالب",
       "darija_latin": "taleb",
@@ -2235,7 +3434,7 @@
       "fr": "Étudiant"
     },
     {
-      "id": 258,
+      "id": 407,
       "category": "العمل والدراسة",
       "darija_ar": "شركة",
       "darija_latin": "cherka",
@@ -2243,7 +3442,7 @@
       "fr": "Entreprise"
     },
     {
-      "id": 259,
+      "id": 408,
       "category": "العمل والدراسة",
       "darija_ar": "مكتب",
       "darija_latin": "maktab",
@@ -2251,7 +3450,7 @@
       "fr": "Bureau"
     },
     {
-      "id": 260,
+      "id": 409,
       "category": "العمل والدراسة",
       "darija_ar": "رئيس",
       "darija_latin": "rayess",
@@ -2259,7 +3458,255 @@
       "fr": "Chef"
     },
     {
-      "id": 261,
+      "id": 410,
+      "category": "العمل والدراسة",
+      "darija_ar": "تلميد",
+      "darija_latin": "tlmid",
+      "fusha_ar": "التلميذ",
+      "fr": "Élève"
+    },
+    {
+      "id": 411,
+      "category": "العمل والدراسة",
+      "darija_ar": "سبورة",
+      "darija_latin": "sbbora",
+      "fusha_ar": "السبورة",
+      "fr": "Tableau"
+    },
+    {
+      "id": 412,
+      "category": "العمل والدراسة",
+      "darija_ar": "طباشير",
+      "darija_latin": "Tabachir",
+      "fusha_ar": "الطباشير",
+      "fr": "Craie"
+    },
+    {
+      "id": 413,
+      "category": "العمل والدراسة",
+      "darija_ar": "فيزيك",
+      "darija_latin": "fizik",
+      "fusha_ar": "الفيزياء",
+      "fr": "Physique"
+    },
+    {
+      "id": 414,
+      "category": "العمل والدراسة",
+      "darija_ar": "تاريخ",
+      "darija_latin": "tarikh",
+      "fusha_ar": "التاريخ",
+      "fr": "Histoire"
+    },
+    {
+      "id": 415,
+      "category": "العمل والدراسة",
+      "darija_ar": "رياضيات",
+      "darija_latin": "ryaDiat",
+      "fusha_ar": "الرياضيات",
+      "fr": "Mathématiques"
+    },
+    {
+      "id": 416,
+      "category": "العمل والدراسة",
+      "darija_ar": "درس",
+      "darija_latin": "ders",
+      "fusha_ar": "الدرس",
+      "fr": "Leçon"
+    },
+    {
+      "id": 417,
+      "category": "العمل والدراسة",
+      "darija_ar": "دفتر",
+      "darija_latin": "deftar",
+      "fusha_ar": "الدفتر",
+      "fr": "Cahier"
+    },
+    {
+      "id": 418,
+      "category": "العمل والدراسة",
+      "darija_ar": "قسم",
+      "darija_latin": "9ism",
+      "fusha_ar": "القسم",
+      "fr": "Classe"
+    },
+    {
+      "id": 419,
+      "category": "العمل والدراسة",
+      "darija_ar": "لغة",
+      "darija_latin": "logha",
+      "fusha_ar": "اللغة",
+      "fr": "Langue"
+    },
+    {
+      "id": 420,
+      "category": "العمل والدراسة",
+      "darija_ar": "كلمة",
+      "darija_latin": "kelma",
+      "fusha_ar": "الكلمة",
+      "fr": "Mot"
+    },
+    {
+      "id": 421,
+      "category": "العمل والدراسة",
+      "darija_ar": "جملة",
+      "darija_latin": "jomla",
+      "fusha_ar": "الجملة",
+      "fr": "Phrase"
+    },
+    {
+      "id": 422,
+      "category": "العمل والدراسة",
+      "darija_ar": "سؤال",
+      "darija_latin": "sou2al",
+      "fusha_ar": "السؤال",
+      "fr": "Question"
+    },
+    {
+      "id": 423,
+      "category": "العمل والدراسة",
+      "darija_ar": "جواب",
+      "darija_latin": "jawab",
+      "fusha_ar": "الجواب",
+      "fr": "Réponse"
+    },
+    {
+      "id": 424,
+      "category": "العمل والدراسة",
+      "darija_ar": "العربية",
+      "darija_latin": "l3arbiya",
+      "fusha_ar": "العربية",
+      "fr": "Arabe"
+    },
+    {
+      "id": 425,
+      "category": "العمل والدراسة",
+      "darija_ar": "نڭليزية",
+      "darija_latin": "ngliziya",
+      "fusha_ar": "الإنجليزية",
+      "fr": "Anglais"
+    },
+    {
+      "id": 426,
+      "category": "العمل والدراسة",
+      "darija_ar": "الفرنسية",
+      "darija_latin": "lfransawiya",
+      "fusha_ar": "الفرنسية",
+      "fr": "Français"
+    },
+    {
+      "id": 427,
+      "category": "العمل والدراسة",
+      "darija_ar": "الألمانية",
+      "darija_latin": "lalmaniya",
+      "fusha_ar": "الألمانية",
+      "fr": "Allemand"
+    },
+    {
+      "id": 428,
+      "category": "العمل والدراسة",
+      "darija_ar": "الإسبانية",
+      "darija_latin": "sbanyoliya",
+      "fusha_ar": "الإسبانية",
+      "fr": "Espagnol"
+    },
+    {
+      "id": 429,
+      "category": "العمل والدراسة",
+      "darija_ar": "طاليانية",
+      "darija_latin": "talyaniya",
+      "fusha_ar": "الإيطالية",
+      "fr": "Italien"
+    },
+    {
+      "id": 430,
+      "category": "العمل والدراسة",
+      "darija_ar": "البرتغالية",
+      "darija_latin": "lburtughaliya",
+      "fusha_ar": "البرتغالية",
+      "fr": "Portugais"
+    },
+    {
+      "id": 431,
+      "category": "العمل والدراسة",
+      "darija_ar": "اليونانية",
+      "darija_latin": "lyunaniya",
+      "fusha_ar": "اليونانية",
+      "fr": "Grec"
+    },
+    {
+      "id": 432,
+      "category": "العمل والدراسة",
+      "darija_ar": "الروسية",
+      "darija_latin": "rrusiya",
+      "fusha_ar": "الروسية",
+      "fr": "Russe"
+    },
+    {
+      "id": 433,
+      "category": "العمل والدراسة",
+      "darija_ar": "الهندية",
+      "darija_latin": "lhindiya",
+      "fusha_ar": "الهندية",
+      "fr": "Hindi"
+    },
+    {
+      "id": 434,
+      "category": "العمل والدراسة",
+      "darija_ar": "الصينية",
+      "darija_latin": "chinwiya",
+      "fusha_ar": "الصينية",
+      "fr": "Chinois"
+    },
+    {
+      "id": 435,
+      "category": "العمل والدراسة",
+      "darija_ar": "اليابانية",
+      "darija_latin": "japoniya",
+      "fusha_ar": "اليابانية",
+      "fr": "Japonais"
+    },
+    {
+      "id": 436,
+      "category": "العمل والدراسة",
+      "darija_ar": "صفحة",
+      "darija_latin": "saf7a",
+      "fusha_ar": "صفحة",
+      "fr": "Page"
+    },
+    {
+      "id": 437,
+      "category": "العمل والدراسة",
+      "darija_ar": "قاموس",
+      "darija_latin": "9amus",
+      "fusha_ar": "قاموس",
+      "fr": "Dictionnaire"
+    },
+    {
+      "id": 438,
+      "category": "العمل والدراسة",
+      "darija_ar": "فن",
+      "darija_latin": "fann",
+      "fusha_ar": "الفن",
+      "fr": "Art"
+    },
+    {
+      "id": 439,
+      "category": "العمل والدراسة",
+      "darija_ar": "جغرافيا",
+      "darija_latin": "jughrafya",
+      "fusha_ar": "الجغرافيا",
+      "fr": "Géographie"
+    },
+    {
+      "id": 440,
+      "category": "العمل والدراسة",
+      "darija_ar": "علوم",
+      "darija_latin": "3loum",
+      "fusha_ar": "العلوم",
+      "fr": "Sciences"
+    },
+    {
+      "id": 441,
       "category": "التكنولوجيا",
       "darija_ar": "تيليفون",
       "darija_latin": "tilifoun",
@@ -2267,7 +3714,7 @@
       "fr": "Téléphone"
     },
     {
-      "id": 262,
+      "id": 442,
       "category": "التكنولوجيا",
       "darija_ar": "بورطابل",
       "darija_latin": "portabl",
@@ -2275,7 +3722,7 @@
       "fr": "Téléphone portable"
     },
     {
-      "id": 263,
+      "id": 443,
       "category": "التكنولوجيا",
       "darija_ar": "حاسوب",
       "darija_latin": "7assoub",
@@ -2283,7 +3730,7 @@
       "fr": "Ordinateur"
     },
     {
-      "id": 264,
+      "id": 444,
       "category": "التكنولوجيا",
       "darija_ar": "أنترنيت",
       "darija_latin": "internet",
@@ -2291,7 +3738,7 @@
       "fr": "Internet"
     },
     {
-      "id": 265,
+      "id": 445,
       "category": "التكنولوجيا",
       "darija_ar": "رسالة",
       "darija_latin": "rsala",
@@ -2299,7 +3746,7 @@
       "fr": "Message"
     },
     {
-      "id": 266,
+      "id": 446,
       "category": "التكنولوجيا",
       "darija_ar": "تصويرة",
       "darija_latin": "tsowira",
@@ -2307,7 +3754,7 @@
       "fr": "Photo"
     },
     {
-      "id": 267,
+      "id": 447,
       "category": "التكنولوجيا",
       "darija_ar": "تطبيق",
       "darija_latin": "tatbiq",
@@ -2315,7 +3762,7 @@
       "fr": "Application"
     },
     {
-      "id": 268,
+      "id": 448,
       "category": "التكنولوجيا",
       "darija_ar": "حساب",
       "darija_latin": "7sab",
@@ -2323,7 +3770,7 @@
       "fr": "Compte"
     },
     {
-      "id": 269,
+      "id": 449,
       "category": "التكنولوجيا",
       "darija_ar": "كلمة السر",
       "darija_latin": "kelmet ser",
@@ -2331,7 +3778,7 @@
       "fr": "Mot de passe"
     },
     {
-      "id": 270,
+      "id": 450,
       "category": "التكنولوجيا",
       "darija_ar": "برنامج",
       "darija_latin": "bernamej",
@@ -2339,7 +3786,7 @@
       "fr": "Programme"
     },
     {
-      "id": 271,
+      "id": 451,
       "category": "المشاعر",
       "darija_ar": "فرحان",
       "darija_latin": "ferhan",
@@ -2347,7 +3794,7 @@
       "fr": "Heureux"
     },
     {
-      "id": 272,
+      "id": 452,
       "category": "المشاعر",
       "darija_ar": "حزين",
       "darija_latin": "hzin",
@@ -2355,7 +3802,7 @@
       "fr": "Triste"
     },
     {
-      "id": 273,
+      "id": 453,
       "category": "المشاعر",
       "darija_ar": "خايف",
       "darija_latin": "khayef",
@@ -2363,7 +3810,7 @@
       "fr": "Effrayé"
     },
     {
-      "id": 274,
+      "id": 454,
       "category": "المشاعر",
       "darija_ar": "غضبان",
       "darija_latin": "ghdban",
@@ -2371,7 +3818,7 @@
       "fr": "En colère"
     },
     {
-      "id": 275,
+      "id": 455,
       "category": "المشاعر",
       "darija_ar": "عيان",
       "darija_latin": "3yan",
@@ -2379,7 +3826,7 @@
       "fr": "Fatigué"
     },
     {
-      "id": 276,
+      "id": 456,
       "category": "المشاعر",
       "darija_ar": "ضحك",
       "darija_latin": "d7ek",
@@ -2387,7 +3834,7 @@
       "fr": "Rire"
     },
     {
-      "id": 277,
+      "id": 457,
       "category": "المشاعر",
       "darija_ar": "بكى",
       "darija_latin": "bka",
@@ -2395,7 +3842,7 @@
       "fr": "Pleurer"
     },
     {
-      "id": 278,
+      "id": 458,
       "category": "المشاعر",
       "darija_ar": "كنكره",
       "darija_latin": "kankrah",
@@ -2403,7 +3850,71 @@
       "fr": "Je déteste"
     },
     {
-      "id": 279,
+      "id": 459,
+      "category": "المشاعر",
+      "darija_ar": "قلق",
+      "darija_latin": "9ala9",
+      "fusha_ar": "القلق",
+      "fr": "Inquiétude"
+    },
+    {
+      "id": 460,
+      "category": "المشاعر",
+      "darija_ar": "غضب",
+      "darija_latin": "ghaDab",
+      "fusha_ar": "الغضب",
+      "fr": "Colère"
+    },
+    {
+      "id": 461,
+      "category": "المشاعر",
+      "darija_ar": "خوف",
+      "darija_latin": "khouf",
+      "fusha_ar": "الخوف",
+      "fr": "Peur"
+    },
+    {
+      "id": 462,
+      "category": "المشاعر",
+      "darija_ar": "أمل",
+      "darija_latin": "amal",
+      "fusha_ar": "الأمل",
+      "fr": "Espoir"
+    },
+    {
+      "id": 463,
+      "category": "المشاعر",
+      "darija_ar": "حسد",
+      "darija_latin": "7asad",
+      "fusha_ar": "الحسد",
+      "fr": "Envie"
+    },
+    {
+      "id": 464,
+      "category": "المشاعر",
+      "darija_ar": "شجاعة",
+      "darija_latin": "chaja3a",
+      "fusha_ar": "الشجاعة",
+      "fr": "Courage"
+    },
+    {
+      "id": 465,
+      "category": "المشاعر",
+      "darija_ar": "حنين",
+      "darija_latin": "7anin",
+      "fusha_ar": "الحنين",
+      "fr": "Nostalgie"
+    },
+    {
+      "id": 466,
+      "category": "المشاعر",
+      "darija_ar": "حشمة",
+      "darija_latin": "7achma",
+      "fusha_ar": "الحياء",
+      "fr": "Pudeur"
+    },
+    {
+      "id": 467,
       "category": "جسم الإنسان",
       "darija_ar": "راس",
       "darija_latin": "ras",
@@ -2411,7 +3922,7 @@
       "fr": "Tête"
     },
     {
-      "id": 280,
+      "id": 468,
       "category": "جسم الإنسان",
       "darija_ar": "شعر",
       "darija_latin": "cha3r",
@@ -2419,7 +3930,7 @@
       "fr": "Cheveux"
     },
     {
-      "id": 281,
+      "id": 469,
       "category": "جسم الإنسان",
       "darija_ar": "عين",
       "darija_latin": "3in",
@@ -2427,7 +3938,7 @@
       "fr": "Œil"
     },
     {
-      "id": 282,
+      "id": 470,
       "category": "جسم الإنسان",
       "darija_ar": "عينين",
       "darija_latin": "3ynin",
@@ -2435,7 +3946,7 @@
       "fr": "Yeux"
     },
     {
-      "id": 283,
+      "id": 471,
       "category": "جسم الإنسان",
       "darija_ar": "ودن",
       "darija_latin": "wedn",
@@ -2443,7 +3954,7 @@
       "fr": "Oreille"
     },
     {
-      "id": 284,
+      "id": 472,
       "category": "جسم الإنسان",
       "darija_ar": "نيف",
       "darija_latin": "nif",
@@ -2451,7 +3962,7 @@
       "fr": "Nez"
     },
     {
-      "id": 285,
+      "id": 473,
       "category": "جسم الإنسان",
       "darija_ar": "فم",
       "darija_latin": "fem",
@@ -2459,7 +3970,7 @@
       "fr": "Bouche"
     },
     {
-      "id": 286,
+      "id": 474,
       "category": "جسم الإنسان",
       "darija_ar": "سنان",
       "darija_latin": "snan",
@@ -2467,7 +3978,7 @@
       "fr": "Dents"
     },
     {
-      "id": 287,
+      "id": 475,
       "category": "جسم الإنسان",
       "darija_ar": "لسان",
       "darija_latin": "lsan",
@@ -2475,7 +3986,7 @@
       "fr": "Langue"
     },
     {
-      "id": 288,
+      "id": 476,
       "category": "جسم الإنسان",
       "darija_ar": "رقبة",
       "darija_latin": "rqba",
@@ -2483,7 +3994,7 @@
       "fr": "Cou"
     },
     {
-      "id": 289,
+      "id": 477,
       "category": "جسم الإنسان",
       "darija_ar": "كتف",
       "darija_latin": "ktef",
@@ -2491,7 +4002,7 @@
       "fr": "Épaule"
     },
     {
-      "id": 290,
+      "id": 478,
       "category": "جسم الإنسان",
       "darija_ar": "دراع",
       "darija_latin": "dra3",
@@ -2499,7 +4010,7 @@
       "fr": "Bras"
     },
     {
-      "id": 291,
+      "id": 479,
       "category": "جسم الإنسان",
       "darija_ar": "يد",
       "darija_latin": "yed",
@@ -2507,7 +4018,7 @@
       "fr": "Main"
     },
     {
-      "id": 292,
+      "id": 480,
       "category": "جسم الإنسان",
       "darija_ar": "صباع",
       "darija_latin": "sba3",
@@ -2515,7 +4026,7 @@
       "fr": "Doigt"
     },
     {
-      "id": 293,
+      "id": 481,
       "category": "جسم الإنسان",
       "darija_ar": "صدر",
       "darija_latin": "sder",
@@ -2523,7 +4034,7 @@
       "fr": "Poitrine"
     },
     {
-      "id": 294,
+      "id": 482,
       "category": "جسم الإنسان",
       "darija_ar": "قلب",
       "darija_latin": "qelb",
@@ -2531,7 +4042,7 @@
       "fr": "Cœur"
     },
     {
-      "id": 295,
+      "id": 483,
       "category": "جسم الإنسان",
       "darija_ar": "كرش",
       "darija_latin": "kerch",
@@ -2539,7 +4050,7 @@
       "fr": "Ventre"
     },
     {
-      "id": 296,
+      "id": 484,
       "category": "جسم الإنسان",
       "darija_ar": "ظهر",
       "darija_latin": "dher",
@@ -2547,7 +4058,7 @@
       "fr": "Dos"
     },
     {
-      "id": 297,
+      "id": 485,
       "category": "جسم الإنسان",
       "darija_ar": "رجل",
       "darija_latin": "rjel",
@@ -2555,7 +4066,7 @@
       "fr": "Jambe"
     },
     {
-      "id": 298,
+      "id": 486,
       "category": "جسم الإنسان",
       "darija_ar": "ركبة",
       "darija_latin": "rokba",
@@ -2563,7 +4074,7 @@
       "fr": "Genou"
     },
     {
-      "id": 299,
+      "id": 487,
       "category": "جسم الإنسان",
       "darija_ar": "كعب",
       "darija_latin": "ka3b",
@@ -2571,7 +4082,7 @@
       "fr": "Talon"
     },
     {
-      "id": 300,
+      "id": 488,
       "category": "جسم الإنسان",
       "darija_ar": "دم",
       "darija_latin": "dem",
@@ -2579,7 +4090,7 @@
       "fr": "Sang"
     },
     {
-      "id": 301,
+      "id": 489,
       "category": "جسم الإنسان",
       "darija_ar": "جلد",
       "darija_latin": "jeld",
@@ -2587,7 +4098,7 @@
       "fr": "Peau"
     },
     {
-      "id": 302,
+      "id": 490,
       "category": "جسم الإنسان",
       "darija_ar": "عضم",
       "darija_latin": "3dem",
@@ -2595,7 +4106,7 @@
       "fr": "Os"
     },
     {
-      "id": 303,
+      "id": 491,
       "category": "جسم الإنسان",
       "darija_ar": "وجه",
       "darija_latin": "wjeh",
@@ -2603,7 +4114,7 @@
       "fr": "Visage"
     },
     {
-      "id": 304,
+      "id": 492,
       "category": "جسم الإنسان",
       "darija_ar": "شفايف",
       "darija_latin": "chfayef",
@@ -2611,7 +4122,7 @@
       "fr": "Lèvres"
     },
     {
-      "id": 305,
+      "id": 493,
       "category": "جسم الإنسان",
       "darija_ar": "حاجب",
       "darija_latin": "7ajeb",
@@ -2619,7 +4130,95 @@
       "fr": "Sourcil"
     },
     {
-      "id": 306,
+      "id": 494,
+      "category": "جسم الإنسان",
+      "darija_ar": "دماغ",
+      "darija_latin": "dmagh",
+      "fusha_ar": "الدماغ",
+      "fr": "Cerveau"
+    },
+    {
+      "id": 495,
+      "category": "جسم الإنسان",
+      "darija_ar": "كبدة",
+      "darija_latin": "kbda",
+      "fusha_ar": "الكبد",
+      "fr": "Foie"
+    },
+    {
+      "id": 496,
+      "category": "جسم الإنسان",
+      "darija_ar": "رية",
+      "darija_latin": "riyya",
+      "fusha_ar": "الرئة",
+      "fr": "Poumon"
+    },
+    {
+      "id": 497,
+      "category": "جسم الإنسان",
+      "darija_ar": "كلوة",
+      "darija_latin": "klwa",
+      "fusha_ar": "الكلية",
+      "fr": "Rein"
+    },
+    {
+      "id": 498,
+      "category": "جسم الإنسان",
+      "darija_ar": "مصارن",
+      "darija_latin": "mSarn",
+      "fusha_ar": "الأمعاء",
+      "fr": "Intestins"
+    },
+    {
+      "id": 499,
+      "category": "جسم الإنسان",
+      "darija_ar": "جمجمة",
+      "darija_latin": "jmjoma",
+      "fusha_ar": "الجمجمة",
+      "fr": "Crâne"
+    },
+    {
+      "id": 500,
+      "category": "جسم الإنسان",
+      "darija_ar": "لحية",
+      "darija_latin": "l7ya",
+      "fusha_ar": "اللحية",
+      "fr": "Barbe"
+    },
+    {
+      "id": 501,
+      "category": "جسم الإنسان",
+      "darija_ar": "رموش",
+      "darija_latin": "rmouch",
+      "fusha_ar": "الرموش",
+      "fr": "Cils"
+    },
+    {
+      "id": 502,
+      "category": "جسم الإنسان",
+      "darija_ar": "مرفق",
+      "darija_latin": "mrf9",
+      "fusha_ar": "المرفق",
+      "fr": "Coude"
+    },
+    {
+      "id": 503,
+      "category": "جسم الإنسان",
+      "darija_ar": "عرق",
+      "darija_latin": "3r9",
+      "fusha_ar": "العرق",
+      "fr": "Veine"
+    },
+    {
+      "id": 504,
+      "category": "جسم الإنسان",
+      "darija_ar": "عضلة",
+      "darija_latin": "3aDala",
+      "fusha_ar": "العضلة",
+      "fr": "Muscle"
+    },
+    {
+      "id": 505,
       "category": "الملابس",
       "darija_ar": "قميجة",
       "darija_latin": "qmija",
@@ -2627,7 +4226,7 @@
       "fr": "Chemise"
     },
     {
-      "id": 307,
+      "id": 506,
       "category": "الملابس",
       "darija_ar": "سروال",
       "darija_latin": "srwal",
@@ -2635,7 +4234,7 @@
       "fr": "Pantalon"
     },
     {
-      "id": 308,
+      "id": 507,
       "category": "الملابس",
       "darija_ar": "جاكيط",
       "darija_latin": "jakita",
@@ -2643,7 +4242,7 @@
       "fr": "Veste"
     },
     {
-      "id": 309,
+      "id": 508,
       "category": "الملابس",
       "darija_ar": "صباط",
       "darija_latin": "sbbat",
@@ -2651,7 +4250,7 @@
       "fr": "Chaussures"
     },
     {
-      "id": 310,
+      "id": 509,
       "category": "الملابس",
       "darija_ar": "شربيل",
       "darija_latin": "cherbil",
@@ -2659,7 +4258,7 @@
       "fr": "Pantoufles"
     },
     {
-      "id": 311,
+      "id": 510,
       "category": "الملابس",
       "darija_ar": "تقاشر",
       "darija_latin": "tqacher",
@@ -2667,7 +4266,7 @@
       "fr": "Chaussettes"
     },
     {
-      "id": 312,
+      "id": 511,
       "category": "الملابس",
       "darija_ar": "كاسكيطة",
       "darija_latin": "kaskita",
@@ -2675,7 +4274,7 @@
       "fr": "Casquette"
     },
     {
-      "id": 313,
+      "id": 512,
       "category": "الملابس",
       "darija_ar": "فولار",
       "darija_latin": "foular",
@@ -2683,7 +4282,7 @@
       "fr": "Foulard"
     },
     {
-      "id": 314,
+      "id": 513,
       "category": "الملابس",
       "darija_ar": "جلابة",
       "darija_latin": "jellaba",
@@ -2691,7 +4290,7 @@
       "fr": "Djellaba"
     },
     {
-      "id": 315,
+      "id": 514,
       "category": "الملابس",
       "darija_ar": "قفطان",
       "darija_latin": "qaftan",
@@ -2699,7 +4298,7 @@
       "fr": "Caftan"
     },
     {
-      "id": 316,
+      "id": 515,
       "category": "الملابس",
       "darija_ar": "بلوزة",
       "darija_latin": "blouza",
@@ -2707,7 +4306,7 @@
       "fr": "Chemisier"
     },
     {
-      "id": 317,
+      "id": 516,
       "category": "الملابس",
       "darija_ar": "جيب",
       "darija_latin": "jib",
@@ -2715,7 +4314,7 @@
       "fr": "Jupe"
     },
     {
-      "id": 318,
+      "id": 517,
       "category": "الملابس",
       "darija_ar": "مونطو",
       "darija_latin": "monto",
@@ -2723,7 +4322,7 @@
       "fr": "Manteau"
     },
     {
-      "id": 319,
+      "id": 518,
       "category": "الملابس",
       "darija_ar": "حزام",
       "darija_latin": "7zam",
@@ -2731,7 +4330,7 @@
       "fr": "Ceinture"
     },
     {
-      "id": 320,
+      "id": 519,
       "category": "الملابس",
       "darija_ar": "نظاضر",
       "darija_latin": "ndader",
@@ -2739,7 +4338,7 @@
       "fr": "Lunettes"
     },
     {
-      "id": 321,
+      "id": 520,
       "category": "الملابس",
       "darija_ar": "خاتم",
       "darija_latin": "khatem",
@@ -2747,7 +4346,7 @@
       "fr": "Bague"
     },
     {
-      "id": 322,
+      "id": 521,
       "category": "الملابس",
       "darija_ar": "حوايج",
       "darija_latin": "7wayej",
@@ -2755,7 +4354,7 @@
       "fr": "Vêtements"
     },
     {
-      "id": 323,
+      "id": 522,
       "category": "الملابس",
       "darija_ar": "كسوة",
       "darija_latin": "kswa",
@@ -2763,7 +4362,103 @@
       "fr": "Habits"
     },
     {
-      "id": 324,
+      "id": 523,
+      "category": "الملابس",
+      "darija_ar": "ڭرافاطة",
+      "darija_latin": "grafaTa",
+      "fusha_ar": "ربطة العنق",
+      "fr": "Cravate"
+    },
+    {
+      "id": 524,
+      "category": "الملابس",
+      "darija_ar": "طربوش",
+      "darija_latin": "Trbouch",
+      "fusha_ar": "الطربوش",
+      "fr": "Tarbouche"
+    },
+    {
+      "id": 525,
+      "category": "الملابس",
+      "darija_ar": "شال",
+      "darija_latin": "chal",
+      "fusha_ar": "الوشاح",
+      "fr": "Écharpe"
+    },
+    {
+      "id": 526,
+      "category": "الملابس",
+      "darija_ar": "دجين",
+      "darija_latin": "djin",
+      "fusha_ar": "الجينز",
+      "fr": "Jean"
+    },
+    {
+      "id": 527,
+      "category": "الملابس",
+      "darija_ar": "كوستيم",
+      "darija_latin": "kostim",
+      "fusha_ar": "البدلة",
+      "fr": "Costume"
+    },
+    {
+      "id": 528,
+      "category": "الملابس",
+      "darija_ar": "بيجامة",
+      "darija_latin": "pijama",
+      "fusha_ar": "البيجامة",
+      "fr": "Pyjama"
+    },
+    {
+      "id": 529,
+      "category": "الملابس",
+      "darija_ar": "سنسلة",
+      "darija_latin": "snsla",
+      "fusha_ar": "السلسلة",
+      "fr": "Collier"
+    },
+    {
+      "id": 530,
+      "category": "الملابس",
+      "darija_ar": "ڭورميط",
+      "darija_latin": "gormiT",
+      "fusha_ar": "السوار",
+      "fr": "Bracelet"
+    },
+    {
+      "id": 531,
+      "category": "الملابس",
+      "darija_ar": "مضل",
+      "darija_latin": "mDll",
+      "fusha_ar": "المظلة",
+      "fr": "Parapluie"
+    },
+    {
+      "id": 532,
+      "category": "الملابس",
+      "darija_ar": "بلغة",
+      "darija_latin": "blgha",
+      "fusha_ar": "البلغة",
+      "fr": "Babouche"
+    },
+    {
+      "id": 533,
+      "category": "الملابس",
+      "darija_ar": "تيشورت",
+      "darija_latin": "tichort",
+      "fusha_ar": "قميص قصير",
+      "fr": "T-shirt"
+    },
+    {
+      "id": 534,
+      "category": "الملابس",
+      "darija_ar": "تريكو",
+      "darija_latin": "triko",
+      "fusha_ar": "قميص صوفي",
+      "fr": "Pull"
+    },
+    {
+      "id": 535,
       "category": "البيت والأدوات",
       "darija_ar": "الدار",
       "darija_latin": "ddar",
@@ -2771,7 +4466,7 @@
       "fr": "Maison"
     },
     {
-      "id": 325,
+      "id": 536,
       "category": "البيت والأدوات",
       "darija_ar": "بيت",
       "darija_latin": "bit",
@@ -2779,7 +4474,7 @@
       "fr": "Chambre"
     },
     {
-      "id": 326,
+      "id": 537,
       "category": "البيت والأدوات",
       "darija_ar": "كوزينة",
       "darija_latin": "kouzina",
@@ -2787,7 +4482,7 @@
       "fr": "Cuisine"
     },
     {
-      "id": 327,
+      "id": 538,
       "category": "البيت والأدوات",
       "darija_ar": "حمام",
       "darija_latin": "7mmam",
@@ -2795,7 +4490,7 @@
       "fr": "Salle de bain"
     },
     {
-      "id": 328,
+      "id": 539,
       "category": "البيت والأدوات",
       "darija_ar": "صالون",
       "darija_latin": "salon",
@@ -2803,7 +4498,7 @@
       "fr": "Salon"
     },
     {
-      "id": 329,
+      "id": 540,
       "category": "البيت والأدوات",
       "darija_ar": "طبلة",
       "darija_latin": "tabla",
@@ -2811,7 +4506,7 @@
       "fr": "Table"
     },
     {
-      "id": 330,
+      "id": 541,
       "category": "البيت والأدوات",
       "darija_ar": "كورسي",
       "darija_latin": "koursi",
@@ -2819,7 +4514,7 @@
       "fr": "Chaise"
     },
     {
-      "id": 331,
+      "id": 542,
       "category": "البيت والأدوات",
       "darija_ar": "فراش",
       "darija_latin": "frach",
@@ -2827,7 +4522,7 @@
       "fr": "Lit"
     },
     {
-      "id": 332,
+      "id": 543,
       "category": "البيت والأدوات",
       "darija_ar": "مخدة",
       "darija_latin": "mkhadda",
@@ -2835,7 +4530,7 @@
       "fr": "Oreiller"
     },
     {
-      "id": 333,
+      "id": 544,
       "category": "البيت والأدوات",
       "darija_ar": "غطاء",
       "darija_latin": "ghta",
@@ -2843,7 +4538,7 @@
       "fr": "Couverture"
     },
     {
-      "id": 334,
+      "id": 545,
       "category": "البيت والأدوات",
       "darija_ar": "باب",
       "darija_latin": "bab",
@@ -2851,7 +4546,7 @@
       "fr": "Porte"
     },
     {
-      "id": 335,
+      "id": 546,
       "category": "البيت والأدوات",
       "darija_ar": "شرجم",
       "darija_latin": "cherjem",
@@ -2859,7 +4554,7 @@
       "fr": "Fenêtre"
     },
     {
-      "id": 336,
+      "id": 547,
       "category": "البيت والأدوات",
       "darija_ar": "سقف",
       "darija_latin": "sqef",
@@ -2867,7 +4562,7 @@
       "fr": "Plafond"
     },
     {
-      "id": 337,
+      "id": 548,
       "category": "البيت والأدوات",
       "darija_ar": "حيط",
       "darija_latin": "7iT",
@@ -2875,7 +4570,7 @@
       "fr": "Mur"
     },
     {
-      "id": 338,
+      "id": 549,
       "category": "البيت والأدوات",
       "darija_ar": "ضو",
       "darija_latin": "dw",
@@ -2883,7 +4578,7 @@
       "fr": "Lumière"
     },
     {
-      "id": 339,
+      "id": 550,
       "category": "البيت والأدوات",
       "darija_ar": "تلفازة",
       "darija_latin": "tlfaza",
@@ -2891,7 +4586,7 @@
       "fr": "Télévision"
     },
     {
-      "id": 340,
+      "id": 551,
       "category": "البيت والأدوات",
       "darija_ar": "فران",
       "darija_latin": "fran",
@@ -2899,7 +4594,7 @@
       "fr": "Four"
     },
     {
-      "id": 341,
+      "id": 552,
       "category": "البيت والأدوات",
       "darija_ar": "براد",
       "darija_latin": "brad",
@@ -2907,7 +4602,7 @@
       "fr": "Théière"
     },
     {
-      "id": 342,
+      "id": 553,
       "category": "البيت والأدوات",
       "darija_ar": "كاس",
       "darija_latin": "kas",
@@ -2915,7 +4610,7 @@
       "fr": "Verre"
     },
     {
-      "id": 343,
+      "id": 554,
       "category": "البيت والأدوات",
       "darija_ar": "صحن",
       "darija_latin": "sa7en",
@@ -2923,7 +4618,7 @@
       "fr": "Assiette"
     },
     {
-      "id": 344,
+      "id": 555,
       "category": "البيت والأدوات",
       "darija_ar": "مغرفة",
       "darija_latin": "mghrfa",
@@ -2931,7 +4626,7 @@
       "fr": "Louche"
     },
     {
-      "id": 345,
+      "id": 556,
       "category": "البيت والأدوات",
       "darija_ar": "طنجرة",
       "darija_latin": "tanjra",
@@ -2939,7 +4634,7 @@
       "fr": "Marmite"
     },
     {
-      "id": 346,
+      "id": 557,
       "category": "البيت والأدوات",
       "darija_ar": "ماعون",
       "darija_latin": "ma3oun",
@@ -2947,7 +4642,7 @@
       "fr": "Vaisselle"
     },
     {
-      "id": 347,
+      "id": 558,
       "category": "البيت والأدوات",
       "darija_ar": "مفتاح",
       "darija_latin": "mefta7",
@@ -2955,7 +4650,7 @@
       "fr": "Clé"
     },
     {
-      "id": 348,
+      "id": 559,
       "category": "البيت والأدوات",
       "darija_ar": "مرايا",
       "darija_latin": "mraya",
@@ -2963,7 +4658,23 @@
       "fr": "Miroir"
     },
     {
-      "id": 349,
+      "id": 560,
+      "category": "البيت والأدوات",
+      "darija_ar": "طواليط",
+      "darija_latin": "twalet",
+      "fusha_ar": "المرحاض",
+      "fr": "Toilettes"
+    },
+    {
+      "id": 561,
+      "category": "البيت والأدوات",
+      "darija_ar": "بيت النعاس",
+      "darija_latin": "bit n3as",
+      "fusha_ar": "غرفة النوم",
+      "fr": "Chambre à coucher"
+    },
+    {
+      "id": 562,
       "category": "الحيوانات",
       "darija_ar": "كلب",
       "darija_latin": "kelb",
@@ -2971,7 +4682,7 @@
       "fr": "Chien"
     },
     {
-      "id": 350,
+      "id": 563,
       "category": "الحيوانات",
       "darija_ar": "قط",
       "darija_latin": "qett",
@@ -2979,7 +4690,7 @@
       "fr": "Chat"
     },
     {
-      "id": 351,
+      "id": 564,
       "category": "الحيوانات",
       "darija_ar": "حمار",
       "darija_latin": "7mar",
@@ -2987,7 +4698,7 @@
       "fr": "Âne"
     },
     {
-      "id": 352,
+      "id": 565,
       "category": "الحيوانات",
       "darija_ar": "عود",
       "darija_latin": "3oud",
@@ -2995,7 +4706,7 @@
       "fr": "Cheval"
     },
     {
-      "id": 353,
+      "id": 566,
       "category": "الحيوانات",
       "darija_ar": "بقرة",
       "darija_latin": "bqra",
@@ -3003,7 +4714,7 @@
       "fr": "Vache"
     },
     {
-      "id": 354,
+      "id": 567,
       "category": "الحيوانات",
       "darija_ar": "خروف",
       "darija_latin": "khrouf",
@@ -3011,7 +4722,7 @@
       "fr": "Mouton"
     },
     {
-      "id": 355,
+      "id": 568,
       "category": "الحيوانات",
       "darija_ar": "عنزة",
       "darija_latin": "3nza",
@@ -3019,7 +4730,7 @@
       "fr": "Chèvre"
     },
     {
-      "id": 356,
+      "id": 569,
       "category": "الحيوانات",
       "darija_ar": "دجاجة",
       "darija_latin": "djaja",
@@ -3027,7 +4738,7 @@
       "fr": "Poule"
     },
     {
-      "id": 357,
+      "id": 570,
       "category": "الحيوانات",
       "darija_ar": "ديك",
       "darija_latin": "dik",
@@ -3035,7 +4746,7 @@
       "fr": "Coq"
     },
     {
-      "id": 358,
+      "id": 571,
       "category": "الحيوانات",
       "darija_ar": "حمامة",
       "darija_latin": "7mama",
@@ -3043,7 +4754,7 @@
       "fr": "Pigeon"
     },
     {
-      "id": 359,
+      "id": 572,
       "category": "الحيوانات",
       "darija_ar": "طير",
       "darija_latin": "tir",
@@ -3051,7 +4762,7 @@
       "fr": "Oiseau"
     },
     {
-      "id": 360,
+      "id": 573,
       "category": "الحيوانات",
       "darija_ar": "نملة",
       "darija_latin": "nemla",
@@ -3059,7 +4770,7 @@
       "fr": "Fourmi"
     },
     {
-      "id": 361,
+      "id": 574,
       "category": "الحيوانات",
       "darija_ar": "نحلة",
       "darija_latin": "n7la",
@@ -3067,7 +4778,7 @@
       "fr": "Abeille"
     },
     {
-      "id": 362,
+      "id": 575,
       "category": "الحيوانات",
       "darija_ar": "ذبانة",
       "darija_latin": "dbbana",
@@ -3075,7 +4786,7 @@
       "fr": "Mouche"
     },
     {
-      "id": 363,
+      "id": 576,
       "category": "الحيوانات",
       "darija_ar": "بعوضة",
       "darija_latin": "b3ouda",
@@ -3083,7 +4794,7 @@
       "fr": "Moustique"
     },
     {
-      "id": 364,
+      "id": 577,
       "category": "الحيوانات",
       "darija_ar": "عقرب",
       "darija_latin": "3aqreb",
@@ -3091,7 +4802,7 @@
       "fr": "Scorpion"
     },
     {
-      "id": 365,
+      "id": 578,
       "category": "الحيوانات",
       "darija_ar": "حنش",
       "darija_latin": "7nech",
@@ -3099,7 +4810,7 @@
       "fr": "Serpent"
     },
     {
-      "id": 366,
+      "id": 579,
       "category": "الحيوانات",
       "darija_ar": "فار",
       "darija_latin": "far",
@@ -3107,7 +4818,7 @@
       "fr": "Souris"
     },
     {
-      "id": 367,
+      "id": 580,
       "category": "الحيوانات",
       "darija_ar": "سبع",
       "darija_latin": "seb3",
@@ -3115,7 +4826,7 @@
       "fr": "Lion"
     },
     {
-      "id": 368,
+      "id": 581,
       "category": "الحيوانات",
       "darija_ar": "جمل",
       "darija_latin": "jmel",
@@ -3123,7 +4834,255 @@
       "fr": "Chameau"
     },
     {
-      "id": 369,
+      "id": 582,
+      "category": "الحيوانات",
+      "darija_ar": "زرافة",
+      "darija_latin": "zarafa",
+      "fusha_ar": "الزرافة",
+      "fr": "Girafe"
+    },
+    {
+      "id": 583,
+      "category": "الحيوانات",
+      "darija_ar": "غزالة",
+      "darija_latin": "ghzala",
+      "fusha_ar": "الغزالة",
+      "fr": "Gazelle"
+    },
+    {
+      "id": 584,
+      "category": "الحيوانات",
+      "darija_ar": "ضبع",
+      "darija_latin": "Db3",
+      "fusha_ar": "الضبع",
+      "fr": "Hyène"
+    },
+    {
+      "id": 585,
+      "category": "الحيوانات",
+      "darija_ar": "فكرون",
+      "darija_latin": "fkroun",
+      "fusha_ar": "السلحفاة",
+      "fr": "Tortue"
+    },
+    {
+      "id": 586,
+      "category": "الحيوانات",
+      "darija_ar": "بغل",
+      "darija_latin": "bghl",
+      "fusha_ar": "البغل",
+      "fr": "Mule"
+    },
+    {
+      "id": 587,
+      "category": "الحيوانات",
+      "darija_ar": "تمساح",
+      "darija_latin": "timsa7",
+      "fusha_ar": "التمساح",
+      "fr": "Crocodile"
+    },
+    {
+      "id": 588,
+      "category": "الحيوانات",
+      "darija_ar": "فيل",
+      "darija_latin": "fil",
+      "fusha_ar": "الفيل",
+      "fr": "Éléphant"
+    },
+    {
+      "id": 589,
+      "category": "الحيوانات",
+      "darija_ar": "عجل",
+      "darija_latin": "3jl",
+      "fusha_ar": "العجل",
+      "fr": "Veau"
+    },
+    {
+      "id": 590,
+      "category": "الحيوانات",
+      "darija_ar": "ديب",
+      "darija_latin": "dib",
+      "fusha_ar": "الذئب",
+      "fr": "Loup"
+    },
+    {
+      "id": 591,
+      "category": "الحيوانات",
+      "darija_ar": "قرد",
+      "darija_latin": "9rd",
+      "fusha_ar": "القرد",
+      "fr": "Singe"
+    },
+    {
+      "id": 592,
+      "category": "الحيوانات",
+      "darija_ar": "تعلب",
+      "darija_latin": "t3lb",
+      "fusha_ar": "الثعلب",
+      "fr": "Renard"
+    },
+    {
+      "id": 593,
+      "category": "الحيوانات",
+      "darija_ar": "دب",
+      "darija_latin": "dobb",
+      "fusha_ar": "الدب",
+      "fr": "Ours"
+    },
+    {
+      "id": 594,
+      "category": "الحيوانات",
+      "darija_ar": "قنيونة",
+      "darija_latin": "9niwna",
+      "fusha_ar": "الأرنب",
+      "fr": "Lapin"
+    },
+    {
+      "id": 595,
+      "category": "الحيوانات",
+      "darija_ar": "ببغاء",
+      "darija_latin": "babbagha",
+      "fusha_ar": "الببغاء",
+      "fr": "Perroquet"
+    },
+    {
+      "id": 596,
+      "category": "الحيوانات",
+      "darija_ar": "بطة",
+      "darija_latin": "bTTa",
+      "fusha_ar": "البطة",
+      "fr": "Canard"
+    },
+    {
+      "id": 597,
+      "category": "الحيوانات",
+      "darija_ar": "غراب",
+      "darija_latin": "ghrab",
+      "fusha_ar": "الغراب",
+      "fr": "Corbeau"
+    },
+    {
+      "id": 598,
+      "category": "الحيوانات",
+      "darija_ar": "نعامة",
+      "darija_latin": "n3ama",
+      "fusha_ar": "النعامة",
+      "fr": "Autruche"
+    },
+    {
+      "id": 599,
+      "category": "الحيوانات",
+      "darija_ar": "خفاش",
+      "darija_latin": "khffach",
+      "fusha_ar": "الخفاش",
+      "fr": "Chauve-souris"
+    },
+    {
+      "id": 600,
+      "category": "الحيوانات",
+      "darija_ar": "جرانة",
+      "darija_latin": "jrana",
+      "fusha_ar": "الضفدع",
+      "fr": "Grenouille"
+    },
+    {
+      "id": 601,
+      "category": "الحيوانات",
+      "darija_ar": "سنجاب",
+      "darija_latin": "sinjab",
+      "fusha_ar": "السنجاب",
+      "fr": "Écureuil"
+    },
+    {
+      "id": 602,
+      "category": "الحيوانات",
+      "darija_ar": "أخطبوط",
+      "darija_latin": "okhToboT",
+      "fusha_ar": "الأخطبوط",
+      "fr": "Pieuvre"
+    },
+    {
+      "id": 603,
+      "category": "الحيوانات",
+      "darija_ar": "قرش",
+      "darija_latin": "9irch",
+      "fusha_ar": "القرش",
+      "fr": "Requin"
+    },
+    {
+      "id": 604,
+      "category": "الحيوانات",
+      "darija_ar": "نسر",
+      "darija_latin": "nsr",
+      "fusha_ar": "النسر",
+      "fr": "Aigle"
+    },
+    {
+      "id": 605,
+      "category": "الحيوانات",
+      "darija_ar": "فراشة",
+      "darija_latin": "faracha",
+      "fusha_ar": "الفراشة",
+      "fr": "Papillon"
+    },
+    {
+      "id": 606,
+      "category": "الحيوانات",
+      "darija_ar": "رتيلة",
+      "darija_latin": "rtila",
+      "fusha_ar": "العنكبوت",
+      "fr": "Araignée"
+    },
+    {
+      "id": 607,
+      "category": "الحيوانات",
+      "darija_ar": "جرادة",
+      "darija_latin": "jrada",
+      "fusha_ar": "الجرادة",
+      "fr": "Sauterelle"
+    },
+    {
+      "id": 608,
+      "category": "الحيوانات",
+      "darija_ar": "سمكة",
+      "darija_latin": "samaka",
+      "fusha_ar": "السمكة",
+      "fr": "Poisson"
+    },
+    {
+      "id": 609,
+      "category": "الحيوانات",
+      "darija_ar": "وزة",
+      "darija_latin": "wezza",
+      "fusha_ar": "الإوزة",
+      "fr": "Oie"
+    },
+    {
+      "id": 610,
+      "category": "الحيوانات",
+      "darija_ar": "سردين",
+      "darija_latin": "srdin",
+      "fusha_ar": "السردين",
+      "fr": "Sardine"
+    },
+    {
+      "id": 611,
+      "category": "الحيوانات",
+      "darija_ar": "فقمة",
+      "darija_latin": "fo9ma",
+      "fusha_ar": "الفقمة",
+      "fr": "Phoque"
+    },
+    {
+      "id": 612,
+      "category": "الحيوانات",
+      "darija_ar": "دلفين",
+      "darija_latin": "dlfin",
+      "fusha_ar": "الدلفين",
+      "fr": "Dauphin"
+    },
+    {
+      "id": 613,
       "category": "الطبيعة والنباتات",
       "darija_ar": "شجرة",
       "darija_latin": "chjra",
@@ -3131,7 +5090,7 @@
       "fr": "Arbre"
     },
     {
-      "id": 370,
+      "id": 614,
       "category": "الطبيعة والنباتات",
       "darija_ar": "ورقة",
       "darija_latin": "werqa",
@@ -3139,7 +5098,7 @@
       "fr": "Feuille"
     },
     {
-      "id": 371,
+      "id": 615,
       "category": "الطبيعة والنباتات",
       "darija_ar": "وردة",
       "darija_latin": "werda",
@@ -3147,7 +5106,7 @@
       "fr": "Rose"
     },
     {
-      "id": 372,
+      "id": 616,
       "category": "الطبيعة والنباتات",
       "darija_ar": "زهرة",
       "darija_latin": "zahra",
@@ -3155,7 +5114,7 @@
       "fr": "Fleur"
     },
     {
-      "id": 373,
+      "id": 617,
       "category": "الطبيعة والنباتات",
       "darija_ar": "عشب",
       "darija_latin": "3chb",
@@ -3163,7 +5122,7 @@
       "fr": "Herbe"
     },
     {
-      "id": 374,
+      "id": 618,
       "category": "الطبيعة والنباتات",
       "darija_ar": "أرض",
       "darija_latin": "ard",
@@ -3171,7 +5130,7 @@
       "fr": "Terre"
     },
     {
-      "id": 375,
+      "id": 619,
       "category": "الطبيعة والنباتات",
       "darija_ar": "جبل",
       "darija_latin": "jbel",
@@ -3179,7 +5138,7 @@
       "fr": "Montagne"
     },
     {
-      "id": 376,
+      "id": 620,
       "category": "الطبيعة والنباتات",
       "darija_ar": "بحر",
       "darija_latin": "b7ar",
@@ -3187,7 +5146,7 @@
       "fr": "Mer"
     },
     {
-      "id": 377,
+      "id": 621,
       "category": "الطبيعة والنباتات",
       "darija_ar": "واد",
       "darija_latin": "wad",
@@ -3195,7 +5154,7 @@
       "fr": "Rivière"
     },
     {
-      "id": 378,
+      "id": 622,
       "category": "الطبيعة والنباتات",
       "darija_ar": "صحرا",
       "darija_latin": "sa7ra",
@@ -3203,7 +5162,7 @@
       "fr": "Désert"
     },
     {
-      "id": 379,
+      "id": 623,
       "category": "الطبيعة والنباتات",
       "darija_ar": "غابة",
       "darija_latin": "ghaba",
@@ -3211,7 +5170,7 @@
       "fr": "Forêt"
     },
     {
-      "id": 380,
+      "id": 624,
       "category": "الطبيعة والنباتات",
       "darija_ar": "حجر",
       "darija_latin": "7jer",
@@ -3219,7 +5178,7 @@
       "fr": "Pierre"
     },
     {
-      "id": 381,
+      "id": 625,
       "category": "الطبيعة والنباتات",
       "darija_ar": "رملة",
       "darija_latin": "rmla",
@@ -3227,7 +5186,7 @@
       "fr": "Sable"
     },
     {
-      "id": 382,
+      "id": 626,
       "category": "الطبيعة والنباتات",
       "darija_ar": "نار",
       "darija_latin": "nar",
@@ -3235,7 +5194,7 @@
       "fr": "Feu"
     },
     {
-      "id": 383,
+      "id": 627,
       "category": "الطبيعة والنباتات",
       "darija_ar": "دخان",
       "darija_latin": "dkhan",
@@ -3243,7 +5202,7 @@
       "fr": "Fumée"
     },
     {
-      "id": 384,
+      "id": 628,
       "category": "الطبيعة والنباتات",
       "darija_ar": "سما",
       "darija_latin": "sma",
@@ -3251,7 +5210,7 @@
       "fr": "Ciel"
     },
     {
-      "id": 385,
+      "id": 629,
       "category": "الطبيعة والنباتات",
       "darija_ar": "قمر",
       "darija_latin": "qmer",
@@ -3259,7 +5218,7 @@
       "fr": "Lune"
     },
     {
-      "id": 386,
+      "id": 630,
       "category": "الطبيعة والنباتات",
       "darija_ar": "نجوم",
       "darija_latin": "njoum",
@@ -3267,7 +5226,103 @@
       "fr": "Étoiles"
     },
     {
-      "id": 387,
+      "id": 631,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "نبتة",
+      "darija_latin": "nbta",
+      "fusha_ar": "النبتة",
+      "fr": "Plante"
+    },
+    {
+      "id": 632,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "شوك",
+      "darija_latin": "chouk",
+      "fusha_ar": "الشوك",
+      "fr": "Épine"
+    },
+    {
+      "id": 633,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "صبار",
+      "darija_latin": "Sbbar",
+      "fusha_ar": "الصبار",
+      "fr": "Cactus"
+    },
+    {
+      "id": 634,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "صنوبر",
+      "darija_latin": "Sanawbar",
+      "fusha_ar": "الصنوبر",
+      "fr": "Pin"
+    },
+    {
+      "id": 635,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "عرش",
+      "darija_latin": "3rch",
+      "fusha_ar": "العريش",
+      "fr": "Treille"
+    },
+    {
+      "id": 636,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "زرية",
+      "darija_latin": "zrri3a",
+      "fusha_ar": "البذرة",
+      "fr": "Graine"
+    },
+    {
+      "id": 637,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "جدر",
+      "darija_latin": "jder",
+      "fusha_ar": "الجذر",
+      "fr": "Racine"
+    },
+    {
+      "id": 638,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "تراب",
+      "darija_latin": "trab",
+      "fusha_ar": "التراب",
+      "fr": "Terre"
+    },
+    {
+      "id": 639,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "طبيعة",
+      "darija_latin": "Tabi3a",
+      "fusha_ar": "الطبيعة",
+      "fr": "Nature"
+    },
+    {
+      "id": 640,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "شاطئ",
+      "darija_latin": "chati",
+      "fusha_ar": "شاطئ",
+      "fr": "Plage"
+    },
+    {
+      "id": 641,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "جزيرة",
+      "darija_latin": "jzira",
+      "fusha_ar": "جزيرة",
+      "fr": "Île"
+    },
+    {
+      "id": 642,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "بحيرة",
+      "darija_latin": "b7ira",
+      "fusha_ar": "بحيرة",
+      "fr": "Lac"
+    },
+    {
+      "id": 643,
       "category": "المهن",
       "darija_ar": "مهندس",
       "darija_latin": "mohandis",
@@ -3275,7 +5330,7 @@
       "fr": "Ingénieur"
     },
     {
-      "id": 388,
+      "id": 644,
       "category": "المهن",
       "darija_ar": "محامي",
       "darija_latin": "m7ami",
@@ -3283,7 +5338,7 @@
       "fr": "Avocat"
     },
     {
-      "id": 389,
+      "id": 645,
       "category": "المهن",
       "darija_ar": "شرطي",
       "darija_latin": "cherti",
@@ -3291,7 +5346,7 @@
       "fr": "Policier"
     },
     {
-      "id": 390,
+      "id": 646,
       "category": "المهن",
       "darija_ar": "عسكري",
       "darija_latin": "3askri",
@@ -3299,7 +5354,7 @@
       "fr": "Militaire"
     },
     {
-      "id": 391,
+      "id": 647,
       "category": "المهن",
       "darija_ar": "طيار",
       "darija_latin": "tayyar",
@@ -3307,7 +5362,7 @@
       "fr": "Pilote"
     },
     {
-      "id": 392,
+      "id": 648,
       "category": "المهن",
       "darija_ar": "سواق",
       "darija_latin": "swwaq",
@@ -3315,7 +5370,7 @@
       "fr": "Chauffeur"
     },
     {
-      "id": 393,
+      "id": 649,
       "category": "المهن",
       "darija_ar": "بناء",
       "darija_latin": "banna",
@@ -3323,7 +5378,7 @@
       "fr": "Maçon"
     },
     {
-      "id": 394,
+      "id": 650,
       "category": "المهن",
       "darija_ar": "نجار",
       "darija_latin": "njjar",
@@ -3331,7 +5386,7 @@
       "fr": "Menuisier"
     },
     {
-      "id": 395,
+      "id": 651,
       "category": "المهن",
       "darija_ar": "حداد",
       "darija_latin": "7ddad",
@@ -3339,7 +5394,7 @@
       "fr": "Forgeron"
     },
     {
-      "id": 396,
+      "id": 652,
       "category": "المهن",
       "darija_ar": "خباز",
       "darija_latin": "khebbaz",
@@ -3347,7 +5402,7 @@
       "fr": "Boulanger"
     },
     {
-      "id": 397,
+      "id": 653,
       "category": "المهن",
       "darija_ar": "جزار",
       "darija_latin": "jzar",
@@ -3355,7 +5410,7 @@
       "fr": "Boucher"
     },
     {
-      "id": 398,
+      "id": 654,
       "category": "المهن",
       "darija_ar": "فلاح",
       "darija_latin": "fella7",
@@ -3363,7 +5418,7 @@
       "fr": "Agriculteur"
     },
     {
-      "id": 399,
+      "id": 655,
       "category": "المهن",
       "darija_ar": "صياد",
       "darija_latin": "syyad",
@@ -3371,7 +5426,7 @@
       "fr": "Pêcheur"
     },
     {
-      "id": 400,
+      "id": 656,
       "category": "المهن",
       "darija_ar": "بياع",
       "darija_latin": "bya3",
@@ -3379,7 +5434,7 @@
       "fr": "Vendeur"
     },
     {
-      "id": 401,
+      "id": 657,
       "category": "المهن",
       "darija_ar": "خدام",
       "darija_latin": "khddam",
@@ -3387,7 +5442,7 @@
       "fr": "Ouvrier"
     },
     {
-      "id": 402,
+      "id": 658,
       "category": "المهن",
       "darija_ar": "ممرضة",
       "darija_latin": "mmarrida",
@@ -3395,7 +5450,7 @@
       "fr": "Infirmière"
     },
     {
-      "id": 403,
+      "id": 659,
       "category": "المهن",
       "darija_ar": "طباخ",
       "darija_latin": "ttbbakh",
@@ -3403,7 +5458,7 @@
       "fr": "Cuisinier"
     },
     {
-      "id": 404,
+      "id": 660,
       "category": "المهن",
       "darija_ar": "ميكانيسيان",
       "darija_latin": "mekanisyan",
@@ -3411,7 +5466,119 @@
       "fr": "Mécanicien"
     },
     {
-      "id": 405,
+      "id": 661,
+      "category": "المهن",
+      "darija_ar": "حلاق",
+      "darija_latin": "7alla9",
+      "fusha_ar": "الحلاق",
+      "fr": "Coiffeur"
+    },
+    {
+      "id": 662,
+      "category": "المهن",
+      "darija_ar": "مدير",
+      "darija_latin": "modir",
+      "fusha_ar": "المدير",
+      "fr": "Directeur"
+    },
+    {
+      "id": 663,
+      "category": "المهن",
+      "darija_ar": "فنان",
+      "darija_latin": "fannan",
+      "fusha_ar": "الفنان",
+      "fr": "Artiste"
+    },
+    {
+      "id": 664,
+      "category": "المهن",
+      "darija_ar": "تريسيان",
+      "darija_latin": "trisyan",
+      "fusha_ar": "الكهربائي",
+      "fr": "Électricien"
+    },
+    {
+      "id": 665,
+      "category": "المهن",
+      "darija_ar": "صحفي",
+      "darija_latin": "sa7afi",
+      "fusha_ar": "الصحفي",
+      "fr": "Journaliste"
+    },
+    {
+      "id": 666,
+      "category": "المهن",
+      "darija_ar": "قاضي",
+      "darija_latin": "9aDi",
+      "fusha_ar": "القاضي",
+      "fr": "Juge"
+    },
+    {
+      "id": 667,
+      "category": "المهن",
+      "darija_ar": "رسام",
+      "darija_latin": "rssam",
+      "fusha_ar": "الرسام",
+      "fr": "Peintre"
+    },
+    {
+      "id": 668,
+      "category": "المهن",
+      "darija_ar": "مصور",
+      "darija_latin": "moSwwir",
+      "fusha_ar": "المصور",
+      "fr": "Photographe"
+    },
+    {
+      "id": 669,
+      "category": "المهن",
+      "darija_ar": "خياط",
+      "darija_latin": "khyyaT",
+      "fusha_ar": "الخياط",
+      "fr": "Tailleur"
+    },
+    {
+      "id": 670,
+      "category": "المهن",
+      "darija_ar": "سفير",
+      "darija_latin": "safir",
+      "fusha_ar": "السفير",
+      "fr": "Ambassadeur"
+    },
+    {
+      "id": 671,
+      "category": "المهن",
+      "darija_ar": "موظف",
+      "darija_latin": "mowDDaf",
+      "fusha_ar": "الموظف",
+      "fr": "Employé"
+    },
+    {
+      "id": 672,
+      "category": "المهن",
+      "darija_ar": "خضار",
+      "darija_latin": "khDDar",
+      "fusha_ar": "بائع الخضر",
+      "fr": "Marchand de légumes"
+    },
+    {
+      "id": 673,
+      "category": "المهن",
+      "darija_ar": "كارسون",
+      "darija_latin": "garson",
+      "fusha_ar": "نادل",
+      "fr": "Serveur"
+    },
+    {
+      "id": 674,
+      "category": "المهن",
+      "darija_ar": "ساعي البريد",
+      "darija_latin": "faktour",
+      "fusha_ar": "ساعي البريد",
+      "fr": "Facteur"
+    },
+    {
+      "id": 675,
       "category": "أفعال ماضية",
       "darija_ar": "خرجت",
       "darija_latin": "khrejt",
@@ -3419,7 +5586,7 @@
       "fr": "Je suis sorti"
     },
     {
-      "id": 406,
+      "id": 676,
       "category": "أفعال ماضية",
       "darija_ar": "دخلت",
       "darija_latin": "dkhelt",
@@ -3427,7 +5594,7 @@
       "fr": "Je suis entré"
     },
     {
-      "id": 407,
+      "id": 677,
       "category": "أفعال ماضية",
       "darija_ar": "رجعت",
       "darija_latin": "rje3t",
@@ -3435,7 +5602,7 @@
       "fr": "Je suis revenu"
     },
     {
-      "id": 408,
+      "id": 678,
       "category": "أفعال ماضية",
       "darija_ar": "وصلت",
       "darija_latin": "wselt",
@@ -3443,7 +5610,7 @@
       "fr": "Je suis arrivé"
     },
     {
-      "id": 409,
+      "id": 679,
       "category": "أفعال ماضية",
       "darija_ar": "مشيت",
       "darija_latin": "mchit",
@@ -3451,7 +5618,7 @@
       "fr": "Je suis allé"
     },
     {
-      "id": 410,
+      "id": 680,
       "category": "أفعال ماضية",
       "darija_ar": "جريت",
       "darija_latin": "jrit",
@@ -3459,7 +5626,7 @@
       "fr": "J'ai couru"
     },
     {
-      "id": 411,
+      "id": 681,
       "category": "أفعال ماضية",
       "darija_ar": "وقفت",
       "darija_latin": "wqeft",
@@ -3467,7 +5634,7 @@
       "fr": "Je me suis arrêté"
     },
     {
-      "id": 412,
+      "id": 682,
       "category": "أفعال ماضية",
       "darija_ar": "قعدت",
       "darija_latin": "q3edt",
@@ -3475,7 +5642,7 @@
       "fr": "Je me suis assis"
     },
     {
-      "id": 413,
+      "id": 683,
       "category": "أفعال ماضية",
       "darija_ar": "نضت",
       "darija_latin": "nedt",
@@ -3483,7 +5650,7 @@
       "fr": "Je me suis levé"
     },
     {
-      "id": 414,
+      "id": 684,
       "category": "أفعال ماضية",
       "darija_ar": "غسلت",
       "darija_latin": "ghsalt",
@@ -3491,7 +5658,7 @@
       "fr": "J'ai lavé"
     },
     {
-      "id": 415,
+      "id": 685,
       "category": "أفعال ماضية",
       "darija_ar": "طيبت",
       "darija_latin": "tiyyebt",
@@ -3499,7 +5666,7 @@
       "fr": "J'ai cuisiné"
     },
     {
-      "id": 416,
+      "id": 686,
       "category": "أفعال ماضية",
       "darija_ar": "شريت",
       "darija_latin": "chrit",
@@ -3507,7 +5674,7 @@
       "fr": "J'ai acheté"
     },
     {
-      "id": 417,
+      "id": 687,
       "category": "أفعال ماضية",
       "darija_ar": "بعت",
       "darija_latin": "be3t",
@@ -3515,7 +5682,7 @@
       "fr": "J'ai vendu"
     },
     {
-      "id": 418,
+      "id": 688,
       "category": "أفعال ماضية",
       "darija_ar": "خلصت",
       "darija_latin": "khlest",
@@ -3523,7 +5690,7 @@
       "fr": "J'ai payé"
     },
     {
-      "id": 419,
+      "id": 689,
       "category": "أفعال ماضية",
       "darija_ar": "سمعت",
       "darija_latin": "sme3t",
@@ -3531,7 +5698,7 @@
       "fr": "J'ai entendu"
     },
     {
-      "id": 420,
+      "id": 690,
       "category": "أفعال ماضية",
       "darija_ar": "شفت",
       "darija_latin": "cheft",
@@ -3539,7 +5706,7 @@
       "fr": "J'ai vu"
     },
     {
-      "id": 421,
+      "id": 691,
       "category": "أفعال ماضية",
       "darija_ar": "گلت",
       "darija_latin": "gelt",
@@ -3547,7 +5714,7 @@
       "fr": "J'ai dit"
     },
     {
-      "id": 422,
+      "id": 692,
       "category": "أفعال ماضية",
       "darija_ar": "درت",
       "darija_latin": "dert",
@@ -3555,7 +5722,7 @@
       "fr": "J'ai fait"
     },
     {
-      "id": 423,
+      "id": 693,
       "category": "أفعال ماضية",
       "darija_ar": "مشى",
       "darija_latin": "mcha",
@@ -3563,7 +5730,7 @@
       "fr": "Il est allé"
     },
     {
-      "id": 424,
+      "id": 694,
       "category": "أفعال ماضية",
       "darija_ar": "جا",
       "darija_latin": "ja",
@@ -3571,7 +5738,7 @@
       "fr": "Il est venu"
     },
     {
-      "id": 425,
+      "id": 695,
       "category": "أفعال ماضية",
       "darija_ar": "خدا",
       "darija_latin": "khda",
@@ -3579,7 +5746,7 @@
       "fr": "Il a pris"
     },
     {
-      "id": 426,
+      "id": 696,
       "category": "أفعال ماضية",
       "darija_ar": "عطى",
       "darija_latin": "3ta",
@@ -3587,7 +5754,7 @@
       "fr": "Il a donné"
     },
     {
-      "id": 427,
+      "id": 697,
       "category": "أفعال ماضية",
       "darija_ar": "لقى",
       "darija_latin": "lqa",
@@ -3595,7 +5762,7 @@
       "fr": "Il a trouvé"
     },
     {
-      "id": 428,
+      "id": 698,
       "category": "أفعال ماضية",
       "darija_ar": "دار",
       "darija_latin": "dar",
@@ -3603,7 +5770,7 @@
       "fr": "Il a fait"
     },
     {
-      "id": 429,
+      "id": 699,
       "category": "أفعال ماضية",
       "darija_ar": "قال",
       "darija_latin": "gal",
@@ -3611,7 +5778,7 @@
       "fr": "Il a dit"
     },
     {
-      "id": 430,
+      "id": 700,
       "category": "أفعال ماضية",
       "darija_ar": "شاف",
       "darija_latin": "chaf",
@@ -3619,7 +5786,7 @@
       "fr": "Il a vu"
     },
     {
-      "id": 431,
+      "id": 701,
       "category": "أفعال ماضية",
       "darija_ar": "حب",
       "darija_latin": "7ebb",
@@ -3627,7 +5794,7 @@
       "fr": "Il a aimé"
     },
     {
-      "id": 432,
+      "id": 702,
       "category": "أفعال ماضية",
       "darija_ar": "بغى",
       "darija_latin": "bgha",
@@ -3635,7 +5802,7 @@
       "fr": "Il a voulu"
     },
     {
-      "id": 433,
+      "id": 703,
       "category": "أفعال ماضية",
       "darija_ar": "قدر",
       "darija_latin": "qder",
@@ -3643,7 +5810,7 @@
       "fr": "Il a pu"
     },
     {
-      "id": 434,
+      "id": 704,
       "category": "أفعال ماضية",
       "darija_ar": "عرف",
       "darija_latin": "3ref",
@@ -3651,7 +5818,7 @@
       "fr": "Il a su"
     },
     {
-      "id": 435,
+      "id": 705,
       "category": "أفعال ماضية",
       "darija_ar": "فهم",
       "darija_latin": "fhem",
@@ -3659,7 +5826,7 @@
       "fr": "Il a compris"
     },
     {
-      "id": 436,
+      "id": 706,
       "category": "أفعال ماضية",
       "darija_ar": "كتب",
       "darija_latin": "kteb",
@@ -3667,7 +5834,7 @@
       "fr": "Il a écrit"
     },
     {
-      "id": 437,
+      "id": 707,
       "category": "أفعال ماضية",
       "darija_ar": "قرا",
       "darija_latin": "qra",
@@ -3675,7 +5842,7 @@
       "fr": "Il a lu"
     },
     {
-      "id": 438,
+      "id": 708,
       "category": "أفعال ماضية",
       "darija_ar": "شرب",
       "darija_latin": "chreb",
@@ -3683,7 +5850,7 @@
       "fr": "Il a bu"
     },
     {
-      "id": 439,
+      "id": 709,
       "category": "أفعال ماضية",
       "darija_ar": "كلا",
       "darija_latin": "kla",
@@ -3691,7 +5858,7 @@
       "fr": "Il a mangé"
     },
     {
-      "id": 440,
+      "id": 710,
       "category": "أفعال ماضية",
       "darija_ar": "نام",
       "darija_latin": "nam",
@@ -3699,7 +5866,7 @@
       "fr": "Il a dormi"
     },
     {
-      "id": 441,
+      "id": 711,
       "category": "أفعال ماضية",
       "darija_ar": "خدم",
       "darija_latin": "khdem",
@@ -3707,7 +5874,7 @@
       "fr": "Il a travaillé"
     },
     {
-      "id": 442,
+      "id": 712,
       "category": "أفعال ماضية",
       "darija_ar": "لعب",
       "darija_latin": "l3eb",
@@ -3715,7 +5882,7 @@
       "fr": "Il a joué"
     },
     {
-      "id": 443,
+      "id": 713,
       "category": "أفعال ماضية",
       "darija_ar": "باع",
       "darija_latin": "ba3",
@@ -3723,7 +5890,7 @@
       "fr": "Il a vendu"
     },
     {
-      "id": 444,
+      "id": 714,
       "category": "أفعال ماضية",
       "darija_ar": "مسح",
       "darija_latin": "mse7",
@@ -3731,7 +5898,7 @@
       "fr": "Il a essuyé"
     },
     {
-      "id": 445,
+      "id": 715,
       "category": "صفات إضافية",
       "darija_ar": "سمين",
       "darija_latin": "smin",
@@ -3739,7 +5906,7 @@
       "fr": "Gros"
     },
     {
-      "id": 446,
+      "id": 716,
       "category": "صفات إضافية",
       "darija_ar": "رقيق",
       "darija_latin": "rqiq",
@@ -3747,7 +5914,7 @@
       "fr": "Mince"
     },
     {
-      "id": 447,
+      "id": 717,
       "category": "صفات إضافية",
       "darija_ar": "طويل",
       "darija_latin": "twil",
@@ -3755,7 +5922,7 @@
       "fr": "Grand"
     },
     {
-      "id": 448,
+      "id": 718,
       "category": "صفات إضافية",
       "darija_ar": "قصير",
       "darija_latin": "qsir",
@@ -3763,7 +5930,7 @@
       "fr": "Petit"
     },
     {
-      "id": 449,
+      "id": 719,
       "category": "صفات إضافية",
       "darija_ar": "قوي",
       "darija_latin": "qwi",
@@ -3771,7 +5938,7 @@
       "fr": "Fort"
     },
     {
-      "id": 450,
+      "id": 720,
       "category": "صفات إضافية",
       "darija_ar": "ضعيف",
       "darija_latin": "d3if",
@@ -3779,7 +5946,7 @@
       "fr": "Faible"
     },
     {
-      "id": 451,
+      "id": 721,
       "category": "صفات إضافية",
       "darija_ar": "ذكي",
       "darija_latin": "dki",
@@ -3787,7 +5954,7 @@
       "fr": "Intelligent"
     },
     {
-      "id": 452,
+      "id": 722,
       "category": "صفات إضافية",
       "darija_ar": "غبي",
       "darija_latin": "ghbi",
@@ -3795,7 +5962,7 @@
       "fr": "Bête"
     },
     {
-      "id": 453,
+      "id": 723,
       "category": "صفات إضافية",
       "darija_ar": "نشيط",
       "darija_latin": "nchit",
@@ -3803,7 +5970,7 @@
       "fr": "Actif"
     },
     {
-      "id": 454,
+      "id": 724,
       "category": "صفات إضافية",
       "darija_ar": "كسول",
       "darija_latin": "ksoul",
@@ -3811,7 +5978,7 @@
       "fr": "Paresseux"
     },
     {
-      "id": 455,
+      "id": 725,
       "category": "صفات إضافية",
       "darija_ar": "كريم",
       "darija_latin": "krim",
@@ -3819,7 +5986,7 @@
       "fr": "Généreux"
     },
     {
-      "id": 456,
+      "id": 726,
       "category": "صفات إضافية",
       "darija_ar": "بخيل",
       "darija_latin": "bkhil",
@@ -3827,7 +5994,7 @@
       "fr": "Avare"
     },
     {
-      "id": 457,
+      "id": 727,
       "category": "صفات إضافية",
       "darija_ar": "صادق",
       "darija_latin": "sadeq",
@@ -3835,7 +6002,7 @@
       "fr": "Honnête"
     },
     {
-      "id": 458,
+      "id": 728,
       "category": "صفات إضافية",
       "darija_ar": "كذاب",
       "darija_latin": "kddab",
@@ -3843,7 +6010,7 @@
       "fr": "Menteur"
     },
     {
-      "id": 459,
+      "id": 729,
       "category": "صفات إضافية",
       "darija_ar": "شجاع",
       "darija_latin": "chja3",
@@ -3851,7 +6018,7 @@
       "fr": "Courageux"
     },
     {
-      "id": 460,
+      "id": 730,
       "category": "صفات إضافية",
       "darija_ar": "محشم",
       "darija_latin": "m7chem",
@@ -3859,7 +6026,7 @@
       "fr": "Timide"
     },
     {
-      "id": 461,
+      "id": 731,
       "category": "صفات إضافية",
       "darija_ar": "خطير",
       "darija_latin": "khTir",
@@ -3867,7 +6034,7 @@
       "fr": "Dangereux"
     },
     {
-      "id": 462,
+      "id": 732,
       "category": "صفات إضافية",
       "darija_ar": "آمن",
       "darija_latin": "amen",
@@ -3875,7 +6042,7 @@
       "fr": "Sûr"
     },
     {
-      "id": 463,
+      "id": 733,
       "category": "صفات إضافية",
       "darija_ar": "نقي",
       "darija_latin": "nqi",
@@ -3883,7 +6050,7 @@
       "fr": "Propre"
     },
     {
-      "id": 464,
+      "id": 734,
       "category": "صفات إضافية",
       "darija_ar": "موسخ",
       "darija_latin": "mousakh",
@@ -3891,7 +6058,7 @@
       "fr": "Sale"
     },
     {
-      "id": 465,
+      "id": 735,
       "category": "صفات إضافية",
       "darija_ar": "عامر",
       "darija_latin": "3amer",
@@ -3899,7 +6066,7 @@
       "fr": "Plein"
     },
     {
-      "id": 466,
+      "id": 736,
       "category": "صفات إضافية",
       "darija_ar": "خاوي",
       "darija_latin": "khawi",
@@ -3907,7 +6074,7 @@
       "fr": "Vide"
     },
     {
-      "id": 467,
+      "id": 737,
       "category": "صفات إضافية",
       "darija_ar": "صحيح",
       "darija_latin": "s7i7",
@@ -3915,7 +6082,7 @@
       "fr": "Correct"
     },
     {
-      "id": 468,
+      "id": 738,
       "category": "صفات إضافية",
       "darija_ar": "غلط",
       "darija_latin": "ghalt",
@@ -3923,7 +6090,7 @@
       "fr": "Faux"
     },
     {
-      "id": 469,
+      "id": 739,
       "category": "صفات إضافية",
       "darija_ar": "مشهور",
       "darija_latin": "mchhour",
@@ -3931,7 +6098,7 @@
       "fr": "Célèbre"
     },
     {
-      "id": 470,
+      "id": 740,
       "category": "السفر والفندق",
       "darija_ar": "سفر",
       "darija_latin": "safar",
@@ -3939,7 +6106,7 @@
       "fr": "Voyage"
     },
     {
-      "id": 471,
+      "id": 741,
       "category": "السفر والفندق",
       "darija_ar": "مطار",
       "darija_latin": "matar",
@@ -3947,7 +6114,7 @@
       "fr": "Aéroport"
     },
     {
-      "id": 472,
+      "id": 742,
       "category": "السفر والفندق",
       "darija_ar": "تذكرة",
       "darija_latin": "tadhkira",
@@ -3955,7 +6122,7 @@
       "fr": "Billet"
     },
     {
-      "id": 473,
+      "id": 743,
       "category": "السفر والفندق",
       "darija_ar": "جواز",
       "darija_latin": "jawaz",
@@ -3963,7 +6130,7 @@
       "fr": "Passeport"
     },
     {
-      "id": 474,
+      "id": 744,
       "category": "السفر والفندق",
       "darija_ar": "فندق",
       "darija_latin": "fondouq",
@@ -3971,7 +6138,7 @@
       "fr": "Hôtel"
     },
     {
-      "id": 475,
+      "id": 745,
       "category": "السفر والفندق",
       "darija_ar": "غرفة",
       "darija_latin": "ghorfa",
@@ -3979,7 +6146,7 @@
       "fr": "Chambre"
     },
     {
-      "id": 476,
+      "id": 746,
       "category": "السفر والفندق",
       "darija_ar": "حجز",
       "darija_latin": "7ajz",
@@ -3987,7 +6154,7 @@
       "fr": "Réservation"
     },
     {
-      "id": 477,
+      "id": 747,
       "category": "السفر والفندق",
       "darija_ar": "شنطة",
       "darija_latin": "chnTa",
@@ -3995,7 +6162,7 @@
       "fr": "Valise"
     },
     {
-      "id": 478,
+      "id": 748,
       "category": "السفر والفندق",
       "darija_ar": "خريطة",
       "darija_latin": "khariTa",
@@ -4003,7 +6170,7 @@
       "fr": "Carte"
     },
     {
-      "id": 479,
+      "id": 749,
       "category": "السفر والفندق",
       "darija_ar": "حدود",
       "darija_latin": "7doud",
@@ -4011,7 +6178,7 @@
       "fr": "Frontière"
     },
     {
-      "id": 480,
+      "id": 750,
       "category": "السفر والفندق",
       "darija_ar": "تأشيرة",
       "darija_latin": "tachira",
@@ -4019,7 +6186,7 @@
       "fr": "Visa"
     },
     {
-      "id": 481,
+      "id": 751,
       "category": "السفر والفندق",
       "darija_ar": "رحلة",
       "darija_latin": "r7la",
@@ -4027,7 +6194,7 @@
       "fr": "Trajet"
     },
     {
-      "id": 482,
+      "id": 752,
       "category": "السفر والفندق",
       "darija_ar": "مرشد",
       "darija_latin": "morched",
@@ -4035,7 +6202,7 @@
       "fr": "Guide"
     },
     {
-      "id": 483,
+      "id": 753,
       "category": "السفر والفندق",
       "darija_ar": "سياحة",
       "darija_latin": "sya7a",
@@ -4043,7 +6210,7 @@
       "fr": "Tourisme"
     },
     {
-      "id": 484,
+      "id": 754,
       "category": "السفر والفندق",
       "darija_ar": "مغادرة",
       "darija_latin": "mghadra",
@@ -4051,7 +6218,39 @@
       "fr": "Départ"
     },
     {
-      "id": 485,
+      "id": 755,
+      "category": "السفر والفندق",
+      "darija_ar": "عندي رزرفاسيون",
+      "darija_latin": "3ndi rezervasion",
+      "fusha_ar": "لدي حجز",
+      "fr": "J'ai une réservation"
+    },
+    {
+      "id": 756,
+      "category": "السفر والفندق",
+      "darija_ar": "واش كاينة شي بيت خاوية؟",
+      "darija_latin": "wach kayna chi bit khawya?",
+      "fusha_ar": "هل توجد غرفة فارغة؟",
+      "fr": "Avez-vous une chambre libre ?"
+    },
+    {
+      "id": 757,
+      "category": "السفر والفندق",
+      "darija_ar": "بغيت بيت ما كيتدخنش فيه",
+      "darija_latin": "bghit bit ma kaytdakhench fih",
+      "fusha_ar": "أريد غرفة لغير المدخنين",
+      "fr": "Chambre non-fumeur"
+    },
+    {
+      "id": 758,
+      "category": "السفر والفندق",
+      "darija_ar": "شحال الليلة؟",
+      "darija_latin": "ch7al lila?",
+      "fusha_ar": "كم سعر الليلة؟",
+      "fr": "Combien la nuit ?"
+    },
+    {
+      "id": 759,
       "category": "المدينة والخدمات",
       "darija_ar": "مدينة",
       "darija_latin": "mdina",
@@ -4059,7 +6258,7 @@
       "fr": "Ville"
     },
     {
-      "id": 486,
+      "id": 760,
       "category": "المدينة والخدمات",
       "darija_ar": "قرية",
       "darija_latin": "qrya",
@@ -4067,7 +6266,7 @@
       "fr": "Village"
     },
     {
-      "id": 487,
+      "id": 761,
       "category": "المدينة والخدمات",
       "darija_ar": "زنقة",
       "darija_latin": "zanqa",
@@ -4075,7 +6274,7 @@
       "fr": "Rue"
     },
     {
-      "id": 488,
+      "id": 762,
       "category": "المدينة والخدمات",
       "darija_ar": "بنك",
       "darija_latin": "bank",
@@ -4083,7 +6282,7 @@
       "fr": "Banque"
     },
     {
-      "id": 489,
+      "id": 763,
       "category": "المدينة والخدمات",
       "darija_ar": "بريد",
       "darija_latin": "barid",
@@ -4091,7 +6290,7 @@
       "fr": "Poste"
     },
     {
-      "id": 490,
+      "id": 764,
       "category": "المدينة والخدمات",
       "darija_ar": "بلدية",
       "darija_latin": "baladiya",
@@ -4099,7 +6298,7 @@
       "fr": "Mairie"
     },
     {
-      "id": 491,
+      "id": 765,
       "category": "المدينة والخدمات",
       "darija_ar": "مسجد",
       "darija_latin": "masjid",
@@ -4107,7 +6306,7 @@
       "fr": "Mosquée"
     },
     {
-      "id": 492,
+      "id": 766,
       "category": "المدينة والخدمات",
       "darija_ar": "كنيسة",
       "darija_latin": "knisa",
@@ -4115,7 +6314,7 @@
       "fr": "Église"
     },
     {
-      "id": 493,
+      "id": 767,
       "category": "المدينة والخدمات",
       "darija_ar": "حديقة",
       "darija_latin": "7diqa",
@@ -4123,7 +6322,7 @@
       "fr": "Jardin"
     },
     {
-      "id": 494,
+      "id": 768,
       "category": "المدينة والخدمات",
       "darija_ar": "ملعب",
       "darija_latin": "ml3ab",
@@ -4131,7 +6330,7 @@
       "fr": "Terrain de sport"
     },
     {
-      "id": 495,
+      "id": 769,
       "category": "المدينة والخدمات",
       "darija_ar": "محكمة",
       "darija_latin": "ma7kama",
@@ -4139,7 +6338,7 @@
       "fr": "Tribunal"
     },
     {
-      "id": 496,
+      "id": 770,
       "category": "المدينة والخدمات",
       "darija_ar": "شرطة",
       "darija_latin": "chorta",
@@ -4147,7 +6346,7 @@
       "fr": "Police"
     },
     {
-      "id": 497,
+      "id": 771,
       "category": "المدينة والخدمات",
       "darija_ar": "مطعم",
       "darija_latin": "mT3em",
@@ -4155,7 +6354,7 @@
       "fr": "Restaurant"
     },
     {
-      "id": 498,
+      "id": 772,
       "category": "المدينة والخدمات",
       "darija_ar": "مقهى",
       "darija_latin": "mqha",
@@ -4163,7 +6362,7 @@
       "fr": "Café"
     },
     {
-      "id": 499,
+      "id": 773,
       "category": "المدينة والخدمات",
       "darija_ar": "سينما",
       "darija_latin": "sinima",
@@ -4171,7 +6370,15 @@
       "fr": "Cinéma"
     },
     {
-      "id": 500,
+      "id": 774,
+      "category": "المدينة والخدمات",
+      "darija_ar": "پيسين",
+      "darija_latin": "pisin",
+      "fusha_ar": "مسبح",
+      "fr": "Piscine"
+    },
+    {
+      "id": 775,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "الله",
       "darija_latin": "llah",
@@ -4179,7 +6386,7 @@
       "fr": "Dieu"
     },
     {
-      "id": 501,
+      "id": 776,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "دين",
       "darija_latin": "din",
@@ -4187,7 +6394,7 @@
       "fr": "Religion"
     },
     {
-      "id": 502,
+      "id": 777,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "إسلام",
       "darija_latin": "islam",
@@ -4195,7 +6402,7 @@
       "fr": "Islam"
     },
     {
-      "id": 503,
+      "id": 778,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "صلاة",
       "darija_latin": "sla",
@@ -4203,7 +6410,7 @@
       "fr": "Prière"
     },
     {
-      "id": 504,
+      "id": 779,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "جامع",
       "darija_latin": "jame3",
@@ -4211,7 +6418,7 @@
       "fr": "Mosquée"
     },
     {
-      "id": 505,
+      "id": 780,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "صيام",
       "darija_latin": "syam",
@@ -4219,7 +6426,7 @@
       "fr": "Jeûne"
     },
     {
-      "id": 506,
+      "id": 781,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "رمضان",
       "darija_latin": "ramdan",
@@ -4227,7 +6434,7 @@
       "fr": "Ramadan"
     },
     {
-      "id": 507,
+      "id": 782,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "عيد",
       "darija_latin": "3id",
@@ -4235,7 +6442,7 @@
       "fr": "Fête"
     },
     {
-      "id": 508,
+      "id": 783,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "دعاء",
       "darija_latin": "d3a",
@@ -4243,7 +6450,7 @@
       "fr": "Invocation"
     },
     {
-      "id": 509,
+      "id": 784,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "قرآن",
       "darija_latin": "qran",
@@ -4251,7 +6458,7 @@
       "fr": "Coran"
     },
     {
-      "id": 510,
+      "id": 785,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "إمام",
       "darija_latin": "imam",
@@ -4259,7 +6466,7 @@
       "fr": "Imam"
     },
     {
-      "id": 511,
+      "id": 786,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "الوضو",
       "darija_latin": "lwDO",
@@ -4267,7 +6474,7 @@
       "fr": "Ablutions"
     },
     {
-      "id": 512,
+      "id": 787,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "حج",
       "darija_latin": "7aj",
@@ -4275,7 +6482,7 @@
       "fr": "Pèlerinage"
     },
     {
-      "id": 513,
+      "id": 788,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "الجنة",
       "darija_latin": "jjanna",
@@ -4283,7 +6490,7 @@
       "fr": "Paradis"
     },
     {
-      "id": 514,
+      "id": 789,
       "category": "الدين والتعبيرات الدينية",
       "darija_ar": "بركة",
       "darija_latin": "baraka",
@@ -4291,7 +6498,71 @@
       "fr": "Bénédiction"
     },
     {
-      "id": 515,
+      "id": 790,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "زكاة",
+      "darija_latin": "zakat",
+      "fusha_ar": "الزكاة",
+      "fr": "Aumône légale"
+    },
+    {
+      "id": 791,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "روح",
+      "darija_latin": "rou7",
+      "fusha_ar": "الروح",
+      "fr": "Âme"
+    },
+    {
+      "id": 792,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "جهنم",
+      "darija_latin": "jahannam",
+      "fusha_ar": "جهنم",
+      "fr": "Enfer"
+    },
+    {
+      "id": 793,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "شيطان",
+      "darija_latin": "chiTan",
+      "fusha_ar": "الشيطان",
+      "fr": "Diable"
+    },
+    {
+      "id": 794,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "حلال",
+      "darija_latin": "7lal",
+      "fusha_ar": "الحلال",
+      "fr": "Licite"
+    },
+    {
+      "id": 795,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "حرام",
+      "darija_latin": "7ram",
+      "fusha_ar": "الحرام",
+      "fr": "Illicite"
+    },
+    {
+      "id": 796,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "فتوى",
+      "darija_latin": "fetwa",
+      "fusha_ar": "الفتوى",
+      "fr": "Fatwa"
+    },
+    {
+      "id": 797,
+      "category": "الدين والتعبيرات الدينية",
+      "darija_ar": "شريعة",
+      "darija_latin": "chari3a",
+      "fusha_ar": "الشريعة",
+      "fr": "Charia"
+    },
+    {
+      "id": 798,
       "category": "المصطلحات الشعبية",
       "darija_ar": "زعما",
       "darija_latin": "z3ma",
@@ -4299,7 +6570,7 @@
       "fr": "Genre"
     },
     {
-      "id": 516,
+      "id": 799,
       "category": "المصطلحات الشعبية",
       "darija_ar": "يالاه",
       "darija_latin": "yalah",
@@ -4307,7 +6578,7 @@
       "fr": "Allez"
     },
     {
-      "id": 517,
+      "id": 800,
       "category": "المصطلحات الشعبية",
       "darija_ar": "خو",
       "darija_latin": "khou",
@@ -4315,7 +6586,7 @@
       "fr": "Mec"
     },
     {
-      "id": 518,
+      "id": 801,
       "category": "المصطلحات الشعبية",
       "darija_ar": "درويش",
       "darija_latin": "drwich",
@@ -4323,7 +6594,7 @@
       "fr": "Gamin"
     },
     {
-      "id": 519,
+      "id": 802,
       "category": "المصطلحات الشعبية",
       "darija_ar": "ناضي",
       "darija_latin": "nadi",
@@ -4331,7 +6602,7 @@
       "fr": "Super"
     },
     {
-      "id": 520,
+      "id": 803,
       "category": "المصطلحات الشعبية",
       "darija_ar": "والو",
       "darija_latin": "walou",
@@ -4339,7 +6610,7 @@
       "fr": "Rien"
     },
     {
-      "id": 521,
+      "id": 804,
       "category": "المصطلحات الشعبية",
       "darija_ar": "حشومة",
       "darija_latin": "7chouma",
@@ -4347,7 +6618,7 @@
       "fr": "Honte"
     },
     {
-      "id": 522,
+      "id": 805,
       "category": "المصطلحات الشعبية",
       "darija_ar": "سيدي",
       "darija_latin": "sidi",
@@ -4355,7 +6626,7 @@
       "fr": "Monsieur"
     },
     {
-      "id": 523,
+      "id": 806,
       "category": "المصطلحات الشعبية",
       "darija_ar": "لالة",
       "darija_latin": "lalla",
@@ -4363,7 +6634,7 @@
       "fr": "Madame"
     },
     {
-      "id": 524,
+      "id": 807,
       "category": "المصطلحات الشعبية",
       "darija_ar": "مولاي",
       "darija_latin": "moulay",
@@ -4371,7 +6642,7 @@
       "fr": "Monseigneur"
     },
     {
-      "id": 525,
+      "id": 808,
       "category": "المصطلحات الشعبية",
       "darija_ar": "شي",
       "darija_latin": "chi",
@@ -4379,7 +6650,7 @@
       "fr": "Quelque"
     },
     {
-      "id": 526,
+      "id": 809,
       "category": "المصطلحات الشعبية",
       "darija_ar": "حتى واحد",
       "darija_latin": "7ta wa7ed",
@@ -4387,7 +6658,7 @@
       "fr": "Personne"
     },
     {
-      "id": 527,
+      "id": 810,
       "category": "المصطلحات الشعبية",
       "darija_ar": "كلشي",
       "darija_latin": "kolchi",
@@ -4395,7 +6666,7 @@
       "fr": "Tout"
     },
     {
-      "id": 528,
+      "id": 811,
       "category": "المصطلحات الشعبية",
       "darija_ar": "هدرا",
       "darija_latin": "hdra",
@@ -4403,7 +6674,7 @@
       "fr": "Parole"
     },
     {
-      "id": 529,
+      "id": 812,
       "category": "المصطلحات الشعبية",
       "darija_ar": "كلام",
       "darija_latin": "klam",
@@ -4411,7 +6682,7 @@
       "fr": "Paroles"
     },
     {
-      "id": 530,
+      "id": 813,
       "category": "المصطلحات الشعبية",
       "darija_ar": "أويلي",
       "darija_latin": "awili",
@@ -4419,7 +6690,7 @@
       "fr": "Oh là là"
     },
     {
-      "id": 531,
+      "id": 814,
       "category": "المصطلحات الشعبية",
       "darija_ar": "هاك",
       "darija_latin": "hak",
@@ -4427,7 +6698,7 @@
       "fr": "Tiens"
     },
     {
-      "id": 532,
+      "id": 815,
       "category": "المصطلحات الشعبية",
       "darija_ar": "بلا مزية",
       "darija_latin": "bla mziya",
@@ -4435,7 +6706,7 @@
       "fr": "De rien"
     },
     {
-      "id": 533,
+      "id": 816,
       "category": "المصطلحات الشعبية",
       "darija_ar": "راه",
       "darija_latin": "rah",
@@ -4443,7 +6714,7 @@
       "fr": "Voilà"
     },
     {
-      "id": 534,
+      "id": 817,
       "category": "المصطلحات الشعبية",
       "darija_ar": "كاع",
       "darija_latin": "ga3",
@@ -4451,7 +6722,7 @@
       "fr": "Tout"
     },
     {
-      "id": 535,
+      "id": 818,
       "category": "حروف الربط",
       "darija_ar": "و",
       "darija_latin": "w",
@@ -4459,7 +6730,7 @@
       "fr": "Et"
     },
     {
-      "id": 536,
+      "id": 819,
       "category": "حروف الربط",
       "darija_ar": "أو",
       "darija_latin": "aw",
@@ -4467,7 +6738,7 @@
       "fr": "Ou"
     },
     {
-      "id": 537,
+      "id": 820,
       "category": "حروف الربط",
       "darija_ar": "لكن",
       "darija_latin": "lakin",
@@ -4475,7 +6746,7 @@
       "fr": "Mais"
     },
     {
-      "id": 538,
+      "id": 821,
       "category": "حروف الربط",
       "darija_ar": "بينما",
       "darija_latin": "binma",
@@ -4483,7 +6754,7 @@
       "fr": "Tandis que"
     },
     {
-      "id": 539,
+      "id": 822,
       "category": "حروف الربط",
       "darija_ar": "لهذا",
       "darija_latin": "lhada",
@@ -4491,7 +6762,7 @@
       "fr": "C'est pourquoi"
     },
     {
-      "id": 540,
+      "id": 823,
       "category": "حروف الربط",
       "darija_ar": "يعني",
       "darija_latin": "y3ni",
@@ -4499,7 +6770,7 @@
       "fr": "C'est-à-dire"
     },
     {
-      "id": 541,
+      "id": 824,
       "category": "حروف الربط",
       "darija_ar": "مثلا",
       "darija_latin": "mathalan",
@@ -4507,7 +6778,7 @@
       "fr": "Par exemple"
     },
     {
-      "id": 542,
+      "id": 825,
       "category": "حروف الربط",
       "darija_ar": "بالعكس",
       "darija_latin": "b l3aks",
@@ -4515,7 +6786,7 @@
       "fr": "Au contraire"
     },
     {
-      "id": 543,
+      "id": 826,
       "category": "حروف الربط",
       "darija_ar": "خاصة",
       "darija_latin": "khasa",
@@ -4523,7 +6794,7 @@
       "fr": "Surtout"
     },
     {
-      "id": 544,
+      "id": 827,
       "category": "حروف الربط",
       "darija_ar": "عموما",
       "darija_latin": "3omoman",
@@ -4531,7 +6802,7 @@
       "fr": "En général"
     },
     {
-      "id": 545,
+      "id": 828,
       "category": "حروف الربط",
       "darija_ar": "أولا",
       "darija_latin": "awalan",
@@ -4539,7 +6810,7 @@
       "fr": "D'abord"
     },
     {
-      "id": 546,
+      "id": 829,
       "category": "حروف الربط",
       "darija_ar": "أخيرا",
       "darija_latin": "akhiran",
@@ -4547,7 +6818,7 @@
       "fr": "Enfin"
     },
     {
-      "id": 547,
+      "id": 830,
       "category": "حروف الربط",
       "darija_ar": "دائما",
       "darija_latin": "dayman",
@@ -4555,7 +6826,7 @@
       "fr": "Toujours"
     },
     {
-      "id": 548,
+      "id": 831,
       "category": "حروف الربط",
       "darija_ar": "أبدا",
       "darija_latin": "abadan",
@@ -4563,7 +6834,7 @@
       "fr": "Jamais"
     },
     {
-      "id": 549,
+      "id": 832,
       "category": "حروف الربط",
       "darija_ar": "مع",
       "darija_latin": "m3a",
@@ -4571,7 +6842,7 @@
       "fr": "Avec"
     },
     {
-      "id": 550,
+      "id": 833,
       "category": "الزراعة والريف",
       "darija_ar": "فلاحة",
       "darija_latin": "fla7a",
@@ -4579,7 +6850,7 @@
       "fr": "Agriculture"
     },
     {
-      "id": 551,
+      "id": 834,
       "category": "الزراعة والريف",
       "darija_ar": "حقل",
       "darija_latin": "7aql",
@@ -4587,7 +6858,7 @@
       "fr": "Champ"
     },
     {
-      "id": 552,
+      "id": 835,
       "category": "الزراعة والريف",
       "darija_ar": "قمح",
       "darija_latin": "qm7",
@@ -4595,7 +6866,7 @@
       "fr": "Blé"
     },
     {
-      "id": 553,
+      "id": 836,
       "category": "الزراعة والريف",
       "darija_ar": "شعير",
       "darija_latin": "ch3ir",
@@ -4603,7 +6874,7 @@
       "fr": "Orge"
     },
     {
-      "id": 554,
+      "id": 837,
       "category": "الزراعة والريف",
       "darija_ar": "زيتون",
       "darija_latin": "zitoun",
@@ -4611,7 +6882,7 @@
       "fr": "Olives"
     },
     {
-      "id": 555,
+      "id": 838,
       "category": "الزراعة والريف",
       "darija_ar": "عنب",
       "darija_latin": "3neb",
@@ -4619,7 +6890,7 @@
       "fr": "Raisin"
     },
     {
-      "id": 556,
+      "id": 839,
       "category": "الزراعة والريف",
       "darija_ar": "تين",
       "darija_latin": "tin",
@@ -4627,7 +6898,7 @@
       "fr": "Figues"
     },
     {
-      "id": 557,
+      "id": 840,
       "category": "الزراعة والريف",
       "darija_ar": "نخلة",
       "darija_latin": "nkhla",
@@ -4635,7 +6906,7 @@
       "fr": "Palmier"
     },
     {
-      "id": 558,
+      "id": 841,
       "category": "الزراعة والريف",
       "darija_ar": "طماطم",
       "darija_latin": "tmatem",
@@ -4643,7 +6914,7 @@
       "fr": "Tomates"
     },
     {
-      "id": 559,
+      "id": 842,
       "category": "الزراعة والريف",
       "darija_ar": "بطاطا",
       "darija_latin": "bTata",
@@ -4651,7 +6922,7 @@
       "fr": "Pommes de terre"
     },
     {
-      "id": 560,
+      "id": 843,
       "category": "الزراعة والريف",
       "darija_ar": "بصلة",
       "darija_latin": "bSla",
@@ -4659,7 +6930,7 @@
       "fr": "Oignon"
     },
     {
-      "id": 561,
+      "id": 844,
       "category": "الزراعة والريف",
       "darija_ar": "ثوم",
       "darija_latin": "toum",
@@ -4667,7 +6938,7 @@
       "fr": "Ail"
     },
     {
-      "id": 562,
+      "id": 845,
       "category": "مأكولات إضافية",
       "darija_ar": "بيضة",
       "darija_latin": "bida",
@@ -4675,7 +6946,7 @@
       "fr": "Œuf"
     },
     {
-      "id": 563,
+      "id": 846,
       "category": "مأكولات إضافية",
       "darija_ar": "جبن",
       "darija_latin": "jben",
@@ -4683,7 +6954,7 @@
       "fr": "Fromage"
     },
     {
-      "id": 564,
+      "id": 847,
       "category": "مأكولات إضافية",
       "darija_ar": "زبدة",
       "darija_latin": "zebda",
@@ -4691,7 +6962,7 @@
       "fr": "Beurre"
     },
     {
-      "id": 565,
+      "id": 848,
       "category": "مأكولات إضافية",
       "darija_ar": "عسل",
       "darija_latin": "3sel",
@@ -4699,7 +6970,7 @@
       "fr": "Miel"
     },
     {
-      "id": 566,
+      "id": 849,
       "category": "مأكولات إضافية",
       "darija_ar": "شوكولا",
       "darija_latin": "chokola",
@@ -4707,7 +6978,7 @@
       "fr": "Chocolat"
     },
     {
-      "id": 567,
+      "id": 850,
       "category": "مأكولات إضافية",
       "darija_ar": "عصير",
       "darija_latin": "3sir",
@@ -4715,7 +6986,7 @@
       "fr": "Jus"
     },
     {
-      "id": 568,
+      "id": 851,
       "category": "مأكولات إضافية",
       "darija_ar": "سندويش",
       "darija_latin": "sandwiche",
@@ -4723,7 +6994,7 @@
       "fr": "Sandwich"
     },
     {
-      "id": 569,
+      "id": 852,
       "category": "مأكولات إضافية",
       "darija_ar": "بيتزا",
       "darija_latin": "pizza",
@@ -4731,7 +7002,7 @@
       "fr": "Pizza"
     },
     {
-      "id": 570,
+      "id": 853,
       "category": "مأكولات إضافية",
       "darija_ar": "شربة",
       "darija_latin": "chorba",
@@ -4739,7 +7010,7 @@
       "fr": "Soupe"
     },
     {
-      "id": 571,
+      "id": 854,
       "category": "مأكولات إضافية",
       "darija_ar": "سلاطة",
       "darija_latin": "Slata",
@@ -4747,7 +7018,7 @@
       "fr": "Salade"
     },
     {
-      "id": 572,
+      "id": 855,
       "category": "مأكولات إضافية",
       "darija_ar": "مقروط",
       "darija_latin": "maqroud",
@@ -4755,7 +7026,7 @@
       "fr": "Macrout"
     },
     {
-      "id": 573,
+      "id": 856,
       "category": "مأكولات إضافية",
       "darija_ar": "شباكية",
       "darija_latin": "chebakia",
@@ -4763,7 +7034,7 @@
       "fr": "Chebakia"
     },
     {
-      "id": 574,
+      "id": 857,
       "category": "الأشخاص",
       "darija_ar": "ناس",
       "darija_latin": "nas",
@@ -4771,7 +7042,7 @@
       "fr": "Gens"
     },
     {
-      "id": 575,
+      "id": 858,
       "category": "الأشخاص",
       "darija_ar": "ولد",
       "darija_latin": "weld",
@@ -4779,7 +7050,7 @@
       "fr": "Garçon"
     },
     {
-      "id": 576,
+      "id": 859,
       "category": "الأشخاص",
       "darija_ar": "بنت",
       "darija_latin": "bent",
@@ -4787,7 +7058,7 @@
       "fr": "Fille"
     },
     {
-      "id": 577,
+      "id": 860,
       "category": "الأشخاص",
       "darija_ar": "راجل",
       "darija_latin": "rajel",
@@ -4795,7 +7066,7 @@
       "fr": "Homme"
     },
     {
-      "id": 578,
+      "id": 861,
       "category": "الأشخاص",
       "darija_ar": "مرا",
       "darija_latin": "mra",
@@ -4803,7 +7074,7 @@
       "fr": "Femme"
     },
     {
-      "id": 579,
+      "id": 862,
       "category": "الأشخاص",
       "darija_ar": "صبي",
       "darija_latin": "sbi",
@@ -4811,7 +7082,7 @@
       "fr": "Jeune homme"
     },
     {
-      "id": 580,
+      "id": 863,
       "category": "الأشخاص",
       "darija_ar": "عائلة",
       "darija_latin": "3aila",
@@ -4819,7 +7090,7 @@
       "fr": "Famille"
     },
     {
-      "id": 581,
+      "id": 864,
       "category": "الأشخاص",
       "darija_ar": "صاحب",
       "darija_latin": "sa7eb",
@@ -4827,7 +7098,7 @@
       "fr": "Ami"
     },
     {
-      "id": 582,
+      "id": 865,
       "category": "الأشخاص",
       "darija_ar": "جيران",
       "darija_latin": "jiran",
@@ -4835,7 +7106,7 @@
       "fr": "Voisins"
     },
     {
-      "id": 583,
+      "id": 866,
       "category": "الأشخاص",
       "darija_ar": "ضيف",
       "darija_latin": "dif",
@@ -4843,7 +7114,7 @@
       "fr": "Invité"
     },
     {
-      "id": 584,
+      "id": 867,
       "category": "الأشخاص",
       "darija_ar": "طفل",
       "darija_latin": "tfel",
@@ -4851,245 +7122,164 @@
       "fr": "Enfant"
     },
     {
-      "id": 585,
+      "id": 868,
       "category": "الأشخاص",
       "darija_ar": "شاب",
       "darija_latin": "chab",
       "fusha_ar": "شاب",
       "fr": "Jeune"
-    }
-  ],
-  "proverbs": [
-    {
-      "id": 1,
-      "darija_ar": "اللي ما يعرفك ما يثمنك",
-      "darija_latin": "lli ma y3rfek ma ytmennek",
-      "fusha_ar": "من لا يعرفك لا يقدّرك",
-      "fr": "Celui qui ne te connaît pas ne t'apprécie pas."
     },
     {
-      "id": 2,
-      "darija_ar": "اللي بغا العسل يصبر لقريص النحل",
-      "darija_latin": "lli bgha l3sel ysebber lqris nne7l",
-      "fusha_ar": "من أراد العسل فليصبر على لسع النحل",
-      "fr": "Qui veut le miel doit supporter la piqûre des abeilles."
+      "id": 869,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "أستراليا",
+      "darija_latin": "ostralya",
+      "fusha_ar": "أستراليا",
+      "fr": "Australie"
     },
     {
-      "id": 3,
-      "darija_ar": "اللي فات مات",
-      "darija_latin": "lli fat mat",
-      "fusha_ar": "ما مضى انتهى",
-      "fr": "Ce qui est passé est passé."
+      "id": 870,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "كمبوديا",
+      "darija_latin": "kambodja",
+      "fusha_ar": "كمبوديا",
+      "fr": "Cambodge"
     },
     {
-      "id": 4,
-      "darija_ar": "يد وحدة ما تصفقش",
-      "darija_latin": "yed wa7da ma tsfeqch",
-      "fusha_ar": "لا ينجح العمل الفردي مثل الجماعي",
-      "fr": "Une seule main ne peut applaudir."
+      "id": 871,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "كندا",
+      "darija_latin": "kanada",
+      "fusha_ar": "كندا",
+      "fr": "Canada"
     },
     {
-      "id": 5,
-      "darija_ar": "الجار قبل الدار",
-      "darija_latin": "jjar qbel ddar",
-      "fusha_ar": "اختر الجار قبل اختيار المنزل",
-      "fr": "Le voisin avant la maison."
+      "id": 872,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "نڭليز",
+      "darija_latin": "ngliz",
+      "fusha_ar": "إنجلترا",
+      "fr": "Angleterre"
     },
     {
-      "id": 6,
-      "darija_ar": "الصبر مفتاح الفرج",
-      "darija_latin": "sber mefta7 lfaraj",
-      "fusha_ar": "الصبر طريق الفرج",
-      "fr": "La patience est la clé du soulagement."
+      "id": 873,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "اليونان",
+      "darija_latin": "lyunan",
+      "fusha_ar": "اليونان",
+      "fr": "Grèce"
     },
     {
-      "id": 7,
-      "darija_ar": "المال السايب يعلم السرقة",
-      "darija_latin": "lmal sayeb y3ellem serqa",
-      "fusha_ar": "المال المتروك بلا حفظ يغري بالسرقة",
-      "fr": "L'argent abandonné incite au vol."
+      "id": 874,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "الهند",
+      "darija_latin": "lhind",
+      "fusha_ar": "الهند",
+      "fr": "Inde"
     },
     {
-      "id": 8,
-      "darija_ar": "ضربني وبكى سبقني واشتكى",
-      "darija_latin": "darbni w bka sbeqni w chtka",
-      "fusha_ar": "اعتدى عليه ثم تظلّم قبله",
-      "fr": "Il m'a frappé, a pleuré et s'est plaint avant moi."
+      "id": 875,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "أندونيسيا",
+      "darija_latin": "indunisya",
+      "fusha_ar": "إندونيسيا",
+      "fr": "Indonésie"
     },
     {
-      "id": 9,
-      "darija_ar": "طاح الجمل كثرت سكاكينو",
-      "darija_latin": "ta7 jmel kthret skakinu",
-      "fusha_ar": "عند سقوط القوي يتجرأ عليه الجميع",
-      "fr": "Quand le chameau tombe, les couteaux se multiplient."
+      "id": 876,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "إيطاليا",
+      "darija_latin": "italya",
+      "fusha_ar": "إيطاليا",
+      "fr": "Italie"
     },
     {
-      "id": 10,
-      "darija_ar": "الحوت الكبير كياكل الصغير",
-      "darija_latin": "l7out lkbir kayakel sghir",
-      "fusha_ar": "القوي يأكل الضعيف",
-      "fr": "Le gros poisson mange le petit."
+      "id": 877,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "المكسيك",
+      "darija_latin": "meksik",
+      "fusha_ar": "المكسيك",
+      "fr": "Mexique"
     },
     {
-      "id": 11,
-      "darija_ar": "الما يكذب الغطاس",
-      "darija_latin": "lma ykeddab lghTas",
-      "fusha_ar": "الحقيقة تظهر عند الاختبار",
-      "fr": "L'eau démasque le plongeur."
+      "id": 878,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "بيرو",
+      "darija_latin": "piru",
+      "fusha_ar": "بيرو",
+      "fr": "Pérou"
     },
     {
-      "id": 12,
-      "darija_ar": "جار قريب خير من خو بعيد",
-      "darija_latin": "jar qrib khir men khou b3id",
-      "fusha_ar": "القريب النافع خير من البعيد",
-      "fr": "Un voisin proche vaut mieux qu'un frère lointain."
+      "id": 879,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "إسبانيا",
+      "darija_latin": "sbaniya",
+      "fusha_ar": "إسبانيا",
+      "fr": "Espagne"
     },
     {
-      "id": 13,
-      "darija_ar": "العبد في التفكير والرب في التدبير",
-      "darija_latin": "l3bed fi tafkir w rreb fi tdbir",
-      "fusha_ar": "العبد يخطط والله يدبّر",
-      "fr": "L'homme propose, Dieu dispose."
+      "id": 880,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "تايلاند",
+      "darija_latin": "tayland",
+      "fusha_ar": "تايلاند",
+      "fr": "Thaïlande"
     },
     {
-      "id": 14,
-      "darija_ar": "ما كاين حد يموت ناقص عمر",
-      "darija_latin": "ma kayn 7ed ymout naqes 3mer",
-      "fusha_ar": "لا يموت أحد قبل أجله",
-      "fr": "Personne ne meurt avant son heure."
+      "id": 881,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "ولايات المتحدة",
+      "darija_latin": "mirikan",
+      "fusha_ar": "الولايات المتحدة",
+      "fr": "États-Unis"
     },
     {
-      "id": 15,
-      "darija_ar": "خير تعمل شر تلقى",
-      "darija_latin": "khir t3mel cher tlqa",
-      "fusha_ar": "من فعل الخير لقي الشر أحيانا",
-      "fr": "Fais le bien, tu recevras le mal (proverbe ironique)."
+      "id": 882,
+      "category": "الثقافة والفنون",
+      "darija_ar": "موسيقى",
+      "darija_latin": "musi9a",
+      "fusha_ar": "الموسيقى",
+      "fr": "Musique"
     },
     {
-      "id": 16,
-      "darija_ar": "العين ما تعلى على الحاجب",
-      "darija_latin": "l3in ma t3la 3la l7ajeb",
-      "fusha_ar": "لا يتجاوز المرء قدره",
-      "fr": "L'œil ne dépasse pas le sourcil."
+      "id": 883,
+      "category": "الثقافة والفنون",
+      "darija_ar": "أفلام",
+      "darija_latin": "aflam",
+      "fusha_ar": "أفلام",
+      "fr": "Films"
     },
     {
-      "id": 17,
-      "darija_ar": "المكتوب ما منه هروب",
-      "darija_latin": "lmektoub ma mennou hroub",
-      "fusha_ar": "لا مهرب من القدر",
-      "fr": "On n'échappe pas au destin."
+      "id": 884,
+      "category": "الثقافة والفنون",
+      "darija_ar": "مسرح",
+      "darija_latin": "masra7",
+      "fusha_ar": "المسرح",
+      "fr": "Théâtre"
     },
     {
-      "id": 18,
-      "darija_ar": "الباب اللي يجيك منه الريح سدو واستريح",
-      "darija_latin": "lbab lli jik mennou ri7 seddou w steri7",
-      "fusha_ar": "أغلق مصدر المشاكل تسترح",
-      "fr": "Ferme la porte d'où vient le vent et repose-toi."
+      "id": 885,
+      "category": "الثقافة والفنون",
+      "darija_ar": "لعبة",
+      "darija_latin": "l3ba",
+      "fusha_ar": "لعبة",
+      "fr": "Jeu"
     },
     {
-      "id": 19,
-      "darija_ar": "الطول طول نخلة والعقل عقل سخلة",
-      "darija_latin": "tToul toul nakhla w l3qel 3qel sekhla",
-      "fusha_ar": "جسم كبير بعقل صغير",
-      "fr": "Grand comme un palmier, esprit de chevreau."
+      "id": 886,
+      "category": "الثقافة والفنون",
+      "darija_ar": "كرة القدم",
+      "darija_latin": "l kora",
+      "fusha_ar": "كرة القدم",
+      "fr": "Football"
     },
     {
-      "id": 20,
-      "darija_ar": "الشمس ما تتغطاش بالغربال",
-      "darija_latin": "chems ma ttghattach b lghrbal",
-      "fusha_ar": "الحقيقة لا تخفى",
-      "fr": "On ne cache pas le soleil avec un tamis."
-    },
-    {
-      "id": 21,
-      "darija_ar": "الصديق وقت الضيق",
-      "darija_latin": "s7ib wqt ddiq",
-      "fusha_ar": "يعرف الصديق عند الشدة",
-      "fr": "C'est dans l'épreuve qu'on connaît l'ami."
-    },
-    {
-      "id": 22,
-      "darija_ar": "الطيور على أشكالها تقع",
-      "darija_latin": "ttyour 3la chkalha tqa3",
-      "fusha_ar": "المرء يميل إلى أشباهه",
-      "fr": "Les oiseaux se rassemblent par espèces."
-    },
-    {
-      "id": 23,
-      "darija_ar": "الجزاء من جنس العمل",
-      "darija_latin": "jjaza men jins l3mel",
-      "fusha_ar": "المكافأة من جنس الفعل",
-      "fr": "La récompense est du même genre que l'acte."
-    },
-    {
-      "id": 24,
-      "darija_ar": "الوقاية خير من العلاج",
-      "darija_latin": "lwiqaya khir men dawa",
-      "fusha_ar": "الوقاية أفضل من العلاج",
-      "fr": "Mieux vaut prévenir que guérir."
-    },
-    {
-      "id": 25,
-      "darija_ar": "في التأني السلامة وفي العجلة الندامة",
-      "darija_latin": "f ttanni salama w f l3jla ndama",
-      "fusha_ar": "التأني فيه سلامة والعجلة ندم",
-      "fr": "La prudence sauve, la précipitation fait regretter."
-    },
-    {
-      "id": 26,
-      "darija_ar": "من جد وجد ومن زرع حصد",
-      "darija_latin": "men jadd wjad w men zra3 7sad",
-      "fusha_ar": "من اجتهد نال ومن زرع حصاد",
-      "fr": "Qui cherche trouve, qui sème récolte."
-    },
-    {
-      "id": 27,
-      "darija_ar": "العلم نور",
-      "darija_latin": "l3ilm nour",
-      "fusha_ar": "العلم هداية",
-      "fr": "Le savoir est lumière."
-    },
-    {
-      "id": 28,
-      "darija_ar": "التجربة خير برهان",
-      "darija_latin": "tjriba khir borhan",
-      "fusha_ar": "التجربة دليل",
-      "fr": "L'expérience est la meilleure preuve."
-    },
-    {
-      "id": 29,
-      "darija_ar": "لا دخان بلا نار",
-      "darija_latin": "la dkhan bla nar",
-      "fusha_ar": "لكل أثر سبب",
-      "fr": "Pas de fumée sans feu."
-    },
-    {
-      "id": 30,
-      "darija_ar": "العافية تاج على رؤوس الأصحاء",
-      "darija_latin": "l3afya taj 3la rous l7s7a7",
-      "fusha_ar": "الصحة نعمة لا يدركها إلا المريض",
-      "fr": "La santé est une couronne que seuls les malades voient."
-    },
-    {
-      "id": 31,
-      "darija_ar": "اللي ما يعرف يشري يقول غالي",
-      "darija_latin": "lli ma y3ref ychri ygoul ghali",
-      "fusha_ar": "من لا يحسن الشراء يصف السلعة بالغلاء",
-      "fr": "Qui ne sait pas acheter dit que c'est cher."
-    },
-    {
-      "id": 32,
-      "darija_ar": "الدنيا دوارة",
-      "darija_latin": "ddounya ddawwara",
-      "fusha_ar": "الأيام تتقلب",
-      "fr": "La vie tourne."
-    },
-    {
-      "id": 33,
-      "darija_ar": "كل تأخيرة فيها خيرة",
-      "darija_latin": "kolla takhir fiha khir",
-      "fusha_ar": "في التأخير خير",
-      "fr": "Tout retard porte en lui un bien."
+      "id": 887,
+      "category": "الثقافة والفنون",
+      "darija_ar": "لاعب",
+      "darija_latin": "la3eb",
+      "fusha_ar": "لاعب",
+      "fr": "Joueur"
     }
   ]
 }
