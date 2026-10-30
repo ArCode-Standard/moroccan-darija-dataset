@@ -1,0 +1,50 @@
+name: تصحيح أو مراجعة مدخل
+description: أبلغ عن ترجمة أو كتابة أو تصنيف يحتاج إلى مراجعة
+title: "[تصحيح] "
+body:
+  - type: input
+    id: entry_id
+    attributes:
+      label: رقم المدخل
+      placeholder: "123"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: نوع المشكلة
+      options: [darija_ar, darija_latin, fusha_ar, fr, category, region, context, provenance, rights, duplicate, other]
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: القيمة الحالية
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: القيمة المقترحة
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: الدليل والسياق
+      description: أضف مثال استعمال أو مرجعاً يمكن للمراجع التحقق منه.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: رابط المصدر
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: الإقرارات
+      options:
+        - label: لم أدرج بيانات شخصية أو محادثات خاصة.
+          required: true
+        - label: أوضحت ما هو مؤكد وما يحتاج إلى تحقق.
+          required: true
