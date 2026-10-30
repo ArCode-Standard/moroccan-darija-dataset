@@ -1,0 +1,88 @@
+name: اقتراح مدخل لغوي جديد
+description: أرسل كلمة أو تعبيراً دارجياً مع سياقه ومصدره
+title: "[إضافة مدخل] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        لا ترسل معلومات شخصية أو محادثات خاصة. لا تنسب منطقة أو إذناً قانونياً دون دليل.
+  - type: input
+    id: darija_ar
+    attributes:
+      label: الدارجة — الخط العربي
+      placeholder: مثال: شنو خبارك؟
+    validations:
+      required: true
+  - type: input
+    id: darija_latin
+    attributes:
+      label: الكتابة اللاتينية
+      placeholder: chno khbarek?
+    validations:
+      required: true
+  - type: input
+    id: fusha_ar
+    attributes:
+      label: المقابل أو الشرح بالفصحى
+    validations:
+      required: true
+  - type: input
+    id: fr
+    attributes:
+      label: الترجمة الفرنسية
+    validations:
+      required: true
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: نوع المدخل
+      options: [word, expression, sentence, proverb, question, conversational, unknown]
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: المنطقة (اختياري)
+      description: اذكر المدينة/الجهة فقط إذا كان لديك أساس موثوق. وإلا اتركه فارغاً.
+  - type: textarea
+    id: context
+    attributes:
+      label: السياق ومثال استعمال
+      description: وضّح المعنى والسياق دون تضمين بيانات أشخاص حقيقيين.
+      render: text
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: نوع المصدر
+      options: [original, contributor, dictionary, corpus, web, other, unknown]
+    validations:
+      required: true
+  - type: input
+    id: source_name
+    attributes:
+      label: اسم المصدر أو مرجعه
+  - type: input
+    id: source_url
+    attributes:
+      label: رابط المصدر (إن وجد)
+  - type: dropdown
+    id: rights
+    attributes:
+      label: وضع الإذن
+      description: لا تختر allowed إلا إذا كان لديك دليل واضح على الإذن.
+      options: [unknown, allowed, not_allowed, not_applicable]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: ملاحظات للمراجعين
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: الإقرارات
+      options:
+        - label: المعلومات المقدمة لا تتضمن بيانات شخصية أو محتوى خاصاً.
+          required: true
+        - label: لم أختلق المصدر أو الإذن أو الانتماء الجغرافي.
+          required: true
