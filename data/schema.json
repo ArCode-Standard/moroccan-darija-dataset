@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Moroccan Darija Lexicon",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "categories",
+    "entries"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "title",
+        "language",
+        "version",
+        "entries_count",
+        "categories_count",
+        "license"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_ar": {
+          "type": "string"
+        },
+        "language": {
+          "const": "ary"
+        },
+        "language_name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "created": {
+          "type": "string",
+          "format": "date"
+        },
+        "entries_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "categories_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "coverage_fr": {
+          "type": "string"
+        },
+        "coverage_ar": {
+          "type": "string"
+        },
+        "description_ar": {
+          "type": "string"
+        },
+        "description_fr": {
+          "type": "string"
+        },
+        "transliteration": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "notes_ar": {
+          "type": "string"
+        },
+        "notes_fr": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "license_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "attribution": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "count"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "category",
+        "darija_ar",
+        "darija_latin",
+        "fusha_ar",
+        "fr"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "darija_ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "darija_latin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fusha_ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entry_type": {
+          "enum": [
+            "word",
+            "expression",
+            "sentence",
+            "proverb",
+            "question",
+            "conversational",
+            "unknown"
+          ]
+        },
+        "region": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "context": {
+          "type": "string"
+        },
+        "register": {
+          "enum": [
+            "neutral",
+            "formal",
+            "informal",
+            "vulgar",
+            "literary",
+            "religious",
+            "unknown"
+          ]
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source_type": {
+          "enum": [
+            "original",
+            "contributor",
+            "dictionary",
+            "corpus",
+            "web",
+            "other",
+            "unknown"
+          ]
+        },
+        "source_name": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "accessed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "contributor_id": {
+          "type": "string"
+        },
+        "rights_holder": {
+          "type": "string"
+        },
+        "redistribution_permission": {
+          "enum": [
+            "allowed",
+            "not_allowed",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "training_permission": {
+          "enum": [
+            "allowed",
+            "not_allowed",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "commercial_permission": {
+          "enum": [
+            "allowed",
+            "not_allowed",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "license": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "reviewed",
+            "rejected",
+            "needs_correction",
+            "unknown"
+          ]
+        },
+        "reviewer_id": {
+          "type": "string"
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
