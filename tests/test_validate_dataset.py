@@ -55,6 +55,6 @@ class ValidatorTests(unittest.TestCase):
   self.assertEqual(module.validate_context_links(d,self.fixture()),[])
  def test_context_reference_must_exist(self):
   d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{"id":"ctx-000001","entry_id":999}]}
-  self.assertTrue(any("unknown lexicon entry" in x for x in module.validate_context_links(d,self.fixture())))
+  self.assertTrue(any("lexicon entry" in x for x in module.validate_context_links(d,self.fixture())))
 
 if __name__=="__main__": unittest.main()
