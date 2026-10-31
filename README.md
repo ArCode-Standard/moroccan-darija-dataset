@@ -4,7 +4,7 @@
 
 An initial lexical resource for documenting Moroccan Darija and supporting language technology research.
 
-> **حالة المشروع:** إصدار البيانات المعلن 1.4.2، ويضم **921 مدخلاً** موزعة على **38 فئة**. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
+> **حالة المشروع:** إصدار البيانات المعلن 1.4.3، ويضم **921 مدخلاً** موزعة على **38 فئة**. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
 
 ## نظرة سريعة | At a glance
 
@@ -13,7 +13,7 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 | اللغة | الدارجة المغربية — ary |
 | عدد المدخلات | 921 |
 | عدد الفئات | 38 |
-| إصدار البيانات المعلن | 1.4.2 |
+| إصدار البيانات المعلن | 1.4.3 |
 | الترخيص المعلن | [CC BY-NC 4.0](LICENSE) |
 
 ## المحتوى | What's included
