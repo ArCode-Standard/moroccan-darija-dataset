@@ -232,6 +232,7 @@
             "dictionary",
             "corpus",
             "web",
+            "publication",
             "other",
             "unknown"
           ]
