@@ -13,8 +13,6 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 | اللغة | الدارجة المغربية — ary |
 | عدد المدخلات | 887 |
 | عدد الفئات | 38 |
-| ملف البيانات الرئيسي | [data/moroccan-darija.json](data/moroccan-darija.json) |
-| مخطط البيانات | [data/schema.json](data/schema.json) |
 | إصدار البيانات المعلن | 1.2.0 |
 | الترخيص المعلن | [CC BY-NC 4.0](LICENSE) |
 
