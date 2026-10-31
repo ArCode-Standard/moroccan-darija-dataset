@@ -1,11 +1,21 @@
 name: Validate dataset
 on:
   push:
-    paths: ["data/**", "scripts/validate_dataset.py", "tests/**", ".github/workflows/validate-dataset.yml"]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/validate-dataset.yml"
   pull_request:
-    paths: ["data/**", "scripts/validate_dataset.py", "tests/**", ".github/workflows/validate-dataset.yml"]
-permissions:
-  contents: read
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/validate-dataset.yml"
+  workflow_dispatch:
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -14,7 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate dataset invariants
+      - name: Install validation dependency
+        run: python -m pip install -r requirements.txt
+      - name: Validate dataset and JSON Schemas
         run: python scripts/validate_dataset.py
-      - name: Run validator tests
+      - name: Run unit tests
         run: python -m unittest discover -s tests -v

@@ -68,11 +68,12 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 
 ## البدء | Quick start
 
-لا يحتاج استعراض البيانات إلى تثبيت حزم Python خارجية:
+يتطلب تشغيل المدقق تثبيت اعتماد JSON Schema:
 
 ~~~bash
 git clone https://github.com/ArCode-Standard/moroccan-darija-dataset.git
 cd moroccan-darija-dataset
+python -m pip install -r requirements.txt
 ~~~
 
 عرض عدد المدخلات:
@@ -104,13 +105,15 @@ for entry in dataset["entries"]:
 | المسار | الغرض |
 |---|---|
 | data/moroccan-darija.json | البيانات المعجمية |
-| data/schema.json | مخطط بنية السجلات |
+| data/schema.json | مخطط JSON Schema Draft 2020-12 للمعجم |
 | data/manifest.template.yaml | قالب توثيق البيانات والمصادر |
-| scripts/validate_dataset.py | التحقق البنيوي من البيانات |
+| data/context-examples.json | أمثلة ومعانٍ سياقية مرتبطة بمعرّفات المعجم |
+| data/context-schema.json | مخطط الأمثلة السياقية |
+| scripts/validate_dataset.py | تحقق JSON Schema والفحوص المخصصة وروابط السياق |
 | tests/ | اختبارات المدقق |
 | docs/TRANSLITERATION_STANDARD.md | إرشادات الكتابة اللاتينية متعددة البدائل |
 | docs/REVIEW_WORKFLOW.md | سير عمل المراجعة |
-| docs/QUALITY_AUDIT_2026-10.md | تقرير التدقيق البنيوي والجودة |
+| docs/QUALITY_AUDIT_2026-10.md | تقرير إعادة تدقيق 1.3.0، مع فصل نتائج 1.2.0 التاريخية |
 | DATASET_CARD.md | بطاقة مجموعة البيانات |
 | CONTRIBUTING.md | دليل المساهمة |
 
@@ -127,11 +130,12 @@ for entry in dataset["entries"]:
 شغّل الأوامر التالية من جذر المستودع:
 
 ~~~bash
+python -m pip install -r requirements.txt
 python scripts/validate_dataset.py
 python -m unittest discover -s tests -v
 ~~~
 
-يتحقق المدقق من سلامة JSON وبنية البيانات وعدد المدخلات والفئات وفريدة المعرّفات واتساق أعداد الفئات. كما يشغّل GitHub Actions الفحوصات عند تغيير الملفات ذات الصلة.
+يطبق المدقق JSON Schema Draft 2020-12 فعلياً على المعجم وملف السياق، ثم ينفذ الفحوص المخصصة مثل تفرد المعرّفات واتساق أعداد الفئات وصحة مراجع entry_id. كما تشغّل GitHub Actions الفحوصات والاختبارات عند تغيير الملفات ذات الصلة.
 
 **حدود مهمة:** نجاح الاختبارات البنيوية لا يثبت صحة الكلمة لغوياً، أو شيوعها، أو تمثيلها لمنطقة معينة، ولا يثبت حقوق استخدامها. كما لا ينبغي للمدقق فرض صيغة لاتينية واحدة أو رفض البدائل الكتابية لمجرد اختلافها.
 
@@ -148,7 +152,7 @@ python -m unittest discover -s tests -v
 
 1. المعجم أولي ولا يمثل جميع مفردات الدارجة المغربية أو تنوعاتها.
 2. التغطية الجهوية والاجتماعية غير مقاسة كمياً؛ فلا يمكن استنتاج تمثيل متوازن لمناطق المغرب.
-3. لا تتضمن جميع السجلات حقولاً موثقة للسياق أو المنطقة أو النبرة أو نوع التعبير أو المصدر.
+3. لا تتضمن السجلات الحالية بيانات سياقية أو وسوماً موثقة للمنطقة أو النبرة أو نوع التعبير أو المصدر؛ وتُجمع الأمثلة السياقية في ملف مستقل.
 4. الكتابة اللاتينية متعددة البدائل؛ ولا يعتمد المشروع تهجئة معيارية موحدة.
 5. المقابلات بالفصحى والترجمات الفرنسية تقريبية وقد تتعدد بحسب السياق.
 6. لا توجد مجموعة اختبار مستقلة أو benchmark أو نتائج تقييم بشرية منشورة.
@@ -200,7 +204,7 @@ python -m unittest discover -s tests -v
 - [ ] بناء مجموعة تقييم منفصلة ومراجعة من متحدثين مؤهلين.
 - [ ] نشر تقارير جودة وإحصاءات تغطية قبل وصف أي إصدار بأنه جاهز للتدريب أو التقييم.
 
-يمكن توسيع البيانات تدريجياً بإضافة حقول مثل entry_type وregion وcontext وregister وprovenance وreview، بعد تحديث JSON Schema والمدقق. يجب أن تعكس هذه الحقول معلومات موثقة؛ وتُستخدم قيم مثل unknown أو pending عندما لا تتوفر أدلة كافية.
+تُضاف المعاني والأمثلة السياقية في data/context-examples.json وترتبط بالمعجم عبر entry_id. يمكن توسيع بيانات المدخل نفسها تدريجياً بحقول موثقة مثل entry_type وregion وregister وprovenance وreview بعد تحديث JSON Schema والمدقق. يجب أن تعكس هذه الحقول معلومات موثقة؛ وتُستخدم قيم مثل unknown أو pending عندما لا تتوفر أدلة كافية.
 
 ---
 
