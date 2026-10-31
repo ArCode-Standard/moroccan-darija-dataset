@@ -4,9 +4,9 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.4.3",
+    "version": "1.5.0",
     "created": "2026-10-29",
-    "entries_count": 921,
+    "entries_count": 958,
     "categories_count": 38,
     "coverage_fr": "lexique étendu, non exhaustif",
     "coverage_ar": "معجم موسّع وغير شامل لكل مفردات الدارجة",
@@ -57,7 +57,7 @@
     },
     {
       "category": "أفعال وعبارات",
-      "count": 37
+      "count": 74
     },
     {
       "category": "الأرقام",
@@ -21019,6 +21019,894 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 922,
+      "category": "أفعال وعبارات",
+      "darija_ar": "حقق",
+      "darija_latin": "7qqeq",
+      "fusha_ar": "أَنجز",
+      "fr": "Accomplir",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 923,
+      "category": "أفعال وعبارات",
+      "darija_ar": "اتَّهم",
+      "darija_latin": "ttahm",
+      "fusha_ar": "اتَّهم",
+      "fr": "Accuser",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 924,
+      "category": "أفعال وعبارات",
+      "darija_ar": "طبق",
+      "darija_latin": "tbbq",
+      "fusha_ar": "طبَّق",
+      "fr": "Appliquer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 925,
+      "category": "أفعال وعبارات",
+      "darija_ar": "اقترب",
+      "darija_latin": "9rrb",
+      "fusha_ar": "اقترب",
+      "fr": "S'approcher",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 926,
+      "category": "أفعال وعبارات",
+      "darija_ar": "تشاجر",
+      "darija_latin": "txasm",
+      "fusha_ar": "تشاجر",
+      "fr": "Se disputer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 927,
+      "category": "أفعال وعبارات",
+      "darija_ar": "رتّب",
+      "darija_latin": "rttb",
+      "fusha_ar": "رتّب",
+      "fr": "Arranger",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 928,
+      "category": "أفعال وعبارات",
+      "darija_ar": "سدّ",
+      "darija_latin": "sdd",
+      "fusha_ar": "أَوقف/سَجَن",
+      "fr": "Arrêter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 929,
+      "category": "أفعال وعبارات",
+      "darija_ar": "جمع",
+      "darija_latin": "jme3",
+      "fusha_ar": "جمع",
+      "fr": "Ramasser/Collecter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 930,
+      "category": "أفعال وعبارات",
+      "darija_ar": "شكا",
+      "darija_latin": "tskka",
+      "fusha_ar": "شكا",
+      "fr": "Se plaindre",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 931,
+      "category": "أفعال وعبارات",
+      "darija_ar": "أكمل",
+      "darija_latin": "kmml",
+      "fusha_ar": "أكمل",
+      "fr": "Compléter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 932,
+      "category": "أفعال وعبارات",
+      "darija_ar": "ركّز",
+      "darija_latin": "rkkz",
+      "fusha_ar": "ركّز",
+      "fr": "Se concentrer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 933,
+      "category": "أفعال وعبارات",
+      "darija_ar": "اعترف",
+      "darija_latin": "3tarf",
+      "fusha_ar": "اعترف",
+      "fr": "Avouer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 934,
+      "category": "أفعال وعبارات",
+      "darija_ar": "هنّأ",
+      "darija_latin": "hnna",
+      "fusha_ar": "هنّأ",
+      "fr": "Féliciter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 935,
+      "category": "أفعال وعبارات",
+      "darija_ar": "ربط",
+      "darija_latin": "rbt",
+      "fusha_ar": "ربط",
+      "fr": "Relier",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 936,
+      "category": "أفعال وعبارات",
+      "darija_ar": "تشاور",
+      "darija_latin": "tsawr",
+      "fusha_ar": "تشاور",
+      "fr": "Consulter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 937,
+      "category": "أفعال وعبارات",
+      "darija_ar": "اتصل",
+      "darija_latin": "tasl",
+      "fusha_ar": "اتصل",
+      "fr": "Contacter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 938,
+      "category": "أفعال وعبارات",
+      "darija_ar": "تعاون",
+      "darija_latin": "t3awn",
+      "fusha_ar": "تعاون",
+      "fr": "Coopérer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 939,
+      "category": "أفعال وعبارات",
+      "darija_ar": "نسخ",
+      "darija_latin": "nql",
+      "fusha_ar": "نسخ",
+      "fr": "Copier (à la main)",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 940,
+      "category": "أفعال وعبارات",
+      "darija_ar": "كلف",
+      "darija_latin": "swa",
+      "fusha_ar": "كلف",
+      "fr": "Coûter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 941,
+      "category": "أفعال وعبارات",
+      "darija_ar": "كح",
+      "darija_latin": "k77",
+      "fusha_ar": "كح",
+      "fr": "Tousser",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 942,
+      "category": "أفعال وعبارات",
+      "darija_ar": "جفّف",
+      "darija_latin": "nssf",
+      "fusha_ar": "جفّف",
+      "fr": "Sécher",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 943,
+      "category": "أفعال وعبارات",
+      "darija_ar": "دمج",
+      "darija_latin": "dmj",
+      "fusha_ar": "دمج",
+      "fr": "Intégrer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 944,
+      "category": "أفعال وعبارات",
+      "darija_ar": "تدخّل",
+      "darija_latin": "tdxxl",
+      "fusha_ar": "تدخّل",
+      "fr": "S'immiscer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 945,
+      "category": "أفعال وعبارات",
+      "darija_ar": "قطع",
+      "darija_latin": "9t3",
+      "fusha_ar": "قطع",
+      "fr": "Interrompre",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 946,
+      "category": "أفعال وعبارات",
+      "darija_ar": "قدّم",
+      "darija_latin": "9ddm",
+      "fusha_ar": "قدّم",
+      "fr": "Présenter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 947,
+      "category": "أفعال وعبارات",
+      "darija_ar": "اخترع",
+      "darija_latin": "khtar",
+      "fusha_ar": "اخترع",
+      "fr": "Inventer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 948,
+      "category": "أفعال وعبارات",
+      "darija_ar": "كوى",
+      "darija_latin": "7dded",
+      "fusha_ar": "كوى",
+      "fr": "Repasser",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 949,
+      "category": "أفعال وعبارات",
+      "darija_ar": "سقى",
+      "darija_latin": "sga",
+      "fusha_ar": "سقى",
+      "fr": "Irriguer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 950,
+      "category": "أفعال وعبارات",
+      "darija_ar": "أقرض",
+      "darija_latin": "sllf",
+      "fusha_ar": "أقرض",
+      "fr": "Prêter",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 951,
+      "category": "أفعال وعبارات",
+      "darija_ar": "طوّل",
+      "darija_latin": "tuwl",
+      "fusha_ar": "طوّل",
+      "fr": "Allonger",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 952,
+      "category": "أفعال وعبارات",
+      "darija_ar": "قلّل",
+      "darija_latin": "9llel",
+      "fusha_ar": "قلّل",
+      "fr": "Diminuer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 953,
+      "category": "أفعال وعبارات",
+      "darija_ar": "خلى",
+      "darija_latin": "khlla",
+      "fusha_ar": "خلى",
+      "fr": "Laisser",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 954,
+      "category": "أفعال وعبارات",
+      "darija_ar": "حرّر",
+      "darija_latin": "7rrer",
+      "fusha_ar": "حرّر",
+      "fr": "Libérer",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 955,
+      "category": "أفعال وعبارات",
+      "darija_ar": "كذب",
+      "darija_latin": "kdb",
+      "fusha_ar": "كذب",
+      "fr": "Mentir",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 956,
+      "category": "أفعال وعبارات",
+      "darija_ar": "رفع",
+      "darija_latin": "hzz",
+      "fusha_ar": "رفع",
+      "fr": "Soulever",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 957,
+      "category": "أفعال وعبارات",
+      "darija_ar": "نظر",
+      "darija_latin": "saf",
+      "fusha_ar": "نظر",
+      "fr": "Regarder",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": 958,
+      "category": "أفعال وعبارات",
+      "darija_ar": "ضاع",
+      "darija_latin": "twddr",
+      "fusha_ar": "ضاع",
+      "fr": "Se perdre",
+      "provenance": {
+        "source_type": "other",
+        "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+        "source_url": "https://archive.org/details/MoroccanArabicDarija2011",
+        "accessed_at": "2026-10-31",
+        "rights_holder": "Peace Corps (U.S. Government work; public domain)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0 (compilation); source public domain",
+        "notes": "مفردة من مسرد الأفعال (ص.163) في كتيّب Peace Corps Morocco 2011؛ Arabic/Latin/Fusha/FR حُرِّرت/تُرجمت داخل المشروع."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تُراجع بشريًا بشكل مستقل بعد."
       }
     }
   ]
