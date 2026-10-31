@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "created": "2026-10-29",
     "entries_count": 921,
     "categories_count": 38,
@@ -1704,14 +1704,14 @@
       "fr": "Celui-là",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -2453,14 +2453,14 @@
       "fr": "Connaître",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -2476,14 +2476,14 @@
       "fr": "Vouloir",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -2499,14 +2499,14 @@
       "fr": "Porter (un vêtement)",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -2522,14 +2522,14 @@
       "fr": "Plus (quantité)",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -5819,14 +5819,14 @@
       "fr": "Ruelle",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -6546,14 +6546,14 @@
       "fr": "Toujours",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -6569,14 +6569,14 @@
       "fr": "Soudain",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7322,14 +7322,14 @@
       "fr": "Léger",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7345,14 +7345,14 @@
       "fr": "Restant",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7368,14 +7368,14 @@
       "fr": "Bien",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7949,14 +7949,14 @@
       "fr": "Cela",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7972,14 +7972,14 @@
       "fr": "Ceci",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -7995,14 +7995,14 @@
       "fr": "Directement",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -8018,14 +8018,14 @@
       "fr": "Allez !",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -11082,14 +11082,14 @@
       "fr": "Sourire",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -11963,14 +11963,14 @@
       "fr": "Voix",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16739,14 +16739,14 @@
       "fr": "Entrer",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16762,14 +16762,14 @@
       "fr": "Sortir",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16785,14 +16785,14 @@
       "fr": "Revenir",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16808,14 +16808,14 @@
       "fr": "S'arrêter",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16831,14 +16831,14 @@
       "fr": "Tomber",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16854,14 +16854,14 @@
       "fr": "Apparaître",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16877,14 +16877,14 @@
       "fr": "Ajouter",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16900,14 +16900,14 @@
       "fr": "Frapper",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16923,14 +16923,14 @@
       "fr": "Passer",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16946,14 +16946,14 @@
       "fr": "Rester",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -16969,14 +16969,14 @@
       "fr": "Parler",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -17542,14 +17542,14 @@
       "fr": "Qui vient",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -17565,14 +17565,14 @@
       "fr": "Arrêté",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -19650,14 +19650,14 @@
       "fr": "Sans",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -19673,14 +19673,14 @@
       "fr": "Que (conjonction)",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -19696,14 +19696,14 @@
       "fr": "Quand (conjonction)",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
@@ -20511,14 +20511,14 @@
       "fr": "Âge",
       "provenance": {
         "source_type": "corpus",
-        "source_name": "Wattpad — قصص دارجة (استخراج مفردات)",
+        "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو القصص على Wattpad",
+        "rights_holder": "مؤلفو قصص Wattpad",
         "redistribution_permission": "unknown",
         "training_permission": "unknown",
         "commercial_permission": "not_allowed",
-        "notes": "استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
       },
       "review": {
         "status": "pending",
