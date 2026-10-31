@@ -8,7 +8,7 @@ A lexical dataset of Moroccan Arabic (Darija) intended for AI training and natur
 
 | العنصر | العدد |
 |---|---|
-| المدخلات المعجمية | 887 |
+| المدخلات المعجمية | 921 |
 | الفئات | 38 |
 | الملف | `data/moroccan-darija.json` |
 
@@ -19,7 +19,7 @@ A lexical dataset of Moroccan Arabic (Darija) intended for AI training and natur
 ```json
 {
   "meta": {},
-  "categories": [{ "category": "تحيات", "count": 17 }],
+  "categories": [{ "category": "تحيات", "count": 18 }],
   "entries": [
     {
       "id": 1,
@@ -79,6 +79,14 @@ with open("data/moroccan-darija.json", encoding="utf-8") as f:
 for entry in data["entries"]:
     print(entry["darija_ar"], "→", entry["fr"])
 ```
+
+## المصادر والإسناد / Sources & attribution
+
+- **DODa — Darija Open Dataset** (جزء من المفردات): https://github.com/darija-open-dataset/dataset — مرخّص CC BY-NC 4.0.
+- **mylanguages.org** و**ilanguages.org**: صفحات تعلّم الدارجة (مفردات وعبارات أساسية).
+- **translatordarija.com**: قاموس الدارجة (فئات الطعام والوقت).
+- **Wattpad**: استُخرجت كلمات مفردة جديدة من جمل قصص دارجة منشورة على wattpad.com بعد تصفية آلية؛ **لا يُعاد نشر نصوص القصص**، وحقوقها محفوظة لمؤلفيها.
+- الكتابة اللاتينية والفصحى والفرنسية تحرير يدوي/آلي للمشروع، وليست منقولة من مصدر محمي.
 
 ## المنهجية / Methodology
 
