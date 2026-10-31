@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Moroccan Darija Source Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_type",
+        "collection_method",
+        "rights",
+        "verification_status"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_type": {
+          "enum": [
+            "online_chat_platform",
+            "social_platform",
+            "book",
+            "literary_platform",
+            "news",
+            "publication",
+            "audio",
+            "video",
+            "dictionary",
+            "corpus",
+            "contributor",
+            "website",
+            "other",
+            "unknown"
+          ]
+        },
+        "source_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "observed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "collection_method": {
+          "enum": [
+            "manual_observation",
+            "voluntary_submission",
+            "authorized_api",
+            "licensed_file_import",
+            "public_domain_import",
+            "other",
+            "unknown"
+          ]
+        },
+        "content_retained": {
+          "type": "boolean"
+        },
+        "personal_data_collected": {
+          "const": false
+        },
+        "user_tracking_performed": {
+          "const": false
+        },
+        "rights_holder": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "permission_evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rights": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "discovery",
+            "storage",
+            "redistribution",
+            "research",
+            "training",
+            "commercial"
+          ],
+          "properties": {
+            "discovery": {
+              "$ref": "#/$defs/permission"
+            },
+            "storage": {
+              "$ref": "#/$defs/permission"
+            },
+            "redistribution": {
+              "$ref": "#/$defs/permission"
+            },
+            "research": {
+              "$ref": "#/$defs/permission"
+            },
+            "training": {
+              "$ref": "#/$defs/permission"
+            },
+            "commercial": {
+              "$ref": "#/$defs/permission"
+            }
+          }
+        },
+        "verification_status": {
+          "enum": [
+            "verified",
+            "pending_permission_review",
+            "pending_verification",
+            "restricted",
+            "excluded"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

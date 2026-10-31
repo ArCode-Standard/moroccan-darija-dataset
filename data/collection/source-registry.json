@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "source_id": "SRC-DAR-CHAT-001",
+      "source_type": "online_chat_platform",
+      "source_name": "Arabic.Chat – شات المغرب",
+      "source_url": "https://www.arabic.chat/maroc/",
+      "observed_at": "2026-10-31",
+      "source_reference": null,
+      "collection_method": "manual_observation",
+      "content_retained": false,
+      "personal_data_collected": false,
+      "user_tracking_performed": false,
+      "rights_holder": null,
+      "license": null,
+      "permission_evidence": null,
+      "rights": {
+        "discovery": "unknown",
+        "storage": "unknown",
+        "redistribution": "unknown",
+        "research": "unknown",
+        "training": "unknown",
+        "commercial": "unknown"
+      },
+      "verification_status": "pending_permission_review",
+      "notes": "Source lead only. No user accounts, messages, personal data, or activity are collected. No automated extraction or content retention. Recheck current platform terms and obtain permission before any corpus use."
+    }
+  ]
+}

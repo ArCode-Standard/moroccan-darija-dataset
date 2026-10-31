@@ -191,6 +191,33 @@
         },
         "review": {
           "$ref": "#/$defs/review"
+        },
+        "part_of_speech": {
+          "type": "string",
+          "minLength": 1
+        },
+        "usage_notes": {
+          "type": "string"
+        },
+        "senses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sense"
+          }
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/example"
+          }
+        },
+        "publication_status": {
+          "enum": [
+            "publishable",
+            "pending_verification",
+            "restricted",
+            "excluded"
+          ]
         }
       },
       "additionalProperties": false
@@ -205,6 +232,7 @@
             "dictionary",
             "corpus",
             "web",
+            "publication",
             "other",
             "unknown"
           ]
@@ -255,9 +283,48 @@
         },
         "notes": {
           "type": "string"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_locator": {
+          "type": "string"
+        },
+        "collection_method": {
+          "enum": [
+            "elicitation",
+            "observation",
+            "manual_entry",
+            "published_resource",
+            "other",
+            "unknown"
+          ]
+        },
+        "transformation": {
+          "type": "string"
+        },
+        "permission_evidence": {
+          "type": "string"
+        },
+        "rights_status": {
+          "enum": [
+            "cleared",
+            "restricted",
+            "pending_verification",
+            "unknown",
+            "excluded"
+          ]
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "redistribution_permission",
+        "training_permission",
+        "commercial_permission",
+        "rights_status"
+      ]
     },
     "review": {
       "type": "object",
@@ -287,6 +354,102 @@
         }
       },
       "additionalProperties": false
+    },
+    "sense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sense_id"
+      ],
+      "properties": {
+        "sense_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition_ar": {
+          "type": "string"
+        },
+        "definition_darija": {
+          "type": "string"
+        },
+        "fusha_ar": {
+          "type": "string"
+        },
+        "fr": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        },
+        "register": {
+          "enum": [
+            "neutral",
+            "formal",
+            "informal",
+            "vulgar",
+            "literary",
+            "religious",
+            "unknown"
+          ]
+        },
+        "usage_label": {
+          "type": "string"
+        },
+        "region": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/example"
+          }
+        },
+        "sense_status": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "reviewed"
+          ]
+        }
+      }
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "darija_ar",
+        "is_attested",
+        "source_id"
+      ],
+      "properties": {
+        "darija_ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "darija_latin": {
+          "type": "string"
+        },
+        "translation_ar": {
+          "type": "string"
+        },
+        "translation_fr": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "is_attested": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
     }
   }
 }

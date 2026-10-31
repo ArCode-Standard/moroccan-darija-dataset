@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Human-led rights and provenance audit queue. No entries are cleared by this plan.",
+  "total_legacy_entries": 887,
+  "batch_size": 50,
+  "batches": [
+    {
+      "batch_id": "rights-01",
+      "entry_ids": {
+        "from": 1,
+        "to": 50
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-02",
+      "entry_ids": {
+        "from": 51,
+        "to": 100
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-03",
+      "entry_ids": {
+        "from": 101,
+        "to": 150
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-04",
+      "entry_ids": {
+        "from": 151,
+        "to": 200
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-05",
+      "entry_ids": {
+        "from": 201,
+        "to": 250
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-06",
+      "entry_ids": {
+        "from": 251,
+        "to": 300
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-07",
+      "entry_ids": {
+        "from": 301,
+        "to": 350
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-08",
+      "entry_ids": {
+        "from": 351,
+        "to": 400
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-09",
+      "entry_ids": {
+        "from": 401,
+        "to": 450
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-10",
+      "entry_ids": {
+        "from": 451,
+        "to": 500
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-11",
+      "entry_ids": {
+        "from": 501,
+        "to": 550
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-12",
+      "entry_ids": {
+        "from": 551,
+        "to": 600
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-13",
+      "entry_ids": {
+        "from": 601,
+        "to": 650
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-14",
+      "entry_ids": {
+        "from": 651,
+        "to": 700
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-15",
+      "entry_ids": {
+        "from": 701,
+        "to": 750
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-16",
+      "entry_ids": {
+        "from": 751,
+        "to": 800
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-17",
+      "entry_ids": {
+        "from": 801,
+        "to": 850
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    },
+    {
+      "batch_id": "rights-18",
+      "entry_ids": {
+        "from": 851,
+        "to": 887
+      },
+      "status": "pending",
+      "reviewer_id": null,
+      "started_at": null,
+      "completed_at": null,
+      "decision": "pending_verification",
+      "notes": "Do not infer source, ownership, or permission. Record evidence before changing status."
+    }
+  ]
+}

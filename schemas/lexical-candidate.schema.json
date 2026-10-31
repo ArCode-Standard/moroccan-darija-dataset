@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Darija Lexical Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "form_original",
+    "language",
+    "source_id",
+    "observed_at",
+    "collection_method",
+    "review_status",
+    "rights_status"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "pattern": "^CAND-[0-9]{6}$"
+    },
+    "form_original": {
+      "type": "string",
+      "minLength": 1
+    },
+    "script": {
+      "enum": [
+        "Arab",
+        "Arabizi",
+        "Latin",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "form",
+          "script"
+        ],
+        "properties": {
+          "form": {
+            "type": "string",
+            "minLength": 1
+          },
+          "script": {
+            "enum": [
+              "Arab",
+              "Arabizi",
+              "Latin",
+              "mixed",
+              "unknown"
+            ]
+          },
+          "source_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "language": {
+      "const": "ary"
+    },
+    "entry_type": {
+      "enum": [
+        "word",
+        "expression",
+        "sentence",
+        "proverb",
+        "question",
+        "conversational",
+        "unknown"
+      ]
+    },
+    "proposed_meaning": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "part_of_speech": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "usage_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region_claim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "collection_method": {
+      "enum": [
+        "manual_observation",
+        "voluntary_submission",
+        "authorized_api",
+        "licensed_file_import",
+        "public_domain_import",
+        "other"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "discovered",
+        "candidate",
+        "in_review",
+        "verified",
+        "needs_correction",
+        "rejected"
+      ]
+    },
+    "rights_status": {
+      "enum": [
+        "pending_verification",
+        "cleared",
+        "restricted",
+        "unknown",
+        "excluded"
+      ]
+    },
+    "privacy_checked": {
+      "type": "boolean"
+    },
+    "reviewer_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "evidence_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

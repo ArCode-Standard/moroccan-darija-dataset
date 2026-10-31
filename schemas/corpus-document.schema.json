@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Darija Corpus Document Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_id",
+    "source_id",
+    "language",
+    "storage_permission",
+    "redistribution_permission",
+    "training_permission",
+    "commercial_permission",
+    "privacy_review",
+    "publication_status"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "pattern": "^DOC-[0-9]{6}$"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "const": "ary"
+    },
+    "content_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "content_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "storage_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "redistribution_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "training_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "commercial_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "permission_evidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "privacy_review": {
+      "enum": [
+        "pending",
+        "passed",
+        "failed"
+      ]
+    },
+    "personal_data_present": {
+      "type": "boolean"
+    },
+    "publication_status": {
+      "enum": [
+        "metadata_only",
+        "internal_restricted",
+        "research_only",
+        "redistributable",
+        "excluded"
+      ]
+    }
+  }
+}

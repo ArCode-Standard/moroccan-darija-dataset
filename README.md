@@ -16,6 +16,20 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 | إصدار البيانات المعلن | 1.2.0 |
 | الترخيص المعلن | [CC BY-NC 4.0](LICENSE) |
 
+## جمع الموارد | Resource collection
+
+يعتمد المشروع نموذجاً هجيناً يجمع الملاحظة والمساهمات البشرية مع المعالجة الآلية للمواد التي يملك المشروع حق معالجتها. يجمع المشروع الموارد اللغوية ولا يجمع بيانات المستخدمين أو يتتبع نشاطهم.
+
+- [سياسة الجمع](docs/COLLECTION_POLICY.md): ضوابط الجمع اليدوي والمعالجة بمساعدة الأدوات والخصوصية.
+- [دليل Corpus](docs/CORPUS_GUIDE.md): شروط تخزين الوثائق النصية والصوتية ونشرها.
+- [سجل المصادر الأولي](data/collection/source-registry.json): يتضمن Arabic.Chat كمصدر مرشح قيد مراجعة الأذونات، وليس مصدراً مصرحاً بجمع محتواه.
+- [مخطط سجل المصادر](schemas/source-registry.schema.json).
+- [مخطط المرشح المعجمي](schemas/lexical-candidate.schema.json).
+- [مخطط بيانات الوثائق](schemas/corpus-document.schema.json).
+- [مدقق موارد الجمع](scripts/validate_resources.py).
+
+**قاعدة أساسية:** إذن اكتشاف كلمة لا يمنح تلقائياً إذن تخزين النص الأصلي أو إعادة توزيعه أو استخدامه في التدريب أو الاستخدام التجاري. لا تُجمع المحادثات الخاصة أو بيانات الحسابات، ولا تُستخدم أدوات تتجاوز شروط المنصات.
+
 ## المحتوى | What's included
 
 يحتوي كل سجل في الإصدار الحالي على:
@@ -105,12 +119,15 @@ for entry in dataset["entries"]:
 |---|---|
 | data/moroccan-darija.json | البيانات المعجمية |
 | data/schema.json | مخطط بنية السجلات |
-| data/manifest.template.yaml | قالب توثيق البيانات والمصادر |
-| scripts/validate_dataset.py | التحقق البنيوي من البيانات |
+| data/collection/ | سجل مصادر الجمع وملفات التهيئة |
+| schemas/ | مخططات المرشحات والمصادر ووثائق Corpus |
+| scripts/validate_dataset.py | التحقق البنيوي من المعجم |
+| scripts/validate_resources.py | التحقق من سجلات الجمع وCorpus |
 | tests/ | اختبارات المدقق |
+| docs/COLLECTION_POLICY.md | سياسة الجمع والخصوصية |
+| docs/CORPUS_GUIDE.md | دليل المدونة النصية |
 | docs/TRANSLITERATION_STANDARD.md | إرشادات الكتابة اللاتينية متعددة البدائل |
 | docs/REVIEW_WORKFLOW.md | سير عمل المراجعة |
-| docs/QUALITY_AUDIT_2026-10.md | تقرير التدقيق البنيوي والجودة |
 | DATASET_CARD.md | بطاقة مجموعة البيانات |
 | CONTRIBUTING.md | دليل المساهمة |
 
@@ -119,13 +136,23 @@ for entry in dataset["entries"]:
 شغّل الأوامر التالية من جذر المستودع:
 
 ~~~bash
-python scripts/validate_dataset.py
+python -m pip install -r requirements-dev.txt
+python scripts/validate_dataset.py --sources data/sources.json
+python scripts/validate_resources.py
 python -m unittest discover -s tests -v
 ~~~
 
-يتحقق المدقق من سلامة JSON وبنية البيانات وعدد المدخلات والفئات وفريدة المعرّفات واتساق أعداد الفئات. كما يشغّل GitHub Actions الفحوصات عند تغيير الملفات ذات الصلة.
+يتحقق المدقق من سلامة JSON وبنية البيانات وعدد المدخلات والفئات وفريدة المعرّفات واتساق أعداد الفئات. كما يتحقق مدقق الموارد من مطابقة سجلات المصادر والمرشحات والوثائق لمخططاتها، ومن قواعد أساسية للخصوصية والنشر. يشغّل GitHub Actions الفحوصات عند تغيير الملفات ذات الصلة.
 
 **حدود مهمة:** نجاح الاختبارات البنيوية لا يثبت صحة الكلمة لغوياً، أو شيوعها، أو تمثيلها لمنطقة معينة، ولا يثبت حقوق استخدامها. كما لا ينبغي للمدقق فرض صيغة لاتينية واحدة أو رفض البدائل الكتابية لمجرد اختلافها.
+
+## تقارير الجودة والحوكمة | Quality and governance reports
+
+- [الملف التشخيصي للمعجم — أكتوبر 2026](docs/LEXICON_PROFILE_2026-10.md): قياس آلي لتغطية الحقول والفجوات، دون ادعاء مراجعة لغوية.
+- [سياسة توثيق المصادر والحقوق](docs/DATA_PROVENANCE_AND_RIGHTS.md): فصل مصدر المدخل عن أذونات إعادة التوزيع والتدريب والاستخدام التجاري، مع ضوابط سرية المرجع.
+- [معيار إثراء السياق والمعنى](docs/LEXICAL_CONTEXT_STANDARD.md): تعريف المعاني والأمثلة والتنوعات اللغوية.
+- [دليل المراجعة اللغوية البشرية](docs/HUMAN_LINGUISTIC_REVIEW_GUIDE.md): محاور المراجعة وحالاتها وفصلها عن تدقيق الحقوق.
+- [ورقة المراجعة الأولى (1–50)](data/review/lexical-review-batch-01.json): قالب فارغ لتسجيل قرارات المراجع، ولا يحتوي على أحكام لغوية مسبقة.
 
 ## المنهجية وحدود البيانات | Methodology and limitations
 

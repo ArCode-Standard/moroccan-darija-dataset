@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Central registry of data sources and rights evidence. Unknown values are intentional and do not grant permission.",
+  "sources": [
+    {
+      "source_id": "legacy-collection-2026-10",
+      "source_type": "unknown",
+      "source_name": "Legacy manual compilation described in dataset metadata; individual source attribution has not been established.",
+      "source_url": null,
+      "accessed_at": null,
+      "contributor_id": null,
+      "source_locator": "Legacy dataset entries 1-887; no entry-level mapping established.",
+      "collection_method": "unknown",
+      "transformation": "Unknown per-entry history; do not infer original authorship.",
+      "rights_holder": "unknown",
+      "license": "unknown",
+      "license_url": null,
+      "redistribution_permission": "unknown",
+      "training_permission": "unknown",
+      "commercial_permission": "unknown",
+      "permission_evidence": null,
+      "rights_status": "pending_verification",
+      "notes": "Placeholder registry record for audit tracking only. It is NOT evidence of provenance, ownership, permission, or clearance. Do not link entries to this record as if verified."
+    }
+  ]
+}
