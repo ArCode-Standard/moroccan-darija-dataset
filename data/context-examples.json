@@ -1,8 +1,3659 @@
 {
   "meta": {
-    "lexicon_version": "1.3.0",
-    "version": "1.0.0",
-    "examples_count": 0
+    "lexicon_version": "1.4.3",
+    "version": "1.1.0",
+    "examples_count": 146
   },
-  "examples": []
+  "examples": [
+    {
+      "id": "ctx-000001",
+      "entry_id": 1,
+      "meaning_ar": "السلام عليكم",
+      "meaning_fr": "Bonjour / paix sur vous",
+      "example_darija_ar": "السلام عليكم، مرحبا بيكم في الدار.",
+      "example_darija_latin": [
+        "salam 3likoum, marhba bikoum f dar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000002",
+      "entry_id": 3,
+      "meaning_ar": "صباح الخير",
+      "meaning_fr": "Bonjour (le matin)",
+      "example_darija_ar": "صباح الخير، واش نضتي مزيان؟",
+      "example_darija_latin": [
+        "sba7 lkhir, wach nDti mzyan?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000003",
+      "entry_id": 7,
+      "meaning_ar": "كيف حالك",
+      "meaning_fr": "Comment vas-tu ?",
+      "example_darija_ar": "كيداير اليوم؟ واش لاباس؟",
+      "example_darija_latin": [
+        "kidayr lyoum? wach labas?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000004",
+      "entry_id": 10,
+      "meaning_ar": "لا بأس الحمد لله",
+      "meaning_fr": "Ça va, Dieu merci",
+      "example_darija_ar": "لاباس الحمد لله، نتا كيداير؟",
+      "example_darija_latin": [
+        "labas l7amdoullah, nta kidayr?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000005",
+      "entry_id": 12,
+      "meaning_ar": "مرحبا",
+      "meaning_fr": "Bienvenue / salut",
+      "example_darija_ar": "مرحبا بيك في بيتنا.",
+      "example_darija_latin": [
+        "marhba bik f bitna."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000006",
+      "entry_id": 16,
+      "meaning_ar": "تصبح على خير",
+      "meaning_fr": "Bonne nuit",
+      "example_darija_ar": "تصبح على خير، نشوفك غدا.",
+      "example_darija_latin": [
+        "tsba7 3la khir, nchoufk ghedda."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000007",
+      "entry_id": 18,
+      "meaning_ar": "تشرفت بمعرفتك",
+      "meaning_fr": "Enchanté",
+      "example_darija_ar": "متشرفين بمعرفتك، أستاذ.",
+      "example_darija_latin": [
+        "mtcharfin b m3riftek, ostad."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000008",
+      "entry_id": 20,
+      "meaning_ar": "شكرا",
+      "meaning_fr": "Merci",
+      "example_darija_ar": "شكرا بزاف على المساعدة.",
+      "example_darija_latin": [
+        "choukran bzaf 3la lmosa3ada."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000009",
+      "entry_id": 24,
+      "meaning_ar": "سامحني",
+      "meaning_fr": "Pardonne-moi",
+      "example_darija_ar": "سمح ليا، ما شفتكش.",
+      "example_darija_latin": [
+        "sme7 liya, ma cheftkch."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000010",
+      "entry_id": 26,
+      "meaning_ar": "كفى / حسنا",
+      "meaning_fr": "Ça suffit / c'est bon",
+      "example_darija_ar": "صافي، ما بقاش الوقت.",
+      "example_darija_latin": [
+        "safi, ma b9ach lwa9t."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000011",
+      "entry_id": 28,
+      "meaning_ar": "نعم",
+      "meaning_fr": "Oui",
+      "example_darija_ar": "إيه، أنا موافق على هادشي.",
+      "example_darija_latin": [
+        "iyeh, ana mwaf9 3la hadchi."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000012",
+      "entry_id": 34,
+      "meaning_ar": "ماذا؟",
+      "meaning_fr": "Quoi ?",
+      "example_darija_ar": "شنو بغيتي تقول؟",
+      "example_darija_latin": [
+        "chnou bghiti tgoul?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000013",
+      "entry_id": 36,
+      "meaning_ar": "من؟",
+      "meaning_fr": "Qui ?",
+      "example_darija_ar": "شكون جا معاك؟",
+      "example_darija_latin": [
+        "chkoun ja m3ak?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000014",
+      "entry_id": 37,
+      "meaning_ar": "أين؟",
+      "meaning_fr": "Où ?",
+      "example_darija_ar": "فين كاين الحمام؟",
+      "example_darija_latin": [
+        "fin kayn l7ammam?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000015",
+      "entry_id": 38,
+      "meaning_ar": "متى؟",
+      "meaning_fr": "Quand ?",
+      "example_darija_ar": "فوقاش غادي تبدا الحفلة؟",
+      "example_darija_latin": [
+        "fouqach ghadi tbda l7afla?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000016",
+      "entry_id": 41,
+      "meaning_ar": "كم؟",
+      "meaning_fr": "Combien ?",
+      "example_darija_ar": "شحال كيخلص هاد الكتاب؟",
+      "example_darija_latin": [
+        "ch7al kaykhles had lktab?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000017",
+      "entry_id": 42,
+      "meaning_ar": "أي؟",
+      "meaning_fr": "Quel ?",
+      "example_darija_ar": "أشمن طريق كيودي للسوق؟",
+      "example_darija_latin": [
+        "achmen triq kaywddi l souq?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000018",
+      "entry_id": 46,
+      "meaning_ar": "ما اسمك؟",
+      "meaning_fr": "Comment tu t'appelles ?",
+      "example_darija_ar": "سولني شنو سميتك وعطيتو الجواب.",
+      "example_darija_latin": [
+        "sowlni chno smiytek w 3titou jjawab."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000019",
+      "entry_id": 47,
+      "meaning_ar": "ماذا تعني؟",
+      "meaning_fr": "Qu'est-ce que ça veut dire ?",
+      "example_darija_ar": "شنو كاتعني هاد الكلمة بالدارجة؟",
+      "example_darija_latin": [
+        "chno kat3ni had lkelma b ddarija?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000020",
+      "entry_id": 51,
+      "meaning_ar": "أنا",
+      "meaning_fr": "Je",
+      "example_darija_ar": "أنا من الدار البيضاء.",
+      "example_darija_latin": [
+        "ana men dar lbida."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000021",
+      "entry_id": 56,
+      "meaning_ar": "نحن",
+      "meaning_fr": "Nous",
+      "example_darija_ar": "حنا غادي نمشيو للسوق دابا.",
+      "example_darija_latin": [
+        "7na ghadi nmchiw l souq daba."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000022",
+      "entry_id": 59,
+      "meaning_ar": "هذا",
+      "meaning_fr": "Celui-ci",
+      "example_darija_ar": "هادا الكتاب ديالي، ماشي ديالك.",
+      "example_darija_latin": [
+        "hada lktab dyali, machi dyalek."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000023",
+      "entry_id": 62,
+      "meaning_ar": "لي",
+      "meaning_fr": "Le mien",
+      "example_darija_ar": "هاد الطوموبيل ديالي من عامين.",
+      "example_darija_latin": [
+        "had ttomobil dyali men 3amin."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000024",
+      "entry_id": 70,
+      "meaning_ar": "أريد",
+      "meaning_fr": "Je veux",
+      "example_darija_ar": "بغيت كاس أتاي بالنعناع.",
+      "example_darija_latin": [
+        "bghit kas atay bna3na3."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000025",
+      "entry_id": 74,
+      "meaning_ar": "أذهب",
+      "meaning_fr": "Je vais",
+      "example_darija_ar": "كنمشي للخدمة كل صباح.",
+      "example_darija_latin": [
+        "kanmchi lkhedma kol sba7."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000026",
+      "entry_id": 77,
+      "meaning_ar": "آكل",
+      "meaning_fr": "Je mange",
+      "example_darija_ar": "كناكل الخبز والزيت في الفطور.",
+      "example_darija_latin": [
+        "kankoul lkhobz w zit f fTor."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000027",
+      "entry_id": 79,
+      "meaning_ar": "أعمل",
+      "meaning_fr": "Je travaille",
+      "example_darija_ar": "كنخدم في شركة قريبة من هنا.",
+      "example_darija_latin": [
+        "kankhdem f cherka qriba men hna."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000028",
+      "entry_id": 82,
+      "meaning_ar": "فهمت",
+      "meaning_fr": "J'ai compris",
+      "example_darija_ar": "فهمت الدرس مزيان، شكرا.",
+      "example_darija_latin": [
+        "fhemt dders mzyan, choukran."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000029",
+      "entry_id": 85,
+      "meaning_ar": "لا أعلم",
+      "meaning_fr": "Je ne sais pas",
+      "example_darija_ar": "ما عرفتش الجواب على السؤال.",
+      "example_darija_latin": [
+        "ma 3reftch jjawab 3la sssou2al."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000030",
+      "entry_id": 88,
+      "meaning_ar": "أحتاج",
+      "meaning_fr": "J'ai besoin",
+      "example_darija_ar": "خاصني دواء للصداع.",
+      "example_darija_latin": [
+        "khassni dwa l Sda3."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000031",
+      "entry_id": 91,
+      "meaning_ar": "تعال",
+      "meaning_fr": "Viens",
+      "example_darija_ar": "تعال هنا، بغيت نكلمك.",
+      "example_darija_latin": [
+        "ta3al hna, bghit nkellemk."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000032",
+      "entry_id": 94,
+      "meaning_ar": "أعطني",
+      "meaning_fr": "Donne-moi",
+      "example_darija_ar": "عطيني الكاس، عافاك.",
+      "example_darija_latin": [
+        "3tini lkas, 3afak."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000033",
+      "entry_id": 98,
+      "meaning_ar": "أريد أن آكل",
+      "meaning_fr": "Je veux manger",
+      "example_darija_ar": "بغيت ناكل شي حاجة خفيفة.",
+      "example_darija_latin": [
+        "bghit nakoul chi 7aja khfifa."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000034",
+      "entry_id": 101,
+      "meaning_ar": "لدي",
+      "meaning_fr": "J'ai",
+      "example_darija_ar": "عندي سؤال مهم عليك.",
+      "example_darija_latin": [
+        "3ndi sou2al mohim 3lik."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000035",
+      "entry_id": 108,
+      "meaning_ar": "اثنان",
+      "meaning_fr": "Deux",
+      "example_darija_ar": "عندي جوج خوت صغار.",
+      "example_darija_latin": [
+        "3ndi jouj khout sghar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000036",
+      "entry_id": 111,
+      "meaning_ar": "خمسة",
+      "meaning_fr": "Cinq",
+      "example_darija_ar": "خمسة دراهم غير تمن الخبز.",
+      "example_darija_latin": [
+        "khamsa drham ghir taman lkhobz."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000037",
+      "entry_id": 118,
+      "meaning_ar": "مئة",
+      "meaning_fr": "Cent",
+      "example_darija_ar": "مية درهم كافيين على الفطور.",
+      "example_darija_latin": [
+        "mya derham kafyin 3la fTor."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000038",
+      "entry_id": 124,
+      "meaning_ar": "أبيض",
+      "meaning_fr": "Blanc",
+      "example_darija_ar": "لابس قميص بيض اليوم.",
+      "example_darija_latin": [
+        "labes 9mis byed lyoum."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000039",
+      "entry_id": 126,
+      "meaning_ar": "أحمر",
+      "meaning_fr": "Rouge",
+      "example_darija_ar": "الطوموبيل الحمر كاينة قدام الدار.",
+      "example_darija_latin": [
+        "ttomobil l7mer kayna qdam dar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000040",
+      "entry_id": 128,
+      "meaning_ar": "أزرق",
+      "meaning_fr": "Bleu",
+      "example_darija_ar": "السماء الزرق كاتعطي راحة.",
+      "example_darija_latin": [
+        "ssma zzerq kat3ti ra7a."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000041",
+      "entry_id": 132,
+      "meaning_ar": "اللون",
+      "meaning_fr": "Couleur",
+      "example_darija_ar": "شنو هو اللون اللي كتفضل؟",
+      "example_darija_latin": [
+        "chno houwa lloun lli katfDdel?"
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000042",
+      "entry_id": 137,
+      "meaning_ar": "أبي",
+      "meaning_fr": "Papa",
+      "example_darija_ar": "بابا كيخدم في السوق.",
+      "example_darija_latin": [
+        "baba kaykhdem f souq."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000043",
+      "entry_id": 139,
+      "meaning_ar": "أخي",
+      "meaning_fr": "Mon frère",
+      "example_darija_ar": "خويا الكبير عايش في الرباط.",
+      "example_darija_latin": [
+        "khouya lkbir 3aych f rbat."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000044",
+      "entry_id": 143,
+      "meaning_ar": "جدي",
+      "meaning_fr": "Mon grand-père",
+      "example_darija_ar": "جدي عايش في الدوار.",
+      "example_darija_latin": [
+        "jeddi 3aych f dduwwar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000045",
+      "entry_id": 149,
+      "meaning_ar": "الأطفال",
+      "meaning_fr": "Les enfants",
+      "example_darija_ar": "الدراري كايلعبو في الدرب.",
+      "example_darija_latin": [
+        "ddrari kayl3bou f derb."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000046",
+      "entry_id": 150,
+      "meaning_ar": "أصدقائي",
+      "meaning_fr": "Mes amis",
+      "example_darija_ar": "صحابي جايين لعندي الليلة.",
+      "example_darija_latin": [
+        "s7abi jayin l3ndi llila."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000047",
+      "entry_id": 158,
+      "meaning_ar": "الإخوة",
+      "meaning_fr": "Frères",
+      "example_darija_ar": "خوت ديالي تلاتة، كلهم في الخارج.",
+      "example_darija_latin": [
+        "khout dyali tlata, kollhom f lkharij."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000048",
+      "entry_id": 166,
+      "meaning_ar": "الخبز",
+      "meaning_fr": "Pain",
+      "example_darija_ar": "خبز الدار كيبقى طري نهار كامل.",
+      "example_darija_latin": [
+        "khobz dar kayb9a Tri nhar kamel."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000049",
+      "entry_id": 167,
+      "meaning_ar": "الشاي",
+      "meaning_fr": "Thé",
+      "example_darija_ar": "أتاي بالنعناع ضروري بعد الماكلة.",
+      "example_darija_latin": [
+        "atay bna3na3 Darouri b3d lmakla."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000050",
+      "entry_id": 169,
+      "meaning_ar": "القهوة",
+      "meaning_fr": "Café",
+      "example_darija_ar": "قهوة الصباح كاتعاونني نفيق.",
+      "example_darija_latin": [
+        "qahwa sba7 kat3awnni nfiq."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000051",
+      "entry_id": 172,
+      "meaning_ar": "الكسكس",
+      "meaning_fr": "Couscous",
+      "example_darija_ar": "كسكس يوم الجمعة عادة عندنا.",
+      "example_darija_latin": [
+        "kouskous youm jjem3a 3ada 3ndna."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000052",
+      "entry_id": 173,
+      "meaning_ar": "الطاجين",
+      "meaning_fr": "Tajine",
+      "example_darija_ar": "طاجين الدجاج بالزيتون بنين.",
+      "example_darija_latin": [
+        "tajine ddjaj b zzitoun bnin."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000053",
+      "entry_id": 175,
+      "meaning_ar": "المسمن",
+      "meaning_fr": "Msemen (crêpe)",
+      "example_darija_ar": "مسمن بالعسل في الفطور.",
+      "example_darija_latin": [
+        "msemen b l3ssel f fTor."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000054",
+      "entry_id": 179,
+      "meaning_ar": "السمك",
+      "meaning_fr": "Poisson",
+      "example_darija_ar": "حوت مشوي كناكلوه في الصيف.",
+      "example_darija_latin": [
+        "7out mchwi kanklouh f sif."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000055",
+      "entry_id": 180,
+      "meaning_ar": "الفاكهة",
+      "meaning_fr": "Fruits",
+      "example_darija_ar": "فاكية الصيف رخيصة وفريش.",
+      "example_darija_latin": [
+        "fakia sif rkhisa w frich."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000056",
+      "entry_id": 198,
+      "meaning_ar": "التفاح",
+      "meaning_fr": "Pomme",
+      "example_darija_ar": "تفاح أحمر كيبان زوين في السوق.",
+      "example_darija_latin": [
+        "tfa7 7mer kayban zwin f souq."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000057",
+      "entry_id": 205,
+      "meaning_ar": "الموز",
+      "meaning_fr": "Banane",
+      "example_darija_ar": "بنان كيتباع بالكيلو في الحانوت.",
+      "example_darija_latin": [
+        "banan kaytba3 b kilo f l7anout."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000058",
+      "entry_id": 214,
+      "meaning_ar": "الفطور",
+      "meaning_fr": "Petit-déjeuner",
+      "example_darija_ar": "فطور الأحد كيكون عائلي.",
+      "example_darija_latin": [
+        "fTor l7ed kaykoun 3aili."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000059",
+      "entry_id": 215,
+      "meaning_ar": "العشاء",
+      "meaning_fr": "Dîner",
+      "example_darija_ar": "عشا الليلة كسكس.",
+      "example_darija_latin": [
+        "3cha llila kouskous."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000060",
+      "entry_id": 221,
+      "meaning_ar": "هنا",
+      "meaning_fr": "Ici",
+      "example_darija_ar": "هنا كاينة محطة الطوبيس.",
+      "example_darija_latin": [
+        "hna kayna ma7attat tobis."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000061",
+      "entry_id": 222,
+      "meaning_ar": "هناك",
+      "meaning_fr": "Là-bas",
+      "example_darija_ar": "تما فالسوق لقيت الكتاب.",
+      "example_darija_latin": [
+        "tmma f souq l9it lktab."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000062",
+      "entry_id": 225,
+      "meaning_ar": "فوق",
+      "meaning_fr": "En haut / sur",
+      "example_darija_ar": "الكتاب فوق الطاولة.",
+      "example_darija_latin": [
+        "lktab fouq Tawla."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000063",
+      "entry_id": 226,
+      "meaning_ar": "تحت",
+      "meaning_fr": "En bas",
+      "example_darija_ar": "القط تحت الكرسي.",
+      "example_darija_latin": [
+        "9att te7t lkursi."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000064",
+      "entry_id": 228,
+      "meaning_ar": "يسار",
+      "meaning_fr": "Gauche",
+      "example_darija_ar": "الحانوت كاين على اليسار.",
+      "example_darija_latin": [
+        "l7anout kayn 3la lysar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000065",
+      "entry_id": 231,
+      "meaning_ar": "السوق",
+      "meaning_fr": "Le marché",
+      "example_darija_ar": "السوق كيتفتح من الصباح.",
+      "example_darija_latin": [
+        "ssouq kaytfta7 men sba7."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000066",
+      "entry_id": 233,
+      "meaning_ar": "المغرب",
+      "meaning_fr": "Maroc",
+      "example_darija_ar": "المغرب بلد زوين بزاف.",
+      "example_darija_latin": [
+        "lmaghrib bled zwin bzaf."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000067",
+      "entry_id": 247,
+      "meaning_ar": "المكتبة",
+      "meaning_fr": "Bibliothèque",
+      "example_darija_ar": "المكتبة العمومية فيها كتب بالعربية.",
+      "example_darija_latin": [
+        "lmaktaba l3omomiya fiha kteb b l3arbiya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000068",
+      "entry_id": 250,
+      "meaning_ar": "الزقاق",
+      "meaning_fr": "Ruelle",
+      "example_darija_ar": "الدرب ديالنا هادي وضيق.",
+      "example_darija_latin": [
+        "dderb dyalna hadi w ddi9."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000069",
+      "entry_id": 251,
+      "meaning_ar": "الآن",
+      "meaning_fr": "Maintenant",
+      "example_darija_ar": "دابا غادي نخرج من الدار.",
+      "example_darija_latin": [
+        "daba ghadi nkhrej men dar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000070",
+      "entry_id": 254,
+      "meaning_ar": "اليوم",
+      "meaning_fr": "Aujourd'hui",
+      "example_darija_ar": "اليوم الجو مزيان في المدينة.",
+      "example_darija_latin": [
+        "lyoum jjou mzyan f mdina."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000071",
+      "entry_id": 255,
+      "meaning_ar": "غدا",
+      "meaning_fr": "Demain",
+      "example_darija_ar": "غدا غادي نمشيو للبحر.",
+      "example_darija_latin": [
+        "ghedda ghadi nmchiw lb7ar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000072",
+      "entry_id": 256,
+      "meaning_ar": "أمس",
+      "meaning_fr": "Hier",
+      "example_darija_ar": "لبارح شفت فيلم زوين.",
+      "example_darija_latin": [
+        "lbar7 cheft film zwin."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000073",
+      "entry_id": 262,
+      "meaning_ar": "أسبوع",
+      "meaning_fr": "Semaine",
+      "example_darija_ar": "هاد السيمانة خاصني نمشي للطبيب.",
+      "example_darija_latin": [
+        "had ssimana khassni nmchi ltbib."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000074",
+      "entry_id": 264,
+      "meaning_ar": "سنة",
+      "meaning_fr": "Année",
+      "example_darija_ar": "عام جديد، أمل جديد.",
+      "example_darija_latin": [
+        "3am jdid, amal jdid."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000075",
+      "entry_id": 275,
+      "meaning_ar": "الجمعة",
+      "meaning_fr": "Vendredi",
+      "example_darija_ar": "الجمعة كندوزو عند الوالدة.",
+      "example_darija_latin": [
+        "jjem3a kandouzo 3nd lwalida."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000076",
+      "entry_id": 277,
+      "meaning_ar": "الأحد",
+      "meaning_fr": "Dimanche",
+      "example_darija_ar": "الأحد كنجتمعو كاملين في الدار.",
+      "example_darija_latin": [
+        "l7ed kanjtm3ou kamlin f dar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000077",
+      "entry_id": 279,
+      "meaning_ar": "الصيف",
+      "meaning_fr": "Été",
+      "example_darija_ar": "الصيف في المغرب سخون بزاف.",
+      "example_darija_latin": [
+        "ssif f lmaghrib skhoun bzaf."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000078",
+      "entry_id": 281,
+      "meaning_ar": "فصل الشتاء",
+      "meaning_fr": "Saison d'hiver",
+      "example_darija_ar": "فصل الشتاء كيبقى تلاتة شهور.",
+      "example_darija_latin": [
+        "fsl chta kayb9a tlata chhour."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000079",
+      "entry_id": 282,
+      "meaning_ar": "دائمًا",
+      "meaning_fr": "Toujours",
+      "example_darija_ar": "ديما كنسالي الخدمة في الخمسة.",
+      "example_darija_latin": [
+        "dima kansali lkhedma f lkhamsa."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000080",
+      "entry_id": 284,
+      "meaning_ar": "الجو",
+      "meaning_fr": "Le temps",
+      "example_darija_ar": "الجو اليوم بارد شوية.",
+      "example_darija_latin": [
+        "jjou lyoum berd chwiya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000081",
+      "entry_id": 285,
+      "meaning_ar": "حار",
+      "meaning_fr": "Chaud",
+      "example_darija_ar": "الما سخون على الأتاي.",
+      "example_darija_latin": [
+        "lma skhoun 3la latay."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000082",
+      "entry_id": 287,
+      "meaning_ar": "المطر",
+      "meaning_fr": "La pluie",
+      "example_darija_ar": "الشتا خلات الشوارع رطبة.",
+      "example_darija_latin": [
+        "cchta khellat chchwari3 rTba."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000083",
+      "entry_id": 289,
+      "meaning_ar": "الشمس",
+      "meaning_fr": "Le soleil",
+      "example_darija_ar": "الشمس كاتطلع بكري في الصيف.",
+      "example_darija_latin": [
+        "chchems katTla3 bkri f sif."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000084",
+      "entry_id": 291,
+      "meaning_ar": "الثلج",
+      "meaning_fr": "La neige",
+      "example_darija_ar": "التلج كيغطي جبال الأطلس.",
+      "example_darija_latin": [
+        "ttelj kayghaTTi jbal lAtlas."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000085",
+      "entry_id": 296,
+      "meaning_ar": "تمطر",
+      "meaning_fr": "Il pleut",
+      "example_darija_ar": "الشتا كاتطيح، خد المظلة.",
+      "example_darija_latin": [
+        "cchta katTi7, khoud lmeDalla."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000086",
+      "entry_id": 301,
+      "meaning_ar": "جيد",
+      "meaning_fr": "Bien / bon",
+      "example_darija_ar": "الخبز ديال هاد المخبزة مزيان.",
+      "example_darija_latin": [
+        "lkhobz dyal had lmkhbaza mzyan."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000087",
+      "entry_id": 304,
+      "meaning_ar": "كثير",
+      "meaning_fr": "Beaucoup",
+      "example_darija_ar": "الحركة في السوق بزاف.",
+      "example_darija_latin": [
+        "l7araka f souq bzaf."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000088",
+      "entry_id": 305,
+      "meaning_ar": "كبير",
+      "meaning_fr": "Grand",
+      "example_darija_ar": "عندهم دار كبيرة في المدينة.",
+      "example_darija_latin": [
+        "3ndhom dar kbira f mdina."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000089",
+      "entry_id": 306,
+      "meaning_ar": "صغير",
+      "meaning_fr": "Petit",
+      "example_darija_ar": "عندها ولد صغير كايلعب هنا.",
+      "example_darija_latin": [
+        "3ndha wld sghir kayl3eb hna."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000090",
+      "entry_id": 307,
+      "meaning_ar": "جميل",
+      "meaning_fr": "Beau",
+      "example_darija_ar": "هاد البستان زوين في الربيع.",
+      "example_darija_latin": [
+        "had lbostan zwin f rbi3."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000091",
+      "entry_id": 309,
+      "meaning_ar": "سيئ",
+      "meaning_fr": "Mauvais",
+      "example_darija_ar": "الطريق خايب من بعد الشتا.",
+      "example_darija_latin": [
+        "ttriq khayeb men b3d chta."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000092",
+      "entry_id": 312,
+      "meaning_ar": "غالي",
+      "meaning_fr": "Cher",
+      "example_darija_ar": "هاد التيليفون غالي بزاف.",
+      "example_darija_latin": [
+        "had tilifoun ghali bzaf."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000093",
+      "entry_id": 313,
+      "meaning_ar": "رخيص",
+      "meaning_fr": "Bon marché",
+      "example_darija_ar": "الخضر رخيصة في هاد الشهر.",
+      "example_darija_latin": [
+        "lkhDra rkhisa f had chher."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000094",
+      "entry_id": 314,
+      "meaning_ar": "جديد",
+      "meaning_fr": "Nouveau",
+      "example_darija_ar": "عندي بورطابل جديد.",
+      "example_darija_latin": [
+        "3ndi portabl jdid."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000095",
+      "entry_id": 320,
+      "meaning_ar": "إن شاء الله",
+      "meaning_fr": "Si Dieu le veut",
+      "example_darija_ar": "غادي نجي غدا، إن شاء الله.",
+      "example_darija_latin": [
+        "ghadi nji ghedda, incha llah."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000096",
+      "entry_id": 321,
+      "meaning_ar": "الحمد لله",
+      "meaning_fr": "Dieu merci",
+      "example_darija_ar": "الحمد لله، كولشي مزيان.",
+      "example_darija_latin": [
+        "l7amdoullah, koulchi mzyan."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000097",
+      "entry_id": 331,
+      "meaning_ar": "بسرعة",
+      "meaning_fr": "Vite / bientôt",
+      "example_darija_ar": "دغيا، الطاكسي كاين قدام.",
+      "example_darija_latin": [
+        "dghya, ttaksi kayn qdam."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000098",
+      "entry_id": 335,
+      "meaning_ar": "امشِ مباشرة",
+      "meaning_fr": "Tout droit",
+      "example_darija_ar": "سير نيشان حتى تلقي المسجد.",
+      "example_darija_latin": [
+        "sir nichan 7ta tlqa lmasjid."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000099",
+      "entry_id": 338,
+      "meaning_ar": "النجدة",
+      "meaning_fr": "Au secours",
+      "example_darija_ar": "عاوني، عندي مشكل هنا.",
+      "example_darija_latin": [
+        "3awni, 3ndi mochkil hna."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000100",
+      "entry_id": 341,
+      "meaning_ar": "عيد ميلاد سعيد",
+      "meaning_fr": "Joyeux anniversaire",
+      "example_darija_ar": "عيد ميلاد سعيد، كل عام وأنت بخير.",
+      "example_darija_latin": [
+        "3id milad sa3id, koul 3am w nta bkhir."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000101",
+      "entry_id": 343,
+      "meaning_ar": "مبروك",
+      "meaning_fr": "Félicitations",
+      "example_darija_ar": "مبروك عليك النجاح في الامتحان.",
+      "example_darija_latin": [
+        "mabrouk 3lik nnaja7 f limti7an."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000102",
+      "entry_id": 349,
+      "meaning_ar": "المال",
+      "meaning_fr": "Argent",
+      "example_darija_ar": "ما عنديش فلوس دابا، نصرف غدا.",
+      "example_darija_latin": [
+        "ma 3ndich flous daba, nSref ghedda."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000103",
+      "entry_id": 351,
+      "meaning_ar": "كم هذا؟",
+      "meaning_fr": "Combien ça coûte ?",
+      "example_darija_ar": "شحال هادا؟ بغيت نشري جوج.",
+      "example_darija_latin": [
+        "ch7al hada? bghit nchri jouj."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000104",
+      "entry_id": 352,
+      "meaning_ar": "غالي جدا",
+      "meaning_fr": "Trop cher",
+      "example_darija_ar": "غالي بزاف، نقص شوية.",
+      "example_darija_latin": [
+        "ghali bzaf, nqes chwiya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000105",
+      "entry_id": 354,
+      "meaning_ar": "الحساب",
+      "meaning_fr": "L'addition",
+      "example_darija_ar": "الحساب عافاك، حنا سالينا.",
+      "example_darija_latin": [
+        "l7sab 3afak, 7na salina."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000106",
+      "entry_id": 357,
+      "meaning_ar": "يشتري",
+      "meaning_fr": "Acheter",
+      "example_darija_ar": "شرا الخبز من المخبزة كل صباح.",
+      "example_darija_latin": [
+        "chra lkhobz men lmkhbaza kol sba7."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000107",
+      "entry_id": 358,
+      "meaning_ar": "ادفع",
+      "meaning_fr": "Paie",
+      "example_darija_ar": "خلص الحساب قبل ما تخرج.",
+      "example_darija_latin": [
+        "khles l7sab qbel ma tkhrej."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000108",
+      "entry_id": 365,
+      "meaning_ar": "الراتب",
+      "meaning_fr": "Salaire",
+      "example_darija_ar": "الشهرية كاتخلص في آخر الشهر.",
+      "example_darija_latin": [
+        "chahria katkhles f akher chher."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000109",
+      "entry_id": 369,
+      "meaning_ar": "سوبر ماركت",
+      "meaning_fr": "Supermarché",
+      "example_darija_ar": "السوبر ماركت كيتفتح حتى للليل.",
+      "example_darija_latin": [
+        "supermarket kaytfta7 7ta llil."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000110",
+      "entry_id": 370,
+      "meaning_ar": "السيارة",
+      "meaning_fr": "Voiture",
+      "example_darija_ar": "الطوموبيل ديالي قديمة شوية.",
+      "example_darija_latin": [
+        "ttomobil dyali qdima chwiya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000111",
+      "entry_id": 372,
+      "meaning_ar": "التاكسي",
+      "meaning_fr": "Taxi",
+      "example_darija_ar": "الطاكسي كيخلص غالي في الليل.",
+      "example_darija_latin": [
+        "ttaksi kaykhles ghali f lil."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000112",
+      "entry_id": 374,
+      "meaning_ar": "القطار",
+      "meaning_fr": "Train",
+      "example_darija_ar": "القطار كيمشي للرباط كل ساعة.",
+      "example_darija_latin": [
+        "lqtar kaymchi lrbat kol sa3a."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000113",
+      "entry_id": 375,
+      "meaning_ar": "الطائرة",
+      "meaning_fr": "Avion",
+      "example_darija_ar": "الطيارة غادي تقلع في العشية.",
+      "example_darija_latin": [
+        "ttyara ghadi t9la3 f l3chiya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000114",
+      "entry_id": 381,
+      "meaning_ar": "بالحافلة",
+      "meaning_fr": "En bus",
+      "example_darija_ar": "كنمشي بالحافلة للجامعة.",
+      "example_darija_latin": [
+        "kanmchi b l7afila l jam3a."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000115",
+      "entry_id": 384,
+      "meaning_ar": "سيرا على الأقدام",
+      "meaning_fr": "À pied",
+      "example_darija_ar": "كنمشي على رجليا للمخبزة.",
+      "example_darija_latin": [
+        "kanmchi 3la rjliya l lmkhbaza."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000116",
+      "entry_id": 386,
+      "meaning_ar": "مريض",
+      "meaning_fr": "Malade",
+      "example_darija_ar": "مريض، خاصني نرتاح.",
+      "example_darija_latin": [
+        "mrid, khassni nrta7."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000117",
+      "entry_id": 387,
+      "meaning_ar": "الطبيب",
+      "meaning_fr": "Médecin",
+      "example_darija_ar": "الطبيب قال ليا نشرب الماء بزاف.",
+      "example_darija_latin": [
+        "ttbib gal liya nchreb lma bzaf."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000118",
+      "entry_id": 388,
+      "meaning_ar": "الصيدلية",
+      "meaning_fr": "Pharmacie",
+      "example_darija_ar": "الصيدلية كاينة حدى السبيطار.",
+      "example_darija_latin": [
+        "ssaydaliya kayna 7da sbitar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000119",
+      "entry_id": 389,
+      "meaning_ar": "المستشفى",
+      "meaning_fr": "Hôpital",
+      "example_darija_ar": "وديوه للسبيطار بالليل.",
+      "example_darija_latin": [
+        "ddawh l sbitar b lil."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000120",
+      "entry_id": 390,
+      "meaning_ar": "الدواء",
+      "meaning_fr": "Médicament",
+      "example_darija_ar": "خاصني دواء للكحة.",
+      "example_darija_latin": [
+        "khassni dwa l k7ba."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000121",
+      "entry_id": 392,
+      "meaning_ar": "رأسي يؤلمني",
+      "meaning_fr": "J'ai mal à la tête",
+      "example_darija_ar": "راسي كيوجعني من الصداع.",
+      "example_darija_latin": [
+        "rasi kaywja3ni men Sda3."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000122",
+      "entry_id": 410,
+      "meaning_ar": "سيارة الإسعاف",
+      "meaning_fr": "Ambulance",
+      "example_darija_ar": "عيطو لامبولونس دغيا.",
+      "example_darija_latin": [
+        "3eytou lambulons dghya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000123",
+      "entry_id": 412,
+      "meaning_ar": "طبيب الأسنان",
+      "meaning_fr": "Dentiste",
+      "example_darija_ar": "طبيب الأسنان قال ليا نغسل سناني.",
+      "example_darija_latin": [
+        "tbib snan gal liya nghsel snani."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000124",
+      "entry_id": 413,
+      "meaning_ar": "العمل",
+      "meaning_fr": "Travail",
+      "example_darija_ar": "الخدمة كاتبدا في التمنية.",
+      "example_darija_latin": [
+        "lkhedma katbda f tmnya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000125",
+      "entry_id": 415,
+      "meaning_ar": "المدرسة",
+      "meaning_fr": "École",
+      "example_darija_ar": "المدرسة قريبة من الدار.",
+      "example_darija_latin": [
+        "lmedrasa qriba men dar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000126",
+      "entry_id": 417,
+      "meaning_ar": "الكتاب",
+      "meaning_fr": "Livre",
+      "example_darija_ar": "الكتاب اللي قريت كان زوين.",
+      "example_darija_latin": [
+        "lktab lli 9rit kan zwin."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000127",
+      "entry_id": 419,
+      "meaning_ar": "الامتحان",
+      "meaning_fr": "Examen",
+      "example_darija_ar": "الامتحان غادي يكون يوم الاثنين.",
+      "example_darija_latin": [
+        "limti7an ghadi ykoun youm ttnin."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000128",
+      "entry_id": 421,
+      "meaning_ar": "الطالب",
+      "meaning_fr": "Étudiant",
+      "example_darija_ar": "أنا طالب في الجامعة.",
+      "example_darija_latin": [
+        "ana taleb f jam3a."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000129",
+      "entry_id": 423,
+      "meaning_ar": "المكتب",
+      "meaning_fr": "Bureau",
+      "example_darija_ar": "المكتب ديالو في الطابق الثاني.",
+      "example_darija_latin": [
+        "lmaktab dyalo f TTab9 ttani."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000130",
+      "entry_id": 429,
+      "meaning_ar": "التاريخ",
+      "meaning_fr": "Histoire",
+      "example_darija_ar": "درسنا تاريخ المغرب هاد الأسبوع.",
+      "example_darija_latin": [
+        "dersna tarikh lmaghrib had losbou3."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000131",
+      "entry_id": 433,
+      "meaning_ar": "القسم",
+      "meaning_fr": "Classe",
+      "example_darija_ar": "القسم فيه تلاتين تلميد.",
+      "example_darija_latin": [
+        "l9ism fih tletin tlmid."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000132",
+      "entry_id": 440,
+      "meaning_ar": "الإنجليزية",
+      "meaning_fr": "Anglais",
+      "example_darija_ar": "نڭليزية كاتقرا في المدرسة.",
+      "example_darija_latin": [
+        "ngliziya kat9ra f medrasa."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000133",
+      "entry_id": 457,
+      "meaning_ar": "الهاتف المحمول",
+      "meaning_fr": "Téléphone portable",
+      "example_darija_ar": "البورطابل ديالي ما فيهش الشارج.",
+      "example_darija_latin": [
+        "lportabl dyali ma fihch charj."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000134",
+      "entry_id": 458,
+      "meaning_ar": "الحاسوب",
+      "meaning_fr": "Ordinateur",
+      "example_darija_ar": "الحاسوب كايخدم ببطء اليوم.",
+      "example_darija_latin": [
+        "l7assoub kaykhdem b boT' lyoum."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000135",
+      "entry_id": 459,
+      "meaning_ar": "الإنترنت",
+      "meaning_fr": "Internet",
+      "example_darija_ar": "الأنترنيت ضعيف في هاد البلاصة.",
+      "example_darija_latin": [
+        "internet d3if f had lblassa."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000136",
+      "entry_id": 461,
+      "meaning_ar": "الصورة",
+      "meaning_fr": "Photo",
+      "example_darija_ar": "خديت تصويرة للبحر.",
+      "example_darija_latin": [
+        "khdit tsowira l b7ar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000137",
+      "entry_id": 466,
+      "meaning_ar": "فرحان",
+      "meaning_fr": "Heureux",
+      "example_darija_ar": "فرحان بزاف بالنتيجة.",
+      "example_darija_latin": [
+        "ferhan bzaf b nntija."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000138",
+      "entry_id": 467,
+      "meaning_ar": "حزين",
+      "meaning_fr": "Triste",
+      "example_darija_ar": "حزين حيت خويا مسافر.",
+      "example_darija_latin": [
+        "hzin 7it khouya msafr."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000139",
+      "entry_id": 470,
+      "meaning_ar": "متعب",
+      "meaning_fr": "Fatigué",
+      "example_darija_ar": "عيان، بغيت نعس دابا.",
+      "example_darija_latin": [
+        "3yan, bghit n3es daba."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000140",
+      "entry_id": 471,
+      "meaning_ar": "يضحك",
+      "meaning_fr": "Rire",
+      "example_darija_ar": "ضحك بزاف على الحكاية.",
+      "example_darija_latin": [
+        "d7ek bzaf 3la l7kaya."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000141",
+      "entry_id": 482,
+      "meaning_ar": "الابتسامة",
+      "meaning_fr": "Sourire",
+      "example_darija_ar": "ابتسامة زوينة كاتبدل النهار.",
+      "example_darija_latin": [
+        "ibtisama zwina katbdel nhar."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000142",
+      "entry_id": 483,
+      "meaning_ar": "الرأس",
+      "meaning_fr": "Tête",
+      "example_darija_ar": "حط راسك على المخدة.",
+      "example_darija_latin": [
+        "7ett rasek 3la lmakhda."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000143",
+      "entry_id": 485,
+      "meaning_ar": "العين",
+      "meaning_fr": "Œil",
+      "example_darija_ar": "العين ديالي كاتوجعني.",
+      "example_darija_latin": [
+        "l3in dyali katwja3ni."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000144",
+      "entry_id": 489,
+      "meaning_ar": "الفم",
+      "meaning_fr": "Bouche",
+      "example_darija_ar": "دير الما في فمك.",
+      "example_darija_latin": [
+        "dir lma f femk."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000145",
+      "entry_id": 495,
+      "meaning_ar": "اليد",
+      "meaning_fr": "Main",
+      "example_darija_ar": "غسل يديك قبل الماكلة.",
+      "example_darija_latin": [
+        "ghsel yedik qbel lmakla."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    },
+    {
+      "id": "ctx-000146",
+      "entry_id": 498,
+      "meaning_ar": "القلب",
+      "meaning_fr": "Cœur",
+      "example_darija_ar": "قلبي كيدق بسرعة.",
+      "example_darija_latin": [
+        "qelbi kayd9 b sor3a."
+      ],
+      "register": "neutral",
+      "provenance": {
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مثال سياقي حُرِّر داخل المشروع، وليس مقتبسًا من نصوص خارجية."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم يُراجع بشريًا بشكل مستقل بعد."
+      }
+    }
+  ]
 }
