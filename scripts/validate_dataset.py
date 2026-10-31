@@ -189,7 +189,7 @@ def validate(data, sources=None, strict_public=False):
         if not strict_public and e.get("publication_status") in (None, "pending_verification"):
             warnings.append(f"{p}.publication_status: not explicitly approved for publication")
 
-    if len(entries) != meta.get("entries_count):
+    if len(entries) != meta.get("entries_count"):
         errors.append(f"meta.entries_count: declared {meta.get('entries_count')}, actual {len(entries)}")
     if len(categories) != meta.get("categories_count"):
         errors.append(f"meta.categories_count: declared {meta.get('categories_count')}, actual {len(categories)}")
