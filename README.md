@@ -73,6 +73,7 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 ~~~bash
 git clone https://github.com/ArCode-Standard/moroccan-darija-dataset.git
 cd moroccan-darija-dataset
+python -m pip install -r requirements.txt
 ~~~
 
 عرض عدد المدخلات:
