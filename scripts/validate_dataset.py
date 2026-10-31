@@ -12,6 +12,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from jsonschema import Draft202012Validator, FormatChecker
+
 REQUIRED = ("id", "category", "darija_ar", "darija_latin", "fusha_ar", "fr")
 ENTRY_TYPES = {"word", "expression", "sentence", "proverb", "question", "conversational", "unknown"}
 REVIEW = {"pending", "in_review", "reviewed", "rejected", "needs_correction", "unknown"}
@@ -62,6 +64,15 @@ def validate_sources(registry):
             if source.get("redistribution_permission") != "allowed":
                 errors.append(f"{p}: cleared source must explicitly allow redistribution")
     return errors, warnings, indexed
+
+def validate_schema(data, schema, schema_path="data/schema.json"):
+    """Validate the complete dataset against its published JSON Schema."""
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    ordered = sorted(
+        validator.iter_errors(data),
+        key=lambda error: (list(map(str, error.absolute_path)), error.message),
+    )
+    return [f"{schema_path}: {error.json_path}: {error.message}" for error in ordered]
 
 def validate(data, sources=None, strict_public=False):
     errors, warnings = [], []
@@ -221,18 +232,21 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("dataset", nargs="?", default="data/moroccan-darija.json")
     parser.add_argument("--sources", default="data/sources.json")
+    parser.add_argument("--schema", default="data/schema.json")
     parser.add_argument("--strict-public", action="store_true",
                         help="fail unless every entry/example is explicitly cleared for public redistribution")
     args = parser.parse_args()
     try:
         data = load_json(args.dataset)
         registry = load_json(args.sources)
+        schema = load_json(args.schema)
     except ValueError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
     source_errors, _, source_index = validate_sources(registry)
+    schema_errors = validate_schema(data, schema, args.schema)
     errors, warnings = validate(data, source_index, args.strict_public)
-    errors = source_errors + errors
+    errors = source_errors + schema_errors + errors
     print(f"Dataset audit: {len(data.get('entries', []))} entries; {len(source_index)} registered sources")
     print(f"Warnings: {len(warnings)}; errors: {len(errors)}")
     if warnings:
