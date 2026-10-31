@@ -54,15 +54,19 @@ def validate(data):
         if isinstance(cat,str):
             actual[cat]+=1
             if cat not in declared: errors.append(f"{p}.category: unknown category '{cat}'")
-        if "entry_type" in e and e["entry_type"] not in ENTRY_TYPES: errors.append(f"{p}.entry_type: unsupported value")
-        if "review" in e and (not isinstance(e["review"],dict) or e["review"].get("status") not in REVIEW):
-            errors.append(f"{p}.review.status: missing or unsupported status")
+        if "entry_type" in e and (not isinstance(e["entry_type"],str) or e["entry_type"] not in ENTRY_TYPES):
+            errors.append(f"{p}.entry_type: unsupported value")
+        if "review" in e:
+            review=e["review"]
+            if not isinstance(review,dict) or not isinstance(review.get("status"),str) or review.get("status") not in REVIEW:
+                errors.append(f"{p}.review.status: missing or unsupported status")
         if "provenance" in e:
             prov=e["provenance"]
             if not isinstance(prov,dict): errors.append(f"{p}.provenance: expected object")
             else:
                 for field in ("redistribution_permission","training_permission","commercial_permission"):
-                    if field in prov and prov[field] not in PERMISSIONS: errors.append(f"{p}.provenance.{field}: unsupported permission")
+                    if field in prov and (not isinstance(prov[field],str) or prov[field] not in PERMISSIONS):
+                        errors.append(f"{p}.provenance.{field}: unsupported permission")
     if len(entries)!=meta.get("entries_count"): errors.append(f"meta.entries_count: declared {meta.get('entries_count')}, actual {len(entries)}")
     if len(categories)!=meta.get("categories_count"): errors.append(f"meta.categories_count: declared {meta.get('categories_count')}, actual {len(categories)}")
     for cat,count in declared.items():
@@ -77,15 +81,20 @@ def validate_context_links(context_data,dataset):
     meta=context_data.get("meta",{}); examples=context_data.get("examples",[])
     if isinstance(meta,dict) and meta.get("examples_count")!=len(examples):
         errors.append(f"contexts.meta.examples_count: declared {meta.get('examples_count')}, actual {len(examples)}")
-    entry_ids={e.get("id") for e in dataset.get("entries",[]) if isinstance(e,dict)}
+    entries=dataset.get("entries",[])
+    if not isinstance(entries,list) or not isinstance(examples,list):
+        return ["contexts: 'entries' and 'examples' must be arrays"]
+    entry_ids={e.get("id") for e in entries if isinstance(e,dict) and isinstance(e.get("id"),int) and not isinstance(e.get("id"),bool)}
     seen=set()
     for i,example in enumerate(examples):
         if not isinstance(example,dict): continue
         example_id=example.get("id")
-        if example_id in seen: errors.append(f"contexts.examples[{i}].id: duplicate id {example_id}")
-        seen.add(example_id)
-        if example.get("entry_id") not in entry_ids:
-            errors.append(f"contexts.examples[{i}].entry_id: unknown lexicon entry {example.get('entry_id')}")
+        if isinstance(example_id,str):
+            if example_id in seen: errors.append(f"contexts.examples[{i}].id: duplicate id {example_id}")
+            seen.add(example_id)
+        entry_id=example.get("entry_id")
+        if isinstance(entry_id,bool) or not isinstance(entry_id,int) or entry_id not in entry_ids:
+            errors.append(f"contexts.examples[{i}].entry_id: unknown or invalid lexicon entry {entry_id!r}")
     return errors
 
 def read_json(path): return json.loads(Path(path).read_text(encoding="utf-8"))
