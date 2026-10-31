@@ -152,13 +152,13 @@ python -m unittest discover -s tests -v
   "fr": "Bonjour / paix sur vous",
   "provenance": {
     "source_type": "original",
-    "source_name": "ArCode Standard — compilation manuelle",
+    "source_name": "ArCode Standard — تحرير داخلي",
     "rights_holder": "ArCode Standard",
     "redistribution_permission": "allowed",
     "training_permission": "allowed",
     "commercial_permission": "not_allowed",
     "license": "CC BY-NC 4.0",
-    "notes": "إدخال حُرِّر يدويًا ضمن مشروع المعجم."
+    "notes": "مفردة حُرِّرت داخل المشروع ولم تُنسب إلى مصدر خارجي."
   },
   "review": {
     "status": "pending",
@@ -173,7 +173,7 @@ python -m unittest discover -s tests -v
 |---|---:|---|
 | `original` — تحرير داخل المشروع | 585 | إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
 | `dictionary` — DODa (CC BY-NC 4.0) | 197 | إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
-| `web` — mylanguages / ilanguages / translatordarija | 105 | `unknown` (تحتاج تحققاً) |
+| `web` — mylanguages (62) / ilanguages (37) / translatordarija (5) / غير محدد (1) | 105 | `unknown` (تحتاج تحققاً) |
 | `corpus` — Wattpad (مفردات مستخرجة من القصص) | 34 | المصدر: **Wattpad** (نصوص القصص غير مدرجة)؛ إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
 
 **قواعد القراءة:**
@@ -181,6 +181,40 @@ python -m unittest discover -s tests -v
 - `review.status = pending` لكل المدخلات حالياً: لم تُجرَ مراجعة بشرية مستقلة بعد.
 - لا يعني سجل المصدر أن المقابل بالفصحى أو الفرنسي أُنشئ داخل المشروع؛ قد تكون له حقوق مستقلة.
 - سياسة التوثيق الكاملة في [docs/DATA_PROVENANCE_AND_RIGHTS.md](docs/DATA_PROVENANCE_AND_RIGHTS.md).
+
+## أسئلة شائعة حول المصادر | Sources FAQ
+
+**ما الفكرة بجملة واحدة؟**
+لكل كلمة «بطاقة مصدر» تقول: من أين جاءت؟ وهل يُسمح بإعادة استخدامها؟ ومن راجعها؟ وهذه هي الحقول `provenance` و`review`.
+
+**ماذا يعني كل حقل؟**
+
+| الحقل | المعنى |
+|---|---|
+| `source_type` | نوع المصدر: `original` (تحرير داخلي)، `dictionary` (قاموس)، `web` (موقع)، `corpus` (نصوص قصص). |
+| `source_name` | الاسم الظاهر: «ArCode Standard — تحرير داخلي»، «DODa»، «Wattpad»، «mylanguages.org». |
+| `source_url` | رابط المصدر عند وجوده. |
+| `accessed_at` | تاريخ الوصول إلى المعلومة. |
+| `rights_holder` | صاحب الحق. |
+| `redistribution_permission` | هل يُسمح بإعادة النشر ضمن المجموعة؟ |
+| `training_permission` | هل يُسمح باستخدامها لتدريب النماذج؟ |
+| `commercial_permission` | هل يُسمح بالاستخدام التجاري؟ |
+| `license` | الترخيص المطبق. |
+| `review.status` | حالة المراجعة البشرية (`pending` = لم تُراجع بعد). |
+
+**لماذا تختلف القيم؟**
+- **585 (تحرير داخلي):** حُرِّرت داخل المشروع، فتُرخَّص تحت CC BY-NC: إعادة توزيع وتدريب مسموحان، والتجاري ممنوع.
+- **197 (DODa):** المصدر نفسه CC BY-NC 4.0، فالحقوق واضحة بشرط الإسناد ومنع التجاري.
+- **34 (Wattpad):** أُخذت الكلمات المفردة فقط، ونصوص القصص لم تُنشر؛ المفردات والترجمات تحرير المشروع.
+- **105 (مواقع تعليمية):** استُرشد بالمعنى والكتابة، لكن شروط كل موقع لم تُتحقق، لذا `unknown`.
+
+**كيف أتحقق من كلمة؟**
+افتح `data/moroccan-darija.json`، ابحث عن الكلمة، واقرأ `provenance` و`review`. للتفاصيل: [docs/DATA_PROVENANCE_AND_RIGHTS.md](docs/DATA_PROVENANCE_AND_RIGHTS.md).
+
+**ما الذي لم يُنجز بعد؟**
+- `unknown` في مدخلات المواقع يحتاج مراجعة شروط الاستخدام.
+- كل السجلات `pending`: لا مراجعة بشرية مستقلة بعد.
+- لا يوجد بعد رابط الصفحة الدقيقة لكل كلمة من المصادر الويبية.
 
 ## المنهجية وحدود البيانات | Methodology and limitations
 
