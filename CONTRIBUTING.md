@@ -54,11 +54,12 @@
 ## 6. تشغيل الفحوص محلياً
 
 ```bash
+python -m pip install -r requirements.txt
 python scripts/validate_dataset.py
 python -m unittest discover -s tests -v
 ```
 
-المدقق يفحص الاتساق البنيوي فقط. لا يتحقق من صحة المعنى أو شرعية المصدر. مخطط الحقول في `data/schema.json`.
+يطبق المدقق JSON Schema Draft 2020-12 على المعجم وملف السياق، ثم ينفذ فحوص الاتساق والمراجع بين الملفات. لا يتحقق من صحة المعنى أو شرعية المصدر؛ فذلك يتطلب مراجعة لغوية وحقوقية بشرية.
 
 ## 7. معايير قبول المساهمة
 
