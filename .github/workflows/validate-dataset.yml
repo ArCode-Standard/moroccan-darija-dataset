@@ -1,9 +1,9 @@
 name: Validate dataset and collection resources
 on:
   push:
-    paths: ["data/**", "schemas/**", "scripts/validate_dataset.py", "scripts/validate_resources.py", "tests/**", ".github/workflows/validate-dataset.yml"]
+    paths: ["data/**", "schemas/**", "scripts/validate_dataset.py", "scripts/validate_resources.py", "scripts/intake_candidate.py", "tests/**", ".github/workflows/validate-dataset.yml"]
   pull_request:
-    paths: ["data/**", "schemas/**", "scripts/validate_dataset.py", "scripts/validate_resources.py", "tests/**", ".github/workflows/validate-dataset.yml"]
+    paths: ["data/**", "schemas/**", "scripts/validate_dataset.py", "scripts/validate_resources.py", "scripts/intake_candidate.py", "tests/**", ".github/workflows/validate-dataset.yml"]
 permissions:
   contents: read
 jobs:
@@ -20,5 +20,7 @@ jobs:
         run: python scripts/validate_dataset.py --sources data/sources.json
       - name: Validate collection resources
         run: python scripts/validate_resources.py
+      - name: Check intake CLI syntax
+        run: python -m py_compile scripts/intake_candidate.py
       - name: Run validator tests
         run: python -m unittest discover -s tests -v
