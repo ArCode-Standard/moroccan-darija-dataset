@@ -29,6 +29,22 @@ class Tests(unittest.TestCase):
         }
         return {"sources": [source]}, {"s1": source}
 
+
+    def test_json_schema_rejects_unknown_entry_fields(self):
+        d = self.fixture()
+        d["entries"][0]["invented_field"] = "not allowed"
+        schema = {
+            "type": "object",
+            "properties": {
+                "entries": {
+                    "type": "array",
+                    "items": {"type": "object", "additionalProperties": False}
+                }
+            }
+        }
+        errors = module.validate_schema(d, schema)
+        self.assertTrue(any("invented_field" in error for error in errors))
+
     def test_legacy_entry_is_auditable_but_warned(self):
         errors, warnings = module.validate(self.fixture(), {})
         self.assertEqual(errors, [])
