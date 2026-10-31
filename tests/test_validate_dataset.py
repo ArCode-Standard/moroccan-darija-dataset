@@ -25,11 +25,22 @@ class ValidatorTests(unittest.TestCase):
   d=json.loads((ROOT/"data"/"moroccan-darija.json").read_text(encoding="utf-8")); s=json.loads((ROOT/"data"/"schema.json").read_text(encoding="utf-8"))
   self.assertEqual(module.validate_schema(d,s),[]); self.assertEqual(module.validate(d),[])
  def test_schema_rejects_unknown_entry_property(self):
-  d=self.fixture(); d["entries"][0]["unregistered_field"]="x"; s=json.loads((ROOT/"data"/"schema.json").read_text(encoding="utf-8"))
-  self.assertTrue(module.validate_schema(d,s))
+  d=json.loads((ROOT/"data"/"moroccan-darija.json").read_text(encoding="utf-8")); d["entries"][0]["unregistered_field"]="x"
+  s=json.loads((ROOT/"data"/"schema.json").read_text(encoding="utf-8"))
+  errors=module.validate_schema(d,s)
+  self.assertTrue(any("unregistered_field" in error for error in errors))
  def test_empty_context_file_passes_schema(self):
   d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":0},"examples":[]}; s=json.loads((ROOT/"data"/"context-schema.json").read_text(encoding="utf-8"))
   self.assertEqual(module.validate_schema(d,s,"contexts"),[]); self.assertEqual(module.validate_context_links(d,self.fixture()),[])
+ def test_valid_context_example_passes_schema_and_link_check(self):
+  d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{
+   "id":"ctx-000001","entry_id":1,"meaning_ar":"تحية","example_darija_ar":"سلام، كيداير؟",
+   "example_darija_latin":["salam, kidayr?"],"provenance":{"source_type":"original","redistribution_permission":"allowed","training_permission":"allowed","commercial_permission":"unknown"},
+   "review":{"status":"pending"}
+  }]}
+  s=json.loads((ROOT/"data"/"context-schema.json").read_text(encoding="utf-8"))
+  self.assertEqual(module.validate_schema(d,s,"contexts"),[])
+  self.assertEqual(module.validate_context_links(d,self.fixture()),[])
  def test_context_reference_must_exist(self):
   d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{"id":"ctx-000001","entry_id":999}]}
   self.assertTrue(any("unknown lexicon entry" in x for x in module.validate_context_links(d,self.fixture())))
