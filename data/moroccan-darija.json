@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "created": "2026-10-29",
     "entries_count": 921,
     "categories_count": 38,
@@ -36,7 +36,7 @@
       "web": 105,
       "corpus": 34
     },
-    "provenance_policy": "لكل مدخل سجل مصدر وحقوق (provenance) وحالة مراجعة (review)؛ القيم unknown تعني أن الحالة الحقوقية لم تُتحقق بعد ولا يجوز تفسيرها كإذن."
+    "provenance_policy": "لكل مدخل سجل مصدر وحقوق (provenance) وحالة مراجعة (review). مدخلات Wattpad مصدرها القصص لكن النصوص غير مدرجة؛ المفردات والترجمات تحرير المشروع تحت CC BY-NC 4.0."
   },
   "categories": [
     {
@@ -1707,11 +1707,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -2456,11 +2457,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -2479,11 +2481,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -2502,11 +2505,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -2525,11 +2529,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -5822,11 +5827,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -6549,11 +6555,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -6572,11 +6579,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7325,11 +7333,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7348,11 +7357,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7371,11 +7381,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7952,11 +7963,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7975,11 +7987,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -7998,11 +8011,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -8021,11 +8035,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -11085,11 +11100,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -11966,11 +11982,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16742,11 +16759,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16765,11 +16783,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16788,11 +16807,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16811,11 +16831,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16834,11 +16855,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16857,11 +16879,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16880,11 +16903,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16903,11 +16927,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16926,11 +16951,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16949,11 +16975,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -16972,11 +16999,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -17545,11 +17573,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -17568,11 +17597,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -19653,11 +19683,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -19676,11 +19707,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -19699,11 +19731,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
@@ -20514,11 +20547,12 @@
         "source_name": "Wattpad",
         "source_url": "https://www.wattpad.com",
         "accessed_at": "2026-10-30",
-        "rights_holder": "مؤلفو قصص Wattpad",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
         "commercial_permission": "not_allowed",
-        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية؛ لا تُعاد نشر نصوص القصص، وحقوقها لمؤلفيها. أذونات إعادة التوزيع والتدريب غير محسومة بعد."
+        "notes": "المصدر: Wattpad. استُخرجت الكلمة المفردة آليًا من جمل قصص دارجة بعد تصفية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
       },
       "review": {
         "status": "pending",
