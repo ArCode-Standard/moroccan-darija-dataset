@@ -172,9 +172,6 @@
           },
           "uniqueItems": true
         },
-        "context": {
-          "type": "string"
-        },
         "register": {
           "enum": [
             "neutral",
