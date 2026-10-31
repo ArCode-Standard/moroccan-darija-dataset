@@ -21,6 +21,18 @@ class ValidatorTests(unittest.TestCase):
  def test_invalid_permission_fails(self):
   d=self.fixture(); d["entries"][0]["provenance"]={"training_permission":"maybe"}
   self.assertTrue(any("training_permission" in x for x in module.validate(d)))
+ def test_malformed_optional_values_return_errors_not_exceptions(self):
+  d=self.fixture(); e=d["entries"][0]
+  e["entry_type"]=[]; e["review"]={"status":[]}
+  e["provenance"]={"training_permission":[]}
+  errors=module.validate(d)
+  self.assertTrue(any("entry_type" in x for x in errors))
+  self.assertTrue(any("review.status" in x for x in errors))
+  self.assertTrue(any("training_permission" in x for x in errors))
+ def test_malformed_context_ids_return_errors_not_exceptions(self):
+  d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{"id":[],"entry_id":[]}]}
+  errors=module.validate_context_links(d,self.fixture())
+  self.assertTrue(any("entry_id" in x for x in errors))
  def test_real_1_3_0_dataset_passes_schema(self):
   d=json.loads((ROOT/"data"/"moroccan-darija.json").read_text(encoding="utf-8")); s=json.loads((ROOT/"data"/"schema.json").read_text(encoding="utf-8"))
   self.assertEqual(module.validate_schema(d,s),[]); self.assertEqual(module.validate(d),[])
