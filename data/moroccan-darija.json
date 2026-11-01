@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.8.1",
+    "version": "1.9.0",
     "created": "2026-10-29",
     "entries_count": 1050,
     "categories_count": 38,
@@ -32,9 +32,9 @@
     "attribution": "ArCode Standard — Moroccan Darija Lexicon",
     "provenance_summary": {
       "original": 585,
-      "web": 105,
+      "dictionary": 220,
+      "web": 82,
       "corpus": 126,
-      "dictionary": 197,
       "other": 37
     },
     "provenance_policy": "لكل مدخل سجل مصدر وحقوق (provenance) وحالة مراجعة (review). مدخلات Wattpad مصدرها القصص لكن النصوص غير مدرجة؛ المفردات والترجمات تحرير المشروع تحت CC BY-NC 4.0."
@@ -576,20 +576,20 @@
       "fusha_ar": "تشرفت بمعرفتك",
       "fr": "Enchanté",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `x-tra/utils.csv` سطر 142 — «متشرّفين» = «nice to meet you». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -3825,20 +3825,20 @@
       "fusha_ar": "ابن العم",
       "fr": "Cousin (paternel)",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/family.csv` سطر 16 — «ولد عمي» = «my cousin». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -3849,20 +3849,20 @@
       "fusha_ar": "ابنة العم",
       "fr": "Cousine (paternelle)",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/family.csv` سطر 20 — «بنت عمي» = «my cousin». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -5153,20 +5153,20 @@
       "fusha_ar": "حامض",
       "fr": "Citron / acide",
       "provenance": {
-        "source_type": "web",
-        "source_name": "translatordarija.com (قاموس الدارجة)",
-        "source_url": "https://translatordarija.com/dictionary",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/food.csv` سطر 113 — «حامض» = «sour». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6422,20 +6422,20 @@
       "fusha_ar": "الجمعة",
       "fr": "Vendredi",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/time.csv` سطر 20 — «جمعة» = «friday». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6446,20 +6446,20 @@
       "fusha_ar": "السبت",
       "fr": "Samedi",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/time.csv` سطر 21 — «سبت» = «saturday». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6494,20 +6494,20 @@
       "fusha_ar": "الربيع",
       "fr": "Printemps",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/environment.csv` سطر 33 — «الربيع» = «spring». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6518,20 +6518,20 @@
       "fusha_ar": "الصيف",
       "fr": "Été",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/environment.csv` سطر 31 — «الصيف» = «summer». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6542,20 +6542,20 @@
       "fusha_ar": "الخريف",
       "fr": "Automne",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 1163 — «خريف» = «autumn». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -7981,20 +7981,20 @@
       "fusha_ar": "مبروك",
       "fr": "Félicitations",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `x-tra/utils.csv` سطر 151 — «مبروك» = «congratulations». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -10209,20 +10209,20 @@
       "fusha_ar": "العربية",
       "fr": "Arabe",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 106 — «عربية» = «arabic». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -10497,20 +10497,20 @@
       "fusha_ar": "صفحة",
       "fr": "Page",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/education.csv` سطر 47 — «صفحة» = «page». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -10545,20 +10545,20 @@
       "fusha_ar": "الفن",
       "fr": "Art",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 528 — «فن» = «art». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -10569,20 +10569,20 @@
       "fusha_ar": "الجغرافيا",
       "fr": "Géographie",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/education.csv` سطر 12 — «جغرافيا» = «geography». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -10593,20 +10593,20 @@
       "fusha_ar": "العلوم",
       "fr": "Sciences",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/education.csv` سطر 33 — «علوم» = «sciences». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -12773,20 +12773,20 @@
       "fusha_ar": "قميص صوفي",
       "fr": "Pull",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 89 — «تريكو» = «sweater». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -15215,20 +15215,20 @@
       "fusha_ar": "جزيرة",
       "fr": "Île",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 835 — «جزيرة» = «island». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -15239,20 +15239,20 @@
       "fusha_ar": "بحيرة",
       "fr": "Lac",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/environment.csv` سطر 63 — «بحيرة» = «lake». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -18506,19 +18506,20 @@
       "fusha_ar": "مسبح",
       "fr": "Piscine",
       "provenance": {
-        "source_type": "web",
-        "source_name": "مواقع تعلّم الدارجة (الموقع الدقيق غير محدد)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "من مفردات mylanguages.org أو ilanguages.org أو translatordarija.com، لكن تعذّر تحديد الموقع بدقة عند المطابقة؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/places.csv` سطر 137 — «پيسين» = «swimming pool». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20809,20 +20810,20 @@
       "fusha_ar": "اليونان",
       "fr": "Grèce",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/places.csv` سطر 31 — «اليونان» = «greece». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -21073,20 +21074,20 @@
       "fusha_ar": "المسرح",
       "fr": "Théâtre",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/art.csv` سطر 10 — «مسرح» = «theater». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -21097,20 +21098,20 @@
       "fusha_ar": "لعبة",
       "fr": "Jeu",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/sport.csv` سطر 13 — «لعبة» = «game». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -21145,20 +21146,20 @@
       "fusha_ar": "لاعب",
       "fr": "Joueur",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.0 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `syntactic categories/nouns.csv` سطر 911 — «لاعب» = «player». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {

@@ -4,7 +4,7 @@
 
 An initial lexical resource for documenting Moroccan Darija and supporting language technology research.
 
-> **حالة المشروع:** إصدار البيانات المعلن 1.8.1، ويضم **1050 مدخلاً** موزعة على **38 فئة**، بالإضافة إلى **146 مثالاً سياقياً** في data/context-examples.json. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
+> **حالة المشروع:** إصدار البيانات المعلن 1.9.0، ويضم **1050 مدخلاً** موزعة على **38 فئة**، بالإضافة إلى **146 مثالاً سياقياً** في data/context-examples.json. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
 
 ## نظرة سريعة | At a glance
 
@@ -13,7 +13,7 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 | اللغة | الدارجة المغربية — ary |
 | عدد المدخلات | 1050 |
 | عدد الفئات | 38 |
-| إصدار البيانات المعلن | 1.8.1 |
+| إصدار البيانات المعلن | 1.9.0 |
 | أمثلة سياقية | 146 |
 | الترخيص المعلن | [CC BY-NC 4.0](LICENSE) |
 
@@ -175,8 +175,8 @@ python -m unittest discover -s tests -v
 | نوع المصدر | العدد | الأذونات المسجلة |
 |---|---:|---|
 | `original` — تحرير داخل المشروع | 585 | إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
-| `dictionary` — DODa (CC BY-NC 4.0) | 197 | إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
-| `web` — mylanguages (62) / ilanguages (37) / translatordarija (5) / غير محدد (1) | 105 | `unknown` (تحتاج تحققاً) |
+| `dictionary` — DODa (CC BY-NC 4.0) | 220 | إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
+| `web` — mylanguages (46) / ilanguages (32) / translatordarija (4) | 82 | `unknown` (تحتاج تحققاً) |
 | `corpus` — Wattpad (مفردات مستخرجة من القصص) | 126 | المصدر: **Wattpad** (نصوص القصص غير مدرجة)؛ إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
 | `other` — Peace Corps Morocco (2011) | 37 | كتيّب حكومي أمريكي (ملك عام)؛ إعادة توزيع وتدريب: allowed؛ تجاري: not_allowed |
 
@@ -211,7 +211,7 @@ python -m unittest discover -s tests -v
 - **197 (DODa):** المصدر نفسه CC BY-NC 4.0، فالحقوق واضحة بشرط الإسناد ومنع التجاري.
  - **126 (Wattpad):** أُخذت الكلمات المفردة فقط (43 في 1.6.0 و49 في 1.7.0 بعد توسيع corpus إلى 160 قصة)، ونصوص القصص لم تُنشر؛ المفردات والترجمات تحرير المشروع.
 - **37 (Peace Corps 2011):** كتيّب حكومي أمريكي (ملك عام)؛ المفردات والترجمات حُرِّرت داخل المشروع تحت رخصة التجميع.
-- **105 (مواقع تعليمية):** استُرشد بالمعنى والكتابة، لكن شروط كل موقع لم تُتحقق؛ جرد 2026-11 كشف تصريح المواقع الثلاثة بـ«جميع الحقوق محفوظة»، لذا `unknown`. التفاصيل: [docs/RIGHTS_INVENTORY_2026-11.md](docs/RIGHTS_INVENTORY_2026-11.md).
+- **82 (مواقع تعليمية):** استُرشد بالمعنى والكتابة، لكن شروط كل موقع لم تُتحقق؛ جرد 2026-11 كشف تصريح المواقع الثلاثة بـ«جميع الحقوق محفوظة»، لذا `unknown`. أُعيد توثيق 23 منها من DODa في 1.9.0. التفاصيل: [docs/RIGHTS_INVENTORY_2026-11.md](docs/RIGHTS_INVENTORY_2026-11.md).
 
 **كيف أتحقق من كلمة؟**
 افتح `data/moroccan-darija.json`، ابحث عن الكلمة، واقرأ `provenance` و`review`. للتفاصيل: [docs/DATA_PROVENANCE_AND_RIGHTS.md](docs/DATA_PROVENANCE_AND_RIGHTS.md).
@@ -287,6 +287,7 @@ python -m unittest discover -s tests -v
 - [x] تصنيف 49 مفردة Wattpad بحقل `register` (darija 12 / shared 29 / fusha 8) لكشف الفصحى الدخيلة (1.7.1).
 - [x] تعميم `register` على مدخلات Wattpad كاملة 126 (darija 61 / shared 53 / fusha 12) (1.7.2).
 - [x] تنقيح الفصحى: استبدال تماما→بالضبط وأيام→يامات وإعادة تصنيف ثواني (darija 62 / shared 55 / fusha 9) (1.8.0).
+- [x] جرد حقوق مصادر الويب وإعادة توثيق الدفعة الأولى (23 مدخلة) من DODa — تبقّى 82 (1.9.0).
 - [ ] إضافة حقول اختيارية للسياق ونوع التعبير والتنوع الجهوي، مع استخدام unknown عند غياب الدليل.
 - [ ] توثيق إرشادات التحرير والمراجعة البشرية بصورة قابلة للتكرار.
 - [ ] بناء مجموعة تقييم منفصلة ومراجعة من متحدثين مؤهلين.

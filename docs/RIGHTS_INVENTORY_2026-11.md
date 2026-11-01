@@ -149,3 +149,38 @@
 - `provenance.license` = «غير محدد — جميع الحقوق محفوظة لدى المصدر»
 - `redistribution_permission` = `training_permission` = `commercial_permission` = `unknown`
 - لم يتغير عدد المدخلات (1050) ولا أي حقل لغوي.
+
+## 7. تقدّم المعالجة
+
+### الدفعة 1 — الإصدار 1.9.0 (2026-11-01)
+
+أُعيد توثيق **23 مدخلة** من DODa (CC BY-NC 4.0) مع تخزين دليل صريح (ملف/سطر/المقابل الإنجليزي) في `provenance.notes`:
+
+| id | المفردة | دليل DODa |
+| ---: | --- | --- |
+| 18 | متشرفين | `x-tra/utils.csv:142` — nice to meet you |
+| 163 | ولد عمي | `semantic categories/family.csv:16` — my cousin |
+| 164 | بنت عمي | `semantic categories/family.csv:20` — my cousin |
+| 220 | حامض | `semantic categories/food.csv:113` — sour |
+| 275 | الجمعة | `semantic categories/time.csv:20` — friday |
+| 276 | السبت | `semantic categories/time.csv:21` — saturday |
+| 278 | الربيع | `semantic categories/environment.csv:33` — spring |
+| 279 | الصيف | `semantic categories/environment.csv:31` — summer |
+| 280 | الخريف | `syntactic categories/nouns.csv:1163` — autumn |
+| 343 | مبروك | `x-tra/utils.csv:151` — congratulations |
+| 439 | العربية | `syntactic categories/nouns.csv:106` — arabic |
+| 451 | صفحة | `semantic categories/education.csv:47` — page |
+| 453 | فن | `syntactic categories/nouns.csv:528` — art |
+| 454 | جغرافيا | `semantic categories/education.csv:12` — geography |
+| 455 | علوم | `semantic categories/education.csv:33` — sciences |
+| 551 | تريكو | `syntactic categories/nouns.csv:89` — sweater |
+| 658 | جزيرة | `syntactic categories/nouns.csv:835` — island |
+| 659 | بحيرة | `semantic categories/environment.csv:63` — lake |
+| 804 | پيسين | `semantic categories/places.csv:137` — swimming pool |
+| 907 | اليونان | `semantic categories/places.csv:31` — greece |
+| 918 | مسرح | `semantic categories/art.csv:10` — theater |
+| 919 | لعبة | `semantic categories/sport.csv:13` — game |
+| 921 | لاعب | `syntactic categories/nouns.csv:911` — player |
+
+**المتبقي: 82 مدخلة** (mylanguages 46، ilanguages 32، translatordarija 4). المرشحون التاليون من DODa (مطابقات غير مؤكدة تحتاج تحققاً يدوياً): 216 ديسير، 293 رطب، 906 نڭليز، 912 بيرو، 916 موسيقى.
+
