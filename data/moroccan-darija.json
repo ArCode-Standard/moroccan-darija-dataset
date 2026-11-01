@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.10.0",
+    "version": "1.10.1",
     "created": "2026-10-29",
     "entries_count": 1090,
     "categories_count": 38,
@@ -17079,7 +17079,7 @@
       "darija_ar": "طويل",
       "darija_latin": "twil",
       "fusha_ar": "طويل",
-      "fr": "Grand",
+      "fr": "Long",
       "provenance": {
         "source_type": "original",
         "source_name": "ArCode Standard — تحرير داخلي",
@@ -17092,7 +17092,7 @@
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد. تدقيق 2026-11: تصحيح ترجمة: طويل = long لا grand."
       }
     },
     {
@@ -17101,7 +17101,7 @@
       "darija_ar": "قصير",
       "darija_latin": "qsir",
       "fusha_ar": "قصير",
-      "fr": "Petit",
+      "fr": "Court",
       "provenance": {
         "source_type": "original",
         "source_name": "ArCode Standard — تحرير داخلي",
@@ -17114,7 +17114,7 @@
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد. تدقيق 2026-11: تصحيح ترجمة: قصير = court لا petit."
       }
     },
     {
