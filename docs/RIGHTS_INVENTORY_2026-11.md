@@ -201,3 +201,23 @@
 
 **المتبقي: 57 مدخلة** (mylanguages 36، ilanguages 18، translatordarija 3).
 
+### الدفعة 3 — الإصدار 1.9.2 (2026-11-01)
+
+أُعيد توثيق **25 مدخلة**:
+
+**من DODa (8):**
+
+| id | المفردة | دليل DODa |
+| ---: | --- | --- |
+| 271 | الاثنين | `semantic categories/time.csv:16` — monday |
+| 272 | الثلاثاء | `semantic categories/time.csv:17` — tuesday |
+| 273 | الأربعاء | `semantic categories/time.csv:18` — wednesday |
+| 274 | الخميس | `semantic categories/time.csv:19` — thursday |
+| 277 | الأحد | `semantic categories/time.csv:22` — sunday |
+| 910 | إيطاليا | `semantic categories/places.csv:24` — italy |
+| 913 | إسبانيا | `semantic categories/places.csv:15` — spain |
+| 915 | ولايات المتحدة | `semantic categories/places.csv:21` — united states |
+**إعادة صياغة تحريرية كـ`original` (17):** 440، 441، 442، 443، 444، 445، 446، 447، 448، 449، 450، 452، 550، 577، 578، 657، 690.
+
+**المتبقي: 32 مدخلة** (mylanguages 20، ilanguages 9، translatordarija 3).
+
