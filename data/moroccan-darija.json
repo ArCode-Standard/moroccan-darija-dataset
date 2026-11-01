@@ -4,9 +4,9 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.9.3",
+    "version": "1.10.0",
     "created": "2026-10-29",
-    "entries_count": 1050,
+    "entries_count": 1090,
     "categories_count": 38,
     "coverage_fr": "lexique étendu, non exhaustif",
     "coverage_ar": "معجم موسّع وغير شامل لكل مفردات الدارجة",
@@ -32,7 +32,7 @@
     "attribution": "ArCode Standard — Moroccan Darija Lexicon",
     "provenance_summary": {
       "original": 656,
-      "dictionary": 231,
+      "dictionary": 271,
       "corpus": 126,
       "other": 37
     },
@@ -40,136 +40,140 @@
   },
   "categories": [
     {
-      "category": "تحيات",
-      "count": 18
-    },
-    {
-      "category": "عبارات المجاملة",
-      "count": 15
-    },
-    {
-      "category": "أدوات الاستفهام",
-      "count": 18
-    },
-    {
-      "category": "الضمائر",
-      "count": 23
-    },
-    {
       "category": "أفعال وعبارات",
       "count": 76
     },
     {
-      "category": "الأرقام",
-      "count": 18
-    },
-    {
-      "category": "الألوان",
-      "count": 13
-    },
-    {
-      "category": "العائلة",
-      "count": 29
+      "category": "الحيوانات",
+      "count": 63
     },
     {
       "category": "المأكولات والمشروبات",
-      "count": 56
-    },
-    {
-      "category": "الاتجاهات والأماكن",
-      "count": 37
-    },
-    {
-      "category": "الوقت",
-      "count": 41
-    },
-    {
-      "category": "الطقس",
-      "count": 17
-    },
-    {
-      "category": "الصفات",
-      "count": 28
-    },
-    {
-      "category": "التعبيرات الشائعة",
-      "count": 57
-    },
-    {
-      "category": "المال والتسوق",
-      "count": 21
-    },
-    {
-      "category": "النقل",
-      "count": 15
-    },
-    {
-      "category": "الصحة",
-      "count": 28
-    },
-    {
-      "category": "العمل والدراسة",
-      "count": 45
-    },
-    {
-      "category": "التكنولوجيا",
-      "count": 11
-    },
-    {
-      "category": "المشاعر",
-      "count": 22
-    },
-    {
-      "category": "جسم الإنسان",
-      "count": 39
-    },
-    {
-      "category": "الملابس",
-      "count": 30
-    },
-    {
-      "category": "البيت والأدوات",
-      "count": 28
-    },
-    {
-      "category": "الحيوانات",
-      "count": 52
-    },
-    {
-      "category": "الطبيعة والنباتات",
-      "count": 31
-    },
-    {
-      "category": "المهن",
-      "count": 33
+      "count": 61
     },
     {
       "category": "أفعال ماضية",
       "count": 59
     },
     {
+      "category": "التعبيرات الشائعة",
+      "count": 57
+    },
+    {
+      "category": "العمل والدراسة",
+      "count": 45
+    },
+    {
+      "category": "الوقت",
+      "count": 41
+    },
+    {
+      "category": "الملابس",
+      "count": 40
+    },
+    {
+      "category": "جسم الإنسان",
+      "count": 39
+    },
+    {
+      "category": "الاتجاهات والأماكن",
+      "count": 37
+    },
+    {
+      "category": "الطبيعة والنباتات",
+      "count": 34
+    },
+    {
+      "category": "المهن",
+      "count": 33
+    },
+    {
+      "category": "العائلة",
+      "count": 29
+    },
+    {
+      "category": "البيت والأدوات",
+      "count": 28
+    },
+    {
+      "category": "الصحة",
+      "count": 28
+    },
+    {
+      "category": "الصفات",
+      "count": 28
+    },
+    {
       "category": "صفات إضافية",
       "count": 27
     },
     {
-      "category": "السفر والفندق",
-      "count": 19
-    },
-    {
-      "category": "المدينة والخدمات",
-      "count": 17
+      "category": "الألوان",
+      "count": 24
     },
     {
       "category": "الدين والتعبيرات الدينية",
       "count": 24
     },
     {
+      "category": "الضمائر",
+      "count": 23
+    },
+    {
+      "category": "المشاعر",
+      "count": 22
+    },
+    {
       "category": "المصطلحات الشعبية",
       "count": 22
     },
     {
+      "category": "المال والتسوق",
+      "count": 21
+    },
+    {
       "category": "حروف الربط",
       "count": 21
+    },
+    {
+      "category": "السفر والفندق",
+      "count": 19
+    },
+    {
+      "category": "أدوات الاستفهام",
+      "count": 18
+    },
+    {
+      "category": "الأرقام",
+      "count": 18
+    },
+    {
+      "category": "تحيات",
+      "count": 18
+    },
+    {
+      "category": "الطقس",
+      "count": 17
+    },
+    {
+      "category": "المدينة والخدمات",
+      "count": 17
+    },
+    {
+      "category": "الأشخاص",
+      "count": 15
+    },
+    {
+      "category": "النقل",
+      "count": 15
+    },
+    {
+      "category": "عبارات المجاملة",
+      "count": 15
+    },
+    {
+      "category": "البلدان والجنسيات",
+      "count": 14
     },
     {
       "category": "الزراعة والريف",
@@ -180,12 +184,8 @@
       "count": 12
     },
     {
-      "category": "الأشخاص",
-      "count": 15
-    },
-    {
-      "category": "البلدان والجنسيات",
-      "count": 14
+      "category": "التكنولوجيا",
+      "count": 11
     },
     {
       "category": "الثقافة والفنون",
@@ -24206,6 +24206,1006 @@
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
       },
       "register": "shared"
+    },
+    {
+      "id": 1051,
+      "category": "الألوان",
+      "darija_ar": "ليموني",
+      "darija_latin": "limouni",
+      "fusha_ar": "برتقالي",
+      "fr": "Orange (couleur)",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 8 — «orange»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1052,
+      "category": "الألوان",
+      "darija_ar": "ڭري",
+      "darija_latin": "gri",
+      "fusha_ar": "رمادي",
+      "fr": "Gris",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 9 — «grey»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1053,
+      "category": "الألوان",
+      "darija_ar": "قهوي",
+      "darija_latin": "9hwi",
+      "fusha_ar": "بني",
+      "fr": "Marron",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 10 — «brown»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1054,
+      "category": "الألوان",
+      "darija_ar": "فانيدي",
+      "darija_latin": "fanidi",
+      "fusha_ar": "وردي",
+      "fr": "Rose (couleur)",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 12 — «pink»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1055,
+      "category": "الألوان",
+      "darija_ar": "قوقي",
+      "darija_latin": "9ou9i",
+      "fusha_ar": "بنفسجي",
+      "fr": "Violet",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 15 — «purple»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1056,
+      "category": "الألوان",
+      "darija_ar": "مارو",
+      "darija_latin": "maro",
+      "fusha_ar": "عنابي",
+      "fr": "Bordeaux",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 17 — «maroon»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1057,
+      "category": "الألوان",
+      "darija_ar": "مغلوق",
+      "darija_latin": "mghlou9",
+      "fusha_ar": "غامق",
+      "fr": "Foncé",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 21 — «dark»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1058,
+      "category": "الألوان",
+      "darija_ar": "مفتوح",
+      "darija_latin": "mftou7",
+      "fusha_ar": "فاتح",
+      "fr": "Clair",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 22 — «light»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1059,
+      "category": "الألوان",
+      "darija_ar": "عجري",
+      "darija_latin": "3ajri",
+      "fusha_ar": "فيروزي",
+      "fr": "Turquoise",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 23 — «turquoise»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1060,
+      "category": "الألوان",
+      "darija_ar": "زيتوني",
+      "darija_latin": "zitouni",
+      "fusha_ar": "زيتوني",
+      "fr": "Vert olive",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 29 — «olive green»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1061,
+      "category": "الألوان",
+      "darija_ar": "صفصاري",
+      "darija_latin": "safsari",
+      "fusha_ar": "أصفر زعفراني",
+      "fr": "Jaune safran",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/colors.csv` سطر 30 — «saffron yellow»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1062,
+      "category": "الملابس",
+      "darija_ar": "شورط",
+      "darija_latin": "chort",
+      "fusha_ar": "سروال قصير",
+      "fr": "Short",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 9 — «shorts»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1063,
+      "category": "الملابس",
+      "darija_ar": "كبّوط",
+      "darija_latin": "kbbot",
+      "fusha_ar": "معطف",
+      "fr": "Manteau",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 10 — «coat»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1064,
+      "category": "الملابس",
+      "darija_ar": "تجاكيطة",
+      "darija_latin": "tjakita",
+      "fusha_ar": "سترة",
+      "fr": "Veste",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 13 — «jacket»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1065,
+      "category": "الملابس",
+      "darija_ar": "صايا",
+      "darija_latin": "saya",
+      "fusha_ar": "تنورة",
+      "fr": "Jupe",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 14 — «skirt»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1066,
+      "category": "الملابس",
+      "darija_ar": "ليكوش",
+      "darija_latin": "likouch",
+      "fusha_ar": "حفاضات",
+      "fr": "Couches (bébé)",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 21 — «diapers»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1067,
+      "category": "الملابس",
+      "darija_ar": "ليڭات",
+      "darija_latin": "ligat",
+      "fusha_ar": "قفازات",
+      "fr": "Gants",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 22 — «gloves»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1068,
+      "category": "الملابس",
+      "darija_ar": "طوانڭ",
+      "darija_latin": "twang",
+      "fusha_ar": "قرط",
+      "fr": "Boucle d'oreille",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 26 — «earring»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1069,
+      "category": "الملابس",
+      "darija_ar": "بسطام",
+      "darija_latin": "bstam",
+      "fusha_ar": "محفظة",
+      "fr": "Portefeuille",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 29 — «wallet»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1070,
+      "category": "الملابس",
+      "darija_ar": "طاڭية",
+      "darija_latin": "tagia",
+      "fusha_ar": "طاقية",
+      "fr": "Calotte",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 31 — «skullcap»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1071,
+      "category": "الملابس",
+      "darija_ar": "تكشيطة",
+      "darija_latin": "tkchita",
+      "fusha_ar": "تقشيرة (لباس تقليدي)",
+      "fr": "Takchita (robe traditionnelle)",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/clothes.csv` سطر 38 — «takchiTa»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1072,
+      "category": "الحيوانات",
+      "darija_ar": "فروج",
+      "darija_latin": "frouj",
+      "fusha_ar": "ديك",
+      "fr": "Coq",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 8 — «cock»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1073,
+      "category": "الحيوانات",
+      "darija_ar": "بربوش",
+      "darija_latin": "brbouch",
+      "fusha_ar": "حلزون",
+      "fr": "Escargot",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 15 — «snail»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1074,
+      "category": "الحيوانات",
+      "darija_ar": "موكا",
+      "darija_latin": "moka",
+      "fusha_ar": "بومة",
+      "fr": "Chouette",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 31 — «owl»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1075,
+      "category": "الحيوانات",
+      "darija_ar": "بڭرة",
+      "darija_latin": "bgra",
+      "fusha_ar": "بقرة",
+      "fr": "Vache",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 33 — «cow»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1076,
+      "category": "الحيوانات",
+      "darija_ar": "ڭنفود",
+      "darija_latin": "gnfoud",
+      "fusha_ar": "قنفذ",
+      "fr": "Hérisson",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 48 — «hedgehog»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1077,
+      "category": "الحيوانات",
+      "darija_ar": "عڭربة",
+      "darija_latin": "3grba",
+      "fusha_ar": "عقرب",
+      "fr": "Scorpion",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 59 — «scorpion»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1078,
+      "category": "الحيوانات",
+      "darija_ar": "بوجعران",
+      "darija_latin": "boj3ran",
+      "fusha_ar": "صرصور",
+      "fr": "Cafard",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 84 — «cockroach»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1079,
+      "category": "الحيوانات",
+      "darija_ar": "ڭمل",
+      "darija_latin": "gml",
+      "fusha_ar": "قمل",
+      "fr": "Poux",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 85 — «louses»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1080,
+      "category": "الحيوانات",
+      "darija_ar": "جناح",
+      "darija_latin": "jna7",
+      "fusha_ar": "جناح",
+      "fr": "Aile",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 87 — «wing»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1081,
+      "category": "الحيوانات",
+      "darija_ar": "ريشة",
+      "darija_latin": "richa",
+      "fusha_ar": "ريشة",
+      "fr": "Plume",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 88 — «feather»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1082,
+      "category": "الحيوانات",
+      "darija_ar": "منقار",
+      "darija_latin": "mn9ar",
+      "fusha_ar": "منقار",
+      "fr": "Bec",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/animals.csv` سطر 86 — «beak»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1083,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "كورجيط",
+      "darija_latin": "kourjit",
+      "fusha_ar": "كوسة",
+      "fr": "Courgette",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/food.csv` سطر 28 — «courgette»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1084,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "بوعويد",
+      "darija_latin": "bou3ouid",
+      "fusha_ar": "كمثرى",
+      "fr": "Poire",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/food.csv` سطر 32 — «pear»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1085,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "شلاضة",
+      "darija_latin": "chlada",
+      "fusha_ar": "سلطة",
+      "fr": "Salade",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/food.csv` سطر 71 — «salad»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1086,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "فرماج",
+      "darija_latin": "frmaj",
+      "fusha_ar": "جبن",
+      "fr": "Fromage",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/food.csv` سطر 75 — «cheese»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1087,
+      "category": "المأكولات والمشروبات",
+      "darija_ar": "لاڭلاس",
+      "darija_latin": "laglas",
+      "fusha_ar": "مثلجات",
+      "fr": "Glace (dessert)",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/food.csv` سطر 78 — «ice cream»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1088,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "ڭلاص",
+      "darija_latin": "glas",
+      "fusha_ar": "جليد",
+      "fr": "Verglas",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/environment.csv` سطر 10 — «ice»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1089,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "شلّال",
+      "darija_latin": "chllal",
+      "fusha_ar": "شلال",
+      "fr": "Cascade",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/environment.csv` سطر 67 — «waterfall»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1090,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "شمش",
+      "darija_latin": "chmch",
+      "fusha_ar": "شمس",
+      "fr": "Soleil",
+      "register": "darija",
+      "provenance": {
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "مفردة دارجة من DODa (`semantic categories/environment.csv` سطر 18 — «sun»). حُرِّرت الكتابة اللاتينية والمقابل بالفصحى والفرنسية داخل المشروع. أُضيفت في 1.10.0 ضمن توسيع المصادر، وحُدِّد register=darija عند الإدخال."
+      },
+      "review": {
+        "status": "pending",
+        "notes": "أُضيفت في 1.10.0؛ لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
     }
   ]
 }
