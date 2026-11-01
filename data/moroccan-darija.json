@@ -4,9 +4,9 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "created": "2026-10-29",
-    "entries_count": 1001,
+    "entries_count": 1050,
     "categories_count": 38,
     "coverage_fr": "lexique étendu, non exhaustif",
     "coverage_ar": "معجم موسّع وغير شامل لكل مفردات الدارجة",
@@ -33,7 +33,7 @@
     "provenance_summary": {
       "original": 585,
       "web": 105,
-      "corpus": 77,
+      "corpus": 126,
       "dictionary": 197,
       "other": 37
     },
@@ -70,7 +70,7 @@
     },
     {
       "category": "العائلة",
-      "count": 28
+      "count": 29
     },
     {
       "category": "المأكولات والمشروبات",
@@ -78,11 +78,11 @@
     },
     {
       "category": "الاتجاهات والأماكن",
-      "count": 36
+      "count": 37
     },
     {
       "category": "الوقت",
-      "count": 37
+      "count": 41
     },
     {
       "category": "الطقس",
@@ -90,11 +90,11 @@
     },
     {
       "category": "الصفات",
-      "count": 21
+      "count": 28
     },
     {
       "category": "التعبيرات الشائعة",
-      "count": 42
+      "count": 57
     },
     {
       "category": "المال والتسوق",
@@ -110,7 +110,7 @@
     },
     {
       "category": "العمل والدراسة",
-      "count": 44
+      "count": 45
     },
     {
       "category": "التكنولوجيا",
@@ -118,7 +118,7 @@
     },
     {
       "category": "المشاعر",
-      "count": 18
+      "count": 22
     },
     {
       "category": "جسم الإنسان",
@@ -130,23 +130,23 @@
     },
     {
       "category": "البيت والأدوات",
-      "count": 27
+      "count": 28
     },
     {
       "category": "الحيوانات",
-      "count": 51
+      "count": 52
     },
     {
       "category": "الطبيعة والنباتات",
-      "count": 30
+      "count": 31
     },
     {
       "category": "المهن",
-      "count": 32
+      "count": 33
     },
     {
       "category": "أفعال ماضية",
-      "count": 55
+      "count": 59
     },
     {
       "category": "صفات إضافية",
@@ -158,7 +158,7 @@
     },
     {
       "category": "المدينة والخدمات",
-      "count": 16
+      "count": 17
     },
     {
       "category": "الدين والتعبيرات الدينية",
@@ -166,11 +166,11 @@
     },
     {
       "category": "المصطلحات الشعبية",
-      "count": 20
+      "count": 22
     },
     {
       "category": "حروف الربط",
-      "count": 19
+      "count": 21
     },
     {
       "category": "الزراعة والريف",
@@ -182,15 +182,15 @@
     },
     {
       "category": "الأشخاص",
-      "count": 14
+      "count": 15
     },
     {
       "category": "البلدان والجنسيات",
-      "count": 13
+      "count": 14
     },
     {
       "category": "الثقافة والفنون",
-      "count": 6
+      "count": 7
     }
   ],
   "entries": [
@@ -22935,6 +22935,1182 @@
         "training_permission": "allowed",
         "commercial_permission": "not_allowed",
         "notes": "المصدر: Wattpad (70 قصة دارجة، 20,031 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1002,
+      "category": "الطبيعة والنباتات",
+      "darija_ar": "نسيم",
+      "darija_latin": "nsima",
+      "fusha_ar": "نسيم",
+      "fr": "Brise",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1003,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "نبرة",
+      "darija_latin": "nabra",
+      "fusha_ar": "نبرة",
+      "fr": "Ton",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1004,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "قوة",
+      "darija_latin": "qowa",
+      "fusha_ar": "قوة",
+      "fr": "Force",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1005,
+      "category": "الصفات",
+      "darija_ar": "مجرد",
+      "darija_latin": "mojarrad",
+      "fusha_ar": "مجرد",
+      "fr": "Simple",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1006,
+      "category": "المصطلحات الشعبية",
+      "darija_ar": "طيف",
+      "darija_latin": "tif",
+      "fusha_ar": "طيف",
+      "fr": "Spectre",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1007,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "تماما",
+      "darija_latin": "tamaman",
+      "fusha_ar": "تماماً",
+      "fr": "Exactement",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1008,
+      "category": "الثقافة والفنون",
+      "darija_ar": "قصة",
+      "darija_latin": "qissa",
+      "fusha_ar": "قصة",
+      "fr": "Histoire",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1009,
+      "category": "أفعال ماضية",
+      "darija_ar": "كمل",
+      "darija_latin": "kmel",
+      "fusha_ar": "أكمل",
+      "fr": "Terminer",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1010,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "بعض",
+      "darija_latin": "b3ad",
+      "fusha_ar": "بعض",
+      "fr": "Quelques",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1011,
+      "category": "البيت والأدوات",
+      "darija_ar": "فيلا",
+      "darija_latin": "vila",
+      "fusha_ar": "فيلا",
+      "fr": "Villa",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1012,
+      "category": "أفعال ماضية",
+      "darija_ar": "ابتسم",
+      "darija_latin": "btesem",
+      "fusha_ar": "ابتسم",
+      "fr": "Sourire",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1013,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "درجة",
+      "darija_latin": "daraja",
+      "fusha_ar": "درجة",
+      "fr": "Degré",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1014,
+      "category": "الصفات",
+      "darija_ar": "عادي",
+      "darija_latin": "3adi",
+      "fusha_ar": "عادي",
+      "fr": "Normal",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1015,
+      "category": "أفعال ماضية",
+      "darija_ar": "نزل",
+      "darija_latin": "nzel",
+      "fusha_ar": "نزل",
+      "fr": "Descendre",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1016,
+      "category": "الصفات",
+      "darija_ar": "ممكن",
+      "darija_latin": "mumkin",
+      "fusha_ar": "ممكن",
+      "fr": "Possible",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1017,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "جدا",
+      "darija_latin": "jiddan",
+      "fusha_ar": "جداً",
+      "fr": "Très",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1018,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "صراحة",
+      "darija_latin": "saraha",
+      "fusha_ar": "صراحة",
+      "fr": "Franchement",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1019,
+      "category": "الوقت",
+      "darija_ar": "بعدين",
+      "darija_latin": "b3din",
+      "fusha_ar": "بعد ذلك",
+      "fr": "Ensuite",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1020,
+      "category": "المشاعر",
+      "darija_ar": "نظرة",
+      "darija_latin": "nadra",
+      "fusha_ar": "نظرة",
+      "fr": "Regard",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1021,
+      "category": "المهن",
+      "darija_ar": "دكتور",
+      "darija_latin": "doktor",
+      "fusha_ar": "طبيب",
+      "fr": "Médecin",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1022,
+      "category": "الصفات",
+      "darija_ar": "غريب",
+      "darija_latin": "ghrib",
+      "fusha_ar": "غريب",
+      "fr": "Étrange",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1023,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "هكا",
+      "darija_latin": "hakka",
+      "fusha_ar": "هكذا",
+      "fr": "Ainsi",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1024,
+      "category": "الحيوانات",
+      "darija_ar": "صقر",
+      "darija_latin": "sqor",
+      "fusha_ar": "صقر",
+      "fr": "Faucon",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1025,
+      "category": "العائلة",
+      "darija_ar": "خالتي",
+      "darija_latin": "khalti",
+      "fusha_ar": "خالتي",
+      "fr": "Ma tante",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1026,
+      "category": "حروف الربط",
+      "darija_ar": "رغم",
+      "darija_latin": "raghm",
+      "fusha_ar": "رغم",
+      "fr": "Malgré",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1027,
+      "category": "العمل والدراسة",
+      "darija_ar": "باك",
+      "darija_latin": "bak",
+      "fusha_ar": "باكالوريا",
+      "fr": "Bac",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1028,
+      "category": "المشاعر",
+      "darija_ar": "حنان",
+      "darija_latin": "7nan",
+      "fusha_ar": "حنان",
+      "fr": "Tendresse",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1029,
+      "category": "الوقت",
+      "darija_ar": "ثواني",
+      "darija_latin": "tawani",
+      "fusha_ar": "ثوانٍ",
+      "fr": "Secondes",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1030,
+      "category": "المصطلحات الشعبية",
+      "darija_ar": "سلاح",
+      "darija_latin": "slah",
+      "fusha_ar": "سلاح",
+      "fr": "Arme",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1031,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "حال",
+      "darija_latin": "7al",
+      "fusha_ar": "حال",
+      "fr": "État",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1032,
+      "category": "الاتجاهات والأماكن",
+      "darija_ar": "لتحت",
+      "darija_latin": "lte7t",
+      "fusha_ar": "تحت",
+      "fr": "En bas",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1033,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "طريقة",
+      "darija_latin": "tariqa",
+      "fusha_ar": "طريقة",
+      "fr": "Méthode",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1034,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "خلاص",
+      "darija_latin": "khlas",
+      "fusha_ar": "انتهى",
+      "fr": "Fini",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1035,
+      "category": "الوقت",
+      "darija_ar": "ليلة",
+      "darija_latin": "lila",
+      "fusha_ar": "ليلة",
+      "fr": "Nuit",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1036,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "لازم",
+      "darija_latin": "lazem",
+      "fusha_ar": "يجب",
+      "fr": "Il faut",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1037,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "موضوع",
+      "darija_latin": "mawdo3",
+      "fusha_ar": "موضوع",
+      "fr": "Sujet",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1038,
+      "category": "الأشخاص",
+      "darija_ar": "مول",
+      "darija_latin": "mol",
+      "fusha_ar": "صاحب",
+      "fr": "Propriétaire",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1039,
+      "category": "حروف الربط",
+      "darija_ar": "كيفما",
+      "darija_latin": "kifma",
+      "fusha_ar": "كما",
+      "fr": "Comme",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1040,
+      "category": "المشاعر",
+      "darija_ar": "هدوء",
+      "darija_latin": "hdou",
+      "fusha_ar": "هدوء",
+      "fr": "Calme",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1041,
+      "category": "الصفات",
+      "darija_ar": "أكبر",
+      "darija_latin": "kbar",
+      "fusha_ar": "أكبر",
+      "fr": "Plus grand",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1042,
+      "category": "الصفات",
+      "darija_ar": "أحسن",
+      "darija_latin": "7sen",
+      "fusha_ar": "أفضل",
+      "fr": "Meilleur",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1043,
+      "category": "المشاعر",
+      "darija_ar": "صدمة",
+      "darija_latin": "sadma",
+      "fusha_ar": "صدمة",
+      "fr": "Choc",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1044,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "هكاك",
+      "darija_latin": "hkak",
+      "fusha_ar": "هكذا",
+      "fr": "Ainsi",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1045,
+      "category": "المدينة والخدمات",
+      "darija_ar": "كازا",
+      "darija_latin": "kaza",
+      "fusha_ar": "الدار البيضاء",
+      "fr": "Casablanca",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1046,
+      "category": "الوقت",
+      "darija_ar": "أيام",
+      "darija_latin": "ayyam",
+      "fusha_ar": "أيام",
+      "fr": "Jours",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1047,
+      "category": "التعبيرات الشائعة",
+      "darija_ar": "حركة",
+      "darija_latin": "7araka",
+      "fusha_ar": "حركة",
+      "fr": "Mouvement",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1048,
+      "category": "الصفات",
+      "darija_ar": "وحيد",
+      "darija_latin": "w7id",
+      "fusha_ar": "وحيد",
+      "fr": "Seul",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1049,
+      "category": "البلدان والجنسيات",
+      "darija_ar": "مغربية",
+      "darija_latin": "maghribiya",
+      "fusha_ar": "مغربية",
+      "fr": "Marocaine",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
+        "license": "CC BY-NC 4.0"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+      }
+    },
+    {
+      "id": 1050,
+      "category": "أفعال ماضية",
+      "darija_ar": "تبدل",
+      "darija_latin": "tbeddel",
+      "fusha_ar": "تغيّر",
+      "fr": "Changer",
+      "provenance": {
+        "source_type": "corpus",
+        "source_name": "Wattpad",
+        "source_url": "https://www.wattpad.com",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "مؤلفو قصص Wattpad (النصوص فقط)",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "notes": "المصدر: Wattpad (160 قصة، 34,854 جملة). استُخرجت الكلمة المفردة آليًا من جمل القصص بعد تصفية النصوص الفارسية والإنجليزية والترويجية. لا تُدرج نصوص القصص في المجموعة (حقوقها لمؤلفيها)، والمفردة والترجمة تحرير المشروع؛ لذا تسري عليها رخصة CC BY-NC 4.0: إعادة التوزيع والتدريب مسموحان، والاستخدام التجاري ممنوع بلا إذن.",
         "license": "CC BY-NC 4.0"
       },
       "review": {
