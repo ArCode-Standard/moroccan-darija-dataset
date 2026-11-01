@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "created": "2026-10-29",
     "entries_count": 1050,
     "categories_count": 38,
@@ -1718,7 +1718,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 70,
@@ -2468,7 +2469,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 104,
@@ -2492,7 +2494,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 105,
@@ -2516,7 +2519,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 106,
@@ -2540,7 +2544,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 107,
@@ -5842,7 +5847,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 251,
@@ -6571,7 +6577,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 283,
@@ -6595,7 +6602,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 284,
@@ -7354,7 +7362,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 318,
@@ -7378,7 +7387,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 319,
@@ -7402,7 +7412,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 320,
@@ -7986,7 +7997,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 346,
@@ -8010,7 +8022,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 347,
@@ -8034,7 +8047,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 348,
@@ -8058,7 +8072,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 349,
@@ -11132,7 +11147,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 483,
@@ -12014,7 +12030,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 522,
@@ -16791,7 +16808,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 733,
@@ -16815,7 +16833,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 734,
@@ -16839,7 +16858,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 735,
@@ -16863,7 +16883,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 736,
@@ -16887,7 +16908,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 737,
@@ -16911,7 +16933,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 738,
@@ -16935,7 +16958,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 739,
@@ -16959,7 +16983,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 740,
@@ -16983,7 +17008,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 741,
@@ -17007,7 +17033,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 742,
@@ -17031,7 +17058,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 743,
@@ -17605,7 +17633,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 769,
@@ -17629,7 +17658,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 770,
@@ -19719,7 +19749,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 864,
@@ -19743,7 +19774,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 865,
@@ -19767,7 +19799,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 866,
@@ -20583,7 +20616,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 903,
@@ -21932,7 +21966,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 960,
@@ -21956,7 +21991,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 961,
@@ -21980,7 +22016,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 962,
@@ -22004,7 +22041,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 963,
@@ -22028,7 +22066,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 964,
@@ -22052,7 +22091,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 965,
@@ -22076,7 +22116,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 966,
@@ -22100,7 +22141,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 967,
@@ -22124,7 +22166,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 968,
@@ -22148,7 +22191,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 969,
@@ -22172,7 +22216,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 970,
@@ -22196,7 +22241,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 971,
@@ -22220,7 +22266,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 972,
@@ -22244,7 +22291,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 973,
@@ -22268,7 +22316,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 974,
@@ -22292,7 +22341,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 975,
@@ -22316,7 +22366,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 976,
@@ -22340,7 +22391,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 977,
@@ -22364,7 +22416,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 978,
@@ -22388,7 +22441,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 979,
@@ -22412,7 +22466,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 980,
@@ -22436,7 +22491,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 981,
@@ -22460,7 +22516,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 982,
@@ -22484,7 +22541,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 983,
@@ -22508,7 +22566,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 984,
@@ -22532,7 +22591,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 985,
@@ -22556,7 +22616,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 986,
@@ -22580,7 +22641,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 987,
@@ -22604,7 +22666,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 988,
@@ -22628,7 +22691,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 989,
@@ -22652,7 +22716,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 990,
@@ -22676,7 +22741,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 991,
@@ -22700,7 +22766,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 992,
@@ -22724,7 +22791,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 993,
@@ -22748,7 +22816,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 994,
@@ -22772,7 +22841,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 995,
@@ -22796,7 +22866,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 996,
@@ -22820,7 +22891,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 997,
@@ -22844,7 +22916,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 998,
@@ -22868,7 +22941,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 999,
@@ -22892,7 +22966,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1000,
@@ -22916,7 +22991,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1001,
@@ -22940,7 +23016,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1002,
