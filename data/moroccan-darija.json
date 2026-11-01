@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "created": "2026-10-29",
     "entries_count": 1050,
     "categories_count": 38,
@@ -22964,7 +22964,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1003,
@@ -22988,7 +22989,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1004,
@@ -23012,7 +23014,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1005,
@@ -23036,7 +23039,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1006,
@@ -23060,7 +23064,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1007,
@@ -23084,7 +23089,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1008,
@@ -23108,7 +23114,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1009,
@@ -23132,7 +23139,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1010,
@@ -23156,7 +23164,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1011,
@@ -23180,7 +23189,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1012,
@@ -23204,7 +23214,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1013,
@@ -23228,7 +23239,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1014,
@@ -23252,7 +23264,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1015,
@@ -23276,7 +23289,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1016,
@@ -23300,7 +23314,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1017,
@@ -23324,7 +23339,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1018,
@@ -23348,7 +23364,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1019,
@@ -23372,7 +23389,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1020,
@@ -23396,7 +23414,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1021,
@@ -23420,7 +23439,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1022,
@@ -23444,7 +23464,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1023,
@@ -23468,7 +23489,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1024,
@@ -23492,7 +23514,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1025,
@@ -23516,7 +23539,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1026,
@@ -23540,7 +23564,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1027,
@@ -23564,7 +23589,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1028,
@@ -23588,7 +23614,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1029,
@@ -23612,7 +23639,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1030,
@@ -23636,7 +23664,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1031,
@@ -23660,7 +23689,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1032,
@@ -23684,7 +23714,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1033,
@@ -23708,7 +23739,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1034,
@@ -23732,7 +23764,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1035,
@@ -23756,7 +23789,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1036,
@@ -23780,7 +23814,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1037,
@@ -23804,7 +23839,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1038,
@@ -23828,7 +23864,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1039,
@@ -23852,7 +23889,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1040,
@@ -23876,7 +23914,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1041,
@@ -23900,7 +23939,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1042,
@@ -23924,7 +23964,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1043,
@@ -23948,7 +23989,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1044,
@@ -23972,7 +24014,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1045,
@@ -23996,7 +24039,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "darija"
     },
     {
       "id": 1046,
@@ -24020,7 +24064,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1047,
@@ -24044,7 +24089,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1048,
@@ -24068,7 +24114,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     },
     {
       "id": 1049,
@@ -24092,7 +24139,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "fusha"
     },
     {
       "id": 1050,
@@ -24116,7 +24164,8 @@
       "review": {
         "status": "pending",
         "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
-      }
+      },
+      "register": "shared"
     }
   ]
 }

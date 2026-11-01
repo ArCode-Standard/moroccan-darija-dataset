@@ -180,7 +180,10 @@
             "vulgar",
             "literary",
             "religious",
-            "unknown"
+            "unknown",
+            "darija",
+            "shared",
+            "fusha"
           ]
         },
         "provenance": {

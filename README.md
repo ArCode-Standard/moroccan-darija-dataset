@@ -1,10 +1,10 @@
-# معجم الدارجة المغربية | Moroccan Darija Lexicon
+﻿# معجم الدارجة المغربية | Moroccan Darija Lexicon
 
 **ArCode Standard** — مورد معجمي أولي للتوثيق اللغوي والبحث في المعالجة الآلية للدارجة المغربية.
 
 An initial lexical resource for documenting Moroccan Darija and supporting language technology research.
 
-> **حالة المشروع:** إصدار البيانات المعلن 1.7.0، ويضم **1050 مدخلاً** موزعة على **38 فئة**، بالإضافة إلى **146 مثالاً سياقياً** في data/context-examples.json. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
+> **حالة المشروع:** إصدار البيانات المعلن 1.7.1، ويضم **1050 مدخلاً** موزعة على **38 فئة**، بالإضافة إلى **146 مثالاً سياقياً** في data/context-examples.json. هذا المورد معجم أولي، وليس corpus محادثات أو instruction dataset أو benchmark. ولا توجد نتائج منشورة تثبت كفايته وحده لتدريب نموذج لغوي موثوق أو تقييمه.
 
 ## نظرة سريعة | At a glance
 
@@ -13,7 +13,7 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 | اللغة | الدارجة المغربية — ary |
 | عدد المدخلات | 1050 |
 | عدد الفئات | 38 |
-| إصدار البيانات المعلن | 1.7.0 |
+| إصدار البيانات المعلن | 1.7.1 |
 | أمثلة سياقية | 146 |
 | الترخيص المعلن | [CC BY-NC 4.0](LICENSE) |
 
@@ -27,6 +27,7 @@ An initial lexical resource for documenting Moroccan Darija and supporting langu
 - darija_latin: كتابة لاتينية استعمالية (عربيزي/فرنسية).
 - fusha_ar: مقابل تقريبي أو صياغة بالفصحى.
 - fr: مقابل أو ترجمة تحريرية بالفرنسية.
+- register (اختياري): تصنيف المستوى اللغوي: `darija` (دارجة خالصة)، `shared` (مشتركة بين الدارجة والفصحى)، `fusha` (فصحى صريحة). مطبَّق حالياً على 49 مفردة Wattpad (1.7.1).
 
 قد لا تكون العلاقة بين الكلمة ومقابلها بالفصحى أو الفرنسية واحداً لواحد؛ فالمعنى والاستعمال قد يتغيران بحسب السياق.
 
@@ -283,6 +284,7 @@ python -m unittest discover -s tests -v
 - [x] إضافة 146 مثالاً سياقياً تحريرياً في data/context-examples.json (1.4.3).
 - [x] توسيع corpus Wattpad إلى 70 قصة و20,031 جملة وإضافة 43 مفردة جديدة بعد تصفية النصوص غير الدارجة (1.6.0).
 - [x] توسيع corpus Wattpad إلى 160 قصة و34,854 جملة وإضافة 49 مفردة جديدة (1.7.0).
+- [x] تصنيف 49 مفردة Wattpad بحقل `register` (darija 12 / shared 29 / fusha 8) لكشف الفصحى الدخيلة (1.7.1).
 - [ ] إضافة حقول اختيارية للسياق ونوع التعبير والتنوع الجهوي، مع استخدام unknown عند غياب الدليل.
 - [ ] توثيق إرشادات التحرير والمراجعة البشرية بصورة قابلة للتكرار.
 - [ ] بناء مجموعة تقييم منفصلة ومراجعة من متحدثين مؤهلين.
@@ -294,3 +296,4 @@ python -m unittest discover -s tests -v
 
 **ArCode Standard**  
 [المستودع على GitHub](https://github.com/ArCode-Standard/moroccan-darija-dataset)
+
