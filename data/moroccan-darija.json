@@ -4,7 +4,7 @@
     "title_ar": "معجم الدارجة المغربية",
     "language": "ary",
     "language_name": "الدارجة المغربية (Moroccan Arabic)",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "created": "2026-10-29",
     "entries_count": 1050,
     "categories_count": 38,
@@ -31,10 +31,9 @@
     "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "attribution": "ArCode Standard — Moroccan Darija Lexicon",
     "provenance_summary": {
-      "original": 625,
-      "dictionary": 230,
+      "original": 656,
+      "dictionary": 231,
       "corpus": 126,
-      "web": 32,
       "other": 37
     },
     "provenance_policy": "لكل مدخل سجل مصدر وحقوق (provenance) وحالة مراجعة (review). مدخلات Wattpad مصدرها القصص لكن النصوص غير مدرجة؛ المفردات والترجمات تحرير المشروع تحت CC BY-NC 4.0."
@@ -3743,20 +3742,18 @@
       "fusha_ar": "العمة",
       "fr": "Tante (paternelle)",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -3767,20 +3764,18 @@
       "fusha_ar": "ابن الأخ",
       "fr": "Neveu",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -3791,20 +3786,18 @@
       "fusha_ar": "ابنة الأخ",
       "fr": "Nièce",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -5071,20 +5064,18 @@
       "fusha_ar": "وجبة خفيفة",
       "fr": "Goûter",
       "provenance": {
-        "source_type": "web",
-        "source_name": "translatordarija.com (قاموس الدارجة)",
-        "source_url": "https://translatordarija.com/dictionary",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -5095,20 +5086,20 @@
       "fusha_ar": "خل",
       "fr": "Vinaigre",
       "provenance": {
-        "source_type": "web",
-        "source_name": "translatordarija.com (قاموس الدارجة)",
-        "source_url": "https://translatordarija.com/dictionary",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "dictionary",
+        "source_name": "DODa — Moroccan Darija Open Dataset",
+        "source_url": "https://github.com/darija-open-dataset/dataset",
+        "accessed_at": "2026-11-01",
+        "rights_holder": "DODa contributors",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيد توثيق المفردة في 1.9.3 من DODa بدل مصدر ويب غير محدد الحقوق (جرد 2026-11). الدليل: `semantic categories/food.csv` سطر 115 — «لخلّ» = «vinegar». المفردة والترجمة العربية/اللاتينية/الفرنسية حُرِّرت داخل المشروع."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيد توثيق المصدر في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -5119,20 +5110,18 @@
       "fusha_ar": "رغيف",
       "fr": "Miche de pain",
       "provenance": {
-        "source_type": "web",
-        "source_name": "translatordarija.com (قاموس الدارجة)",
-        "source_url": "https://translatordarija.com/dictionary",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -6556,20 +6545,18 @@
       "fusha_ar": "فصل الشتاء",
       "fr": "Saison d'hiver",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -7849,20 +7836,18 @@
       "fusha_ar": "أحتاج طبيبًا",
       "fr": "Je veux un médecin",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -7895,20 +7880,18 @@
       "fusha_ar": "عيد ميلاد سعيد",
       "fr": "Joyeux anniversaire",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -7919,20 +7902,18 @@
       "fusha_ar": "سنة سعيدة",
       "fr": "Bonne année",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8549,20 +8530,18 @@
       "fusha_ar": "سوبر ماركت",
       "fr": "Supermarché",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8793,20 +8772,18 @@
       "fusha_ar": "بالدراجة",
       "fr": "À vélo",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8817,20 +8794,18 @@
       "fusha_ar": "بالحافلة",
       "fr": "En bus",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8841,20 +8816,18 @@
       "fusha_ar": "بالسيارة",
       "fr": "En voiture",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8865,20 +8838,18 @@
       "fusha_ar": "بالقطار",
       "fr": "En train",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -8889,20 +8860,18 @@
       "fusha_ar": "سيرا على الأقدام",
       "fr": "À pied",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -9497,20 +9466,18 @@
       "fusha_ar": "سيارة الإسعاف",
       "fr": "Ambulance",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -9543,20 +9510,18 @@
       "fusha_ar": "طبيب الأسنان",
       "fr": "Dentiste",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -15895,20 +15860,18 @@
       "fusha_ar": "ساعي البريد",
       "fr": "Facteur",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -18004,20 +17967,18 @@
       "fusha_ar": "لدي حجز",
       "fr": "J'ai une réservation",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -18028,20 +17989,18 @@
       "fusha_ar": "هل توجد غرفة فارغة؟",
       "fr": "Avez-vous une chambre libre ?",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -18052,20 +18011,18 @@
       "fusha_ar": "أريد غرفة لغير المدخنين",
       "fr": "Chambre non-fumeur",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -18076,20 +18033,18 @@
       "fusha_ar": "كم سعر الليلة؟",
       "fr": "Combien la nuit ?",
       "provenance": {
-        "source_type": "web",
-        "source_name": "ilanguages.org (عبارات ومفردات الدارجة)",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب الموقع الأصلي",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب استُرشد به في المعنى/الكتابة، والصيغة النهائية حُرِّرت داخل المشروع؛ حقوق الموقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "source_url": "https://ilanguages.org/ar/moroccan_vocabulary.php",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20638,20 +20593,18 @@
       "fusha_ar": "أستراليا",
       "fr": "Australie",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20662,20 +20615,18 @@
       "fusha_ar": "كمبوديا",
       "fr": "Cambodge",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20686,20 +20637,18 @@
       "fusha_ar": "كندا",
       "fr": "Canada",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20758,20 +20707,18 @@
       "fusha_ar": "الهند",
       "fr": "Inde",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20782,20 +20729,18 @@
       "fusha_ar": "إندونيسيا",
       "fr": "Indonésie",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20830,20 +20775,18 @@
       "fusha_ar": "المكسيك",
       "fr": "Mexique",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20900,20 +20843,18 @@
       "fusha_ar": "تايلاند",
       "fr": "Thaïlande",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -20970,20 +20911,18 @@
       "fusha_ar": "أفلام",
       "fr": "Films",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
@@ -21042,20 +20981,18 @@
       "fusha_ar": "كرة القدم",
       "fr": "Football",
       "provenance": {
-        "source_type": "web",
-        "source_name": "mylanguages.org (مفردات الدارجة)",
-        "source_url": "https://mylanguages.org/ar/learn_moroccan.php",
-        "accessed_at": "2026-10-30",
-        "rights_holder": "أصحاب المواقع الأصلية",
-        "redistribution_permission": "unknown",
-        "training_permission": "unknown",
-        "commercial_permission": "unknown",
-        "notes": "مصدر تعليمي على الويب للاسترشاد بالمعنى والكتابة؛ الحالة الحقوقية لكل موقع لم تُراجع بعد. أُعيد تصنيف حالة الحقوق إلى unknown في 1.8.1 بعد جرد 2026-11: المصادر الثلاثة تُصرّح بجميع الحقوق محفوظة ولا تمنح ترخيص إعادة استخدام. راجع docs/RIGHTS_INVENTORY_2026-11.md.",
-        "license": "غير محدد — جميع الحقوق محفوظة لدى المصدر"
+        "source_type": "original",
+        "source_name": "ArCode Standard — تحرير داخلي",
+        "rights_holder": "ArCode Standard",
+        "redistribution_permission": "allowed",
+        "training_permission": "allowed",
+        "commercial_permission": "not_allowed",
+        "license": "CC BY-NC 4.0",
+        "notes": "أُعيدت صياغة المفردة/العبارة وتوثيقها تحريرياً في 1.9.3 بعد جرد حقوق مصادر الويب؛ هي تعبير شائع التداول ولا تُنسب إلى نص محمي. لا يُثبت هذا الحقل نقلًا حرفيًا عن مصدر."
       },
       "review": {
         "status": "pending",
-        "notes": "لم تخضع لمراجعة بشرية مستقلة بعد."
+        "notes": "أُعيدت الصياغة التحريرية في 1.9.3؛ لم تخضع لمراجعة بشرية مستقلة بعد."
       }
     },
     {
