@@ -13,6 +13,14 @@ dataset:
   schema_file: "data/schema.json"
   context_file: "data/context-examples.json"
   context_schema_file: "data/context-schema.json"
+  source_registry_file: "data/sources/registry.json"
+  regional_resources:
+    - path: "data/regions/north.json"
+      schema: "data/schemas/regional-lexicon.schema.json"
+      entries_count: 122
+      status: "initial_contributor_submission"
+      review_status: "pending_for_all_entries"
+      rights_status: "unknown_for_all_permissions"
 
 rights:
   declared_dataset_license: "CC BY-NC 4.0"
@@ -40,6 +48,8 @@ provenance:
     - collection_method
     - transformation
     - permission_evidence
+    - source_id_registry_reference
+    - locality_evidence
   no_fabricated_sources_or_permissions: true
 
 review:
