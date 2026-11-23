@@ -10,7 +10,8 @@
       "permissions_are_independent": [
         "redistribution",
         "training",
-        "commercial"
+        "commercial",
+        "evaluation"
       ],
       "verify_each_component": true
     }
@@ -27,7 +28,8 @@
       "declared_permissions": {
         "redistribution": "allowed",
         "training": "allowed",
-        "commercial": "not_allowed"
+        "commercial": "not_allowed",
+        "evaluation": "unknown"
       },
       "evidence_status": "repository_metadata_only",
       "source_locator_policy": "No per-record external locator is applicable to original editorial work; retain contributor and edit history where available.",
@@ -44,7 +46,8 @@
       "declared_permissions": {
         "redistribution": "unknown",
         "training": "unknown",
-        "commercial": "unknown"
+        "commercial": "unknown",
+        "evaluation": "unknown"
       },
       "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Record the exact upstream file, record identifier, or commit whenever it can be established.",
@@ -61,7 +64,8 @@
       "declared_permissions": {
         "redistribution": "unknown",
         "training": "unknown",
-        "commercial": "unknown"
+        "commercial": "unknown",
+        "evaluation": "unknown"
       },
       "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Do not publish story text. Preserve private audit references only where lawful and permitted; do not infer permission from public accessibility.",
@@ -78,11 +82,66 @@
       "declared_permissions": {
         "redistribution": "allowed",
         "training": "allowed",
-        "commercial": "not_allowed"
+        "commercial": "not_allowed",
+        "evaluation": "unknown"
       },
       "evidence_status": "publication_status_and_compilation_license_require_review",
       "source_locator_policy": "Record page 163 and the exact glossary item when traceable.",
       "notes": "The project reports 37 items from the verb glossary (page 163). A public-domain status is reported for the government publication, but verify the specific edition and exclude any third-party content. The repository's compilation and translation permissions remain subject to their own rights review."
+    },
+    {
+      "source_id": "src-awal-synthetic-seed",
+      "source_name": "AWAL — internally generated synthetic starter examples",
+      "source_type": "synthetic",
+      "source_url": null,
+      "reported_record_count": 32,
+      "rights_holder": "AWAL project; generated examples require project-level rights and policy review",
+      "license": "not_assigned",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "repository_metadata_only",
+      "source_locator_policy": "Use the stable record_id and prompt_version in data/collection/awal-seed-v0.1.jsonl.",
+      "notes": "Synthetic drafting material created to bootstrap schema and human review. It is not human speech, not field-collected evidence, not a gold evaluation set, and is not eligible for training or evaluation until its provenance, quality, and permissions are independently reviewed."
+    },
+    {
+      "source_id": "src-fajardo-et-al-2013-tchina",
+      "source_name": "Fajardo Rodríguez et al. (2013) — Fitónimos albacetenses, algo más que palabras",
+      "source_type": "scholarly_reference",
+      "source_url": "https://dialnet.unirioja.es/descarga/articulo/4252267.pdf",
+      "reported_record_count": 1,
+      "rights_holder": "Article authors and journal/publisher; reference metadata and citation only",
+      "license": "Not assessed; do not reproduce article text beyond brief quotation/citation",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "bibliographic_reference_verified",
+      "source_locator_policy": "Cite SABUCO no. 9 (2013), pp. 133–173, especially p. 149; use the PDF page and printed page distinctly.",
+      "notes": "Supports the historical account of Citrus sinensis, the China naming compound, Portuguese introduction to Algarve and northern Moroccan settlements (Tangier, Asilah, Larache), and Moroccan Arabic lečīna / Algerian Arabic čīna. It does not prove a direct Spanish borrowing route into Moroccan Arabic or northern-exclusive distribution."
+    },
+    {
+      "source_id": "src-awal-contributor-ismail-benali",
+      "source_name": "Ismail Benali — contributor-supplied lexical attestation and market dialogue",
+      "source_type": "human_contributor",
+      "source_url": "https://github.com/Ismail-Benali",
+      "reported_record_count": 2,
+      "rights_holder": "Contributor for original submitted wording; underlying word itself is not claimed as authored by contributor",
+      "license": "not_assigned",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "contributor_statement_recorded_pending_review",
+      "source_locator_policy": "Use docs/LEXICAL_NOTE_TCHINA.md and data/collection/awal-dialogue-market-tchina-v0.1.json; retain contributor identity only as approved public attribution.",
+      "notes": "Contributor Ismail Benali supplied the word/form تشينة and its historical explanation as a research lead, and supplied the market dialogue. Credit is for this project's attestation/documentation, not authorship or coinage of the lexical item. The contributor's exact locality and permission for model training remain unrecorded; do not infer them."
     }
   ],
   "unresolved_items": [

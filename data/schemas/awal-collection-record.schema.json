@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AWAL Bilingual Darija Collection Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "kind",
+    "text_ar",
+    "text_latin",
+    "gloss_ar",
+    "context_ar",
+    "region_claim",
+    "origin",
+    "generator",
+    "generator_version",
+    "prompt_version",
+    "source_id",
+    "source_locator",
+    "review_status",
+    "rights_review_status",
+    "training_permission",
+    "evaluation_permission"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^AWAL-[0-9]{6}$"
+    },
+    "kind": {
+      "enum": [
+        "word",
+        "expression",
+        "sentence",
+        "question",
+        "response",
+        "dialogue_turn"
+      ]
+    },
+    "text_ar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_latin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gloss_ar": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context_ar": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region_claim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "origin": {
+      "enum": [
+        "synthetic",
+        "human_contributor",
+        "interview",
+        "licensed_source",
+        "public_domain_source"
+      ]
+    },
+    "generator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "generator_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prompt_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_status": {
+      "enum": [
+        "pending",
+        "in_review",
+        "reviewed",
+        "rejected"
+      ]
+    },
+    "rights_review_status": {
+      "enum": [
+        "unknown",
+        "pending_verification",
+        "cleared",
+        "restricted",
+        "excluded"
+      ]
+    },
+    "training_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    },
+    "evaluation_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    }
+  }
+}

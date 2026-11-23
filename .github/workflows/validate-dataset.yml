@@ -1,10 +1,11 @@
-name: Validate dataset
+name: Validate dataset and AWAL eligibility gate
 on:
   push:
     paths:
       - "data/**"
       - "scripts/**"
       - "tests/**"
+      - "docs/AWAL_TRAINING_ELIGIBILITY.md"
       - "requirements.txt"
       - ".github/workflows/validate-dataset.yml"
   pull_request:
@@ -12,6 +13,7 @@ on:
       - "data/**"
       - "scripts/**"
       - "tests/**"
+      - "docs/AWAL_TRAINING_ELIGIBILITY.md"
       - "requirements.txt"
       - ".github/workflows/validate-dataset.yml"
   workflow_dispatch:
@@ -28,5 +30,11 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Validate dataset and JSON Schemas
         run: python scripts/validate_dataset.py
+      - name: Validate AWAL intake quarantine
+        run: python scripts/validate_awal_candidates.py
+      - name: Validate AWAL bilingual collection seed
+        run: python scripts/validate_awal_collection.py
+      - name: Compile AWAL tools
+        run: python -m py_compile scripts/awal_training_gate.py scripts/intake_candidate.py scripts/validate_awal_collection.py
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
