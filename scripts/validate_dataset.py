@@ -97,6 +97,37 @@ def validate_context_links(context_data,dataset):
             errors.append(f"contexts.examples[{i}].entry_id: unknown or invalid lexicon entry {entry_id!r}")
     return errors
 
+def validate_regional_integrity(data):
+    """Check regional resource counts, category references, and stable IDs."""
+    errors=[]
+    if not isinstance(data,dict): return ["regional: expected an object"]
+    meta=data.get("meta",{})
+    categories=data.get("categories",[])
+    entries=data.get("entries",[])
+    if not isinstance(meta,dict) or not isinstance(categories,list) or not isinstance(entries,list):
+        return ["regional: meta, categories, and entries must be object/arrays"]
+    if meta.get("entries_count")!=len(entries):
+        errors.append(f"regional.meta.entries_count: declared {meta.get('entries_count')}, actual {len(entries)}")
+    category_ids=set()
+    for i,category in enumerate(categories):
+        if not isinstance(category,dict): continue
+        ident=category.get("id")
+        if isinstance(ident,str):
+            if ident in category_ids: errors.append(f"regional.categories[{i}].id: duplicate category id {ident}")
+            category_ids.add(ident)
+    seen=set()
+    for i,entry in enumerate(entries):
+        if not isinstance(entry,dict): continue
+        ident=entry.get("id")
+        if isinstance(ident,str):
+            if ident in seen: errors.append(f"regional.entries[{i}].id: duplicate id {ident}")
+            seen.add(ident)
+        category=entry.get("category")
+        if isinstance(category,str) and category not in category_ids:
+            errors.append(f"regional.entries[{i}].category: unknown category '{category}'")
+    return errors
+
+
 def read_json(path): return json.loads(Path(path).read_text(encoding="utf-8"))
 
 def main():
@@ -105,6 +136,8 @@ def main():
     ap.add_argument("--schema",default="data/schema.json")
     ap.add_argument("--contexts",default="data/context-examples.json")
     ap.add_argument("--context-schema",default="data/context-schema.json")
+    ap.add_argument("--regional",default="data/regions/north.json")
+    ap.add_argument("--regional-schema",default="data/schemas/regional-lexicon.schema.json")
     args=ap.parse_args()
     try:
         dataset=read_json(args.dataset); schema=read_json(args.schema)
@@ -114,6 +147,11 @@ def main():
             contexts=read_json(contexts_path); context_schema=read_json(args.context_schema)
             errors+=validate_schema(contexts,context_schema,"contexts")
             errors+=validate_context_links(contexts,dataset)
+        regional_path=Path(args.regional)
+        if regional_path.exists():
+            regional=read_json(regional_path); regional_schema=read_json(args.regional_schema)
+            errors+=validate_schema(regional,regional_schema,"regional")
+            errors+=validate_regional_integrity(regional)
     except (OSError,UnicodeError,json.JSONDecodeError) as exc:
         print(f"ERROR: cannot read valid UTF-8 JSON: {exc}",file=sys.stderr); return 2
     except Exception as exc:
@@ -123,7 +161,8 @@ def main():
         for error in errors: print("- "+error)
         return 1
     context_count=len(contexts.get("examples",[])) if contexts_path.exists() else 0
-    print(f"OK: {len(dataset['entries'])} entries; {len(dataset['categories'])} categories; {context_count} context examples")
+    regional_count=len(regional.get("entries",[])) if regional_path.exists() else 0
+    print(f"OK: {len(dataset['entries'])} entries; {len(dataset['categories'])} categories; {context_count} context examples; {regional_count} regional entries")
     print("JSON Schema: Draft 2020-12 — valid")
     return 0
 
