@@ -10,7 +10,8 @@
       "permissions_are_independent": [
         "redistribution",
         "training",
-        "commercial"
+        "commercial",
+        "evaluation"
       ],
       "verify_each_component": true
     }
@@ -27,7 +28,8 @@
       "declared_permissions": {
         "redistribution": "allowed",
         "training": "allowed",
-        "commercial": "not_allowed"
+        "commercial": "not_allowed",
+        "evaluation": "unknown"
       },
       "evidence_status": "repository_metadata_only",
       "source_locator_policy": "No per-record external locator is applicable to original editorial work; retain contributor and edit history where available.",
@@ -44,7 +46,8 @@
       "declared_permissions": {
         "redistribution": "unknown",
         "training": "unknown",
-        "commercial": "unknown"
+        "commercial": "unknown",
+        "evaluation": "unknown"
       },
       "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Record the exact upstream file, record identifier, or commit whenever it can be established.",
@@ -61,7 +64,8 @@
       "declared_permissions": {
         "redistribution": "unknown",
         "training": "unknown",
-        "commercial": "unknown"
+        "commercial": "unknown",
+        "evaluation": "unknown"
       },
       "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Do not publish story text. Preserve private audit references only where lawful and permitted; do not infer permission from public accessibility.",
@@ -78,7 +82,8 @@
       "declared_permissions": {
         "redistribution": "allowed",
         "training": "allowed",
-        "commercial": "not_allowed"
+        "commercial": "not_allowed",
+        "evaluation": "unknown"
       },
       "evidence_status": "publication_status_and_compilation_license_require_review",
       "source_locator_policy": "Record page 163 and the exact glossary item when traceable.",
