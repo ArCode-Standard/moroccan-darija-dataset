@@ -4,6 +4,8 @@ from pathlib import Path
 ROOT=Path(__file__).parents[1]
 spec=importlib.util.spec_from_file_location("validator",ROOT/"scripts"/"validate_dataset.py")
 module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+audit_spec=importlib.util.spec_from_file_location("provenance_audit",ROOT/"scripts"/"audit_provenance.py")
+audit_module=importlib.util.module_from_spec(audit_spec); audit_spec.loader.exec_module(audit_module)
 
 class ValidatorTests(unittest.TestCase):
  def fixture(self):
@@ -56,5 +58,45 @@ class ValidatorTests(unittest.TestCase):
  def test_context_reference_must_exist(self):
   d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{"id":"ctx-000001","entry_id":999}]}
   self.assertTrue(any("lexicon entry" in x for x in module.validate_context_links(d,self.fixture())))
+ def test_real_north_regional_dataset_passes_schema_and_integrity(self):
+  regional=json.loads((ROOT/"data"/"regions"/"north.json").read_text(encoding="utf-8"))
+  schema=json.loads((ROOT/"data"/"schemas"/"regional-lexicon.schema.json").read_text(encoding="utf-8"))
+  self.assertEqual(module.validate_schema(regional,schema,"regional"),[])
+  self.assertEqual(module.validate_regional_integrity(regional),[])
+ def test_regional_duplicate_ids_and_unknown_categories_fail(self):
+  regional={"meta":{"entries_count":2},"categories":[{"id":"family","label_ar":"العائلة"}],"entries":[
+   {"id":"north-001","category":"family"},{"id":"north-001","category":"unknown"}
+  ]}
+  errors=module.validate_regional_integrity(regional)
+  self.assertTrue(any("duplicate id" in error for error in errors))
+  self.assertTrue(any("unknown category" in error for error in errors))
+ def test_provenance_audit_flags_missing_evidence_and_unknown_permissions(self):
+  resource={"entries":[{"id":1,"provenance":{"source_type":"corpus","training_permission":"allowed","redistribution_permission":"unknown","commercial_permission":"unknown"}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-test"})
+  self.assertEqual(summary["records"],1)
+  self.assertEqual(summary["missing_or_unknown"]["source_id"],1)
+  self.assertEqual(summary["missing_or_unknown"]["permission_evidence"],1)
+  self.assertTrue(any("permission_evidence is absent" in item for item in findings))
+ def test_provenance_audit_accepts_registry_source_and_evidence(self):
+  resource={"entries":[{"id":1,"provenance":{
+   "source_type":"dictionary","source_id":"src-test","source_locator":"file.json#entry-1",
+   "permission_evidence":"https://example.org/license","rights_review_status":"cleared",
+   "redistribution_permission":"allowed","training_permission":"allowed","commercial_permission":"not_allowed"
+  }}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-test"})
+  self.assertEqual(summary["records_with_permission_evidence"],1)
+  self.assertEqual(summary["records_with_source_locator"],1)
+  self.assertEqual(summary["records_with_rights_review_status"],1)
+  self.assertEqual(findings,[])
+ def test_provenance_audit_rejects_unregistered_source_id(self):
+  resource={"entries":[{"id":"x","provenance":{"source_type":"original","source_id":"src-absent"}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-known"})
+  self.assertEqual(summary["unmapped_source_ids"],1)
+  self.assertTrue(any("not present in the source registry" in item for item in findings))
+ def test_provenance_audit_handles_malformed_types_without_crashing(self):
+  resource={"entries":[{"id":"x","provenance":{"source_type":[],"training_permission":[],"source_id":[],"rights_review_status":[]}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-known"})
+  self.assertEqual(summary["source_type_counts"],{"invalid":1})
+  self.assertEqual(summary["permission_counts"]["training_permission"],{"invalid":1})
 
 if __name__=="__main__": unittest.main()

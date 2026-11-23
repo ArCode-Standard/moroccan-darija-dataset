@@ -1,31 +1,68 @@
-# Copy to data/manifest.yaml for a release. Never assert permission without evidence.
+# Release manifest template aligned with the published 1.11.0 snapshot.
+# Copy to data/manifest.yaml and update release-specific fields only after validation.
+# Never infer legal permission from a populated provenance field.
+
 dataset:
   name: "Moroccan Darija Lexicon"
   language: "ary"
-  version: "1.3.0"
+  version: "1.11.0"
+  entries_count: 1090
+  categories_count: 38
+  context_examples_count: 146
   data_file: "data/moroccan-darija.json"
   schema_file: "data/schema.json"
   context_file: "data/context-examples.json"
   context_schema_file: "data/context-schema.json"
+  source_registry_file: "data/sources/registry.json"
+  regional_resources:
+    - path: "data/regions/north.json"
+      schema: "data/schemas/regional-lexicon.schema.json"
+      entries_count: 122
+      status: "initial_contributor_submission"
+      review_status: "pending_for_all_entries"
+      rights_status: "unknown_for_all_permissions"
+
 rights:
   declared_dataset_license: "CC BY-NC 4.0"
   license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
-  rights_audit_status: "pending"
-  redistribution_permission: "unknown"
-  training_permission: "unknown"
-  commercial_permission: "not_allowed"
-  notes: "Repository license declaration is not proof of rights for every third-party item."
-provenance:
-  record_level_tracking: "not_started"
-  required_fields: [source_type, source_name, source_url, accessed_at, rights_holder]
+  audit_status: "record-level metadata present; independent legal verification remains necessary"
+  commercial_use: "not_granted_by_CC_BY_NC_4.0"
+  permission_assessment: "evaluate each record and each component independently"
   unknown_values_must_remain_explicit: true
+  notes:
+    - "The repository-level license does not prove that every third-party component can be relicensed."
+    - "Do not use the dataset commercially without separate documented permission from all relevant rights holders."
+    - "A recorded training_permission value is metadata, not a substitute for checking its underlying evidence."
+
+provenance:
+  record_level_tracking: "fields present on the 1090-entry snapshot; evidence quality requires audit"
+  source_distribution:
+    original: 656
+    dictionary: 271
+    corpus: 126
+    other: 37
+    web: 0
+  recommended_next_fields:
+    - source_id
+    - source_locator
+    - collection_method
+    - transformation
+    - permission_evidence
+    - source_id_registry_reference
+    - locality_evidence
+  no_fabricated_sources_or_permissions: true
+
 review:
-  human_review_status: "not_started"
-  review_guideline: null
+  human_review_status: "pending_for_all_entries"
+  reviewed_entries_count: 0
   reviewer_ids_are_pseudonymous: true
+  review_guideline: "docs/REVIEW_WORKFLOW.md"
+  note: "Automated schema validation is not linguistic or legal review."
+
 release:
   created_at: null
   maintainer: "ArCode Standard"
   notes:
-    - "Historical audit figures of 887 entries refer to version 1.2.0 only."
-    - "Version 1.3.0 contains 921 lexical entries."
+    - "This template describes the published 1.11.0 snapshot; update counts and version for every future release."
+    - "Do not mark an entry reviewed without a documented human decision."
+    - "Do not describe this lexicon as a general-purpose training corpus or benchmark."

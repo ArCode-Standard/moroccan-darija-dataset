@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ArCode-Standard/moroccan-darija-dataset/blob/main/data/schemas/regional-lexicon.schema.json",
+  "title": "Moroccan Darija Regional Lexicon",
+  "description": "Schema for contributor-submitted regional vocabulary. Reported geography is not proof of exclusivity or prevalence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meta", "categories", "entries"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "language", "resource_type", "region_id", "region_name_ar", "version", "status", "provenance", "review", "entries_count"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "title_en": {"type": "string"},
+        "language": {"const": "ary"},
+        "resource_type": {"const": "regional_lexicon"},
+        "region_id": {"type": "string", "pattern": "^ma-[a-z0-9-]+$"},
+        "region_name_ar": {"type": "string", "minLength": 1},
+        "region_name_en": {"type": "string"},
+        "localities_reported": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "version": {"type": "string", "minLength": 1},
+        "status": {"type": "string", "minLength": 1},
+        "description_ar": {"type": "string"},
+        "notes_ar": {"type": "array", "items": {"type": "string"}},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "review": {"$ref": "#/$defs/review"},
+        "entries_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label_ar"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+          "label_ar": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/entry"}
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category", "term_ar", "variants", "meaning_ar", "localities_reported", "regional_status", "review"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "category": {"type": "string", "minLength": 1},
+        "term_ar": {"type": "string", "minLength": 1},
+        "variants": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "meaning_ar": {"type": "string", "minLength": 1},
+        "usage_note_ar": {"type": "string"},
+        "localities_reported": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "regional_status": {"enum": ["reported_northern_use", "reported_local_use", "reported_multi_region_use", "not_established", "unknown"]},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "review": {"$ref": "#/$defs/review"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_type", "redistribution_permission", "training_permission", "commercial_permission"],
+      "properties": {
+        "source_type": {"enum": ["original", "contributor", "dictionary", "corpus", "web", "other", "unknown"]},
+        "source_name": {"type": "string"},
+        "source_url": {"type": "string", "format": "uri"},
+        "rights_holder": {"type": "string"},
+        "license": {"type": "string"},
+        "redistribution_permission": {"enum": ["allowed", "not_allowed", "unknown", "not_applicable"]},
+        "training_permission": {"enum": ["allowed", "not_allowed", "unknown", "not_applicable"]},
+        "commercial_permission": {"enum": ["allowed", "not_allowed", "unknown", "not_applicable"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["pending", "in_review", "reviewed", "rejected", "needs_correction", "unknown"]},
+        "reviewer_id": {"type": "string"},
+        "reviewed_at": {"type": "string", "format": "date"},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
