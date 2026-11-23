@@ -1,0 +1,77 @@
+{
+  "record_id": "AWAL-DLG-000001",
+  "kind": "dialogue",
+  "title": "At the market: oranges and sardines",
+  "dialect_label": "Moroccan Darija — regional variety not yet verified",
+  "region_claim": null,
+  "text_ar": [
+    {
+      "speaker": "عزيز",
+      "text": "السلام، آش خبارك؟ لاباس عليك؟"
+    },
+    {
+      "speaker": "مول الحوت",
+      "text": "لاباس الحمد لله، ونتا؟ آش بغيتي دروكة؟"
+    },
+    {
+      "speaker": "عزيز",
+      "text": "بغيت تشينة، شحال دايرة هاد السيمانا؟"
+    },
+    {
+      "speaker": "مول الحوت",
+      "text": "التشينة مزيانة، عشرة دراهم الكيلو."
+    },
+    {
+      "speaker": "عزيز",
+      "text": "غالية شوية، نقص ليا شوية، أنا ولد البلاصة."
+    },
+    {
+      "speaker": "مول الحوت",
+      "text": "واخا، نعطيهالك بتسعود، غير على ود نتا منا وفينا."
+    },
+    {
+      "speaker": "عزيز",
+      "text": "صافي، وزيد ليا كيلو ديال السردين."
+    },
+    {
+      "speaker": "مول الحوت",
+      "text": "السردين طري دروكة، نصايبو ليك دابا."
+    },
+    {
+      "speaker": "عزيز",
+      "text": "الله يعطيك الصحة، وحط ليا التشينة فالميكة."
+    },
+    {
+      "speaker": "مول الحوت",
+      "text": "بالصحة والراحة، مرحبا بيك."
+    }
+  ],
+  "latin_transcription": null,
+  "english_gloss": "A customer greets a fish seller, asks the price of oranges, bargains, and buys sardines.",
+  "contributor": {
+    "name": "Ismail Benali",
+    "github": "Ismail-Benali",
+    "role": "user-supplied dialogue and lexical research lead",
+    "attested_at": "2026-11-23"
+  },
+  "provenance": {
+    "origin": "human_contributor",
+    "source_id": "src-awal-contributor-ismail-benali",
+    "source_locator": "docs/LEXICAL_NOTE_TCHINA.md; contributor-submitted dialogue in this conversation",
+    "collection_method": "direct_user_contribution",
+    "transformation": "verbatim transcription with speaker labels; no dialect normalization"
+  },
+  "review": {
+    "linguistic": "pending",
+    "regional": "unverified",
+    "rights": "pending",
+    "training_permission": "unknown",
+    "evaluation_permission": "not_allowed"
+  },
+  "notes": [
+    "The dialogue was supplied by the contributor, not transcribed from a recording.",
+    "The dialogue mixes broadly Moroccan expressions with candidate regional forms; it must not be presented as a verified Tangier/Tetouan conversation.",
+    "دروكة, تشينة, السيمانة and other forms require individual regional checks; only تشينة/لْتشينة currently has the cited published etymological note.",
+    "The fish seller also sells oranges; this is possible in a mixed-market setting but the role label مول الحوت may be pragmatically unusual. Preserve the original before editorial variants."
+  ]
+}
