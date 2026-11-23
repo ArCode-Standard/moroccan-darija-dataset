@@ -4,7 +4,6 @@ import argparse
 import json
 import re
 import sys
-from datetime import date
 from pathlib import Path
 from jsonschema import Draft202012Validator, FormatChecker
 
@@ -58,7 +57,7 @@ def main():
     existing = []
     if output_dir.exists():
         for path in output_dir.glob("CAND-*.json"):
-            match = re.fullmatch(r"CAND-(\\d{6})", path.stem)
+            match = re.fullmatch(r"CAND-(\d{6})", path.stem)
             if match:
                 existing.append(int(match.group(1)))
     candidate_id = f"CAND-{max(existing, default=0) + 1:06d}"
@@ -83,7 +82,7 @@ def main():
     if destination.exists():
         print(f"ERROR: refusing to overwrite {destination}", file=sys.stderr)
         return 2
-    rendered = json.dumps(candidate, ensure_ascii=False, indent=2) + "\\n"
+    rendered = json.dumps(candidate, ensure_ascii=False, indent=2) + "\n"
     if args.dry_run:
         print(rendered, end="")
         print(f"DRY RUN: would write {destination}", file=sys.stderr)
