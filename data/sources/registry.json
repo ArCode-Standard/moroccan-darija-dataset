@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Moroccan Darija Dataset Source Registry",
+    "version": "1.0.0",
+    "language": "ary",
+    "purpose": "Central index of source families reported by the repository. This registry summarizes declarations; it is not independent legal clearance.",
+    "last_updated": null,
+    "policy": {
+      "unknown_is_not_permission": true,
+      "permissions_are_independent": [
+        "redistribution",
+        "training",
+        "commercial"
+      ],
+      "verify_each_component": true
+    }
+  },
+  "sources": [
+    {
+      "source_id": "src-project-original",
+      "source_name": "ArCode Standard — original editorial work",
+      "source_type": "original",
+      "source_url": null,
+      "reported_record_count": 656,
+      "rights_holder": "ArCode Standard (as declared in repository records)",
+      "license": "CC BY-NC 4.0 (repository declaration)",
+      "declared_permissions": {
+        "redistribution": "allowed",
+        "training": "allowed",
+        "commercial": "not_allowed"
+      },
+      "evidence_status": "repository_metadata_only",
+      "source_locator_policy": "No per-record external locator is applicable to original editorial work; retain contributor and edit history where available.",
+      "notes": "Counts and permission values reflect the published 1.11.0 repository documentation. Confirm authorship and authority to license before relying on these declarations."
+    },
+    {
+      "source_id": "src-doda",
+      "source_name": "DODa — Darija Open Dataset",
+      "source_type": "dictionary",
+      "source_url": "https://github.com/darija-open-dataset/dataset",
+      "reported_record_count": 271,
+      "rights_holder": "Upstream contributors and applicable rights holders",
+      "license": "CC BY-NC 4.0 (as reported by this repository)",
+      "declared_permissions": {
+        "redistribution": "allowed",
+        "training": "allowed",
+        "commercial": "not_allowed"
+      },
+      "evidence_status": "upstream_license_requires_record_level_review",
+      "source_locator_policy": "Record the exact upstream file, record identifier, or commit whenever it can be established.",
+      "notes": "Attribution and non-commercial conditions must be preserved. Verify the current upstream license and the mapping of each imported record."
+    },
+    {
+      "source_id": "src-wattpad",
+      "source_name": "Wattpad — source texts reported by the project",
+      "source_type": "corpus",
+      "source_url": "https://www.wattpad.com/",
+      "reported_record_count": 126,
+      "rights_holder": "Authors and other applicable rights holders",
+      "license": "No blanket license recorded for source stories",
+      "declared_permissions": {
+        "redistribution": "allowed",
+        "training": "allowed",
+        "commercial": "not_allowed"
+      },
+      "evidence_status": "requires_legal_and_provenance_verification",
+      "source_locator_policy": "Do not publish story text. Preserve private audit references only where lawful and permitted; do not infer permission from public accessibility.",
+      "notes": "The repository reports that 126 lexical items were extracted from stories and that story texts are not redistributed. The permission values above are repository declarations, not verified authorization from authors or platform terms. Exclude these records from downstream training or redistribution until the rights basis is confirmed."
+    },
+    {
+      "source_id": "src-peace-corps-2011",
+      "source_name": "Peace Corps Morocco — Moroccan Arabic Textbook (2011)",
+      "source_type": "other",
+      "source_url": "https://www.livelingua.com/course/peace_corps/moroccan_arabic_textbook",
+      "reported_record_count": 37,
+      "rights_holder": "United States Government publication status reported by repository; verify specific edition and components",
+      "license": "Public domain status reported by repository; verify before reuse",
+      "declared_permissions": {
+        "redistribution": "allowed",
+        "training": "allowed",
+        "commercial": "not_allowed"
+      },
+      "evidence_status": "publication_status_and_compilation_license_require_review",
+      "source_locator_policy": "Record page 163 and the exact glossary item when traceable.",
+      "notes": "The project reports 37 items from the verb glossary (page 163). Do not generalize a government-work status to third-party material or editorial translations without checking."
+    }
+  ],
+  "unresolved_items": [
+    "The registry does not yet map every lexical record to a source_id.",
+    "The exact upstream locator is not recorded for every imported item.",
+    "The legal basis and evidence for each permission claim have not been independently audited.",
+    "Rights for glosses, translations, examples, and transformations may differ from rights in the source term."
+  ]
+}
