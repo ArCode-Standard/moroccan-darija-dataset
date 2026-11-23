@@ -275,3 +275,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [Review Workflow](docs/REVIEW_WORKFLOW.m
 ---
 
 **ArCode Standard** · [GitHub repository](https://github.com/ArCode-Standard/moroccan-darija-dataset)
+
+
+## AWAL data governance
+
+- [AWAL Data Pipeline](docs/AWAL_DATA_PIPELINE.md): intake, provenance, independent review, rights screening, and release gates.
+- [Provenance Audit Baseline — 2026-11-23](docs/PROVENANCE_AUDIT_BASELINE_2026-11-23.md): first successful CI audit snapshot and remediation priorities.
