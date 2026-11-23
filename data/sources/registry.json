@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "language": "ary",
     "purpose": "Central index of source families reported by the repository. This registry summarizes declarations; it is not independent legal clearance.",
-    "last_updated": null,
+    "last_updated": "2026-11-23",
     "policy": {
       "unknown_is_not_permission": true,
       "permissions_are_independent": [
@@ -42,13 +42,13 @@
       "rights_holder": "Upstream contributors and applicable rights holders",
       "license": "CC BY-NC 4.0 (as reported by this repository)",
       "declared_permissions": {
-        "redistribution": "allowed",
-        "training": "allowed",
-        "commercial": "not_allowed"
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown"
       },
-      "evidence_status": "upstream_license_requires_record_level_review",
+      "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Record the exact upstream file, record identifier, or commit whenever it can be established.",
-      "notes": "The repository reports 271 records from DODa, including records re-documented from other web sources and 40 additions in 1.10.1. Preserve upstream attribution and non-commercial conditions; verify current upstream terms and record-level mapping."
+      "notes": "The project reports 271 records associated with DODa. The upstream license has been reported as CC BY-NC 4.0, but the current license text, authority, record-level mapping, attribution requirements, and permitted training uses have not been independently verified for this repository. Treat all uses as unresolved: do not include these records in AWAL training or public dataset exports until the rights review is completed. Preserve this source attribution for provenance; do not remove or conceal it."
     },
     {
       "source_id": "src-wattpad",
@@ -59,13 +59,13 @@
       "rights_holder": "Authors and other applicable rights holders",
       "license": "No blanket license recorded for source stories",
       "declared_permissions": {
-        "redistribution": "allowed",
-        "training": "allowed",
-        "commercial": "not_allowed"
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown"
       },
-      "evidence_status": "requires_legal_and_provenance_verification",
+      "evidence_status": "pending_independent_rights_verification",
       "source_locator_policy": "Do not publish story text. Preserve private audit references only where lawful and permitted; do not infer permission from public accessibility.",
-      "notes": "The project reports that 126 lexical items were extracted from Wattpad stories and that story texts are not redistributed. The repository records redistribution/training as allowed and commercial use as not allowed, but this registry has not independently verified author permissions, platform terms, or the legal basis for extraction. Do not treat those recorded values as clearance; exclude from downstream redistribution/training until the rights basis is confirmed."
+      "notes": "The project reports 126 lexical items derived from Wattpad stories. No blanket license or author-level permission evidence is recorded. Previous allowed declarations are withdrawn pending verification. Do not include these records in AWAL training or public dataset exports until author permissions, platform terms, extraction basis, and any applicable rights are independently reviewed. Preserve this source attribution for provenance; do not remove or conceal it."
     },
     {
       "source_id": "src-peace-corps-2011",
