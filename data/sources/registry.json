@@ -31,7 +31,7 @@
       },
       "evidence_status": "repository_metadata_only",
       "source_locator_policy": "No per-record external locator is applicable to original editorial work; retain contributor and edit history where available.",
-      "notes": "Counts and permission values reflect the published 1.11.0 repository documentation. Confirm authorship and authority to license before relying on these declarations."
+      "notes": "The repository classifies 656 records as original. Its rights inventory reports that 71 of these were editorially rewritten from web sources in releases 1.9.1–1.9.3. Therefore source_type=original must not be treated as proof of wholly independent creation. Record-level source mapping and rights review remain necessary."
     },
     {
       "source_id": "src-doda",
@@ -48,7 +48,7 @@
       },
       "evidence_status": "upstream_license_requires_record_level_review",
       "source_locator_policy": "Record the exact upstream file, record identifier, or commit whenever it can be established.",
-      "notes": "Attribution and non-commercial conditions must be preserved. Verify the current upstream license and the mapping of each imported record."
+      "notes": "The repository reports 271 records from DODa, including records re-documented from other web sources and 40 additions in 1.10.1. Preserve upstream attribution and non-commercial conditions; verify current upstream terms and record-level mapping."
     },
     {
       "source_id": "src-wattpad",
@@ -65,7 +65,7 @@
       },
       "evidence_status": "requires_legal_and_provenance_verification",
       "source_locator_policy": "Do not publish story text. Preserve private audit references only where lawful and permitted; do not infer permission from public accessibility.",
-      "notes": "The repository reports that 126 lexical items were extracted from stories and that story texts are not redistributed. The permission values above are repository declarations, not verified authorization from authors or platform terms. Exclude these records from downstream training or redistribution until the rights basis is confirmed."
+      "notes": "The project reports that 126 lexical items were extracted from Wattpad stories and that story texts are not redistributed. The repository records redistribution/training as allowed and commercial use as not allowed, but this registry has not independently verified author permissions, platform terms, or the legal basis for extraction. Do not treat those recorded values as clearance; exclude from downstream redistribution/training until the rights basis is confirmed."
     },
     {
       "source_id": "src-peace-corps-2011",
@@ -82,7 +82,7 @@
       },
       "evidence_status": "publication_status_and_compilation_license_require_review",
       "source_locator_policy": "Record page 163 and the exact glossary item when traceable.",
-      "notes": "The project reports 37 items from the verb glossary (page 163). Do not generalize a government-work status to third-party material or editorial translations without checking."
+      "notes": "The project reports 37 items from the verb glossary (page 163). A public-domain status is reported for the government publication, but verify the specific edition and exclude any third-party content. The repository's compilation and translation permissions remain subject to their own rights review."
     }
   ],
   "unresolved_items": [
