@@ -106,6 +106,42 @@
       "evidence_status": "repository_metadata_only",
       "source_locator_policy": "Use the stable record_id and prompt_version in data/collection/awal-seed-v0.1.jsonl.",
       "notes": "Synthetic drafting material created to bootstrap schema and human review. It is not human speech, not field-collected evidence, not a gold evaluation set, and is not eligible for training or evaluation until its provenance, quality, and permissions are independently reviewed."
+    },
+    {
+      "source_id": "src-fajardo-et-al-2013-tchina",
+      "source_name": "Fajardo Rodríguez et al. (2013) — Fitónimos albacetenses, algo más que palabras",
+      "source_type": "scholarly_reference",
+      "source_url": "https://dialnet.unirioja.es/descarga/articulo/4252267.pdf",
+      "reported_record_count": 1,
+      "rights_holder": "Article authors and journal/publisher; reference metadata and citation only",
+      "license": "Not assessed; do not reproduce article text beyond brief quotation/citation",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "bibliographic_reference_verified",
+      "source_locator_policy": "Cite SABUCO no. 9 (2013), pp. 133–173, especially p. 149; use the PDF page and printed page distinctly.",
+      "notes": "Supports the historical account of Citrus sinensis, the China naming compound, Portuguese introduction to Algarve and northern Moroccan settlements (Tangier, Asilah, Larache), and Moroccan Arabic lečīna / Algerian Arabic čīna. It does not prove a direct Spanish borrowing route into Moroccan Arabic or northern-exclusive distribution."
+    },
+    {
+      "source_id": "src-awal-contributor-ismail-benali",
+      "source_name": "Ismail Benali — contributor-supplied lexical attestation and market dialogue",
+      "source_type": "human_contributor",
+      "source_url": "https://github.com/Ismail-Benali",
+      "reported_record_count": 2,
+      "rights_holder": "Contributor for original submitted wording; underlying word itself is not claimed as authored by contributor",
+      "license": "not_assigned",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "contributor_statement_recorded_pending_review",
+      "source_locator_policy": "Use docs/LEXICAL_NOTE_TCHINA.md and data/collection/awal-dialogue-market-tchina-v0.1.json; retain contributor identity only as approved public attribution.",
+      "notes": "Contributor Ismail Benali supplied the word/form تشينة and its historical explanation as a research lead, and supplied the market dialogue. Credit is for this project's attestation/documentation, not authorship or coinage of the lexical item. The contributor's exact locality and permission for model training remain unrecorded; do not infer them."
     }
   ],
   "unresolved_items": [
