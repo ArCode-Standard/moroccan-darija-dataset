@@ -130,7 +130,7 @@ for entry in dataset["entries"]:
 | docs/DATA_STRUCTURE.md | بنية البيانات والتوافق والترحيل |
 | docs/DATA_COLLECTION.md | سياسة الجمع والموافقة والخصوصية |
 | docs/REGIONAL_VARIATION.md | منهجية توثيق التنوع الجهوي |
-| scripts/validate_dataset.py | مدقق بنية البيانات والاتساق |
+| scripts/validate_dataset.py | مدقق بنية البيانات والاتساق |\n| scripts/audit_provenance.py | تقرير آلي لفجوات المصدر والحقوق والأدلة |\n| .github/workflows/quality.yml | بوابات جودة تلقائية عبر GitHub Actions |
 | tests/ | اختبارات المدقق |
 | docs/TRANSLITERATION_STANDARD.md | دليل الكتابة اللاتينية |
 | docs/REVIEW_WORKFLOW.md | سير عمل المراجعة |
