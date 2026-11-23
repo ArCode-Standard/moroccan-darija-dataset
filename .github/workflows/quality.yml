@@ -1,0 +1,50 @@
+name: Dataset quality gates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate data, schemas, tests, and provenance
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate dataset and JSON Schemas
+        run: python scripts/validate_dataset.py
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate provenance audit
+        run: |
+          python scripts/audit_provenance.py \
+            --json-out reports/quality/provenance-audit.json \
+            --markdown-out reports/quality/provenance-audit.md
+
+      - name: Upload provenance audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: provenance-audit
+          path: reports/quality/
+          if-no-files-found: warn
