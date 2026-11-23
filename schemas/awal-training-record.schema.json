@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AWAL Training Eligibility Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "text",
+    "source_id",
+    "source_locator",
+    "permission_evidence",
+    "rights_review_status",
+    "training_permission",
+    "evaluation_permission",
+    "split"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "permission_evidence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights_review_status": {
+      "const": "cleared"
+    },
+    "training_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    },
+    "evaluation_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    }
+  }
+}
