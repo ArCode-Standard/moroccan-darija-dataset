@@ -124,7 +124,7 @@ for entry in dataset["entries"]:
 | data/context-examples.json | أمثلة سياقية مرتبطة بالمدخلات |
 | data/context-schema.json | مخطط الأمثلة السياقية |
 | data/manifest.template.yaml | قالب بيانات الإصدار والمصادر والحقوق |
-| data/sources/registry.json | فهرس مركزي لعائلات المصادر والحقوق المعلنة |
+| data/sources/registry.json | فهرس مركزي لعائلات المصادر والحقوق المعلنة |\n| data/collection/awal-seed-v0.1.jsonl | دفعة AWAL اصطناعية أولية للمراجعة، وليست بيانات بشرية أو مؤهلة للتدريب |\n| data/schemas/awal-collection-record.schema.json | مخطط سجل الجمع الثنائي العربية/اللاتينية |\n| scripts/validate_awal_collection.py | مدقق دفعة الجمع الأولية وسياسة وسم البيانات الاصطناعية |
 | data/regions/north.json | مساهمة إقليمية أولية؛ 122 مدخلاً pending |
 | data/schemas/regional-lexicon.schema.json | مخطط الموارد المعجمية الإقليمية |
 | docs/DATA_STRUCTURE.md | بنية البيانات والتوافق والترحيل |
@@ -279,5 +279,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [Review Workflow](docs/REVIEW_WORKFLOW.m
 
 ## AWAL data governance
 
-- [AWAL Data Pipeline](docs/AWAL_DATA_PIPELINE.md): intake, provenance, independent review, rights screening, and release gates.
+- [AWAL Data Pipeline](docs/AWAL_DATA_PIPELINE.md): intake, provenance, independent review, rights screening, and release gates.\n- [AWAL Collection Plan](docs/AWAL_COLLECTION_PLAN.md): approved bilingual collection strategy and phase-one synthetic seed.\n- Validate the starter collection with `python scripts/validate_awal_collection.py`.
 - [Provenance Audit Baseline — 2026-11-23](docs/PROVENANCE_AUDIT_BASELINE_2026-11-23.md): first successful CI audit snapshot and remediation priorities.
