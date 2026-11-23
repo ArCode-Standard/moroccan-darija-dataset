@@ -56,5 +56,17 @@ class ValidatorTests(unittest.TestCase):
  def test_context_reference_must_exist(self):
   d={"meta":{"lexicon_version":"1.3.0","version":"1.0.0","examples_count":1},"examples":[{"id":"ctx-000001","entry_id":999}]}
   self.assertTrue(any("lexicon entry" in x for x in module.validate_context_links(d,self.fixture())))
+ def test_real_north_regional_dataset_passes_schema_and_integrity(self):
+  regional=json.loads((ROOT/"data"/"regions"/"north.json").read_text(encoding="utf-8"))
+  schema=json.loads((ROOT/"data"/"schemas"/"regional-lexicon.schema.json").read_text(encoding="utf-8"))
+  self.assertEqual(module.validate_schema(regional,schema,"regional"),[])
+  self.assertEqual(module.validate_regional_integrity(regional),[])
+ def test_regional_duplicate_ids_and_unknown_categories_fail(self):
+  regional={"meta":{"entries_count":2},"categories":[{"id":"family","label_ar":"العائلة"}],"entries":[
+   {"id":"north-001","category":"family"},{"id":"north-001","category":"unknown"}
+  ]}
+  errors=module.validate_regional_integrity(regional)
+  self.assertTrue(any("duplicate id" in error for error in errors))
+  self.assertTrue(any("unknown category" in error for error in errors))
 
 if __name__=="__main__": unittest.main()
