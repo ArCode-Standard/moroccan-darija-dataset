@@ -40,7 +40,7 @@ def load_records(path):
 
 def normalized_hash(text):
     normalized = unicodedata.normalize("NFKC", text).casefold()
-    normalized = re.sub(r"\\s+", " ", normalized).strip()
+    normalized = re.sub(r"\s+", " ", normalized).strip()
     return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
 
 
@@ -69,7 +69,7 @@ def validate(records, registry):
             ids.add(record_id)
 
         split = record.get("split")
-        if split not in SPLITS:
+        if not isinstance(split, str) or split not in SPLITS:
             errors.append(f"{prefix}: split must be one of train, validation, test")
             continue
 
@@ -85,7 +85,7 @@ def validate(records, registry):
             errors.append(f"{prefix}: {permission_field} must be 'allowed' for split={split}")
 
         source_id = record.get("source_id")
-        source = source_by_id.get(source_id)
+        source = source_by_id.get(source_id) if isinstance(source_id, str) else None
         if source is None:
             errors.append(f"{prefix}: source_id {source_id!r} is absent from the source registry")
         else:
@@ -102,18 +102,12 @@ def validate(records, registry):
             hashes_by_split[split].setdefault(digest, []).append(record_id or f"index:{index}")
             accepted[split].append(record)
 
-    # Identical normalized text must never cross the training/evaluation boundary.
     train_hashes = set(hashes_by_split["train"])
     for split in ("validation", "test"):
-        overlap = train_hashes.intersection(hashes_by_split[split])
-        for digest in sorted(overlap):
-            errors.append(
-                f"data leakage: normalized text hash {digest} appears in train and {split}"
-            )
-    validation_test_overlap = set(hashes_by_split["validation"]).intersection(hashes_by_split["test"])
-    for digest in sorted(validation_test_overlap):
+        for digest in sorted(train_hashes.intersection(hashes_by_split[split])):
+            errors.append(f"data leakage: normalized text hash {digest} appears in train and {split}")
+    for digest in sorted(set(hashes_by_split["validation"]).intersection(hashes_by_split["test"])):
         errors.append(f"split collision: normalized text hash {digest} appears in validation and test")
-
     return errors, accepted
 
 
@@ -164,11 +158,7 @@ def main():
             print(f"ERROR: could not write outputs: {exc}", file=sys.stderr)
             return 2
 
-    print(
-        f"ELIGIBLE: {len(training)} training record(s), "
-        f"{len(accepted['validation'])} validation record(s), "
-        f"{len(accepted['test'])} test record(s)."
-    )
+    print(f"ELIGIBLE: {len(training)} training record(s), {len(accepted['validation'])} validation record(s), {len(accepted['test'])} test record(s).")
     if args.check_only:
         print("Check-only mode: no files written.")
     else:
