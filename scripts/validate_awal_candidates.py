@@ -35,7 +35,7 @@ def main():
         if isinstance(item, dict) and item.get("privacy_checked") is not True:
             errors.append(f"{path}: privacy_checked must be true")
     if errors:
-        print("\\n".join("ERROR: " + e for e in errors))
+        print("\n".join("ERROR: " + e for e in errors))
         return 1
     print(f"Validated {len(paths)} quarantined candidate(s); none is auto-approved for training.")
     return 0
