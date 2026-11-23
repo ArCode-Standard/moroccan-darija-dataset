@@ -255,6 +255,40 @@
         },
         "notes": {
           "type": "string"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^src-[a-z0-9-]+$"
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "permission_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rights_review_status": {
+          "enum": [
+            "cleared",
+            "restricted",
+            "pending_verification",
+            "unknown",
+            "excluded"
+          ]
+        },
+        "collection_method": {
+          "enum": [
+            "elicitation",
+            "observation",
+            "manual_entry",
+            "published_resource",
+            "other",
+            "unknown"
+          ]
+        },
+        "transformation": {
+          "type": "string"
         }
       },
       "additionalProperties": false
