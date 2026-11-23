@@ -124,6 +124,12 @@ for entry in dataset["entries"]:
 | data/context-examples.json | أمثلة سياقية مرتبطة بالمدخلات |
 | data/context-schema.json | مخطط الأمثلة السياقية |
 | data/manifest.template.yaml | قالب بيانات الإصدار والمصادر والحقوق |
+| data/sources/registry.json | فهرس مركزي لعائلات المصادر والحقوق المعلنة |
+| data/regions/north.json | مساهمة إقليمية أولية؛ 122 مدخلاً pending |
+| data/schemas/regional-lexicon.schema.json | مخطط الموارد المعجمية الإقليمية |
+| docs/DATA_STRUCTURE.md | بنية البيانات والتوافق والترحيل |
+| docs/DATA_COLLECTION.md | سياسة الجمع والموافقة والخصوصية |
+| docs/REGIONAL_VARIATION.md | منهجية توثيق التنوع الجهوي |
 | scripts/validate_dataset.py | مدقق بنية البيانات والاتساق |
 | tests/ | اختبارات المدقق |
 | docs/TRANSLITERATION_STANDARD.md | دليل الكتابة اللاتينية |
@@ -133,6 +139,8 @@ for entry in dataset["entries"]:
 | CONTRIBUTING.md | دليل المساهمة |
 
 ## المصادر ومنشأ البيانات
+
+راجع [سجل المصادر المركزي](data/sources/registry.json)؛ وهو فهرس تجميعي لا يمثل تدقيقاً قانونياً مستقلاً. وللتفاصيل حول بنية الموارد وجمعها وتوثيق الاختلافات الجهوية، راجع [بنية البيانات](docs/DATA_STRUCTURE.md)، و[سياسة الجمع](docs/DATA_COLLECTION.md)، و[التوثيق الجهوي](docs/REGIONAL_VARIATION.md).
 
 وفق سجل الإصدار 1.11.0، يتوزع أصل المدخلات كما يلي:
 
