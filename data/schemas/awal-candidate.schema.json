@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AWAL Quarantined Lexical Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "language",
+    "form_original",
+    "source_id",
+    "source_locator",
+    "collection_method",
+    "privacy_checked",
+    "review_status",
+    "rights_review_status"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "pattern": "^CAND-[0-9]{6}$"
+    },
+    "language": {
+      "const": "ary"
+    },
+    "form_original": {
+      "type": "string",
+      "minLength": 1
+    },
+    "script": {
+      "enum": [
+        "Arab",
+        "Arabizi",
+        "Latin",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proposed_meaning": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "usage_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region_claim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "collection_method": {
+      "enum": [
+        "manual_observation",
+        "voluntary_submission",
+        "authorized_api",
+        "licensed_file_import",
+        "public_domain_import",
+        "other"
+      ]
+    },
+    "privacy_checked": {
+      "const": true
+    },
+    "review_status": {
+      "enum": [
+        "discovered",
+        "in_review",
+        "verified",
+        "needs_correction",
+        "rejected"
+      ]
+    },
+    "rights_review_status": {
+      "enum": [
+        "unknown",
+        "pending_verification",
+        "cleared",
+        "restricted",
+        "excluded"
+      ]
+    },
+    "training_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    },
+    "evaluation_permission": {
+      "enum": [
+        "allowed",
+        "not_allowed",
+        "unknown"
+      ]
+    },
+    "permission_evidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
