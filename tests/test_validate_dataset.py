@@ -4,6 +4,8 @@ from pathlib import Path
 ROOT=Path(__file__).parents[1]
 spec=importlib.util.spec_from_file_location("validator",ROOT/"scripts"/"validate_dataset.py")
 module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+audit_spec=importlib.util.spec_from_file_location("provenance_audit",ROOT/"scripts"/"audit_provenance.py")
+audit_module=importlib.util.module_from_spec(audit_spec); audit_spec.loader.exec_module(audit_module)
 
 class ValidatorTests(unittest.TestCase):
  def fixture(self):
@@ -68,5 +70,28 @@ class ValidatorTests(unittest.TestCase):
   errors=module.validate_regional_integrity(regional)
   self.assertTrue(any("duplicate id" in error for error in errors))
   self.assertTrue(any("unknown category" in error for error in errors))
+ def test_provenance_audit_flags_missing_evidence_and_unknown_permissions(self):
+  resource={"entries":[{"id":1,"provenance":{"source_type":"corpus","training_permission":"allowed","redistribution_permission":"unknown","commercial_permission":"unknown"}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-test"})
+  self.assertEqual(summary["records"],1)
+  self.assertEqual(summary["missing_or_unknown"]["source_id"],1)
+  self.assertEqual(summary["missing_or_unknown"]["permission_evidence"],1)
+  self.assertTrue(any("permission_evidence is absent" in item for item in findings))
+ def test_provenance_audit_accepts_registry_source_and_evidence(self):
+  resource={"entries":[{"id":1,"provenance":{
+   "source_type":"dictionary","source_id":"src-test","source_locator":"file.json#entry-1",
+   "permission_evidence":"https://example.org/license","rights_review_status":"cleared",
+   "redistribution_permission":"allowed","training_permission":"allowed","commercial_permission":"not_allowed"
+  }}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-test"})
+  self.assertEqual(summary["records_with_permission_evidence"],1)
+  self.assertEqual(summary["records_with_source_locator"],1)
+  self.assertEqual(summary["records_with_rights_review_status"],1)
+  self.assertEqual(findings,[])
+ def test_provenance_audit_rejects_unregistered_source_id(self):
+  resource={"entries":[{"id":"x","provenance":{"source_type":"original","source_id":"src-absent"}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-known"})
+  self.assertEqual(summary["unmapped_source_ids"],1)
+  self.assertTrue(any("not present in the source registry" in item for item in findings))
 
 if __name__=="__main__": unittest.main()
