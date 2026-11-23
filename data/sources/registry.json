@@ -88,6 +88,24 @@
       "evidence_status": "publication_status_and_compilation_license_require_review",
       "source_locator_policy": "Record page 163 and the exact glossary item when traceable.",
       "notes": "The project reports 37 items from the verb glossary (page 163). A public-domain status is reported for the government publication, but verify the specific edition and exclude any third-party content. The repository's compilation and translation permissions remain subject to their own rights review."
+    },
+    {
+      "source_id": "src-awal-synthetic-seed",
+      "source_name": "AWAL — internally generated synthetic starter examples",
+      "source_type": "synthetic",
+      "source_url": null,
+      "reported_record_count": 32,
+      "rights_holder": "AWAL project; generated examples require project-level rights and policy review",
+      "license": "not_assigned",
+      "declared_permissions": {
+        "redistribution": "unknown",
+        "training": "unknown",
+        "commercial": "unknown",
+        "evaluation": "not_allowed"
+      },
+      "evidence_status": "repository_metadata_only",
+      "source_locator_policy": "Use the stable record_id and prompt_version in data/collection/awal-seed-v0.1.jsonl.",
+      "notes": "Synthetic drafting material created to bootstrap schema and human review. It is not human speech, not field-collected evidence, not a gold evaluation set, and is not eligible for training or evaluation until its provenance, quality, and permissions are independently reviewed."
     }
   ],
   "unresolved_items": [
