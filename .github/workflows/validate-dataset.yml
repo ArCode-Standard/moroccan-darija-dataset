@@ -32,7 +32,9 @@ jobs:
         run: python scripts/validate_dataset.py
       - name: Validate AWAL intake quarantine
         run: python scripts/validate_awal_candidates.py
+      - name: Validate AWAL bilingual collection seed
+        run: python scripts/validate_awal_collection.py
       - name: Compile AWAL tools
-        run: python -m py_compile scripts/awal_training_gate.py scripts/intake_candidate.py
+        run: python -m py_compile scripts/awal_training_gate.py scripts/intake_candidate.py scripts/validate_awal_collection.py
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
