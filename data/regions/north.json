@@ -1,0 +1,2390 @@
+{
+  "meta": {
+    "title": "مفردات الدارجة الشمالية — العائلة والناس",
+    "title_en": "Northern Moroccan Darija — Family and People Vocabulary",
+    "language": "ary",
+    "resource_type": "regional_lexicon",
+    "region_id": "ma-north",
+    "region_name_ar": "شمال المغرب",
+    "region_name_en": "Northern Morocco",
+    "localities_reported": [
+      "طنجة",
+      "تطوان",
+      "شفشاون",
+      "مناطق جبالة"
+    ],
+    "version": "0.1.0",
+    "status": "initial_contributor_submission",
+    "description_ar": "مجموعة أولية من المفردات والتعابير المنقولة عن الاستعمال في شمال المغرب، مع ترك التحقق من الانتشار والخصوصية الجهوية للمراجعة.",
+    "notes_ar": [
+      "ذكر الكلمة هنا لا يعني أنها حصرية لشمال المغرب.",
+      "قد يختلف المعنى أو النطق أو درجة الشيوع بين طنجة وتطوان وشفشاون ومناطق جبالة، بل وبين الأسر والأجيال داخل المنطقة نفسها.",
+      "الألقاب العائلية وصيغ الدلع والاحترام تحتاج إلى توثيق سياقي قبل اعتمادها كاستعمال عام.",
+      "الأمثلة السياقية ستوثق في ملف مستقل، مع ربطها بمعرّفات المفردات."
+    ],
+    "provenance": {
+      "source_type": "contributor",
+      "source_name": "مساهمة أولية مقدمة للمشروع",
+      "rights_holder": "غير موثق على مستوى كل عنصر",
+      "redistribution_permission": "unknown",
+      "training_permission": "unknown",
+      "commercial_permission": "unknown",
+      "notes": "المفردات والمعاني كما قدمها المساهم؛ يلزم توثيق الإذن ونطاق إعادة الاستخدام قبل أي إعادة توزيع أو استخدام تدريبي أو تجاري."
+    },
+    "review": {
+      "status": "pending",
+      "notes": "لم تخضع العناصر بعد لمراجعة لغوية ميدانية مستقلة."
+    },
+    "entries_count": 122
+  },
+  "categories": [
+    {
+      "id": "parents_grandparents",
+      "label_ar": "الوالدان والجدود"
+    },
+    {
+      "id": "siblings_children",
+      "label_ar": "الخوت والولاد"
+    },
+    {
+      "id": "extended_family",
+      "label_ar": "العائلة الكبيرة والقرابة"
+    },
+    {
+      "id": "marriage_inlaws",
+      "label_ar": "الزواج والنسيب"
+    },
+    {
+      "id": "neighborhood_people",
+      "label_ar": "الحومة والجيران والناس"
+    },
+    {
+      "id": "age_social_titles",
+      "label_ar": "الأعمار والألقاب الاجتماعية"
+    },
+    {
+      "id": "family_expressions",
+      "label_ar": "تعابير مرتبطة بالعائلة"
+    }
+  ],
+  "entries": [
+    {
+      "id": "north-001",
+      "category": "parents_grandparents",
+      "term_ar": "يمّا",
+      "variants": [],
+      "meaning_ar": "الأم؛ صيغة نداء أو تسمية للوالدة",
+      "usage_note_ar": "أُفيد بأنها كثيرة الاستعمال في الشمال.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-002",
+      "category": "parents_grandparents",
+      "term_ar": "مّا",
+      "variants": [],
+      "meaning_ar": "الأم؛ صيغة مختصرة من يمّا",
+      "usage_note_ar": "ينبغي توثيق اختلافها حسب الأسرة والسياق.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-003",
+      "category": "parents_grandparents",
+      "term_ar": "بّا",
+      "variants": [],
+      "meaning_ar": "الأب؛ صيغة نداء أو تسمية للوالد",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-004",
+      "category": "parents_grandparents",
+      "term_ar": "بابا",
+      "variants": [],
+      "meaning_ar": "الأب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-005",
+      "category": "parents_grandparents",
+      "term_ar": "الواليدين",
+      "variants": [],
+      "meaning_ar": "الأب والأم معاً",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-006",
+      "category": "parents_grandparents",
+      "term_ar": "حنّة",
+      "variants": [],
+      "meaning_ar": "الجدة، وخاصة الجدة من جهة الأم في بعض الاستعمالات الجبلية",
+      "usage_note_ar": "الخصوصية المنسوبة لمناطق جبالة تحتاج إلى توثيق أدق.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-007",
+      "category": "parents_grandparents",
+      "term_ar": "جدّي",
+      "variants": [],
+      "meaning_ar": "الجد",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-008",
+      "category": "parents_grandparents",
+      "term_ar": "جدّاتي",
+      "variants": [],
+      "meaning_ar": "الجدة أو الجدات بحسب السياق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-009",
+      "category": "parents_grandparents",
+      "term_ar": "جدّة",
+      "variants": [],
+      "meaning_ar": "الجدة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-010",
+      "category": "parents_grandparents",
+      "term_ar": "جدّ بّا",
+      "variants": [],
+      "meaning_ar": "جد الأب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-011",
+      "category": "parents_grandparents",
+      "term_ar": "جدّ يمّا",
+      "variants": [],
+      "meaning_ar": "جد الأم",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-012",
+      "category": "parents_grandparents",
+      "term_ar": "الشيبانين",
+      "variants": [],
+      "meaning_ar": "الوالدان أو الكبار في السن",
+      "usage_note_ar": "المعنى الدقيق قد يختلف بحسب السياق.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-013",
+      "category": "parents_grandparents",
+      "term_ar": "الله يرحم الواليدين",
+      "variants": [],
+      "meaning_ar": "دعاء بالرحمة للوالدين",
+      "usage_note_ar": "تعبير دعائي، وقد يرد في سياقات مختلفة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-014",
+      "category": "siblings_children",
+      "term_ar": "خاي",
+      "variants": [],
+      "meaning_ar": "أخي؛ صيغة نداء للأخ أو الصديق أحياناً",
+      "usage_note_ar": "وُصفت في المساهمة بأنها شمالية؛ لا تُسجل كحصرية قبل المقارنة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-015",
+      "category": "siblings_children",
+      "term_ar": "خايتي",
+      "variants": [],
+      "meaning_ar": "أختي بصيغة تدليل أو مودة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-016",
+      "category": "siblings_children",
+      "term_ar": "ختيتو",
+      "variants": [],
+      "meaning_ar": "أختي بصيغة تدليل",
+      "usage_note_ar": "يلزم توثيق النطق والاستعمال المحلي.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-017",
+      "category": "siblings_children",
+      "term_ar": "خوتك",
+      "variants": [],
+      "meaning_ar": "إخوتك",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-018",
+      "category": "siblings_children",
+      "term_ar": "وليدي",
+      "variants": [],
+      "meaning_ar": "ابني؛ وقد تستعمل للتحبب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-019",
+      "category": "siblings_children",
+      "term_ar": "بنيتي",
+      "variants": [],
+      "meaning_ar": "ابنتي؛ وقد تستعمل للتحبب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-020",
+      "category": "siblings_children",
+      "term_ar": "العيال",
+      "variants": [],
+      "meaning_ar": "الأطفال أو الأولاد",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-021",
+      "category": "siblings_children",
+      "term_ar": "البز",
+      "variants": [],
+      "meaning_ar": "رضيع أو طفل صغير جداً",
+      "usage_note_ar": "ينبغي التحقق من النطق والدلالة في كل منطقة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-022",
+      "category": "siblings_children",
+      "term_ar": "البزوز",
+      "variants": [],
+      "meaning_ar": "أطفال صغار جداً",
+      "usage_note_ar": "صيغة جمع/تعبير جمعي بحسب الاستعمال المنقول.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-023",
+      "category": "siblings_children",
+      "term_ar": "التوام",
+      "variants": [],
+      "meaning_ar": "التوأم",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-024",
+      "category": "siblings_children",
+      "term_ar": "التواما",
+      "variants": [],
+      "meaning_ar": "التوأم؛ صيغة جمع أو استعمال بديل",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-025",
+      "category": "siblings_children",
+      "term_ar": "الكبير",
+      "variants": [],
+      "meaning_ar": "الأكبر سناً أو ترتيباً بين الإخوة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-026",
+      "category": "siblings_children",
+      "term_ar": "الكبيرة",
+      "variants": [],
+      "meaning_ar": "الأكبر سناً أو ترتيباً بين الأخوات",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-027",
+      "category": "siblings_children",
+      "term_ar": "الصغير",
+      "variants": [],
+      "meaning_ar": "الأصغر بين الإخوة أو الأطفال",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-028",
+      "category": "siblings_children",
+      "term_ar": "الصغيرة",
+      "variants": [],
+      "meaning_ar": "الأصغر بين الأخوات أو الأطفال",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-029",
+      "category": "siblings_children",
+      "term_ar": "الوسطاني",
+      "variants": [],
+      "meaning_ar": "الذي يتوسط إخوته في الترتيب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-030",
+      "category": "siblings_children",
+      "term_ar": "اليتيم",
+      "variants": [],
+      "meaning_ar": "من فقد أباه أو أمه أو كليهما بحسب السياق",
+      "usage_note_ar": "يلزم ضبط التعريف المحلي؛ قد تختلف الدلالة عن التعريفات المعجمية.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-031",
+      "category": "siblings_children",
+      "term_ar": "اليتيمة",
+      "variants": [],
+      "meaning_ar": "من فقدت أباها أو أمها أو كليهما بحسب السياق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-032",
+      "category": "siblings_children",
+      "term_ar": "الربيب",
+      "variants": [],
+      "meaning_ar": "ابن الزوج أو الزوجة من علاقة سابقة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-033",
+      "category": "siblings_children",
+      "term_ar": "الربيبة",
+      "variants": [],
+      "meaning_ar": "ابنة الزوج أو الزوجة من علاقة سابقة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-034",
+      "category": "extended_family",
+      "term_ar": "الفاميلا",
+      "variants": [],
+      "meaning_ar": "العائلة",
+      "usage_note_ar": "منسوبة إلى أصل إسباني في المساهمة؛ يلزم التحقق من الأصل ومسار الاقتراض.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-035",
+      "category": "extended_family",
+      "term_ar": "القراب",
+      "variants": [],
+      "meaning_ar": "الأقارب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-036",
+      "category": "extended_family",
+      "term_ar": "القرايب",
+      "variants": [],
+      "meaning_ar": "الأقارب",
+      "usage_note_ar": "صيغة جمع دارجة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-037",
+      "category": "extended_family",
+      "term_ar": "الدم",
+      "variants": [],
+      "meaning_ar": "صلة القرابة أو الانتماء العائلي",
+      "usage_note_ar": "مثال المعنى: حنا من دم واحد؛ يوضع المثال في ملف الأمثلة لاحقاً.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-038",
+      "category": "extended_family",
+      "term_ar": "ولد عمي",
+      "variants": [],
+      "meaning_ar": "ابن عمي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-039",
+      "category": "extended_family",
+      "term_ar": "بنت عمي",
+      "variants": [],
+      "meaning_ar": "ابنة عمي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-040",
+      "category": "extended_family",
+      "term_ar": "ولد خالي",
+      "variants": [],
+      "meaning_ar": "ابن خالي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-041",
+      "category": "extended_family",
+      "term_ar": "بنت خالتي",
+      "variants": [],
+      "meaning_ar": "ابنة خالتي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-042",
+      "category": "extended_family",
+      "term_ar": "عمي",
+      "variants": [],
+      "meaning_ar": "العم",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-043",
+      "category": "extended_family",
+      "term_ar": "عمتي",
+      "variants": [],
+      "meaning_ar": "العمة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-044",
+      "category": "extended_family",
+      "term_ar": "خالي",
+      "variants": [],
+      "meaning_ar": "الخال",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-045",
+      "category": "extended_family",
+      "term_ar": "خالتي",
+      "variants": [],
+      "meaning_ar": "الخالة؛ وقد تستعمل لمخاطبة امرأة أكبر سناً على سبيل الاحترام",
+      "usage_note_ar": "الاستعمال الاحترامي يحتاج إلى تحديد السياق والمدينة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-046",
+      "category": "extended_family",
+      "term_ar": "ولد خالتي",
+      "variants": [],
+      "meaning_ar": "ابن خالتي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-047",
+      "category": "extended_family",
+      "term_ar": "ولد عمتي",
+      "variants": [],
+      "meaning_ar": "ابن عمتي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-048",
+      "category": "extended_family",
+      "term_ar": "الحباب",
+      "variants": [],
+      "meaning_ar": "الأشخاص الأعزاء والمقربون من العائلة أو غيرها",
+      "usage_note_ar": "قد تحمل معنى عاطفياً أوسع من القرابة النسبية.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-049",
+      "category": "marriage_inlaws",
+      "term_ar": "الراجل",
+      "variants": [],
+      "meaning_ar": "الزوج؛ وقد تعني الرجل بحسب السياق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-050",
+      "category": "marriage_inlaws",
+      "term_ar": "المرا",
+      "variants": [],
+      "meaning_ar": "الزوجة؛ وقد تعني المرأة بحسب السياق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-051",
+      "category": "marriage_inlaws",
+      "term_ar": "العروس",
+      "variants": [],
+      "meaning_ar": "العروس",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-052",
+      "category": "marriage_inlaws",
+      "term_ar": "العريس",
+      "variants": [],
+      "meaning_ar": "العريس",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-053",
+      "category": "marriage_inlaws",
+      "term_ar": "متجوج",
+      "variants": [],
+      "meaning_ar": "متزوج",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-054",
+      "category": "marriage_inlaws",
+      "term_ar": "متجوجة",
+      "variants": [],
+      "meaning_ar": "متزوجة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-055",
+      "category": "marriage_inlaws",
+      "term_ar": "عزري",
+      "variants": [],
+      "meaning_ar": "شاب غير متزوج",
+      "usage_note_ar": "المعنى والاستعمال الإقليمي يحتاجان إلى تحقق.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-056",
+      "category": "marriage_inlaws",
+      "term_ar": "عزرية",
+      "variants": [],
+      "meaning_ar": "فتاة غير متزوجة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-057",
+      "category": "marriage_inlaws",
+      "term_ar": "الصبية",
+      "variants": [],
+      "meaning_ar": "فتاة؛ وقد تستعمل لوصف الشابة غير المتزوجة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-058",
+      "category": "marriage_inlaws",
+      "term_ar": "النسيب",
+      "variants": [],
+      "meaning_ar": "قريب بالمصاهرة أو أحد أهل الزوج/الزوجة بحسب السياق",
+      "usage_note_ar": "مصطلح القرابة بالمصاهرة متعدد الدلالات؛ يلزم تحديد المقصود محلياً.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-059",
+      "category": "marriage_inlaws",
+      "term_ar": "النسيبة",
+      "variants": [],
+      "meaning_ar": "قريبة بالمصاهرة أو إحدى أهل الزوج/الزوجة بحسب السياق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-060",
+      "category": "marriage_inlaws",
+      "term_ar": "عكوزتي",
+      "variants": [],
+      "meaning_ar": "أم الزوج أو أم الزوجة بحسب السياق",
+      "usage_note_ar": "تحتاج إلى توثيق النطق والدلالة؛ قد تختلف الاستعمالات.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-061",
+      "category": "marriage_inlaws",
+      "term_ar": "شيخي",
+      "variants": [],
+      "meaning_ar": "أب الزوج أو أب الزوجة بحسب السياق",
+      "usage_note_ar": "تحتاج إلى توثيق النطق والدلالة؛ لا تُعمم دون مراجعة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-062",
+      "category": "marriage_inlaws",
+      "term_ar": "اللوس",
+      "variants": [],
+      "meaning_ar": "أخو الزوج أو أخو الزوجة بحسب الاستعمال المنقول",
+      "usage_note_ar": "مصطلح محلي مهم؛ يلزم توثيق علاقات المصاهرة التي يشملها بدقة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-063",
+      "category": "marriage_inlaws",
+      "term_ar": "اللوسة",
+      "variants": [],
+      "meaning_ar": "أخت الزوج أو أخت الزوجة بحسب الاستعمال المنقول",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-064",
+      "category": "marriage_inlaws",
+      "term_ar": "مرت خويا",
+      "variants": [],
+      "meaning_ar": "زوجة أخي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-065",
+      "category": "marriage_inlaws",
+      "term_ar": "راجل ختي",
+      "variants": [],
+      "meaning_ar": "زوج أختي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-066",
+      "category": "marriage_inlaws",
+      "term_ar": "السلفة",
+      "variants": [],
+      "meaning_ar": "زوجة أخ الزوج أو زوجة أخ الزوجة بحسب السياق المنقول",
+      "usage_note_ar": "علاقة المصاهرة الدقيقة تحتاج إلى ضبط.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-067",
+      "category": "marriage_inlaws",
+      "term_ar": "مطلق",
+      "variants": [],
+      "meaning_ar": "رجل منفصل بالطلاق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-068",
+      "category": "marriage_inlaws",
+      "term_ar": "مطلقة",
+      "variants": [],
+      "meaning_ar": "امرأة منفصلة بالطلاق",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-069",
+      "category": "marriage_inlaws",
+      "term_ar": "أرمل",
+      "variants": [],
+      "meaning_ar": "رجل توفيت زوجته",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-070",
+      "category": "marriage_inlaws",
+      "term_ar": "أرملة",
+      "variants": [],
+      "meaning_ar": "امرأة توفي زوجها",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-071",
+      "category": "marriage_inlaws",
+      "term_ar": "الخطيب",
+      "variants": [],
+      "meaning_ar": "الرجل المخطوب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-072",
+      "category": "marriage_inlaws",
+      "term_ar": "الخطيبة",
+      "variants": [],
+      "meaning_ar": "المرأة المخطوبة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-073",
+      "category": "neighborhood_people",
+      "term_ar": "الحومة",
+      "variants": [],
+      "meaning_ar": "الحي أو المحلة السكنية",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-074",
+      "category": "neighborhood_people",
+      "term_ar": "ولد الحومة",
+      "variants": [],
+      "meaning_ar": "ولد الحي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-075",
+      "category": "neighborhood_people",
+      "term_ar": "بنت الحومة",
+      "variants": [],
+      "meaning_ar": "بنت الحي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-076",
+      "category": "neighborhood_people",
+      "term_ar": "الجار",
+      "variants": [],
+      "meaning_ar": "الشخص المجاور في السكن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-077",
+      "category": "neighborhood_people",
+      "term_ar": "الجارة",
+      "variants": [],
+      "meaning_ar": "المرأة المجاورة في السكن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-078",
+      "category": "neighborhood_people",
+      "term_ar": "مول الدار",
+      "variants": [],
+      "meaning_ar": "صاحب الدار أو ربّ البيت",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-079",
+      "category": "neighborhood_people",
+      "term_ar": "مولات الدار",
+      "variants": [],
+      "meaning_ar": "صاحبة الدار أو ربة البيت",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-080",
+      "category": "neighborhood_people",
+      "term_ar": "الضيف",
+      "variants": [],
+      "meaning_ar": "الشخص الزائر",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-081",
+      "category": "neighborhood_people",
+      "term_ar": "البراني",
+      "variants": [],
+      "meaning_ar": "الغريب أو القادم من خارج المنطقة",
+      "usage_note_ar": "قد تختلف دلالته بين الغريب عن المدينة والغريب عن الجماعة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-082",
+      "category": "neighborhood_people",
+      "term_ar": "ولد البلاد",
+      "variants": [],
+      "meaning_ar": "شخص من نفس المدينة أو المنطقة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-083",
+      "category": "neighborhood_people",
+      "term_ar": "الغريب",
+      "variants": [],
+      "meaning_ar": "شخص غير معروف أو من خارج الجماعة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-084",
+      "category": "neighborhood_people",
+      "term_ar": "صاحبي",
+      "variants": [],
+      "meaning_ar": "صديقي أو صاحبي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-085",
+      "category": "neighborhood_people",
+      "term_ar": "صاحبتي",
+      "variants": [],
+      "meaning_ar": "صديقتي أو صاحبتي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-086",
+      "category": "neighborhood_people",
+      "term_ar": "الرفيق",
+      "variants": [],
+      "meaning_ar": "الصاحب أو الصديق القريب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-087",
+      "category": "neighborhood_people",
+      "term_ar": "الرفيقة",
+      "variants": [],
+      "meaning_ar": "الصاحبة أو الصديقة القريبة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-088",
+      "category": "neighborhood_people",
+      "term_ar": "الخليل",
+      "variants": [],
+      "meaning_ar": "الصديق العزيز أو الحميم",
+      "usage_note_ar": "ينبغي التحقق من درجة شيوعه ودلالته المعاصرة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-089",
+      "category": "neighborhood_people",
+      "term_ar": "الخليلة",
+      "variants": [],
+      "meaning_ar": "الصديقة العزيزة أو الحميمة",
+      "usage_note_ar": "ينبغي التحقق من الدلالة الاجتماعية والسياقية.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-090",
+      "category": "neighborhood_people",
+      "term_ar": "العدو",
+      "variants": [],
+      "meaning_ar": "الخصم أو العدو",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-091",
+      "category": "neighborhood_people",
+      "term_ar": "الحساد",
+      "variants": [],
+      "meaning_ar": "الأشخاص الذين يحسدون",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-092",
+      "category": "neighborhood_people",
+      "term_ar": "الناس الملاح",
+      "variants": [],
+      "meaning_ar": "الأشخاص الطيبون أو الجيدون",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-093",
+      "category": "neighborhood_people",
+      "term_ar": "الناس الكبار",
+      "variants": [],
+      "meaning_ar": "كبار السن أو وجوه الحي وأصحاب المكانة",
+      "usage_note_ar": "الدلالة تتحدد بالسياق.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-094",
+      "category": "neighborhood_people",
+      "term_ar": "العيالات",
+      "variants": [],
+      "meaning_ar": "النساء",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-095",
+      "category": "neighborhood_people",
+      "term_ar": "الرجال",
+      "variants": [],
+      "meaning_ar": "الرجال",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-096",
+      "category": "age_social_titles",
+      "term_ar": "الدري",
+      "variants": [],
+      "meaning_ar": "الولد أو الصبي",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-097",
+      "category": "age_social_titles",
+      "term_ar": "الدرية",
+      "variants": [],
+      "meaning_ar": "البنت أو الصبية",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-098",
+      "category": "age_social_titles",
+      "term_ar": "العيّل",
+      "variants": [],
+      "meaning_ar": "الولد الصغير",
+      "usage_note_ar": "ينبغي التحقق من الضبط والمعنى المحلي.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-099",
+      "category": "age_social_titles",
+      "term_ar": "العيّلة",
+      "variants": [],
+      "meaning_ar": "البنت الصغيرة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-100",
+      "category": "age_social_titles",
+      "term_ar": "الشاب",
+      "variants": [],
+      "meaning_ar": "شاب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-101",
+      "category": "age_social_titles",
+      "term_ar": "الشابة",
+      "variants": [],
+      "meaning_ar": "شابة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-102",
+      "category": "age_social_titles",
+      "term_ar": "الشيباني",
+      "variants": [],
+      "meaning_ar": "رجل كبير في السن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-103",
+      "category": "age_social_titles",
+      "term_ar": "الشيبانية",
+      "variants": [],
+      "meaning_ar": "امرأة كبيرة في السن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-104",
+      "category": "age_social_titles",
+      "term_ar": "العزوز",
+      "variants": [],
+      "meaning_ar": "شخص مسن؛ قد يقال للرجل أو المرأة بحسب السياق",
+      "usage_note_ar": "قد تحمل نبرة مودة أو مزاح؛ يلزم توثيق المقام.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-105",
+      "category": "age_social_titles",
+      "term_ar": "العزوزة",
+      "variants": [],
+      "meaning_ar": "امرأة مسنة، وقد تستعمل بمودة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-106",
+      "category": "age_social_titles",
+      "term_ar": "الختيار",
+      "variants": [],
+      "meaning_ar": "رجل كبير في السن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-107",
+      "category": "age_social_titles",
+      "term_ar": "الختيارة",
+      "variants": [],
+      "meaning_ar": "امرأة كبيرة في السن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-108",
+      "category": "age_social_titles",
+      "term_ar": "الحاج",
+      "variants": [],
+      "meaning_ar": "لقب احترام للرجل الكبير، وقد يستعمل دون تحقق أداء الحج",
+      "usage_note_ar": "يجب تسجيله كلقب تداولي لا كدليل على أداء الحج.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-109",
+      "category": "age_social_titles",
+      "term_ar": "الحاجة",
+      "variants": [],
+      "meaning_ar": "لقب احترام للمرأة الكبيرة، وقد يستعمل دون تحقق أداء الحج",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-110",
+      "category": "age_social_titles",
+      "term_ar": "سيدي",
+      "variants": [],
+      "meaning_ar": "لقب احترام أو توقير للرجل",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-111",
+      "category": "age_social_titles",
+      "term_ar": "لالّة",
+      "variants": [],
+      "meaning_ar": "لقب احترام أو توقير للمرأة",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-112",
+      "category": "age_social_titles",
+      "term_ar": "مولاي",
+      "variants": [],
+      "meaning_ar": "لقب توقير، وقد يرتبط بالنسب الشريف أو بالمكانة الاجتماعية",
+      "usage_note_ar": "السياق الاجتماعي والتاريخي مهم لتحديد الدلالة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-113",
+      "category": "age_social_titles",
+      "term_ar": "الشريف",
+      "variants": [],
+      "meaning_ar": "شخص منسوب إلى الأشراف بحسب الاعتقاد أو النسب المعلن",
+      "usage_note_ar": "لا يثبت اللقب وحده النسب.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-114",
+      "category": "age_social_titles",
+      "term_ar": "الشريفة",
+      "variants": [],
+      "meaning_ar": "امرأة منسوبة إلى الأشراف بحسب الاعتقاد أو النسب المعلن",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-115",
+      "category": "age_social_titles",
+      "term_ar": "الفقيه",
+      "variants": [],
+      "meaning_ar": "معلم القرآن أو القائم بالتعليم الديني في المسجد/الكتّاب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-116",
+      "category": "family_expressions",
+      "term_ar": "يمّا فين مشيتي",
+      "variants": [],
+      "meaning_ar": "أمي، إلى أين ذهبتِ؟",
+      "usage_note_ar": "مثال تعبيري من المساهمة؛ سيُنقل لاحقاً إلى ملف الأمثلة.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-117",
+      "category": "family_expressions",
+      "term_ar": "خاي، أجي هنا",
+      "variants": [],
+      "meaning_ar": "أخي، تعال إلى هنا",
+      "usage_note_ar": "نداء للأخ أو المخاطب.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-118",
+      "category": "family_expressions",
+      "term_ar": "الفاميلا ديالي كاملة",
+      "variants": [],
+      "meaning_ar": "عائلتي كلها",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-119",
+      "category": "family_expressions",
+      "term_ar": "هادا من دمنا",
+      "variants": [],
+      "meaning_ar": "هذا من عائلتنا أو من أقاربنا",
+      "usage_note_ar": "تعبير مجازي عن القرابة والانتماء.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-120",
+      "category": "family_expressions",
+      "term_ar": "الله يخلي ليك يمّاك",
+      "variants": [],
+      "meaning_ar": "دعاء بأن يحفظ الله أم المخاطَب",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-121",
+      "category": "family_expressions",
+      "term_ar": "تبارك الله على العيال",
+      "variants": [],
+      "meaning_ar": "ثناء ودعاء بالبركة للأطفال",
+      "usage_note_ar": "",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    },
+    {
+      "id": "north-122",
+      "category": "family_expressions",
+      "term_ar": "دخل عندنا، نتا منا وفينا",
+      "variants": [],
+      "meaning_ar": "ادخل، فأنت بين أهلك ومن جماعتنا",
+      "usage_note_ar": "تعبير ترحيب وإدماج اجتماعي.",
+      "localities_reported": [
+        "طنجة",
+        "تطوان",
+        "شفشاون",
+        "مناطق جبالة"
+      ],
+      "regional_status": "reported_northern_use",
+      "review": {
+        "status": "pending",
+        "notes": "المعنى والاستعمال من المساهمة الأولية؛ يحتاجان إلى تحقق مستقل."
+      }
+    }
+  ]
+}
