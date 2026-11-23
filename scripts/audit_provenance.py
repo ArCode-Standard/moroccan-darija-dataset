@@ -45,9 +45,13 @@ def audit_resource(resource, resource_name, registry_ids=None):
             provenance = {}
             findings.append(f"{prefix}: missing provenance object")
         source_type = provenance.get("source_type", "missing")
+        if not isinstance(source_type, str):
+            source_type = "invalid"
         summary["source_type_counts"][source_type] = summary["source_type_counts"].get(source_type, 0) + 1
         review = record.get("review")
         review_status = review.get("status", "missing") if isinstance(review, dict) else "missing"
+        if not isinstance(review_status, str):
+            review_status = "invalid"
         summary["review_status_counts"][review_status] = summary["review_status_counts"].get(review_status, 0) + 1
 
         for field in REQUIRED_PROVENANCE:
@@ -56,31 +60,33 @@ def audit_resource(resource, resource_name, registry_ids=None):
                 summary["missing_or_unknown"][field] += 1
         for field in PERMISSIONS:
             value = provenance.get(field, "missing")
+            if not isinstance(value, str):
+                value = "invalid"
             counts = summary["permission_counts"][field]
             counts[value] = counts.get(value, 0) + 1
         source_id = provenance.get("source_id")
-        if source_id:
+        if isinstance(source_id, str) and source_id:
             if registry_ids is not None and source_id not in registry_ids:
                 summary["unmapped_source_ids"] += 1
                 findings.append(f"{prefix}: source_id '{source_id}' is not present in the source registry")
         else:
             summary["missing_or_unknown"]["source_id"] += 1
-        if provenance.get("permission_evidence"):
+        if isinstance(provenance.get("permission_evidence"), str) and provenance.get("permission_evidence").strip():
             summary["records_with_permission_evidence"] += 1
         else:
             summary["missing_or_unknown"]["permission_evidence"] += 1
-        if provenance.get("source_locator"):
+        if isinstance(provenance.get("source_locator"), str) and provenance.get("source_locator").strip():
             summary["records_with_source_locator"] += 1
         elif source_type in {"dictionary", "corpus", "web", "other"}:
             summary["missing_or_unknown"]["source_locator"] += 1
-        if provenance.get("rights_review_status") in REVIEWED_RIGHTS:
+        if isinstance(provenance.get("rights_review_status"), str) and provenance.get("rights_review_status") in REVIEWED_RIGHTS:
             summary["records_with_rights_review_status"] += 1
         else:
             summary["missing_or_unknown"]["rights_review_status"] += 1
 
         for field in PERMISSIONS:
             value = provenance.get(field)
-            if value == "allowed" and not provenance.get("permission_evidence"):
+            if value == "allowed" and not (isinstance(provenance.get("permission_evidence"), str) and provenance.get("permission_evidence").strip()):
                 findings.append(f"{prefix}: {field}=allowed but permission_evidence is absent")
     summary["source_type_counts"] = dict(sorted(summary["source_type_counts"].items()))
     summary["review_status_counts"] = dict(sorted(summary["review_status_counts"].items()))
