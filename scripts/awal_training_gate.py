@@ -35,7 +35,9 @@ def load_records(path):
         return payload
     if isinstance(payload, dict) and isinstance(payload.get("records"), list):
         return payload["records"]
-    raise ValueError("input must be a JSON array, an object with a records array, or JSONL")
+    if isinstance(payload, dict):
+        return [payload]
+    raise ValueError("input must be a JSON array, an object, a records object, or JSONL")
 
 
 def normalized_hash(text):
