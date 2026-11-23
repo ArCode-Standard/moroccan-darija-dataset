@@ -93,5 +93,10 @@ class ValidatorTests(unittest.TestCase):
   summary,findings=audit_module.audit_resource(resource,"test",{"src-known"})
   self.assertEqual(summary["unmapped_source_ids"],1)
   self.assertTrue(any("not present in the source registry" in item for item in findings))
+ def test_provenance_audit_handles_malformed_types_without_crashing(self):
+  resource={"entries":[{"id":"x","provenance":{"source_type":[],"training_permission":[],"source_id":[],"rights_review_status":[]}}]}
+  summary,findings=audit_module.audit_resource(resource,"test",{"src-known"})
+  self.assertEqual(summary["source_type_counts"],{"invalid":1})
+  self.assertEqual(summary["permission_counts"]["training_permission"],{"invalid":1})
 
 if __name__=="__main__": unittest.main()
